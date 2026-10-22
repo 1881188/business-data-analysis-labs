@@ -1,0 +1,88 @@
+{
+  "lab_id": "B04",
+  "status": "reference_verified",
+  "source_rows": 9284,
+  "brands": 14,
+  "months": [
+    "2021-07",
+    "2021-08"
+  ],
+  "share_basis": "combined_sales_of_both_months",
+  "threshold_equality_policy": "high",
+  "market": {
+    "previous_cents": 28493900,
+    "current_cents": 29112960,
+    "market_growth": 0.021726053646569987,
+    "average_share": 0.07142857142857142
+  },
+  "reference_checks": {
+    "brand_metrics": {
+      "values_compared": 28,
+      "mismatches": 0,
+      "maximum_absolute_difference": 1.124100812432971e-15
+    },
+    "thresholds": {
+      "values_compared": 2,
+      "mismatches": 0,
+      "maximum_absolute_difference": 1.1449174941446927e-16
+    }
+  },
+  "company_classification": [
+    {
+      "brand": "E",
+      "quadrant": "问题产品"
+    },
+    {
+      "brand": "F",
+      "quadrant": "明星产品"
+    },
+    {
+      "brand": "G",
+      "quadrant": "问题产品"
+    },
+    {
+      "brand": "H",
+      "quadrant": "金牛产品"
+    },
+    {
+      "brand": "I",
+      "quadrant": "瘦狗产品"
+    },
+    {
+      "brand": "J",
+      "quadrant": "问题产品"
+    }
+  ],
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/bcg.py": "318f495e5080da6a8f4e6672780e3b6c272a2c86f2d2dc9d11b01fbf1ae4669a",
+    "labs/cda1_business/b04_bcg/main.py": "a333892d63afd62be59d426a769f4a3841037e8f42d44db87d4083343f31643c",
+    "src/bda_labs/rfm.py": "80c4b313b6cfd136c6bdb24357f574b541c74313588db8fffad9761319485e37"
+  },
+  "source_files": {
+    "bcg_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-1波士顿矩阵.xlsx",
+      "sha256": "481f291dbf32e7eb4df3473383c74820286ad8ba57c2e3d5189e56bac5a39db8",
+      "bytes": 456327
+    },
+    "bcg_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-1波士顿矩阵-参考.xlsx",
+      "sha256": "132e162610cd6590140110a23b743dfd2733e9142daadd1dc85883ab5189eb7d",
+      "bytes": 717413
+    }
+  },
+  "verified_at_utc": "2026-10-22T01:25:25.521208+00:00"
+}

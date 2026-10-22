@@ -1,0 +1,65 @@
+{
+  "lab_id": "B07",
+  "status": "reference_verified",
+  "source_rows": 13102,
+  "observation_end": "2020-07-31",
+  "horizon_days": 31,
+  "users": 1001,
+  "user_day_rows": 8794,
+  "cohorts": 9,
+  "observed_cohort_day_cells": 243,
+  "not_yet_observed_cells": 36,
+  "reference_checks": {
+    "campaign_daily": {
+      "values_compared": 18,
+      "mismatches": 0,
+      "maximum_absolute_difference": 0.0
+    },
+    "observed_retention_cells": {
+      "values_compared": 243,
+      "mismatches": 0,
+      "maximum_absolute_difference": 4.996003610813204e-16
+    },
+    "textbook_total_row": {
+      "values_compared": 31,
+      "mismatches": 0,
+      "maximum_absolute_difference": 4.996003610813204e-16
+    }
+  },
+  "day_1_retention": 0.6163836163836164,
+  "day_30_eligible_users": 131,
+  "day_30_retention": 0.007633587786259542,
+  "day_30_textbook_fixed_denominator_retention": 0.000999000999000999,
+  "registration_scope": "Distinct users identifiable from the supplied login records; no independent registration ledger supplied.",
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/cohort.py": "0aac3e4be296e734b1428dce96bb4c28a5d40aa02f783eaf4f39414df7cc113e",
+    "labs/cda1_business/b07_cohort/main.py": "aeb2eff0f25b2f34ac574095b6e9019a17d9858fffc0986c1f121eed0cd8fcc5"
+  },
+  "source_files": {
+    "cohort_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-4同期群分析.xlsx",
+      "sha256": "b065bc663ea97e1681f5080b6877791c3b80e36acbeebeb8bbcb3ca0523698a5",
+      "bytes": 929258
+    },
+    "cohort_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-4同期群分析-参考.xlsx",
+      "sha256": "cc3d97788a5581317cc87534582fd946dd32d2b6df0711fa2396209d99495dbf",
+      "bytes": 718442
+    }
+  },
+  "verified_at_utc": "2026-10-22T01:27:43.002246+00:00"
+}

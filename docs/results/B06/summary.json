@@ -1,0 +1,121 @@
+{
+  "lab_id": "B06",
+  "status": "reference_verified",
+  "as_of": "2021-01-01",
+  "source_rows": 80111,
+  "customers": 990,
+  "receipts": 5001,
+  "sales_cents": 404457600,
+  "thresholds": {
+    "cutoff": "2020-10-02",
+    "recent_inclusive": false,
+    "f_q25": 4.0,
+    "f_q75": 7.0,
+    "m_q25_cents": 319800.0,
+    "m_q75_cents": 572400.0,
+    "scored_members": 705
+  },
+  "reference_checks": {
+    "all_customer_labels": {
+      "members_compared": 990,
+      "mismatches": 0
+    },
+    "regular_customer_values": {
+      "values_compared": 3525,
+      "mismatches": 0,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "boundary_customer_label_changes": 0,
+  "inclusive_window_thresholds": {
+    "cutoff": "2020-10-02",
+    "recent_inclusive": true,
+    "f_q25": 4.0,
+    "f_q75": 7.0,
+    "m_q25_cents": 319800.0,
+    "m_q75_cents": 572400.0,
+    "scored_members": 705
+  },
+  "segments": [
+    {
+      "segment": "普通用户",
+      "customers": 343,
+      "receipts": 1897,
+      "monetary_cents": 151792200,
+      "customer_share": 0.3464646464646465,
+      "revenue_share": 0.3752981771142389
+    },
+    {
+      "segment": "易流失用户",
+      "customers": 275,
+      "receipts": 1009,
+      "monetary_cents": 82794300,
+      "customer_share": 0.2777777777777778,
+      "revenue_share": 0.20470452279793977
+    },
+    {
+      "segment": "低价值用户",
+      "customers": 180,
+      "receipts": 565,
+      "monetary_cents": 42839000,
+      "customer_share": 0.18181818181818182,
+      "revenue_share": 0.10591715917811904
+    },
+    {
+      "segment": "忠诚用户",
+      "customers": 124,
+      "receipts": 1116,
+      "monetary_cents": 90822800,
+      "customer_share": 0.12525252525252525,
+      "revenue_share": 0.22455456393945866
+    },
+    {
+      "segment": "进阶用户",
+      "customers": 58,
+      "receipts": 404,
+      "monetary_cents": 35251000,
+      "customer_share": 0.05858585858585859,
+      "revenue_share": 0.08715623096215772
+    },
+    {
+      "segment": "潜在用户",
+      "customers": 10,
+      "receipts": 10,
+      "monetary_cents": 958300,
+      "customer_share": 0.010101010101010102,
+      "revenue_share": 0.002369346008085891
+    }
+  ],
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/loyalty.py": "ef26a7ed317ce59603092822b540fd2e52dd12fd6b7d1290808758e41d27b057",
+    "labs/cda1_business/b06_loyalty/main.py": "4526d2f7511978ba9fd5e674ca6e11def244436a081200ba6a006c228ebfed6b",
+    "src/bda_labs/rfm.py": "80c4b313b6cfd136c6bdb24357f574b541c74313588db8fffad9761319485e37"
+  },
+  "source_files": {
+    "loyalty_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-3用户忠诚度模型.xlsx",
+      "sha256": "a0168ab7e9743bcd628a3e307fa9130315fb9ec12b1e357220b6c97b58b98604",
+      "bytes": 3194596
+    },
+    "loyalty_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-3用户忠诚度模型-参考.xlsx",
+      "sha256": "68405547fafdb91c2a1ab9ff0b1214f37b8dd22029943bde4163e845f022dc81",
+      "bytes": 4664219
+    }
+  },
+  "verified_at_utc": "2026-10-22T01:27:38.600039+00:00"
+}

@@ -19,7 +19,7 @@ def main():
             if re.match(r'^(https?://|#|mailto:)',target):continue
             target=unquote(target.strip('<>').split('#')[0])
             if target and not (path.parent/target).exists():raise AssertionError(f"Broken local link {path}: {target}")
-    for lab in ['B05','S01','S11']:
+    for lab in PUBLIC:
         summary=json.loads((ROOT/f"docs/results/{lab}/summary.json").read_text(encoding="utf-8"))
         for path,digest in summary['implementation_sha256'].items():
             if sha256(ROOT/path)!=digest:raise AssertionError(f"Stale results: {lab} / {path}")
@@ -35,7 +35,7 @@ def main():
     forbidden={'customers.csv','test_predictions.csv','split_membership.csv','write.csv'}
     for path in (ROOT/'docs/results').rglob('*'):
         if path.name in forbidden:raise AssertionError(f'Private or intermediate output in publication: {path}')
-    print('PASS: Python syntax, local links, 3 result provenance records, 572 source mappings and publication allowlist.')
+    print(f'PASS: Python syntax, local links, {len(PUBLIC)} result provenance records, 572 source mappings and publication allowlist.')
 
 
 if __name__=='__main__':main()

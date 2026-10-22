@@ -2,13 +2,9 @@
 from pathlib import Path
 import csv,json,shutil,sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"src"))
-from bda_labs.common import ROOT,sha256
+from bda_labs.common import ROOT,sha256,implemented_labs
 
-PUBLIC={
- "B05":["report.md","summary.json","rfm_segments.png","segments.csv"],
- "S01":["report.md","summary.json","cleaning_cap.png"],
- "S11":["report.md","summary.json","churn_evaluation.png","metrics.csv","coefficients.csv","textbook_fit_diagnostic.json"],
-}
+PUBLIC={key:spec['public'] for key,spec in implemented_labs().items()}
 
 
 def main():
@@ -25,7 +21,8 @@ def main():
             if source.resolve()!=target.resolve():shutil.copyfile(source/name,target/name)
         statuses[lab]=summary["status"]
     config=json.loads((ROOT/"config/experiments.json").read_text(encoding="utf-8"))
-    lines=["# 实验索引","","目前3个独立实验已运行；只有B05完成了指定参考的逐客户数值核对。其余状态分别列明。实施单元与源Notebook不是同一计数口径，不计算混合完成率。","",
+    verified=[key for key,state in statuses.items() if state=='reference_verified']
+    lines=["# 实验索引","",f"目前{len(statuses)}个独立实验已运行，其中{len(verified)}个完成指定参考核对（{', '.join(verified)}）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。","",
         "素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。",""]
     last=None
     for item in config:
@@ -47,7 +44,7 @@ def main():
     with mapping.open("w",encoding="utf-8-sig",newline="") as stream:
         writer=csv.DictWriter(stream,fieldnames=fields)
         writer.writeheader();writer.writerows(rows)
-    print("Published 3 aggregate result folders; source-level status updated.")
+    print(f"Published {len(statuses)} aggregate result folders; source-level status updated.")
 
 
 if __name__=="__main__":main()

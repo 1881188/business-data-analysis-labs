@@ -1,12 +1,12 @@
 """Run implemented labs in independent Python processes; failures are never treated as success."""
 from pathlib import Path
 import argparse
+import json
 import subprocess
 import sys
 
 ROOT=Path(__file__).resolve().parent
-LABS={"B05":"labs/cda1_business/b05_rfm/main.py", "S01":"labs/cda2_statistics/s01_cleaning/main.py",
-      "S11":"labs/cda2_statistics/s11_churn/main.py"}
+LABS={key:spec['entry'] for key,spec in json.loads((ROOT/'config/implemented_labs.json').read_text(encoding='utf-8')).items()}
 
 
 def main():

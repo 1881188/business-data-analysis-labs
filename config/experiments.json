@@ -21,7 +21,8 @@
     "lab_id": "B04",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "波士顿矩阵",
-    "status": "待迁移"
+    "status": "待迁移",
+    "target_script": "labs/cda1_business/b04_bcg/main.py"
   },
   {
     "lab_id": "B05",
@@ -34,19 +35,22 @@
     "lab_id": "B06",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "用户忠诚度模型",
-    "status": "待迁移"
+    "status": "待迁移",
+    "target_script": "labs/cda1_business/b06_loyalty/main.py"
   },
   {
     "lab_id": "B07",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "同期群日留存",
-    "status": "待迁移"
+    "status": "待迁移",
+    "target_script": "labs/cda1_business/b07_cohort/main.py"
   },
   {
     "lab_id": "B08",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "转化漏斗",
-    "status": "待迁移"
+    "status": "待迁移",
+    "target_script": "labs/cda1_business/b08_funnel/main.py"
   },
   {
     "lab_id": "B09",

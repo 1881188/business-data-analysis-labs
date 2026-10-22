@@ -44,6 +44,10 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def implemented_labs() -> dict:
+    return json.loads((ROOT / "config/implemented_labs.json").read_text(encoding="utf-8"))
+
+
 def context(lab_id: str, argv=None) -> Context:
     parser = argparse.ArgumentParser(description=f"Run {lab_id}; original course materials remain read-only.")
     parser.add_argument("--data-root", type=Path, help="Directory containing the four textbook folders")
@@ -77,6 +81,16 @@ def save_table(frame: pd.DataFrame, path: Path) -> None:
     frame.to_csv(path, index=False, encoding="utf-8-sig")
 
 
+def compare_numeric(actual, expected, name: str, tolerance=1e-12) -> dict:
+    a,b=np.asarray(actual,dtype=float),np.asarray(expected,dtype=float)
+    if a.shape!=b.shape:raise AssertionError(f"{name}: reference shapes differ: {a.shape} / {b.shape}")
+    equal=np.isclose(a,b,atol=tolerance,rtol=tolerance,equal_nan=True)
+    if not equal.all():raise AssertionError(f"{name}: {int((~equal).sum())} reference values differ")
+    finite=np.isfinite(a)&np.isfinite(b)
+    return {'values_compared':int(a.size),'mismatches':0,
+            'maximum_absolute_difference':float(np.abs(a[finite]-b[finite]).max()) if finite.any() else 0.}
+
+
 def runtime_info() -> dict:
     names = ["numpy", "pandas", "scipy", "statsmodels", "scikit-learn", "matplotlib", "openpyxl"]
     return {"python": platform.python_version(), "platform": platform.system(),
@@ -106,9 +120,8 @@ def plotting():
 
 def finish(ctx: Context, summary: dict, report: str) -> None:
     summary["runtime"] = runtime_info()
-    modules={"B05":"rfm","S01":"cleaning","S11":"churn"}
-    entries={"B05":"labs/cda1_business/b05_rfm/main.py","S01":"labs/cda2_statistics/s01_cleaning/main.py","S11":"labs/cda2_statistics/s11_churn/main.py"}
-    paths=["src/bda_labs/common.py",f"src/bda_labs/{modules[ctx.output.name]}.py",entries[ctx.output.name]]
+    spec=implemented_labs()[ctx.output.name]
+    paths=["src/bda_labs/common.py",f"src/bda_labs/{spec['module']}.py",spec['entry'],*spec.get('extra_code',[])]
     summary["implementation_sha256"]={p:sha256(ROOT/p) for p in paths}
     summary["source_files"]=ctx.sources
     summary["verified_at_utc"]=datetime.now(timezone.utc).isoformat()

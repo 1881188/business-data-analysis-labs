@@ -1,0 +1,66 @@
+{
+  "lab_id": "B08",
+  "status": "reference_verified",
+  "reference_scope": "Sales demo: stage users, step/cumulative conversion and invisible chart padding; practice funnels calculated without an answer sheet.",
+  "reference_checks": {
+    "values_compared": 24,
+    "mismatches": 0,
+    "maximum_absolute_difference": 0.0
+  },
+  "cases": [
+    {
+      "case": "销售漏斗",
+      "stages": 6,
+      "first_stage_users": 100,
+      "last_stage_users": 50,
+      "overall_conversion": 0.5
+    },
+    {
+      "case": "购买行为漏斗",
+      "stages": 4,
+      "first_stage_users": 100,
+      "last_stage_users": 80,
+      "overall_conversion": 0.8
+    },
+    {
+      "case": "AARRR教学示例",
+      "stages": 5,
+      "first_stage_users": 100,
+      "last_stage_users": 30,
+      "overall_conversion": 0.3
+    }
+  ],
+  "zero_denominator_policy": "unavailable, never silently zero",
+  "data_scope": "Aggregated teaching counts; no event-level paths or cohort membership supplied.",
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/funnel.py": "3efcbc0219ecf9be282c739f219c764745197adb769546e38654e2a0688a5152",
+    "labs/cda1_business/b08_funnel/main.py": "74682784411aeb5574f3d219fa562067affaa936ebd61492a172f4397d418537"
+  },
+  "source_files": {
+    "funnel_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/2-1漏斗图.xlsx",
+      "sha256": "5f671dc60c3c79cbf22833f61616d49f021bc5e1a09b5f19f45e10c847dd7060",
+      "bytes": 10523
+    },
+    "funnel_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/2-1漏斗图-参考.xlsx",
+      "sha256": "51ef9bfe936c9d66489d387e7fe9df5127b16e68318ce1841bc8dd0d62d3e8b1",
+      "bytes": 280351
+    }
+  },
+  "verified_at_utc": "2026-10-22T01:27:46.265168+00:00"
+}

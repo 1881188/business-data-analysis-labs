@@ -1,6 +1,6 @@
 # 实验索引
 
-目前3个独立实验已运行；只有B05完成了指定参考的逐客户数值核对。其余状态分别列明。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
+目前7个独立实验已运行，其中5个完成指定参考核对（B04, B05, B06, B07, B08）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
 
 素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。
 
@@ -12,11 +12,11 @@
 | B01 | 关系与维度数据模型 | 待迁移 | — |
 | B02 | Excel与WPS函数、查找与透视 | 待迁移 | — |
 | B03 | ETL清洗、拆分与合并 | 待迁移 | — |
-| B04 | 波士顿矩阵 | 待迁移 | — |
+| B04 | 波士顿矩阵 | 参考核对通过 | [代码](../labs/cda1_business/b04_bcg/main.py) · [报告](results/B04/report.md) |
 | B05 | RFM客户价值分层 | 参考核对通过 | [代码](../labs/cda1_business/b05_rfm/main.py) · [报告](results/B05/report.md) |
-| B06 | 用户忠诚度模型 | 待迁移 | — |
-| B07 | 同期群日留存 | 待迁移 | — |
-| B08 | 转化漏斗 | 待迁移 | — |
+| B06 | 用户忠诚度模型 | 参考核对通过 | [代码](../labs/cda1_business/b06_loyalty/main.py) · [报告](results/B06/report.md) |
+| B07 | 同期群日留存 | 参考核对通过 | [代码](../labs/cda1_business/b07_cohort/main.py) · [报告](results/B07/report.md) |
+| B08 | 转化漏斗 | 参考核对通过 | [代码](../labs/cda1_business/b08_funnel/main.py) · [报告](results/B08/report.md) |
 | B09 | 相关分析 | 待迁移 | — |
 | B10 | 六类分析方法 | 待迁移 | — |
 | B11 | 基础零售销售看板 | 待迁移 | — |

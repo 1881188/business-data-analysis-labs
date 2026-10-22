@@ -23,5 +23,45 @@
     "path": "2《CDA 二级认证教材：量化策略分析》/第8章-使用统计学方法进行检验和预测/逻辑回归/telecom_churn.csv",
     "sha256": "9436a75a67122f55e59cd2b132ba41c1983e58fb26fffebdc302bbbc530eac03",
     "bytes": 671456
+  },
+  "bcg_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-1波士顿矩阵.xlsx",
+    "sha256": "481f291dbf32e7eb4df3473383c74820286ad8ba57c2e3d5189e56bac5a39db8",
+    "bytes": 456327
+  },
+  "bcg_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-1波士顿矩阵-参考.xlsx",
+    "sha256": "132e162610cd6590140110a23b743dfd2733e9142daadd1dc85883ab5189eb7d",
+    "bytes": 717413
+  },
+  "loyalty_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-3用户忠诚度模型.xlsx",
+    "sha256": "a0168ab7e9743bcd628a3e307fa9130315fb9ec12b1e357220b6c97b58b98604",
+    "bytes": 3194596
+  },
+  "loyalty_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-3用户忠诚度模型-参考.xlsx",
+    "sha256": "68405547fafdb91c2a1ab9ff0b1214f37b8dd22029943bde4163e845f022dc81",
+    "bytes": 4664219
+  },
+  "cohort_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-4同期群分析.xlsx",
+    "sha256": "b065bc663ea97e1681f5080b6877791c3b80e36acbeebeb8bbcb3ca0523698a5",
+    "bytes": 929258
+  },
+  "cohort_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-4同期群分析-参考.xlsx",
+    "sha256": "cc3d97788a5581317cc87534582fd946dd32d2b6df0711fa2396209d99495dbf",
+    "bytes": 718442
+  },
+  "funnel_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/2-1漏斗图.xlsx",
+    "sha256": "5f671dc60c3c79cbf22833f61616d49f021bc5e1a09b5f19f45e10c847dd7060",
+    "bytes": 10523
+  },
+  "funnel_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/2-1漏斗图-参考.xlsx",
+    "sha256": "51ef9bfe936c9d66489d387e7fe9df5127b16e68318ce1841bc8dd0d62d3e8b1",
+    "bytes": 280351
   }
 }

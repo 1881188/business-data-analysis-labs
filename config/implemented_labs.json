@@ -1,0 +1,82 @@
+{
+  "B04": {
+    "module": "bcg",
+    "entry": "labs/cda1_business/b04_bcg/main.py",
+    "extra_code": [
+      "src/bda_labs/rfm.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "bcg_matrix.png",
+      "brands.csv"
+    ]
+  },
+  "B05": {
+    "module": "rfm",
+    "entry": "labs/cda1_business/b05_rfm/main.py",
+    "public": [
+      "report.md",
+      "summary.json",
+      "rfm_segments.png",
+      "segments.csv"
+    ]
+  },
+  "B06": {
+    "module": "loyalty",
+    "entry": "labs/cda1_business/b06_loyalty/main.py",
+    "extra_code": [
+      "src/bda_labs/rfm.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "loyalty_segments.png",
+      "segments.csv"
+    ]
+  },
+  "B07": {
+    "module": "cohort",
+    "entry": "labs/cda1_business/b07_cohort/main.py",
+    "public": [
+      "report.md",
+      "summary.json",
+      "cohort_retention.png",
+      "daily_activity.csv",
+      "retention_counts.csv",
+      "retention_rates.csv",
+      "overall_retention.csv"
+    ]
+  },
+  "B08": {
+    "module": "funnel",
+    "entry": "labs/cda1_business/b08_funnel/main.py",
+    "public": [
+      "report.md",
+      "summary.json",
+      "funnel_analysis.png",
+      "funnel_metrics.csv"
+    ]
+  },
+  "S01": {
+    "module": "cleaning",
+    "entry": "labs/cda2_statistics/s01_cleaning/main.py",
+    "public": [
+      "report.md",
+      "summary.json",
+      "cleaning_cap.png"
+    ]
+  },
+  "S11": {
+    "module": "churn",
+    "entry": "labs/cda2_statistics/s11_churn/main.py",
+    "public": [
+      "report.md",
+      "summary.json",
+      "churn_evaluation.png",
+      "metrics.csv",
+      "coefficients.csv",
+      "textbook_fit_diagnostic.json"
+    ]
+  }
+}
