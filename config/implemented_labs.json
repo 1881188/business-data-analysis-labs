@@ -153,6 +153,83 @@
       "describe_comparison.csv"
     ]
   },
+  "S06": {
+    "module": "pca_telecom",
+    "entry": "labs/cda2_statistics/s06_pca/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py",
+      "src/bda_labs/statistical_reference.py",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "telecom_pca.png",
+      "explained_variance.csv",
+      "component_directions.csv",
+      "scaling.csv"
+    ]
+  },
+  "S07": {
+    "module": "region_factors",
+    "entry": "labs/cda2_statistics/s07_factors/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py",
+      "src/bda_labs/statistical_reference.py",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "regional_factors.png",
+      "regional_explained_variance.csv",
+      "rotated_directions.csv",
+      "region_scores.csv",
+      "feature_score_correlations.csv",
+      "rotation_matrix.csv"
+    ]
+  },
+  "S08": {
+    "module": "anova_expenses",
+    "entry": "labs/cda2_statistics/s08_anova/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py",
+      "src/bda_labs/statistical_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "expense_anova.png",
+      "anova_tables.csv",
+      "observed_cell_interaction_test.csv",
+      "model_comparison.csv",
+      "model_coefficients.csv",
+      "group_statistics.csv",
+      "blank_expense_by_Acc.csv"
+    ]
+  },
+  "S09": {
+    "module": "contingency",
+    "entry": "labs/cda2_statistics/s09_contingency/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py",
+      "src/bda_labs/statistical_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "contingency_diagnostics.png",
+      "display_counts.csv",
+      "display_row_proportions.csv",
+      "expected_counts_without_margins.csv",
+      "sample_bad_fractions.csv",
+      "test_comparison.csv"
+    ]
+  },
   "S11": {
     "module": "churn",
     "entry": "labs/cda2_statistics/s11_churn/main.py",

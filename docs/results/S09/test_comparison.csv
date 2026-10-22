@@ -1,0 +1,5 @@
+﻿analysis,statistic_kind,statistic,dof,pvalue
+Pearson_without_margins,chi_squared,2.9166670832184227,1,0.08766877249446242
+Yates_without_margins,chi_squared,2.709816662738465,1,0.09973245279763994
+Fisher_two_sided,odds_ratio,1.222091117666339,,0.09565250763131494
+INVALID_legacy_with_margins,chi_squared,2.9166670832184227,4,0.5718664217239144

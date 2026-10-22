@@ -1,0 +1,292 @@
+{
+  "lab_id": "S06",
+  "status": "reference_verified",
+  "source_rows": 600,
+  "features": [
+    "cnt_call",
+    "cnt_msg",
+    "cnt_wei",
+    "cnt_web"
+  ],
+  "retained_variance_ratio": 0.8713065079774918,
+  "whiten": true,
+  "score_sample_covariance": [
+    [
+      0.9999999999999994,
+      1.705183944332461e-16
+    ],
+    [
+      1.705183944332461e-16,
+      1.0
+    ]
+  ],
+  "reference_checks": {
+    "variance_ratios": {
+      "values_compared": 2,
+      "mismatches": 0,
+      "maximum_absolute_difference": 4.7920384327326815e-09,
+      "maximum_absolute_tolerance": 5e-09,
+      "precision_checks": [
+        {
+          "actual": 0.6251044152079616,
+          "reference_text": "0.62510442",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 4.7920384327326815e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.24620209276953017,
+          "reference_text": "0.24620209",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 2.7695301607622014e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      ]
+    },
+    "component_directions": {
+      "values_compared": 8,
+      "mismatches": 0,
+      "maximum_absolute_difference": 4.624050309320893e-09,
+      "maximum_absolute_tolerance": 5e-09,
+      "precision_checks": [
+        {
+          "actual": 0.11085804891005681,
+          "reference_text": "0.11085805",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 1.0899431912569923e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.5097412298729438,
+          "reference_text": "0.50974123",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 1.2705625440645463e-10,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.5790931860755042,
+          "reference_text": "0.57909319",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 3.9244958394135665e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.6265185180027766,
+          "reference_text": "0.62651852",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 1.997223386673852e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.9902012660277789,
+          "reference_text": "0.99020127",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 3.9722211075954306e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.12736723537594968,
+          "reference_text": "-0.12736724",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 4.624050309320893e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.019002358042241554,
+          "reference_text": "-0.01900236",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 1.9577584449426144e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.054018057152263085,
+          "reference_text": "-0.05401806",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 2.8477369143353748e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      ]
+    },
+    "displayed_score_rows": {
+      "values_compared": 12,
+      "mismatches": 0,
+      "maximum_absolute_difference": 4.994907487620992e-09,
+      "maximum_absolute_tolerance": 5e-08,
+      "precision_checks": [
+        {
+          "actual": 2.3018361462202366,
+          "reference_text": "2.30183615",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 3.779763613209752e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.8971678826628421,
+          "reference_text": "-0.89716788",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 2.66284205796552e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.7469407603014138,
+          "reference_text": "-0.74694076",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 3.0141378282166897e-10,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.040351883397343975,
+          "reference_text": "-0.04035188",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 3.397343975586331e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.11502115975828639,
+          "reference_text": "-0.11502116",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 2.4171360746283455e-10,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.5957859150050925,
+          "reference_text": "-0.59578592",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 4.994907487620992e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 2.193337819005242,
+          "reference_text": "2.19333782",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 9.947580537073009e-10,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.049531666095740855,
+          "reference_text": "0.04953167",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 3.904259145148803e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.07833419188948118,
+          "reference_text": "-0.07833419",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 1.88948118262644e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.10944885452494395,
+          "reference_text": "-0.10944885",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 4.524943947314952e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": -0.6621523986292301,
+          "reference_text": "-0.6621524",
+          "absolute_tolerance": 5e-08,
+          "absolute_difference": 1.3707698309772809e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 1.1664136653120143,
+          "reference_text": "1.16641367",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 4.687985777351855e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      ]
+    },
+    "six_unique_correlations": {
+      "values_compared": 6,
+      "mismatches": 0,
+      "maximum_absolute_difference": 4.432840206014532e-07,
+      "maximum_absolute_tolerance": 5e-07,
+      "precision_checks": [
+        {
+          "actual": 0.05209633585580773,
+          "reference_text": "0.052096",
+          "absolute_tolerance": 5e-07,
+          "absolute_difference": 3.35855807727381e-07,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.11783175253158007,
+          "reference_text": "0.117832",
+          "absolute_tolerance": 5e-07,
+          "absolute_difference": 2.4746841993661395e-07,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.11419001524916846,
+          "reference_text": "0.114190",
+          "absolute_tolerance": 5e-07,
+          "absolute_difference": 1.524916845574431e-08,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.5106864292604063,
+          "reference_text": "0.510686",
+          "absolute_tolerance": 5e-07,
+          "absolute_difference": 4.292604063316219e-07,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.7395063368249666,
+          "reference_text": "0.739506",
+          "absolute_tolerance": 5e-07,
+          "absolute_difference": 3.368249665847145e-07,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        {
+          "actual": 0.9504924432840206,
+          "reference_text": "0.950492",
+          "absolute_tolerance": 5e-07,
+          "absolute_difference": 4.432840206014532e-07,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      ]
+    }
+  },
+  "notebook_coverage": {
+    "nonempty_code_cells": 6,
+    "mapped_code_cells": 6,
+    "source_cells_total": 11
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/pca_telecom.py": "6dd3185c7ba71077f13777702727a0c35b100e676fa70c0aa92cff03234e9f99",
+    "labs/cda2_statistics/s06_pca/main.py": "0dd29c5aa676135e60808a01613f5b8b9dd55f3b14e0dc2df035d5516e7a4a55",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "src/bda_labs/statistical_reference.py": "4030c777ab9daa898cf9d71cb5e5232a5af6f2f99e2c058c7d2b0c107117521f",
+    "src/bda_labs/dimension_reduction.py": "7bf4030bf590b25a252dd090442ab9860c0518a39b38bdac36ed247f88e5f80b"
+  },
+  "source_files": {
+    "notebook_pca": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第7章-特征降维方法/在 Python 中实现主成分分析.ipynb",
+      "sha256": "2a74392d7a52ea27ce36371e6ac3ca691ca26d56bca7bb542cc4c9c8ab85fb5d",
+      "bytes": 113945
+    },
+    "pca_telecom": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第7章-特征降维方法/profile_telecom.csv",
+      "sha256": "d3383562f470d978190141d2714a946e87689e1fa608f921ca82cc040423f2b0",
+      "bytes": 12891
+    }
+  },
+  "verified_at_utc": "2026-10-22T12:31:15.138784+00:00"
+}

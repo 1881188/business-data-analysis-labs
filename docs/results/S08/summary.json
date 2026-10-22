@@ -1,0 +1,327 @@
+{
+  "lab_id": "S08",
+  "status": "execution_verified",
+  "source_rows": 100,
+  "primary_sample_audit": {
+    "source_rows": 100,
+    "blank_expenses": 30,
+    "retained_rows": 70,
+    "excluded_rows": 30,
+    "blank_policy": "exclude"
+  },
+  "textbook_compatibility_audit": {
+    "source_rows": 100,
+    "blank_expenses": 30,
+    "retained_rows": 100,
+    "excluded_rows": 0,
+    "blank_policy": "textbook_zero"
+  },
+  "model_metrics": [
+    {
+      "model": "one_way",
+      "nobs": 70,
+      "rank": 4,
+      "design_columns": 4,
+      "df_model": 3,
+      "df_resid": 66,
+      "r_squared": 0.5912731872977813,
+      "f_statistic": 31.825683356937695,
+      "f_pvalue": 7.658361691248771e-13,
+      "residual_sum_squares": 5617263.242433992
+    },
+    {
+      "model": "additive",
+      "nobs": 70,
+      "rank": 5,
+      "design_columns": 5,
+      "df_model": 4,
+      "df_resid": 65,
+      "r_squared": 0.5943134086568735,
+      "f_statistic": 23.805551124330552,
+      "f_pvalue": 3.7498771926251406e-12,
+      "residual_sum_squares": 5575480.508445035
+    },
+    {
+      "model": "observed_cells",
+      "nobs": 70,
+      "rank": 7,
+      "design_columns": 7,
+      "df_model": 6,
+      "df_resid": 63,
+      "r_squared": 0.6330680987652201,
+      "f_statistic": 18.115664009223384,
+      "f_pvalue": 4.352319176616478e-12,
+      "residual_sum_squares": 5042862.413785952
+    },
+    {
+      "model": "TEXTBOOK_ZERO_additive",
+      "nobs": 100,
+      "rank": 5,
+      "design_columns": 5,
+      "df_model": 4,
+      "df_resid": 95,
+      "r_squared": 0.7314702302855707,
+      "f_statistic": 64.69456994566072,
+      "f_pvalue": 2.6937307247534667e-26,
+      "residual_sum_squares": 9146783.924735116
+    },
+    {
+      "model": "TEXTBOOK_ZERO_interaction",
+      "nobs": 100,
+      "rank": 8,
+      "design_columns": 8,
+      "df_model": 7,
+      "df_resid": 92,
+      "r_squared": 0.743325883532959,
+      "f_statistic": 38.06159355813433,
+      "f_pvalue": 1.5605077410465828e-24,
+      "residual_sum_squares": 8742951.237373237
+    }
+  ],
+  "interaction_rank_audit": {
+    "full_interaction_columns": 8,
+    "full_interaction_rank": 7,
+    "unestimable_dimensions": 1
+  },
+  "observed_cell_interaction_test": {
+    "df_difference": 2,
+    "f_statistic": 3.326973572766055,
+    "pvalue": 0.042309388534203365
+  },
+  "observed_cell_interaction_HC3": {
+    "df_numerator": 2,
+    "df_denominator": 63,
+    "f_statistic": 1.615415407473221,
+    "pvalue": 0.2069335528188457
+  },
+  "levene_median_pvalue": 0.03032299701795075,
+  "reference_checks_compatibility_only": {
+    "TEXTBOOK_ZERO_additive": {
+      "metrics": {
+        "nobs": {
+          "actual": 100.0,
+          "reference_text": "100",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_model": {
+          "actual": 4.0,
+          "reference_text": "4",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_resid": {
+          "actual": 95.0,
+          "reference_text": "95",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "r_squared": {
+          "actual": 0.7314702302855707,
+          "reference_text": "0.731",
+          "absolute_tolerance": 0.0005,
+          "absolute_difference": 0.00047023028557069413,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_statistic": {
+          "actual": 64.69456994566072,
+          "reference_text": "64.69",
+          "absolute_tolerance": 0.005,
+          "absolute_difference": 0.004569945660719554,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_pvalue": {
+          "actual": 2.6937307247534667e-26,
+          "reference_text": "2.69e-26",
+          "absolute_tolerance": 5e-29,
+          "absolute_difference": 3.73072475346685e-29,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "coefficients": {
+        "Intercept": {
+          "actual": 28.11900150671438,
+          "reference_text": "28.1190",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.5067143799285532e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.1]": {
+          "actual": 383.2750562123202,
+          "reference_text": "383.2751",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.378767982871068e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.2]": {
+          "actual": 976.9943122744535,
+          "reference_text": "976.9943",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.2274453524696582e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.3]": {
+          "actual": 1435.708283548221,
+          "reference_text": "1435.7083",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.6451778947157436e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(gender)[T.1]": {
+          "actual": -91.40202712085808,
+          "reference_text": "-91.4020",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.712085807843323e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "values_compared": 11
+    },
+    "TEXTBOOK_ZERO_interaction": {
+      "metrics": {
+        "nobs": {
+          "actual": 100.0,
+          "reference_text": "100",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_model": {
+          "actual": 7.0,
+          "reference_text": "7",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_resid": {
+          "actual": 92.0,
+          "reference_text": "92",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "r_squared": {
+          "actual": 0.743325883532959,
+          "reference_text": "0.743",
+          "absolute_tolerance": 0.0005,
+          "absolute_difference": 0.00032588353295903705,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_statistic": {
+          "actual": 38.06159355813433,
+          "reference_text": "38.06",
+          "absolute_tolerance": 0.005,
+          "absolute_difference": 0.0015935581343242688,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_pvalue": {
+          "actual": 1.5605077410465828e-24,
+          "reference_text": "1.56e-24",
+          "absolute_tolerance": 5e-27,
+          "absolute_difference": 5.077410465828451e-28,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "coefficients": {
+        "Intercept": {
+          "actual": 24.396470588235154,
+          "reference_text": "24.3965",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.9411764845832522e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.1]": {
+          "actual": 385.8772794117648,
+          "reference_text": "385.8773",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.0588235202012584e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.2]": {
+          "actual": 915.2348627450982,
+          "reference_text": "915.2349",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.725490182659996e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.3]": {
+          "actual": 1529.5443627450975,
+          "reference_text": "1529.5444",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.725490250872099e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(gender)[T.1]": {
+          "actual": -24.396470588235196,
+          "reference_text": "-24.3965",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.9411764803199958e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.1]:C(gender)[T.1]": {
+          "actual": -58.71527941176363,
+          "reference_text": "-58.7153",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.058823636730267e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.2]:C(gender)[T.1]": {
+          "actual": 121.25513725490345,
+          "reference_text": "121.2551",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.72549034466374e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "C(edu_class)[T.3]:C(gender)[T.1]": {
+          "actual": -265.2553627450962,
+          "reference_text": "-265.2554",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.725490381611962e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "values_compared": 14
+    }
+  },
+  "notebook_coverage": {
+    "nonempty_code_cells": 6,
+    "mapped_code_cells": 6,
+    "source_cells_total": 10
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/anova_expenses.py": "3490a051ab90f038b115f40c59a9bb81a3bd885bdd02ccb3c9791d87fa814477",
+    "labs/cda2_statistics/s08_anova/main.py": "ae152684554ff50b139a53be0c361ec2741c51b5a85c7413d2477d867de9a3f2",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "src/bda_labs/statistical_reference.py": "4030c777ab9daa898cf9d71cb5e5232a5af6f2f99e2c058c7d2b0c107117521f"
+  },
+  "source_files": {
+    "notebook_anova": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第8章-使用统计学方法进行检验和预测/假设检验与方差分析/方差分析.ipynb",
+      "sha256": "db2bfd73ffea1d90c69dd54053c435228e5bfc50d3c6f8ff9e7d7db4ba5dee8e",
+      "bytes": 8889
+    },
+    "anova_creditcard": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第8章-使用统计学方法进行检验和预测/假设检验与方差分析/creditcard_exp.csv",
+      "sha256": "c925161f16b0c3e107359c17ecd07d06613913b109959040727303b8727a0aab",
+      "bytes": 7011
+    }
+  },
+  "verified_at_utc": "2026-10-22T12:39:55.055209+00:00"
+}

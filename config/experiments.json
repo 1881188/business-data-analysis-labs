@@ -182,28 +182,32 @@
     "source_id": "NB006",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "在 Python 中实现主成分分析",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda2_statistics/s06_pca/main.py"
   },
   {
     "lab_id": "S07",
     "source_id": "NB007",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "在 Python 中实现因子分析",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda2_statistics/s07_factors/main.py"
   },
   {
     "lab_id": "S08",
     "source_id": "NB008",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "方差分析",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda2_statistics/s08_anova/main.py"
   },
   {
     "lab_id": "S09",
     "source_id": "NB009",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "列联表分析",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda2_statistics/s09_contingency/main.py"
   },
   {
     "lab_id": "S10",
