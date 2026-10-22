@@ -1,0 +1,8 @@
+# Exact versions used for the first verified batch (Python 3.13.0, Windows).
+numpy==2.2.3
+pandas==2.2.3
+scipy==1.15.2
+statsmodels==0.15.0
+scikit-learn==1.6.1
+matplotlib==3.10.1
+openpyxl==3.1.5

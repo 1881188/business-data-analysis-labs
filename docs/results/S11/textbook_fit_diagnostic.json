@@ -1,0 +1,14 @@
+{
+  "formula": "churn ~ duration + AGE + incomeCode + peakMinDiff + call_10086 + C(edu_class) + C(feton) + C(posTrend) + C(negTrend) + C(curPlan) + C(avgplan) + C(gender)",
+  "converged": false,
+  "design_shape": [
+    2424,
+    19
+  ],
+  "design_rank": 19,
+  "maximum_absolute_coefficient": 39.670098879471645,
+  "warning_types": [
+    "ConvergenceWarning"
+  ],
+  "use_for_decision": false
+}

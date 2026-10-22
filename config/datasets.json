@@ -1,0 +1,27 @@
+{
+  "rfm_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-2RFM模型.xlsx",
+    "sha256": "75d961cc610168357fccf3ac5015d5c0a34e840ee7d050eef63712e29f14c411",
+    "bytes": 3018027
+  },
+  "rfm_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-2RFM模型-参考.xlsx",
+    "sha256": "9d59bc7e3a8c7b80d04ef751bf273d1d3140fcb85e7f063b376a6500b05aa278",
+    "bytes": 4096372
+  },
+  "cleaning_sample": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第4章- 数据处理(pandas)/sample.csv",
+    "sha256": "4d4e3d37edfaec73b8ea56d03aad994f5d3fdbc13d8c5627b77955cafbea240a",
+    "bytes": 82
+  },
+  "cleaning_big": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第4章- 数据处理(pandas)/data/big.csv",
+    "sha256": "103e6d67ac472c0210fc33de363f939377b43dc71415ffe9bdd61edcc2427041",
+    "bytes": 85712
+  },
+  "telecom_churn": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第8章-使用统计学方法进行检验和预测/逻辑回归/telecom_churn.csv",
+    "sha256": "9436a75a67122f55e59cd2b132ba41c1983e58fb26fffebdc302bbbc530eac03",
+    "bytes": 671456
+  }
+}

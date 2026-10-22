@@ -1,0 +1,122 @@
+{
+  "lab_id": "S11",
+  "status": "run_verified",
+  "source_rows": 3463,
+  "train_rows": 2424,
+  "test_rows": 1039,
+  "inner_train_rows": 1939,
+  "validation_rows": 485,
+  "outer_random_state": 666,
+  "inner_random_state": 2026,
+  "threshold_source": "training_partition_validation_only",
+  "validation_youden": 0.6932057979036219,
+  "multivariate_formula": "churn ~ duration + AGE + incomeCode + peakMinDiff + call_10086 + C(edu_class) + C(feton) + C(posTrend) + C(negTrend) + C(curPlan) + C(avgplan) + C(gender)",
+  "continuous_aic_selected": [
+    "duration",
+    "peakMinDiff",
+    "AGE",
+    "call_10086",
+    "incomeCode"
+  ],
+  "metrics": [
+    {
+      "model": "duration_textbook_0.3",
+      "threshold": 0.3,
+      "rows": 1039,
+      "positive_rate": 0.46102021174205965,
+      "tn": 340,
+      "fp": 220,
+      "fn": 42,
+      "tp": 437,
+      "accuracy": 0.7478344562078922,
+      "precision": 0.665144596651446,
+      "recall": 0.9123173277661796,
+      "specificity": 0.6071428571428571,
+      "f1": 0.7693661971830986,
+      "roc_auc": 0.8679801670146138,
+      "average_precision": 0.846910846515512,
+      "brier": 0.15061030379143028
+    },
+    {
+      "model": "multivariate_l2_0.5",
+      "threshold": 0.5,
+      "rows": 1039,
+      "positive_rate": 0.46102021174205965,
+      "tn": 464,
+      "fp": 96,
+      "fn": 76,
+      "tp": 403,
+      "accuracy": 0.8344562078922041,
+      "precision": 0.8076152304609219,
+      "recall": 0.8413361169102297,
+      "specificity": 0.8285714285714286,
+      "f1": 0.8241308793456033,
+      "roc_auc": 0.9290486131822249,
+      "average_precision": 0.9143318451407186,
+      "brier": 0.10818571482154922
+    },
+    {
+      "model": "multivariate_l2_validation_cutoff",
+      "threshold": 0.445303868895706,
+      "rows": 1039,
+      "positive_rate": 0.46102021174205965,
+      "tn": 453,
+      "fp": 107,
+      "fn": 64,
+      "tp": 415,
+      "accuracy": 0.8354186717998076,
+      "precision": 0.7950191570881227,
+      "recall": 0.8663883089770354,
+      "specificity": 0.8089285714285714,
+      "f1": 0.8291708291708292,
+      "roc_auc": 0.9290486131822249,
+      "average_precision": 0.9143318451407186,
+      "brier": 0.10818571482154922
+    }
+  ],
+  "coefficient_count": 19,
+  "primary_models_converged": true,
+  "subscriber_overlap": 0,
+  "primary_model": "StandardScaler + one-hot + L2 logistic regression; C=1.0 fixed without test tuning",
+  "textbook_unpenalized_diagnostic": {
+    "formula": "churn ~ duration + AGE + incomeCode + peakMinDiff + call_10086 + C(edu_class) + C(feton) + C(posTrend) + C(negTrend) + C(curPlan) + C(avgplan) + C(gender)",
+    "converged": false,
+    "design_shape": [
+      2424,
+      19
+    ],
+    "design_rank": 19,
+    "maximum_absolute_coefficient": 39.670098879471645,
+    "warning_types": [
+      "ConvergenceWarning"
+    ],
+    "use_for_decision": false
+  },
+  "reference_note": "Outer split and duration-only source model retained. Unpenalized multivariate reproduction failed convergence; L2, metrics and threshold selection explicitly changed.",
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "cd7dd5b36967d020ec2618e9c9659b44758ab11cb26a0f95b3f586ee536942df",
+    "src/bda_labs/churn.py": "804d497a2a6dfd7b4ed76135b182a5cfb7eca2f9db6e607f98560953377fe326",
+    "labs/cda2_statistics/s11_churn/main.py": "a3ac99f05898d5bd03bdd99c1757434bb387a21ae6ab05f0c754236cca3a050e"
+  },
+  "source_files": {
+    "telecom_churn": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第8章-使用统计学方法进行检验和预测/逻辑回归/telecom_churn.csv",
+      "sha256": "9436a75a67122f55e59cd2b132ba41c1983e58fb26fffebdc302bbbc530eac03",
+      "bytes": 671456
+    }
+  },
+  "verified_at_utc": "2026-10-22T00:52:32.021257+00:00"
+}

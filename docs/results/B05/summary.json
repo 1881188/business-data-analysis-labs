@@ -1,0 +1,127 @@
+{
+  "lab_id": "B05",
+  "status": "reference_verified",
+  "as_of": "2019-08-03",
+  "source_lines": 65989,
+  "customers": 7178,
+  "receipts": 26735,
+  "sales_cents": 533618610,
+  "thresholds": {
+    "recency_mean_days": 82.73753134577876,
+    "frequency_mean": 3.724575090554472,
+    "monetary_mean": 743.4084842574534
+  },
+  "reference_checks": {
+    "customer_id_sets_match": true,
+    "last_purchase_mismatches": 0,
+    "frequency_mismatches": 0,
+    "monetary_cents_mismatches": 0,
+    "recency_days_mismatches": 0,
+    "segment_mismatches": 0
+  },
+  "segments": [
+    {
+      "segment": "重要价值用户",
+      "customers": 1324,
+      "receipts": 14076,
+      "monetary_cents": 333233704,
+      "customer_share": 0.18445249373084424,
+      "revenue_share": 0.6244791649976376,
+      "cumulative_revenue_share": 0.6244791649976376
+    },
+    {
+      "segment": "一般挽留用户",
+      "customers": 2560,
+      "receipts": 3510,
+      "monetary_cents": 47448041,
+      "customer_share": 0.35664530509891335,
+      "revenue_share": 0.08891751545171935,
+      "cumulative_revenue_share": 0.7133966804493569
+    },
+    {
+      "segment": "一般发展用户",
+      "customers": 2026,
+      "receipts": 3382,
+      "monetary_cents": 44220379,
+      "customer_share": 0.2822513234884369,
+      "revenue_share": 0.08286888457657052,
+      "cumulative_revenue_share": 0.7962655650259274
+    },
+    {
+      "segment": "一般价值用户",
+      "customers": 658,
+      "receipts": 3509,
+      "monetary_cents": 30076497,
+      "customer_share": 0.09166898857620508,
+      "revenue_share": 0.05636328350692267,
+      "cumulative_revenue_share": 0.85262884853285
+    },
+    {
+      "segment": "重要发展用户",
+      "customers": 180,
+      "receipts": 443,
+      "monetary_cents": 27439875,
+      "customer_share": 0.025076623014767346,
+      "revenue_share": 0.05142226017941916,
+      "cumulative_revenue_share": 0.9040511087122692
+    },
+    {
+      "segment": "重要挽留用户",
+      "customers": 148,
+      "receipts": 312,
+      "monetary_cents": 22882603,
+      "customer_share": 0.020618556701030927,
+      "revenue_share": 0.04288194334151877,
+      "cumulative_revenue_share": 0.946933052053788
+    },
+    {
+      "segment": "重要保持用户",
+      "customers": 126,
+      "receipts": 773,
+      "monetary_cents": 21548851,
+      "customer_share": 0.01755363611033714,
+      "revenue_share": 0.04038249528066497,
+      "cumulative_revenue_share": 0.9873155473344529
+    },
+    {
+      "segment": "一般保持用户",
+      "customers": 156,
+      "receipts": 730,
+      "monetary_cents": 6768660,
+      "customer_share": 0.021733073279465033,
+      "revenue_share": 0.012684452665547028,
+      "cumulative_revenue_share": 1.0
+    }
+  ],
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "cd7dd5b36967d020ec2618e9c9659b44758ab11cb26a0f95b3f586ee536942df",
+    "src/bda_labs/rfm.py": "80c4b313b6cfd136c6bdb24357f574b541c74313588db8fffad9761319485e37",
+    "labs/cda1_business/b05_rfm/main.py": "e59a9f145fad9ea880b62b5cddb4fd93fa0ee3ae1d8a29b1438211146b898edd"
+  },
+  "source_files": {
+    "rfm_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/1-2RFM模型.xlsx",
+      "sha256": "75d961cc610168357fccf3ac5015d5c0a34e840ee7d050eef63712e29f14c411",
+      "bytes": 3018027
+    },
+    "rfm_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/1-2RFM模型-参考.xlsx",
+      "sha256": "9d59bc7e3a8c7b80d04ef751bf273d1d3140fcb85e7f063b376a6500b05aa278",
+      "bytes": 4096372
+    }
+  },
+  "verified_at_utc": "2026-10-22T00:52:19.083554+00:00"
+}

@@ -1,0 +1,545 @@
+[
+  {
+    "lab_id": "B01",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "关系与维度数据模型",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B02",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "Excel与WPS函数、查找与透视",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B03",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "ETL清洗、拆分与合并",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B04",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "波士顿矩阵",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B05",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "RFM客户价值分层",
+    "status": "待迁移",
+    "target_script": "labs/cda1_business/b05_rfm/main.py"
+  },
+  {
+    "lab_id": "B06",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "用户忠诚度模型",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B07",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "同期群日留存",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B08",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "转化漏斗",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B09",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "相关分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B10",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "六类分析方法",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B11",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "基础零售销售看板",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B12",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "分省销售分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B13",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "服装零售经营分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B14",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "人力资源分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B15",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "学生考试多表分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B16",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "收入趋势分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B17",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "财务费用分解",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B18",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "电商精准营销",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B19",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "银行产品业务看板",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B20",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "银行申请渠道归因",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B21",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "SQL与客户画像",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "B22",
+    "book": "1《CDA 一级认证教材：商业数据分析》",
+    "title": "效应分解与预测",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S01",
+    "source_id": "NB001",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "第4章  数据整合和数据清洗",
+    "status": "待迁移",
+    "target_script": "labs/cda2_statistics/s01_cleaning/main.py"
+  },
+  {
+    "lab_id": "S02",
+    "source_id": "NB002",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "第5章 python数据可视化",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S03",
+    "source_id": "NB003",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "第5章 描述性统计分析与绘图",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S04",
+    "source_id": "NB004",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "抽样",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S05",
+    "source_id": "NB005",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "数据预处理",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S06",
+    "source_id": "NB006",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "在 Python 中实现主成分分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S07",
+    "source_id": "NB007",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "在 Python 中实现因子分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S08",
+    "source_id": "NB008",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "方差分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S09",
+    "source_id": "NB009",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "列联表分析",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S10",
+    "source_id": "NB010",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "线性回归",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S11",
+    "source_id": "NB011",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "逻辑回归",
+    "status": "待迁移",
+    "target_script": "labs/cda2_statistics/s11_churn/main.py"
+  },
+  {
+    "lab_id": "S12",
+    "source_id": "NB012",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "Kmeans 的应用 - 用户细分",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "S13",
+    "source_id": "NB013",
+    "book": "2《CDA 二级认证教材：量化策略分析》",
+    "title": "hc_city10",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M01",
+    "source_id": "NB014",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.1线性回归",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M02",
+    "source_id": "NB015",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.2逻辑回归",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M03",
+    "source_id": "NB016",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.3.1-2.3.2.主成分_因子分析_层次聚类(经济发展数据)",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M04",
+    "source_id": "NB017",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.3.1主成分分析(Loan_aplya打分)",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M05",
+    "source_id": "NB018",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.3.3变量聚类",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M06",
+    "source_id": "NB019",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.3.4层次聚类(经济发展数据)",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M07",
+    "source_id": "NB020",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.3.5Kmeans聚类用户细分",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M08",
+    "source_id": "NB021",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.4.1.关联规则（银行产品交叉销售分析）",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M09",
+    "source_id": "NB022",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2.4.2.序列模式（银行产品交叉销售分析）",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M10",
+    "source_id": "NB023",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "上课版-银行产品交叉销售分析-mlxtendApriori copy",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M11",
+    "source_id": "NB024",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "课后答案版-银行产品交叉销售分析-mlxtendApriori",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M12",
+    "source_id": "NB025",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "3.1.1-3.1.2分类（反欺诈_DT_EnsembleMethods）",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M13",
+    "source_id": "NB026",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "3.1.3-3.1.6分类（反欺诈_KNN_NB _SVM_MLP）",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M14",
+    "source_id": "NB027",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "1_XGBoost专题_课堂代码",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M15",
+    "source_id": "NB028",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "2_LightGBM专题_课堂代码",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M16",
+    "source_id": "NB029",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "3_模型解释性专题_课堂代码",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M17",
+    "source_id": "NB030",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "3.2违规识别(IsolationForrest_LOF无监督)",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M18",
+    "source_id": "NB031",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "4.1.1销售数据预测(趋势分解法-不建议学习)",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M19",
+    "source_id": "NB032",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "4.1.2销售数据预测(SARIMA)",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M20",
+    "source_id": "NB033",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "4.1.3股价预测(LSTM)",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M21",
+    "source_id": "NB034",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "ARIMA",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M22",
+    "source_id": "NB035",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "4.2.1线性规划",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M23",
+    "source_id": "NB036",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "4.2.2整数规划",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M24",
+    "source_id": "NB037",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "4.2.3二次规划",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M25",
+    "source_id": "NB038",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "流程挖掘pm4py",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M26",
+    "source_id": "NB039",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "5.1 模型参数优化方法",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M27",
+    "source_id": "NB040",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "5.2&3 pipeline_保险案例",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M28",
+    "source_id": "NB041",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "Feature-engineering",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "M29",
+    "source_id": "NB042",
+    "book": "3《CDA 三级认证教材：敏捷数据挖掘》",
+    "title": "类别不平衡专题_课堂代码",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F01",
+    "source_id": "NB043",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "test",
+    "status": "待补资料",
+    "note": "未找到必需输入data12261.csv"
+  },
+  {
+    "lab_id": "F02",
+    "source_id": "NB044",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "第二章某银行贷款产品精准营销模型代码通过",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F03",
+    "source_id": "NB045",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "第3章多维特征的客户细分代码通过",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F04",
+    "source_id": "NB046",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "Vintage-checkpoint",
+    "status": "重复来源待共享实现",
+    "note": "与F05代码一致；保留来源映射"
+  },
+  {
+    "lab_id": "F05",
+    "source_id": "NB047",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "Vintage",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F06",
+    "source_id": "NB048",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "第5章贷前信用风险预测模型（A卡）代码通过",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F07",
+    "source_id": "NB049",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "第6章贷中信用风险预测模型（B卡）代码通过",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F08",
+    "source_id": "NB050",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "第8章申请反欺诈模型代码通过",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F09",
+    "source_id": "NB051",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "第9章算法工程化代码通过",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F10",
+    "source_id": "NB052",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "02-社交网络-基本理论CODE",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F11",
+    "source_id": "NB053",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "03-1-深度遍历和广度遍历",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F12",
+    "source_id": "NB054",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "03-2-社交网络-核心度量指标",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F13",
+    "source_id": "NB055",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "03-3-PageRank-Python实现",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F14",
+    "source_id": "NB056",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "04-社交网络算法-小案例",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F15",
+    "source_id": "NB057",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "04-社交网络算法-小案例_子网分割",
+    "status": "待迁移"
+  },
+  {
+    "lab_id": "F16",
+    "source_id": "NB058",
+    "book": "4《金融数据分析和数据挖掘案例实战》",
+    "title": "05-社交网络—银行交易圈实践-社区发现 ",
+    "status": "待迁移"
+  }
+]
