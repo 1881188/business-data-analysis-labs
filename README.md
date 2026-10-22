@@ -75,4 +75,4 @@ outputs/               本地运行产物，不纳入Git
 
 本仓库新增代码使用[MIT许可](LICENSE)，教材、第三方代码和数据的权利范围另见[来源说明](THIRD_PARTY_NOTICES.md)。公开成果只保留聚合表和必要图表，客户级RFM、预测与分区记录留在本地输出。
 
-GitHub目标账号：1881188。当前本地发布包已建立，远程创建与推送状态见[进度记录](docs/progress.md)。Gitee目标账号待补充。后续批次继续覆盖全部教材实验，首批样板不替代全量要求。
+GitHub公开仓库：[1881188/business-data-analysis-labs](https://github.com/1881188/business-data-analysis-labs)。检查运行见[GitHub Actions](https://github.com/1881188/business-data-analysis-labs/actions)，详细状态见[进度记录](docs/progress.md)。Gitee目标账号待补充。后续批次继续覆盖全部教材实验，首批样板不替代全量要求。
