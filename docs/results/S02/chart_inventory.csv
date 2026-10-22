@@ -1,0 +1,14 @@
+﻿file,topic,data_kind
+stock_lines.png,线图,textbook_input
+vote_pie.png,饼图,seeded_synthetic
+vote_bars.png,柱形图,seeded_synthetic
+vote_horizontal.png,水平条形图,seeded_synthetic
+histogram.png,直方图,seeded_synthetic
+rainfall_scatter.png,散点图,textbook_illustration
+subject_boxplot.png,箱线图,seeded_synthetic
+histogram_kde.png,直方图与核密度,seeded_synthetic
+joint_scatter.png,二元散点与边际直方图,seeded_synthetic
+relational_scatter.png,二元关系散点图,seeded_synthetic
+joint_kde.png,二元核密度与边际直方图,seeded_synthetic
+bivariate_kde.png,二维核密度图,seeded_synthetic
+random_heatmap.png,随机矩阵热图,seeded_synthetic

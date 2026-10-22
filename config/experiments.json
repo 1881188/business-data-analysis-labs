@@ -21,42 +21,43 @@
     "lab_id": "B04",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "波士顿矩阵",
-    "status": "待迁移",
+    "status": "参考核对通过",
     "target_script": "labs/cda1_business/b04_bcg/main.py"
   },
   {
     "lab_id": "B05",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "RFM客户价值分层",
-    "status": "待迁移",
+    "status": "参考核对通过",
     "target_script": "labs/cda1_business/b05_rfm/main.py"
   },
   {
     "lab_id": "B06",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "用户忠诚度模型",
-    "status": "待迁移",
+    "status": "参考核对通过",
     "target_script": "labs/cda1_business/b06_loyalty/main.py"
   },
   {
     "lab_id": "B07",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "同期群日留存",
-    "status": "待迁移",
+    "status": "参考核对通过",
     "target_script": "labs/cda1_business/b07_cohort/main.py"
   },
   {
     "lab_id": "B08",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "转化漏斗",
-    "status": "待迁移",
+    "status": "参考核对通过",
     "target_script": "labs/cda1_business/b08_funnel/main.py"
   },
   {
     "lab_id": "B09",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "相关分析",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda1_business/b09_correlation/main.py"
   },
   {
     "lab_id": "B10",
@@ -141,7 +142,7 @@
     "source_id": "NB001",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "第4章  数据整合和数据清洗",
-    "status": "待迁移",
+    "status": "运行通过",
     "target_script": "labs/cda2_statistics/s01_cleaning/main.py"
   },
   {
@@ -149,28 +150,32 @@
     "source_id": "NB002",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "第5章 python数据可视化",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda2_statistics/s02_visualization/main.py"
   },
   {
     "lab_id": "S03",
     "source_id": "NB003",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "第5章 描述性统计分析与绘图",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda2_statistics/s03_descriptive/main.py"
   },
   {
     "lab_id": "S04",
     "source_id": "NB004",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "抽样",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda2_statistics/s04_sampling/main.py"
   },
   {
     "lab_id": "S05",
     "source_id": "NB005",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "数据预处理",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda2_statistics/s05_preprocessing/main.py"
   },
   {
     "lab_id": "S06",
@@ -212,7 +217,7 @@
     "source_id": "NB011",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "逻辑回归",
-    "status": "待迁移",
+    "status": "运行通过",
     "target_script": "labs/cda2_statistics/s11_churn/main.py"
   },
   {

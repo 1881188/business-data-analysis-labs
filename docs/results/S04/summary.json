@@ -1,0 +1,216 @@
+{
+  "lab_id": "S04",
+  "status": "execution_verified",
+  "population": 5369,
+  "districts": 77,
+  "seed": 20261022,
+  "designs": [
+    {
+      "design": "simple_n22",
+      "method": "simple_random",
+      "k": 22,
+      "sample_size": 22,
+      "districts_represented": 19,
+      "district_share_l1_difference": 1.3871890821043364
+    },
+    {
+      "design": "simple_p10",
+      "method": "simple_random",
+      "k": 0.1,
+      "sample_size": 537,
+      "districts_represented": 77,
+      "district_share_l1_difference": 0.29407180264106697
+    },
+    {
+      "design": "stratified_n2",
+      "method": "stratified",
+      "k": 2,
+      "sample_size": 154,
+      "districts_represented": 77,
+      "district_share_l1_difference": 0.36830965644524977
+    },
+    {
+      "design": "stratified_p10",
+      "method": "stratified",
+      "k": 0.1,
+      "sample_size": 573,
+      "districts_represented": 77,
+      "district_share_l1_difference": 0.04537716845818719
+    },
+    {
+      "design": "systematic_n4",
+      "method": "systematic",
+      "k": 4,
+      "sample_size": 4,
+      "districts_represented": 4,
+      "district_share_l1_difference": 1.8752095362264856
+    },
+    {
+      "design": "systematic_p10",
+      "method": "systematic",
+      "k": 0.1,
+      "sample_size": 537,
+      "districts_represented": 77,
+      "district_share_l1_difference": 0.27058709683461135
+    }
+  ],
+  "cached_count_checks": {
+    "2": {
+      "Client_id": {
+        "actual": 5369.0,
+        "reference_text": "5369",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Gender": {
+        "actual": 5369.0,
+        "reference_text": "5369",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "BirthDay": {
+        "actual": 5369.0,
+        "reference_text": "5369",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Dist": {
+        "actual": 5369.0,
+        "reference_text": "5369",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    },
+    "3": {
+      "Client_id": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Gender": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "BirthDay": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Dist": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    },
+    "4": {
+      "Client_id": {
+        "actual": 573.0,
+        "reference_text": "573",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Gender": {
+        "actual": 573.0,
+        "reference_text": "573",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "BirthDay": {
+        "actual": 573.0,
+        "reference_text": "573",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Dist": {
+        "actual": 573.0,
+        "reference_text": "573",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    },
+    "5": {
+      "Client_id": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Gender": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "BirthDay": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "Dist": {
+        "actual": 537.0,
+        "reference_text": "537",
+        "absolute_tolerance": 0.50000000000001,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    }
+  },
+  "notebook_coverage": {
+    "nonempty_code_cells": 5,
+    "mapped_code_cells": 5,
+    "source_cells_total": 6
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/sampling.py": "ae0bdc54002c381e70c44aedd99aa57e5fb1cabb39422834884261f54c4f826b",
+    "labs/cda2_statistics/s04_sampling/main.py": "e485f7a6fc02d30e1c11605aefd5bb0b5f4e3f560391b2d5dba74674fa34f7b3",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d"
+  },
+  "source_files": {
+    "notebook_sampling": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/1数据采集与处理 1 数据采集方法/抽样.ipynb",
+      "sha256": "61a66f6780a1a739955fc0d1ee0cce0162adf9cb900bc2ef62c7029ef5f8b8cf",
+      "bytes": 9960
+    },
+    "sampling_clients": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/1数据采集与处理 1 数据采集方法/clients.csv",
+      "sha256": "b09ccf89e10f89fc2657102fb91f9ac0ab762ef7a17cc8794d5939b9417a201a",
+      "bytes": 121655
+    }
+  },
+  "verified_at_utc": "2026-10-22T02:52:35.850566+00:00"
+}

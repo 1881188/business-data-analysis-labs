@@ -1,0 +1,75 @@
+{
+  "lab_id": "B09",
+  "status": "reference_verified",
+  "metrics": {
+    "n": 58,
+    "pearson": 0.976229080993538,
+    "spearman": 0.9751438170239003,
+    "kendall": 0.8691708376151864,
+    "slope": 1.9794365289038078,
+    "intercept": 37.42390010732788,
+    "r_squared": 0.9530232185774877
+  },
+  "reference_checks": {
+    "input_values": {
+      "values_compared": 116,
+      "mismatches": 0,
+      "maximum_absolute_difference": 0.0
+    },
+    "rounded_chart_metrics": {
+      "slope": {
+        "actual": 1.9794365289038078,
+        "reference_text": "1.9794",
+        "absolute_tolerance": 5.0000000010000006e-05,
+        "absolute_difference": 3.6528903807786506e-05,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "intercept": {
+        "actual": 37.42390010732788,
+        "reference_text": "37.424",
+        "absolute_tolerance": 0.00050000000001,
+        "absolute_difference": 9.989267211807373e-05,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "r_squared": {
+        "actual": 0.9530232185774877,
+        "reference_text": "0.953",
+        "absolute_tolerance": 0.00050000000001,
+        "absolute_difference": 2.321857748777134e-05,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    }
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/correlation.py": "44e4c8a03fc8923272341ed4cb7c47a9793e8855cc4689baada146f70f8b3cea",
+    "labs/cda1_business/b09_correlation/main.py": "26452fd39610b781098a991248d9c9af54e2fd4561bfcad757fef7a6faa64927",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d"
+  },
+  "source_files": {
+    "correlation_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/3-1相关分析.xlsx",
+      "sha256": "9413fa8ad8b7148dde196e12616f7f7fae2b763c494ccc779f60558cfac51360",
+      "bytes": 12322
+    },
+    "correlation_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/3-1相关分析-参考.xlsx",
+      "sha256": "56b8bc64a292f8ea6b5c32b8d88d630543a52fc0ebcc20ebd77cca53688e1aa1",
+      "bytes": 18715
+    }
+  },
+  "verified_at_utc": "2026-10-22T02:51:28.204431+00:00"
+}

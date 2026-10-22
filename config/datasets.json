@@ -63,5 +63,55 @@
     "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/2-1漏斗图-参考.xlsx",
     "sha256": "51ef9bfe936c9d66489d387e7fe9df5127b16e68318ce1841bc8dd0d62d3e8b1",
     "bytes": 280351
+  },
+  "correlation_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-无答案/3-1相关分析.xlsx",
+    "sha256": "9413fa8ad8b7148dde196e12616f7f7fae2b763c494ccc779f60558cfac51360",
+    "bytes": 12322
+  },
+  "correlation_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/1、分析的基础范式/data-有答案/3-1相关分析-参考.xlsx",
+    "sha256": "56b8bc64a292f8ea6b5c32b8d88d630543a52fc0ebcc20ebd77cca53688e1aa1",
+    "bytes": 18715
+  },
+  "visualization_stock": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/2017股价.xlsx",
+    "sha256": "be5a00631f3e283e927fb96fbab04c18c14d0a7046658afe8f797a265d0ec325",
+    "bytes": 10196
+  },
+  "housing_statistics": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/sndHsPr.csv",
+    "sha256": "d966b21d54baf4875073e2777fe3fc2b35dd40575246997d2de1d315070cfd54",
+    "bytes": 563768
+  },
+  "sampling_clients": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/1数据采集与处理 1 数据采集方法/clients.csv",
+    "sha256": "b09ccf89e10f89fc2657102fb91f9ac0ab762ef7a17cc8794d5939b9417a201a",
+    "bytes": 121655
+  },
+  "campaign_preprocessing": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/2 数据预处理基础/teleco_camp_orig.csv",
+    "sha256": "7125e3b2fc5400c3dde0ea3e5a79ce2aa621940dcbd252618715c710244d0aac",
+    "bytes": 544052
+  },
+  "notebook_visualization": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/第5章 python数据可视化.ipynb",
+    "sha256": "face861f890d140896ce06f54844261b01f6507db2ef5f845ed90eeb24eafa68",
+    "bytes": 525673
+  },
+  "notebook_descriptive": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/第5章 描述性统计分析与绘图.ipynb",
+    "sha256": "d2aa59ddfaaa747051e3b816ceab11cb2c424e4421a66bf7f764980a4f765e83",
+    "bytes": 23497
+  },
+  "notebook_sampling": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/1数据采集与处理 1 数据采集方法/抽样.ipynb",
+    "sha256": "61a66f6780a1a739955fc0d1ee0cce0162adf9cb900bc2ef62c7029ef5f8b8cf",
+    "bytes": 9960
+  },
+  "notebook_preprocessing": {
+    "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/2 数据预处理基础/数据预处理.ipynb",
+    "sha256": "9dccc52de530634a572a034cba22047e8f1b3813086c4fe5c49bfab99c9ac4d8",
+    "bytes": 34380
   }
 }

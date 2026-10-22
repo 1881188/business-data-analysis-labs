@@ -8,6 +8,8 @@ from build_docs import PUBLIC
 
 
 def main():
+    specs=json.loads((ROOT/'config/implemented_labs.json').read_text(encoding='utf-8'))
+    experiments={r['lab_id']:r for r in json.loads((ROOT/'config/experiments.json').read_text(encoding='utf-8'))}
     for folder in [ROOT/"src",ROOT/"labs",ROOT/"tools",ROOT/"tests"]:
         for path in folder.rglob("*.py"):ast.parse(path.read_text(encoding="utf-8"),filename=str(path))
     ast.parse((ROOT/"run_labs.py").read_text(encoding="utf-8"))
@@ -21,6 +23,12 @@ def main():
             if target and not (path.parent/target).exists():raise AssertionError(f"Broken local link {path}: {target}")
     for lab in PUBLIC:
         summary=json.loads((ROOT/f"docs/results/{lab}/summary.json").read_text(encoding="utf-8"))
+        expected_state='参考核对通过' if summary['status']=='reference_verified' else '运行通过'
+        if experiments[lab]['status']!=expected_state or experiments[lab]['target_script']!=specs[lab]['entry']:
+            raise AssertionError(f'Experiment registry does not match the published result: {lab}')
+        coverage=summary.get('notebook_coverage')
+        if coverage and coverage['nonempty_code_cells']!=coverage['mapped_code_cells']:
+            raise AssertionError(f'Incomplete Notebook coverage: {lab}')
         for path,digest in summary['implementation_sha256'].items():
             if sha256(ROOT/path)!=digest:raise AssertionError(f"Stale results: {lab} / {path}")
         expected={f'{lab}/{name}' for name in PUBLIC[lab]}

@@ -1,0 +1,270 @@
+{
+  "lab_id": "S05",
+  "status": "reference_verified",
+  "source_rows": 9686,
+  "income_zeros_converted": 2357,
+  "income_missing_before": 0,
+  "income_missing_after": 2357,
+  "income_mean_before": 40491.44424943217,
+  "income_mean_after": 53513.457361167966,
+  "home_value_zeros_retained": 103,
+  "histogram_counts": [
+    [
+      2358,
+      9,
+      304,
+      1397,
+      2187,
+      1303,
+      921,
+      550,
+      290,
+      130,
+      110,
+      39,
+      34,
+      18,
+      7,
+      13,
+      7,
+      7,
+      0,
+      2
+    ],
+    [
+      1,
+      9,
+      304,
+      1397,
+      2187,
+      1303,
+      921,
+      550,
+      290,
+      130,
+      110,
+      39,
+      34,
+      18,
+      7,
+      13,
+      7,
+      7,
+      0,
+      2
+    ]
+  ],
+  "reference_checks": {
+    "2": {
+      "count": {
+        "actual": 9686.0,
+        "reference_text": "9686.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "mean": {
+        "actual": 40491.44424943217,
+        "reference_text": "40491.444249",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 4.3217005440965295e-07,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "std": {
+        "actual": 28707.49414606488,
+        "reference_text": "28707.494146",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 6.487971404567361e-08,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "min": {
+        "actual": 0.0,
+        "reference_text": "0.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "25%": {
+        "actual": 24464.0,
+        "reference_text": "24464.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "50%": {
+        "actual": 43100.0,
+        "reference_text": "43100.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "75%": {
+        "actual": 56876.0,
+        "reference_text": "56876.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "max": {
+        "actual": 200001.0,
+        "reference_text": "200001.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    },
+    "3": {
+      "count": {
+        "actual": 9686.0,
+        "reference_text": "9686.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "mean": {
+        "actual": 110986.29981416477,
+        "reference_text": "110986.299814",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 1.6477133613079786e-07,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "std": {
+        "actual": 98670.85544996671,
+        "reference_text": "98670.855450",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 3.329478204250336e-08,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "min": {
+        "actual": 0.0,
+        "reference_text": "0.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "25%": {
+        "actual": 52300.0,
+        "reference_text": "52300.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "50%": {
+        "actual": 76900.0,
+        "reference_text": "76900.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "75%": {
+        "actual": 128175.0,
+        "reference_text": "128175.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "max": {
+        "actual": 600000.0,
+        "reference_text": "600000.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    },
+    "6": {
+      "count": {
+        "actual": 9686.0,
+        "reference_text": "9686.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "mean": {
+        "actual": 110986.29981416477,
+        "reference_text": "110986.299814",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 1.6477133613079786e-07,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "std": {
+        "actual": 98670.85544996671,
+        "reference_text": "98670.855450",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 3.329478204250336e-08,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "min": {
+        "actual": 0.0,
+        "reference_text": "0.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "25%": {
+        "actual": 52300.0,
+        "reference_text": "52300.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "50%": {
+        "actual": 76900.0,
+        "reference_text": "76900.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "75%": {
+        "actual": 128175.0,
+        "reference_text": "128175.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      },
+      "max": {
+        "actual": 600000.0,
+        "reference_text": "600000.000000",
+        "absolute_tolerance": 5.0000001e-07,
+        "absolute_difference": 0.0,
+        "roundoff_relative_bound": 1.4210854715202004e-14
+      }
+    }
+  },
+  "notebook_coverage": {
+    "nonempty_code_cells": 6,
+    "mapped_code_cells": 6,
+    "source_cells_total": 8
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/preprocessing.py": "930cfb1e2ead876aed6a8af6f821fb2a44646462e61b81dd5723cb2e2e41f4d5",
+    "labs/cda2_statistics/s05_preprocessing/main.py": "fcf75be1a697b12c301ed4e0ab322fb4875cfbe806778c9a09059365a872113d",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d"
+  },
+  "source_files": {
+    "notebook_preprocessing": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/2 数据预处理基础/数据预处理.ipynb",
+      "sha256": "9dccc52de530634a572a034cba22047e8f1b3813086c4fe5c49bfab99c9ac4d8",
+      "bytes": 34380
+    },
+    "campaign_preprocessing": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第6章-市场调研与数据预处理/2 数据预处理基础/teleco_camp_orig.csv",
+      "sha256": "7125e3b2fc5400c3dde0ea3e5a79ce2aa621940dcbd252618715c710244d0aac",
+      "bytes": 544052
+    }
+  },
+  "verified_at_utc": "2026-10-22T02:58:28.715455+00:00"
+}

@@ -1,6 +1,6 @@
 # 实验索引
 
-目前7个独立实验已运行，其中5个完成指定参考核对（B04, B05, B06, B07, B08）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
+目前12个独立实验已运行，其中8个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
 
 素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。
 
@@ -17,7 +17,7 @@
 | B06 | 用户忠诚度模型 | 参考核对通过 | [代码](../labs/cda1_business/b06_loyalty/main.py) · [报告](results/B06/report.md) |
 | B07 | 同期群日留存 | 参考核对通过 | [代码](../labs/cda1_business/b07_cohort/main.py) · [报告](results/B07/report.md) |
 | B08 | 转化漏斗 | 参考核对通过 | [代码](../labs/cda1_business/b08_funnel/main.py) · [报告](results/B08/report.md) |
-| B09 | 相关分析 | 待迁移 | — |
+| B09 | 相关分析 | 参考核对通过 | [代码](../labs/cda1_business/b09_correlation/main.py) · [报告](results/B09/report.md) |
 | B10 | 六类分析方法 | 待迁移 | — |
 | B11 | 基础零售销售看板 | 待迁移 | — |
 | B12 | 分省销售分析 | 待迁移 | — |
@@ -37,10 +37,10 @@
 | ID | 实验/来源名称 | 状态 | 实现与结果 |
 |---|---|---|---|
 | S01 | 第4章  数据整合和数据清洗 | 运行通过 | [代码](../labs/cda2_statistics/s01_cleaning/main.py) · [报告](results/S01/report.md) |
-| S02 | 第5章 python数据可视化 | 待迁移 | — |
-| S03 | 第5章 描述性统计分析与绘图 | 待迁移 | — |
-| S04 | 抽样 | 待迁移 | — |
-| S05 | 数据预处理 | 待迁移 | — |
+| S02 | 第5章 python数据可视化 | 运行通过 | [代码](../labs/cda2_statistics/s02_visualization/main.py) · [报告](results/S02/report.md) |
+| S03 | 第5章 描述性统计分析与绘图 | 参考核对通过 | [代码](../labs/cda2_statistics/s03_descriptive/main.py) · [报告](results/S03/report.md) |
+| S04 | 抽样 | 运行通过 | [代码](../labs/cda2_statistics/s04_sampling/main.py) · [报告](results/S04/report.md) |
+| S05 | 数据预处理 | 参考核对通过 | [代码](../labs/cda2_statistics/s05_preprocessing/main.py) · [报告](results/S05/report.md) |
 | S06 | 在 Python 中实现主成分分析 | 待迁移 | — |
 | S07 | 在 Python 中实现因子分析 | 待迁移 | — |
 | S08 | 方差分析 | 待迁移 | — |

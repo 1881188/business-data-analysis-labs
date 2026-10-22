@@ -1,0 +1,151 @@
+{
+  "lab_id": "S03",
+  "status": "reference_verified",
+  "source_rows": 16210,
+  "statistics": {
+    "count": 16210,
+    "mean": 61151.810919185686,
+    "median": 57473.0,
+    "std": 22293.358147328723,
+    "q25": 42812.25,
+    "q50": 57473.0,
+    "q75": 76099.75,
+    "range": 131523.0,
+    "variance": 496993817.485068
+  },
+  "correlations": {
+    "pearson": -0.07395474555491191,
+    "spearman": -0.1146280494187129,
+    "kendall": -0.07458045798622824
+  },
+  "normal_demonstration": {
+    "seed": 20261022,
+    "n": 1000,
+    "sample_skew": 0.13828288117164877,
+    "sample_excess_kurtosis": -0.1390977940385989
+  },
+  "exact_integer_variance": 496993817.485068,
+  "reference_checks": {
+    "mean": {
+      "actual": 61151.810919185686,
+      "reference_text": "61151.810919",
+      "absolute_tolerance": 5.0000001e-07,
+      "absolute_difference": 1.8568243831396103e-07,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "median": {
+      "actual": 57473.0,
+      "reference_text": "57473.000000",
+      "absolute_tolerance": 5.0000001e-07,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "std": {
+      "actual": 22293.358147328723,
+      "reference_text": "22293.358147",
+      "absolute_tolerance": 5.0000001e-07,
+      "absolute_difference": 3.287241270300001e-07,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "q25": {
+      "actual": 42812.25,
+      "reference_text": "42812.25",
+      "absolute_tolerance": 0.00500000000001,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "q50": {
+      "actual": 57473.0,
+      "reference_text": "57473.00",
+      "absolute_tolerance": 0.00500000000001,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "q75": {
+      "actual": 76099.75,
+      "reference_text": "76099.75",
+      "absolute_tolerance": 0.00500000000001,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "cell_7": {
+      "actual": 131523.0,
+      "reference_text": "131523",
+      "absolute_tolerance": 0.50000000000001,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "cell_8": {
+      "actual": 496993817.485068,
+      "reference_text": "496993817.48506516",
+      "absolute_tolerance": 7.062706934633882e-06,
+      "absolute_difference": 2.86102294921875e-06,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "cell_9": {
+      "actual": 22293.358147328723,
+      "reference_text": "22293.35814732866",
+      "absolute_tolerance": 3.168076737456525e-10,
+      "absolute_difference": 6.184563972055912e-11,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "pearson": {
+      "actual": -0.07395474555491191,
+      "reference_text": "-0.073955",
+      "absolute_tolerance": 5.0000001e-07,
+      "absolute_difference": 2.544450880964666e-07,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "spearman": {
+      "actual": -0.1146280494187129,
+      "reference_text": "-0.114628",
+      "absolute_tolerance": 5.0000001e-07,
+      "absolute_difference": 4.9418712899651496e-08,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "kendall": {
+      "actual": -0.07458045798622824,
+      "reference_text": "-0.07458",
+      "absolute_tolerance": 5.00000001e-06,
+      "absolute_difference": 4.5798622824722024e-07,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    }
+  },
+  "notebook_coverage": {
+    "nonempty_code_cells": 14,
+    "mapped_code_cells": 14,
+    "source_cells_total": 19
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/descriptive.py": "38768b8c77261bc2e850094ed7e93aec61942c7c6666f106b2e536c4edeffbac",
+    "labs/cda2_statistics/s03_descriptive/main.py": "9e76552c1a4258ad9881c93c9cef6ae8bb62a7e6db01dd36063c87980322593b",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d"
+  },
+  "source_files": {
+    "notebook_descriptive": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/第5章 描述性统计分析与绘图.ipynb",
+      "sha256": "d2aa59ddfaaa747051e3b816ceab11cb2c424e4421a66bf7f764980a4f765e83",
+      "bytes": 23497
+    },
+    "housing_statistics": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/sndHsPr.csv",
+      "sha256": "d966b21d54baf4875073e2777fe3fc2b35dd40575246997d2de1d315070cfd54",
+      "bytes": 563768
+    }
+  },
+  "verified_at_utc": "2026-10-22T02:52:33.863851+00:00"
+}

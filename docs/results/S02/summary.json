@@ -1,0 +1,118 @@
+{
+  "lab_id": "S02",
+  "status": "execution_verified",
+  "stock_rows": 15,
+  "stock_start": "2017-08-25 00:00:00",
+  "stock_end": "2017-09-14 00:00:00",
+  "figures": [
+    {
+      "file": "stock_lines.png",
+      "topic": "线图",
+      "data_kind": "textbook_input"
+    },
+    {
+      "file": "vote_pie.png",
+      "topic": "饼图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "vote_bars.png",
+      "topic": "柱形图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "vote_horizontal.png",
+      "topic": "水平条形图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "histogram.png",
+      "topic": "直方图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "rainfall_scatter.png",
+      "topic": "散点图",
+      "data_kind": "textbook_illustration"
+    },
+    {
+      "file": "subject_boxplot.png",
+      "topic": "箱线图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "histogram_kde.png",
+      "topic": "直方图与核密度",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "joint_scatter.png",
+      "topic": "二元散点与边际直方图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "relational_scatter.png",
+      "topic": "二元关系散点图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "joint_kde.png",
+      "topic": "二元核密度与边际直方图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "bivariate_kde.png",
+      "topic": "二维核密度图",
+      "data_kind": "seeded_synthetic"
+    },
+    {
+      "file": "random_heatmap.png",
+      "topic": "随机矩阵热图",
+      "data_kind": "seeded_synthetic"
+    }
+  ],
+  "random_streams": {
+    "votes_normal_scores": 1,
+    "bivariate_heat": 0
+  },
+  "vote_total": 255,
+  "histogram_included": 200,
+  "histogram_outside": 0,
+  "notebook_coverage": {
+    "nonempty_code_cells": 22,
+    "mapped_code_cells": 22,
+    "source_cells_total": 40
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/visualization.py": "5a43a4bce29a6bba4f79039fd54b129188525ee2ce769cb292dcc6ddf50317b7",
+    "labs/cda2_statistics/s02_visualization/main.py": "c96b0fb4f0f2eb8f374e12cc32bb6bba6dd17fb866a01524a8aff07f48aec419",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d"
+  },
+  "source_files": {
+    "notebook_visualization": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/第5章 python数据可视化.ipynb",
+      "sha256": "face861f890d140896ce06f54844261b01f6507db2ef5f845ed90eeb24eafa68",
+      "bytes": 525673
+    },
+    "visualization_stock": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第5章-数据可视化/2017股价.xlsx",
+      "sha256": "be5a00631f3e283e927fb96fbab04c18c14d0a7046658afe8f797a265d0ec325",
+      "bytes": 10196
+    }
+  },
+  "verified_at_utc": "2026-10-22T02:51:33.272537+00:00"
+}

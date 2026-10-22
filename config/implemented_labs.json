@@ -58,6 +58,19 @@
       "funnel_metrics.csv"
     ]
   },
+  "B09": {
+    "module": "correlation",
+    "entry": "labs/cda1_business/b09_correlation/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "correlation_fit.png",
+      "metrics.csv"
+    ]
+  },
   "S01": {
     "module": "cleaning",
     "entry": "labs/cda2_statistics/s01_cleaning/main.py",
@@ -65,6 +78,79 @@
       "report.md",
       "summary.json",
       "cleaning_cap.png"
+    ]
+  },
+  "S02": {
+    "module": "visualization",
+    "entry": "labs/cda2_statistics/s02_visualization/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "chart_inventory.csv",
+      "synthetic_votes.csv",
+      "stock_lines.png",
+      "vote_pie.png",
+      "vote_bars.png",
+      "vote_horizontal.png",
+      "histogram.png",
+      "rainfall_scatter.png",
+      "subject_boxplot.png",
+      "histogram_kde.png",
+      "joint_scatter.png",
+      "relational_scatter.png",
+      "joint_kde.png",
+      "bivariate_kde.png",
+      "random_heatmap.png"
+    ]
+  },
+  "S03": {
+    "module": "descriptive",
+    "entry": "labs/cda2_statistics/s03_descriptive/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "descriptive_statistics.png",
+      "price_statistics.csv",
+      "correlations.csv",
+      "price_histogram.csv"
+    ]
+  },
+  "S04": {
+    "module": "sampling",
+    "entry": "labs/cda2_statistics/s04_sampling/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "sampling_composition.png",
+      "sampling_designs.csv",
+      "district_allocation.csv"
+    ]
+  },
+  "S05": {
+    "module": "preprocessing",
+    "entry": "labs/cda2_statistics/s05_preprocessing/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "income_preprocessing.png",
+      "missingness_audit.csv",
+      "describe_comparison.csv"
     ]
   },
   "S11": {

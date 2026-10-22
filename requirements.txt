@@ -1,4 +1,4 @@
-# Exact versions used for the first verified batch (Python 3.13.0, Windows).
+# Exact versions used for verified labs (Python 3.13.0, Windows).
 numpy==2.2.3
 pandas==2.2.3
 scipy==1.15.2

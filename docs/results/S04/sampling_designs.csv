@@ -1,0 +1,7 @@
+﻿design,method,k,sample_size,districts_represented,district_share_l1_difference
+simple_n22,simple_random,22.0,22,19,1.3871890821043364
+simple_p10,simple_random,0.1,537,77,0.29407180264106697
+stratified_n2,stratified,2.0,154,77,0.36830965644524977
+stratified_p10,stratified,0.1,573,77,0.04537716845818719
+systematic_n4,systematic,4.0,4,4,1.8752095362264856
+systematic_p10,systematic,0.1,537,77,0.27058709683461135

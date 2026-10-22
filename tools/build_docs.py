@@ -31,9 +31,11 @@ def main():
             last=item["book"]
         lab=item["lab_id"]
         state="参考核对通过" if statuses.get(lab)=="reference_verified" else "运行通过" if lab in statuses else item.get("status","待迁移")
+        if lab in statuses:item['status']=state
         target=f"[代码](../{item['target_script']}) · [报告](results/{lab}/report.md)" if lab in statuses else item.get("note", "—")
         lines.append(f"| {lab} | {item['title']} | {state} | {target} |")
     (ROOT/"docs/experiment-index.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
+    (ROOT/"config/experiments.json").write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     mapping=ROOT/"docs/source-map.csv"
     with mapping.open(encoding="utf-8-sig",newline="") as stream:
         reader=csv.DictReader(stream)
