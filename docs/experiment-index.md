@@ -1,6 +1,6 @@
 # 实验索引
 
-目前16个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
+目前19个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
 
 素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。
 
@@ -45,10 +45,10 @@
 | S07 | 在 Python 中实现因子分析 | 参考核对通过 | [代码](../labs/cda2_statistics/s07_factors/main.py) · [报告](results/S07/report.md) |
 | S08 | 方差分析 | 运行通过 | [代码](../labs/cda2_statistics/s08_anova/main.py) · [报告](results/S08/report.md) |
 | S09 | 列联表分析 | 运行通过 | [代码](../labs/cda2_statistics/s09_contingency/main.py) · [报告](results/S09/report.md) |
-| S10 | 线性回归 | 待迁移 | — |
+| S10 | 线性回归 | 运行通过 | [代码](../labs/cda2_statistics/s10_regression/main.py) · [报告](results/S10/report.md) |
 | S11 | 逻辑回归 | 运行通过 | [代码](../labs/cda2_statistics/s11_churn/main.py) · [报告](results/S11/report.md) |
-| S12 | Kmeans 的应用 - 用户细分 | 待迁移 | — |
-| S13 | hc_city10 | 待迁移 | — |
+| S12 | Kmeans 的应用 - 用户细分 | 运行通过 | [代码](../labs/cda2_statistics/s12_kmeans/main.py) · [报告](results/S12/report.md) |
+| S13 | hc_city10 | 运行通过 | [代码](../labs/cda2_statistics/s13_hierarchy/main.py) · [报告](results/S13/report.md) |
 
 ## 3《CDA 三级认证教材：敏捷数据挖掘》
 

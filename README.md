@@ -2,7 +2,7 @@
 
 将四套教材中的 Excel、Power BI 案例迁移为 Python，把 Jupyter Notebook 整理为独立脚本，记录业务问题、指标口径、结果和解释。
 
-当前完成 **16 个实验**：6个Excel案例迁移和10个Notebook重构。10个实验完成报告中明确范围的参考数值核对，其余6个已独立运行。本批新增主成分分析、主成分旋转、方差分析和列联表检验，提供4份Notebook全部39个非空代码单元的迁移对照。修正后的统计检验与教材兼容结果分开解释。其他材料按[实验索引](docs/experiment-index.md)继续推进，未完成项目不计入完成数。
+当前完成 **19 个实验**：6个Excel案例迁移和13个Notebook重构。二级教材13份Notebook均已形成独立可运行实验。10个实验完成报告中明确范围的参考核对，其余9个为运行通过；新批次线性回归、Kmeans和层次聚类另列教材兼容核对与改动边界，共提供110个非空代码单元的迁移对照。其他材料按[实验索引](docs/experiment-index.md)继续推进，未完成项目不计入完成数。
 
 ![RFM客户分层](docs/results/B05/rfm_segments.png)
 
@@ -25,7 +25,10 @@
 | S07 | 二级：地区主成分旋转 | [实验入口](labs/cda2_statistics/s07_factors/README.md) | [结果与解释](docs/results/S07/report.md) | 148项缓存值核对，保持教材单位特征向量旋转语义 |
 | S08 | 二级：消费额方差分析 | [实验入口](labs/cda2_statistics/s08_anova/README.md) | [结果与解释](docs/results/S08/report.md) | 70条观察样本主分析；空单元格与HC3处理，25项兼容值另核对 |
 | S09 | 二级：列联表检验 | [实验入口](labs/cda2_statistics/s09_contingency/README.md) | [结果与解释](docs/results/S09/report.md) | 检验排除All合计，明确未加权样本和217条缺失；旧结果仅作诊断 |
+| S10 | 二级：线性回归 | [实验入口](labs/cda2_statistics/s10_regression/README.md) | [结果与解释](docs/results/S10/report.md) | 70条真实响应、5折OOF；89项教材兼容OLS值与8个VIF另核对 |
 | S11 | 二级：电信客户流失逻辑回归 | [实验入口](labs/cda2_statistics/s11_churn/README.md) | [结果与解释](docs/results/S11/report.md) | 主模型运行通过；教材未正则多元拟合不收敛，改动已说明 |
+| S12 | 二级：Kmeans银行分群 | [实验入口](labs/cda2_statistics/s12_kmeans/README.md) | [结果与解释](docs/results/S12/report.md) | 10万客户，固定随机性；39项缓存值核对，解释树排除ID |
+| S13 | 二级：地区层次聚类 | [实验入口](labs/cda2_statistics/s13_hierarchy/README.md) | [结果与解释](docs/results/S13/report.md) | 42项打印缓存值及18项方向算法容差核对，原表只读 |
 
 RFM样本中18.45%的重要价值客户贡献62.45%的销售额。流失实验使用1,039名独立测试客户，L2正则多元模型ROC AUC为0.9290。这些是教材样本上的结果，不代表实际营销干预效果。
 
@@ -47,6 +50,7 @@ python run_labs.py --lab B04 B06 B07 B08
 python run_labs.py --lab B09 S02 S03 S04 S05
 python run_labs.py --lab S06 S07 S08 S09
 python run_labs.py --lab S01 S11
+python run_labs.py --lab S10 S12 S13
 python -m unittest discover -s tests -v
 python tools/check_project.py
 ```
@@ -60,7 +64,7 @@ python tools/check_project.py
 | 板块 | 整理范围 | 当前进度 |
 |---|---|---|
 | CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B04-B09已完成对应范围的参考核对 |
-| CDA 二级：量化策略分析 | 13份Notebook及辅助代码 | S01-S09、S11已运行；剩余S10、S12、S13 |
+| CDA 二级：量化策略分析 | 13份Notebook及辅助代码 | S01-S13均已独立运行，覆盖全部13份Notebook |
 | CDA 三级：敏捷数据挖掘 | 29份Notebook及辅助算法 | 待逐项迁移 |
 | 金融数据分析与挖掘案例 | 16份Notebook，含一份代码重复的Vintage检查点 | 待逐项迁移与补齐依赖 |
 
@@ -80,7 +84,7 @@ tools/                 文档构建、格式导出与项目检查
 outputs/               本地运行产物，不纳入Git
 ```
 
-已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前49项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除及输入数据不变等行为。
+已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前62项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除及输入数据不变等行为。
 
 ## 数据、许可与后续
 

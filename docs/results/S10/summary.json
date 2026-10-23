@@ -1,0 +1,935 @@
+{
+  "lab_id": "S10",
+  "status": "execution_verified",
+  "audit": {
+    "source_rows": 76,
+    "duplicate_feature_rows": 0,
+    "missing_response": 6,
+    "missing_education": 1,
+    "invalid_age": 1,
+    "retained_rows": 70,
+    "excluded_rows": 6
+  },
+  "legacy_audit": {
+    "source_rows": 76,
+    "duplicate_feature_rows": 0,
+    "missing_response": 6,
+    "missing_education": 1,
+    "invalid_age": 1,
+    "retained_rows": 76,
+    "excluded_rows": 0
+  },
+  "legacy_reference_checks": {
+    "raw_full": {
+      "metrics": {
+        "nobs": {
+          "actual": 76.0,
+          "reference_text": "76",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_model": {
+          "actual": 11.0,
+          "reference_text": "11",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_resid": {
+          "actual": 64.0,
+          "reference_text": "64",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "r_squared": {
+          "actual": 0.7196189642812132,
+          "reference_text": "0.720",
+          "absolute_tolerance": 0.0005,
+          "absolute_difference": 0.0003810357187867819,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_statistic": {
+          "actual": 14.932800156281207,
+          "reference_text": "14.93",
+          "absolute_tolerance": 0.005,
+          "absolute_difference": 0.0028001562812072223,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_pvalue": {
+          "actual": 8.364563823117832e-14,
+          "reference_text": "8.36e-14",
+          "absolute_tolerance": 5e-17,
+          "absolute_difference": 4.5638231178313657e-17,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "coefficients": {
+        "Intercept": {
+          "actual": 535.9565454947926,
+          "reference_text": "535.9565",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.549479263005196e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_1[T.True]": {
+          "actual": -262.5083094661512,
+          "reference_text": "-262.5083",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 9.466151198012085e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_2[T.True]": {
+          "actual": -495.13997056876417,
+          "reference_text": "-495.1400",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.9431235816446133e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_3[T.True]": {
+          "actual": -292.52108574163447,
+          "reference_text": "-292.5211",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.4258365524710825e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_4[T.True]": {
+          "actual": 49.378276223951445,
+          "reference_text": "49.3783",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.3776048557522245e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "gender": {
+          "actual": -447.48282370962175,
+          "reference_text": "-447.4828",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.370962175746172e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age": {
+          "actual": 0.6121055119269578,
+          "reference_text": "0.6121",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 5.511926957857405e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Income": {
+          "actual": -119.19288260628818,
+          "reference_text": "-119.1929",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.739371181486149e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Ownrent": {
+          "actual": 41.31835338076975,
+          "reference_text": "41.3184",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.661923024684711e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Selfempl": {
+          "actual": 153.69998983676095,
+          "reference_text": "153.7000",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.0163239039684413e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "dist_home_val": {
+          "actual": 0.15788310044109866,
+          "reference_text": "0.1579",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.6899558901356526e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "dist_avg_income": {
+          "actual": 211.5249802225451,
+          "reference_text": "211.5250",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.9777454895120172e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "values_compared": 18
+    },
+    "raw_reduced": {
+      "metrics": {
+        "nobs": {
+          "actual": 76.0,
+          "reference_text": "76",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_model": {
+          "actual": 10.0,
+          "reference_text": "10",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_resid": {
+          "actual": 65.0,
+          "reference_text": "65",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "r_squared": {
+          "actual": 0.6808680127394924,
+          "reference_text": "0.681",
+          "absolute_tolerance": 0.0005,
+          "absolute_difference": 0.00013198726050767107,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_statistic": {
+          "actual": 13.867748328198912,
+          "reference_text": "13.87",
+          "absolute_tolerance": 0.005,
+          "absolute_difference": 0.002251671801086985,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_pvalue": {
+          "actual": 1.0741713176456117e-12,
+          "reference_text": "1.07e-12",
+          "absolute_tolerance": 5e-15,
+          "absolute_difference": 4.171317645611621e-15,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "coefficients": {
+        "Intercept": {
+          "actual": 659.294927514882,
+          "reference_text": "659.2949",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.7514882049217704e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_1[T.True]": {
+          "actual": -258.0157255228138,
+          "reference_text": "-258.0157",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.55228138144048e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_2[T.True]": {
+          "actual": -507.3032070913326,
+          "reference_text": "-507.3032",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 7.091332577147114e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_3[T.True]": {
+          "actual": -377.0725209153589,
+          "reference_text": "-377.0725",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.0915358902584558e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_4[T.True]": {
+          "actual": -89.47905721277402,
+          "reference_text": "-89.4791",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.27872259791684e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "gender": {
+          "actual": -451.70623596430727,
+          "reference_text": "-451.7062",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.596430724428501e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age": {
+          "actual": 1.1646603035493217,
+          "reference_text": "1.1647",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.969645067836147e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Income": {
+          "actual": 90.50620876404273,
+          "reference_text": "90.5062",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 8.764042718212295e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Ownrent": {
+          "actual": 3.821116366644283,
+          "reference_text": "3.8211",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.6366644282950205e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Selfempl": {
+          "actual": 69.92204667769867,
+          "reference_text": "69.9220",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.66776986769446e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "dist_home_val": {
+          "actual": 0.4437584154849635,
+          "reference_text": "0.4438",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.158451503649685e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "values_compared": 17
+    },
+    "log_reduced": {
+      "metrics": {
+        "nobs": {
+          "actual": 76.0,
+          "reference_text": "76",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_model": {
+          "actual": 10.0,
+          "reference_text": "10",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_resid": {
+          "actual": 65.0,
+          "reference_text": "65",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "r_squared": {
+          "actual": 0.6137725274947878,
+          "reference_text": "0.614",
+          "absolute_tolerance": 0.0005,
+          "absolute_difference": 0.00022747250521215623,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_statistic": {
+          "actual": 10.329460519311667,
+          "reference_text": "10.33",
+          "absolute_tolerance": 0.005,
+          "absolute_difference": 0.0005394806883334269,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_pvalue": {
+          "actual": 3.570978961686091e-10,
+          "reference_text": "3.57e-10",
+          "absolute_tolerance": 5e-13,
+          "absolute_difference": 9.789616860908912e-14,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "coefficients": {
+        "Intercept": {
+          "actual": 6.6463364946778185,
+          "reference_text": "6.6463",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.649467781841054e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_1[T.True]": {
+          "actual": -0.1869879606355096,
+          "reference_text": "-0.1870",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.203936449040155e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_2[T.True]": {
+          "actual": -0.56248488414844,
+          "reference_text": "-0.5625",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.5115851559999172e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_3[T.True]": {
+          "actual": -0.7904831794882834,
+          "reference_text": "-0.7905",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.6820511716586495e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_4[T.True]": {
+          "actual": -0.2751803263734436,
+          "reference_text": "-0.2752",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.967362655641569e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "gender": {
+          "actual": -0.3840778243870038,
+          "reference_text": "-0.3841",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.2175612996222505e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age": {
+          "actual": 0.002331095434962724,
+          "reference_text": "0.0023",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.1095434962723906e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Income": {
+          "actual": 0.06488972315213722,
+          "reference_text": "0.0649",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.027684786278349e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Ownrent": {
+          "actual": 0.07433653141226837,
+          "reference_text": "0.0743",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.653141226836465e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Selfempl": {
+          "actual": 0.3216481866791547,
+          "reference_text": "0.3216",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.8186679154682555e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "dist_home_val": {
+          "actual": -0.0004719959524370366,
+          "reference_text": "-0.0005",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.8004047562963427e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "values_compared": 17
+    },
+    "log_age_squared": {
+      "metrics": {
+        "nobs": {
+          "actual": 76.0,
+          "reference_text": "76",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_model": {
+          "actual": 11.0,
+          "reference_text": "11",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_resid": {
+          "actual": 64.0,
+          "reference_text": "64",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "r_squared": {
+          "actual": 0.6890768598276008,
+          "reference_text": "0.689",
+          "absolute_tolerance": 0.0005,
+          "absolute_difference": 7.685982760086141e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_statistic": {
+          "actual": 12.894422894853628,
+          "reference_text": "12.89",
+          "absolute_tolerance": 0.005,
+          "absolute_difference": 0.004422894853627568,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_pvalue": {
+          "actual": 1.898367788128168e-12,
+          "reference_text": "1.90e-12",
+          "absolute_tolerance": 5e-15,
+          "absolute_difference": 1.6322118718317818e-15,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "coefficients": {
+        "Intercept": {
+          "actual": 4.494690297759372,
+          "reference_text": "4.4947",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 9.702240627795788e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_1[T.True]": {
+          "actual": -0.14146045988682676,
+          "reference_text": "-0.1415",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.9540113173225366e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_2[T.True]": {
+          "actual": -0.5673788543925231,
+          "reference_text": "-0.5674",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.1145607476902306e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_3[T.True]": {
+          "actual": -0.8177224777168948,
+          "reference_text": "-0.8177",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.2477716894786504e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_4[T.True]": {
+          "actual": -0.4299532925389822,
+          "reference_text": "-0.4300",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.67074610178142e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "gender": {
+          "actual": -0.3972399362721045,
+          "reference_text": "-0.3972",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.9936272104523773e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age": {
+          "actual": 0.13999897522966503,
+          "reference_text": "0.1400",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.0247703349786086e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Income": {
+          "actual": 0.0485193090586129,
+          "reference_text": "0.0485",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 1.930905861290133e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Ownrent": {
+          "actual": 0.11970097320029138,
+          "reference_text": "0.1197",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 9.73200291382037e-07,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Selfempl": {
+          "actual": 0.30980362932951633,
+          "reference_text": "0.3098",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.629329516308122e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "dist_home_val": {
+          "actual": -7.355518499480539e-05,
+          "reference_text": "-7.356e-05",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 4.815005194607142e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age_sq": {
+          "actual": -0.0020329162689262416,
+          "reference_text": "-0.0020",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.291626892624154e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "values_compared": 18
+    },
+    "log_age_interaction": {
+      "metrics": {
+        "nobs": {
+          "actual": 76.0,
+          "reference_text": "76",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_model": {
+          "actual": 12.0,
+          "reference_text": "12",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "df_resid": {
+          "actual": 63.0,
+          "reference_text": "63",
+          "absolute_tolerance": 0.5,
+          "absolute_difference": 0.0,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "r_squared": {
+          "actual": 0.7127312802585788,
+          "reference_text": "0.713",
+          "absolute_tolerance": 0.0005,
+          "absolute_difference": 0.00026871974142117505,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_statistic": {
+          "actual": 13.02557140480062,
+          "reference_text": "13.03",
+          "absolute_tolerance": 0.005,
+          "absolute_difference": 0.004428595199378549,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "f_pvalue": {
+          "actual": 6.857868336951298e-13,
+          "reference_text": "6.86e-13",
+          "absolute_tolerance": 5e-16,
+          "absolute_difference": 2.1316630487023252e-16,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "coefficients": {
+        "Intercept": {
+          "actual": 4.500153698592251,
+          "reference_text": "4.5002",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.63014077496382e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_1[T.True]": {
+          "actual": -0.13739513422711802,
+          "reference_text": "-0.1374",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.865772881973429e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_2[T.True]": {
+          "actual": -0.5555247670463767,
+          "reference_text": "-0.5555",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.4767046376661384e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_3[T.True]": {
+          "actual": -0.8229724072119914,
+          "reference_text": "-0.8230",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.7592788008568014e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "edu_4[T.True]": {
+          "actual": -0.4744033014119675,
+          "reference_text": "-0.4744",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 3.3014119675267573e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "gender": {
+          "actual": 0.5339078202988574,
+          "reference_text": "0.5339",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 7.820298857375008e-06,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age": {
+          "actual": 0.13305147390618682,
+          "reference_text": "0.1331",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.852609381317263e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Income": {
+          "actual": 0.05177059095598269,
+          "reference_text": "0.0518",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.9409044017311703e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Ownrent": {
+          "actual": 0.10875200967062881,
+          "reference_text": "0.1088",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.799032937118086e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Selfempl": {
+          "actual": 0.3697786582028798,
+          "reference_text": "0.3698",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.1341797120211226e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "dist_home_val": {
+          "actual": -1.7535409646994224e-05,
+          "reference_text": "-1.754e-05",
+          "absolute_tolerance": 5e-09,
+          "absolute_difference": 4.590353005777585e-09,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age_sq": {
+          "actual": -0.0018481538348361628,
+          "reference_text": "-0.0018",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 4.815383483616287e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        },
+        "Age_gender": {
+          "actual": -0.02757182083076118,
+          "reference_text": "-0.0276",
+          "absolute_tolerance": 5e-05,
+          "absolute_difference": 2.817916923882058e-05,
+          "roundoff_relative_bound": 1.4210854715202004e-14
+        }
+      },
+      "values_compared": 19
+    }
+  },
+  "legacy_vif_checks": {
+    "gender": {
+      "actual": 2.209191974683994,
+      "reference_text": "2.209191974683995",
+      "absolute_tolerance": 3.1394506190224476e-14,
+      "absolute_difference": 8.881784197001252e-16,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "Age": {
+      "actual": 1.3708810657506343,
+      "reference_text": "1.3708810657506336",
+      "absolute_tolerance": 1.948139165720354e-14,
+      "absolute_difference": 6.661338147750939e-16,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "Income": {
+      "actual": 64.76239230667133,
+      "reference_text": "64.76239230667133",
+      "absolute_tolerance": 9.203289480790222e-13,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "Ownrent": {
+      "actual": 1.668281771649641,
+      "reference_text": "1.668281771649641",
+      "absolute_tolerance": 2.3707709880932853e-14,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "Selfempl": {
+      "actual": 1.2887640187408775,
+      "reference_text": "1.2887640187408764",
+      "absolute_tolerance": 1.8314438232506467e-14,
+      "absolute_difference": 1.1102230246251565e-15,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "dist_home_val": {
+      "actual": 1.165431243043153,
+      "reference_text": "1.1654312430431526",
+      "absolute_tolerance": 1.6561774075443517e-14,
+      "absolute_difference": 4.440892098500626e-16,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "dist_avg_income": {
+      "actual": 64.13992249399934,
+      "reference_text": "64.13992249399934",
+      "absolute_tolerance": 9.114831200065415e-13,
+      "absolute_difference": 0.0,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    },
+    "edu_class": {
+      "actual": 1.9945867708908815,
+      "reference_text": "1.994586770890881",
+      "absolute_tolerance": 2.8344782817994216e-14,
+      "absolute_difference": 4.440892098500626e-16,
+      "roundoff_relative_bound": 1.4210854715202004e-14
+    }
+  },
+  "legacy_values_compared": 97,
+  "cross_validation": [
+    {
+      "model": "training_mean",
+      "n": 70,
+      "folds": 5,
+      "mae_yuan": 357.5480204081633,
+      "rmse_yuan": 450.927638273471,
+      "oof_r_squared": -0.035666912692864594,
+      "negative_predictions": 0
+    },
+    {
+      "model": "raw_full",
+      "n": 70,
+      "folds": 5,
+      "mae_yuan": 161.18711176421826,
+      "rmse_yuan": 206.7164079148731,
+      "oof_r_squared": 0.782351192863219,
+      "negative_predictions": 0
+    },
+    {
+      "model": "raw_reduced",
+      "n": 70,
+      "folds": 5,
+      "mae_yuan": 168.16969028686512,
+      "rmse_yuan": 225.83366736782008,
+      "oof_r_squared": 0.740233127125172,
+      "negative_predictions": 0
+    },
+    {
+      "model": "log_reduced",
+      "n": 70,
+      "folds": 5,
+      "mae_yuan": 152.9694327149509,
+      "rmse_yuan": 212.41511584350198,
+      "oof_r_squared": 0.7701856045110804,
+      "negative_predictions": 0
+    },
+    {
+      "model": "log_age_squared",
+      "n": 70,
+      "folds": 5,
+      "mae_yuan": 148.77317372066446,
+      "rmse_yuan": 208.0065239050679,
+      "oof_r_squared": 0.7796260253692591,
+      "negative_predictions": 0
+    },
+    {
+      "model": "log_age_interaction",
+      "n": 70,
+      "folds": 5,
+      "mae_yuan": 147.09065358100614,
+      "rmse_yuan": 209.52997195381855,
+      "oof_r_squared": 0.7763861486669961,
+      "negative_predictions": 0
+    }
+  ],
+  "training_only_smearing": [
+    {
+      "fold": 1,
+      "model": "log_reduced",
+      "training_smearing": 1.0103426912650464
+    },
+    {
+      "fold": 1,
+      "model": "log_age_squared",
+      "training_smearing": 1.0088129909156232
+    },
+    {
+      "fold": 1,
+      "model": "log_age_interaction",
+      "training_smearing": 1.0085977653470306
+    },
+    {
+      "fold": 2,
+      "model": "log_reduced",
+      "training_smearing": 1.0116680487572922
+    },
+    {
+      "fold": 2,
+      "model": "log_age_squared",
+      "training_smearing": 1.0087093923582493
+    },
+    {
+      "fold": 2,
+      "model": "log_age_interaction",
+      "training_smearing": 1.0083474049127938
+    },
+    {
+      "fold": 3,
+      "model": "log_reduced",
+      "training_smearing": 1.0135763390652905
+    },
+    {
+      "fold": 3,
+      "model": "log_age_squared",
+      "training_smearing": 1.009477824846814
+    },
+    {
+      "fold": 3,
+      "model": "log_age_interaction",
+      "training_smearing": 1.0083470177483214
+    },
+    {
+      "fold": 4,
+      "model": "log_reduced",
+      "training_smearing": 1.0139679623538096
+    },
+    {
+      "fold": 4,
+      "model": "log_age_squared",
+      "training_smearing": 1.0104396636134756
+    },
+    {
+      "fold": 4,
+      "model": "log_age_interaction",
+      "training_smearing": 1.0095640633473522
+    },
+    {
+      "fold": 5,
+      "model": "log_reduced",
+      "training_smearing": 1.0144686037975272
+    },
+    {
+      "fold": 5,
+      "model": "log_age_squared",
+      "training_smearing": 1.011373337346441
+    },
+    {
+      "fold": 5,
+      "model": "log_age_interaction",
+      "training_smearing": 1.0107514416603431
+    }
+  ],
+  "fold_category_support": [
+    {
+      "fold": 1,
+      "validation_records_in_education_absent_from_training": 0
+    },
+    {
+      "fold": 2,
+      "validation_records_in_education_absent_from_training": 0
+    },
+    {
+      "fold": 3,
+      "validation_records_in_education_absent_from_training": 0
+    },
+    {
+      "fold": 4,
+      "validation_records_in_education_absent_from_training": 2
+    },
+    {
+      "fold": 5,
+      "validation_records_in_education_absent_from_training": 0
+    }
+  ],
+  "notebook_coverage": {
+    "nonempty_code_cells": 59,
+    "mapped_code_cells": 59,
+    "source_cells_total": 86
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/linear_expenses.py": "cb78db00a666e0aec6e03f07d02ef53fcb2c981f57926f27ae98f3bc2834cd62",
+    "labs/cda2_statistics/s10_regression/main.py": "22d9601f98dc1c2a2c2cbf0e61791e6c1019ea35f3a8b11b4f0e3844e33b1517",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "src/bda_labs/statistical_reference.py": "4030c777ab9daa898cf9d71cb5e5232a5af6f2f99e2c058c7d2b0c107117521f",
+    "src/bda_labs/anova_expenses.py": "3490a051ab90f038b115f40c59a9bb81a3bd885bdd02ccb3c9791d87fa814477"
+  },
+  "source_files": {
+    "notebook_linear": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第8章-使用统计学方法进行检验和预测/线性回归/线性回归.ipynb",
+      "sha256": "214b23d8812006481de6db255bb92e6cb6ea6fd633ac59400a67969db7a13efa",
+      "bytes": 354914
+    },
+    "linear_creditcard": {
+      "path": "2《CDA 二级认证教材：量化策略分析》/第8章-使用统计学方法进行检验和预测/线性回归/LR_practice.xlsx",
+      "sha256": "0e561e285411db63ac7d8ade860ecd83a6dd8e004197cfd3291a655518529c41",
+      "bytes": 19228
+    }
+  },
+  "verified_at_utc": "2026-10-23T03:14:46.346114+00:00"
+}

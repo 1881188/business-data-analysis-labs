@@ -214,7 +214,8 @@
     "source_id": "NB010",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "线性回归",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda2_statistics/s10_regression/main.py"
   },
   {
     "lab_id": "S11",
@@ -229,14 +230,16 @@
     "source_id": "NB012",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "Kmeans 的应用 - 用户细分",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda2_statistics/s12_kmeans/main.py"
   },
   {
     "lab_id": "S13",
     "source_id": "NB013",
     "book": "2《CDA 二级认证教材：量化策略分析》",
     "title": "hc_city10",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda2_statistics/s13_hierarchy/main.py"
   },
   {
     "lab_id": "M01",

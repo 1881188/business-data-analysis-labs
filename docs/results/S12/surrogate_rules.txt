@@ -1,0 +1,22 @@
+|--- CNT_TBM <= 42.50
+|   |--- CNT_CSC <= 4.50
+|   |   |--- CNT_ATM <= 28.50
+|   |   |   |--- class: 0
+|   |   |--- CNT_ATM >  28.50
+|   |   |   |--- class: 2
+|   |--- CNT_CSC >  4.50
+|   |   |--- CNT_ATM <= 6.50
+|   |   |   |--- class: 0
+|   |   |--- CNT_ATM >  6.50
+|   |   |   |--- class: 2
+|--- CNT_TBM >  42.50
+|   |--- CNT_CSC <= 4.50
+|   |   |--- CNT_ATM <= 30.50
+|   |   |   |--- class: 1
+|   |   |--- CNT_ATM >  30.50
+|   |   |   |--- class: 2
+|   |--- CNT_CSC >  4.50
+|   |   |--- CNT_ATM <= 4.50
+|   |   |   |--- class: 1
+|   |   |--- CNT_ATM >  4.50
+|   |   |   |--- class: 2

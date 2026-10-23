@@ -230,6 +230,28 @@
       "test_comparison.csv"
     ]
   },
+  "S10": {
+    "module": "linear_expenses",
+    "entry": "labs/cda2_statistics/s10_regression/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py",
+      "src/bda_labs/statistical_reference.py",
+      "src/bda_labs/anova_expenses.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "regression_diagnostics.png",
+      "regression_validation.png",
+      "model_comparison.csv",
+      "coefficients.csv",
+      "cross_validation.csv",
+      "vif.csv",
+      "quality_audit.csv",
+      "correlations.csv"
+    ]
+  },
   "S11": {
     "module": "churn",
     "entry": "labs/cda2_statistics/s11_churn/main.py",
@@ -240,6 +262,50 @@
       "metrics.csv",
       "coefficients.csv",
       "textbook_fit_diagnostic.json"
+    ]
+  },
+  "S12": {
+    "module": "bank_segments",
+    "entry": "labs/cda2_statistics/s12_kmeans/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py",
+      "src/bda_labs/statistical_reference.py",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "bank_segments.png",
+      "segment_tree.png",
+      "cluster_profiles.csv",
+      "cluster_quality.csv",
+      "cluster_centers.csv",
+      "bank_directions.csv",
+      "bank_variance.csv",
+      "factor_skewness.csv",
+      "surrogate_rules.txt"
+    ]
+  },
+  "S13": {
+    "module": "city_hierarchy",
+    "entry": "labs/cda2_statistics/s13_hierarchy/main.py",
+    "extra_code": [
+      "src/bda_labs/notebook_reference.py",
+      "src/bda_labs/statistical_reference.py",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "notebook-map.md",
+      "city_dendrogram.png",
+      "city_scores.png",
+      "city_clusters.csv",
+      "ward_linkage.csv",
+      "city_directions.csv",
+      "city_variance.csv",
+      "scale_sensitivity.csv"
     ]
   }
 }

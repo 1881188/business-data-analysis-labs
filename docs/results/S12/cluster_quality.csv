@@ -1,0 +1,3 @@
+﻿branch,inertia_own_geometry_only,iterations,sampled_silhouette,uniform_sample_n,sampled_groups,smallest_cluster
+untransformed_factors,186343.03304956722,16,0.5376853825902866,2000,3,4558
+quantile_normal_factors,163251.68879105337,11,0.2764596389906261,2000,3,29979
