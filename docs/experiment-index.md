@@ -1,6 +1,6 @@
 # 实验索引
 
-目前22个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
+目前24个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
 
 素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。
 
@@ -18,8 +18,8 @@
 | B07 | 同期群日留存 | 参考核对通过 | [代码](../labs/cda1_business/b07_cohort/main.py) · [报告](results/B07/report.md) |
 | B08 | 转化漏斗 | 参考核对通过 | [代码](../labs/cda1_business/b08_funnel/main.py) · [报告](results/B08/report.md) |
 | B09 | 相关分析 | 参考核对通过 | [代码](../labs/cda1_business/b09_correlation/main.py) · [报告](results/B09/report.md) |
-| B10 | 六类分析方法 | 待迁移 | — |
-| B11 | 基础零售销售看板 | 待迁移 | — |
+| B10 | 六类分析方法 | 运行通过 | [代码](../labs/cda1_business/b10_methods/main.py) · [报告](results/B10/report.md) |
+| B11 | 基础零售销售看板 | 运行通过 | [代码](../labs/cda1_business/b11_retail/main.py) · [报告](results/B11/report.md) |
 | B12 | 分省销售分析 | 待迁移 | — |
 | B13 | 服装零售经营分析 | 待迁移 | — |
 | B14 | 人力资源分析 | 待迁移 | — |

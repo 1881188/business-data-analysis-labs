@@ -1,0 +1,17 @@
+﻿node,incoming,outgoing,outgoing_minus_incoming,internal,unexplained_gain
+产品页面1,800.0,500.0,-300.0,True,False
+产品页面2,700.0,250.0,-450.0,True,False
+关于我们,900.0,500.0,-400.0,True,False
+博客页面,250.0,270.0,20.0,True,True
+客户反馈,120.0,0.0,-120.0,False,False
+常见问题页面,200.0,0.0,-200.0,False,False
+成功案例,150.0,0.0,-150.0,False,False
+服务条款,120.0,0.0,-120.0,False,False
+服务详情,150.0,0.0,-150.0,False,False
+服务页面1,300.0,150.0,-150.0,True,False
+服务页面2,200.0,0.0,-200.0,False,False
+职业机会页面,100.0,0.0,-100.0,False,False
+联系我们,300.0,100.0,-200.0,True,False
+联系表单,100.0,0.0,-100.0,False,False
+隐私政策,80.0,0.0,-80.0,False,False
+首页,0.0,2700.0,2700.0,False,False

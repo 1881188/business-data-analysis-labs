@@ -13,6 +13,8 @@ def main():
         source=ROOT/"outputs"/lab
         if not source.is_dir():source=ROOT/"docs/results"/lab
         summary=json.loads((source/"summary.json").read_text(encoding="utf-8"))
+        if lab=='B11' and any(value is not None for value in summary.get('selection',{}).values()):
+            raise RuntimeError('B11 publication requires the default full-data run; keep filtered runs in a separate output root')
         for path,digest in summary["implementation_sha256"].items():
             if sha256(ROOT/path)!=digest:raise RuntimeError(f"{lab} results are stale after editing {path}; rerun this lab")
         target=ROOT/"docs/results"/lab

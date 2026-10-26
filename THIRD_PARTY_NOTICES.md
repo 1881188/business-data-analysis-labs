@@ -20,3 +20,5 @@ S07查阅了[fa_kit原项目](https://github.com/bmcmenamin/fa_kit)的主成分�
 S12、S13沿用上述单位主成分方向旋转语义，数值实现仍使用scikit-learn、statsmodels和SciPy，未引入或复制fa_kit代码。S12的树图使用matplotlib导出，不捆绑Graphviz或pydotplus。
 
 B01/B02/B03只读课程工作簿、CSV、课件和PBIX的公开容器元数据；不捆绑教材图像或原始数据，不执行工作簿公式、宏或PBIX专有DataModel引擎。新增实现使用pandas、openpyxl、Python Decimal与SQLite，数值规则和迁移边界见对应实验报告。
+
+B10/B11复用教材数值快照及PBIX配置作迁移核查，公开限聚合结果、公式坐标诊断和新生成图表；逐人/订单输入、原始Office文件、插件代码和二进制模型均不分发。B11离线HTML为新增实现，无第三方前端依赖。聚合枚举依据的微软公开资料链接在实验报告中列明。

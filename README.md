@@ -2,7 +2,9 @@
 
 将四套教材中的 Excel、Power BI 案例迁移为 Python，把 Jupyter Notebook 整理为独立脚本，记录业务问题、指标口径、结果和解释。
 
-当前完成 **22 个实验**：9个Excel/Power BI案例迁移和13个Notebook重构。二级教材13份Notebook均已形成独立可运行实验。10个实验完成报告中明确范围的参考核对，其余12个为运行通过。本批新增关系与维度模型、函数查找与透视、ETL清洗合并；明确记录错行公式、筛选分母和数据粒度，原材料不改写。其他材料按[实验索引](docs/experiment-index.md)继续推进，未完成项目不计入完成数。
+当前完成 **24 个实验单元**，分属两本教材：**一级完成 B01—B11 共11个，计划中的B12—B22共11个仍待迁移；一级整本尚未完成。二级完成 S01—S13 共13份Notebook迁移。** 三级与金融专题尚未完成实验迁移，阅读导出稿不计完成。B编号是仓库实施单元，一个单元可合并多个教材练习，不能与原文件夹数量直接比较。
+
+本批新增B10六类分析方法和B11基础零售看板，含18组数据区域、42个Power BI视觉容器的迁移说明和可离线筛选的HTML看板。10个实验完成报告中明确范围的参考核对，其余14个为运行通过。完整待办见[实验索引](docs/experiment-index.md)。
 
 ![RFM客户分层](docs/results/B05/rfm_segments.png)
 
@@ -19,6 +21,8 @@
 | B07 | 一级：同期群日留存 | [实验入口](labs/cda1_business/b07_cohort/README.md) | [结果与解释](docs/results/B07/report.md) | 243个已观察单元核对，未到期不填零 |
 | B08 | 一级：转化漏斗 | [实验入口](labs/cda1_business/b08_funnel/README.md) | [结果与解释](docs/results/B08/report.md) | 销售示例24项数值核对；另完成两组练习 |
 | B09 | 一级：相关分析与线性趋势 | [实验入口](labs/cda1_business/b09_correlation/README.md) | [结果与解释](docs/results/B09/report.md) | 参考图3项舍入后的系数核对；相关不作因果解释 |
+| B10 | 一级：六类分析方法 | [实验入口](labs/cda1_business/b10_methods/README.md) | [结果与解释](docs/results/B10/report.md) | 18组区域、838个公式有去向；随机快照差异和桑基流量异常单列 |
+| B11 | 一级：基础零售销售看板 | [实验入口](labs/cda1_business/b11_retail/README.md) | [结果与解释](docs/results/B11/report.md) | 6644单，12项分组守恒；[离线交互看板](docs/results/B11/dashboard.html) |
 | S01 | 二级：数据整合和清洗 | [实验入口](labs/cda2_statistics/s01_cleaning/README.md) | [结果与解释](docs/results/S01/report.md) | 12个小节，分块读取、关联、汇总等关键检查通过 |
 | S02 | 二级：Python数据可视化 | [实验入口](labs/cda2_statistics/s02_visualization/README.md) | [结果与解释](docs/results/S02/report.md) | 22个非空代码单元，13幅图，模拟数据明确标注 |
 | S03 | 二级：描述性统计 | [实验入口](labs/cda2_statistics/s03_descriptive/README.md) | [结果与解释](docs/results/S03/report.md) | 12项缓存值核对，包含重复标准差检查；方差另用精确公式复算 |
@@ -48,6 +52,7 @@ python -m venv .venv
 也可以单独运行：
 
 ```powershell
+python run_labs.py --lab B10 B11
 python run_labs.py --lab B01 B02 B03
 python run_labs.py --lab B05
 python run_labs.py --lab B04 B06 B07 B08
@@ -67,7 +72,7 @@ python tools/check_project.py
 
 | 板块 | 整理范围 | 当前进度 |
 |---|---|---|
-| CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B01-B09已运行，B04-B09完成对应范围的参考核对 |
+| CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B01—B11共11个已运行；B12—B22共11个待迁移，一级尚未完成 |
 | CDA 二级：量化策略分析 | 13份Notebook及辅助代码 | S01-S13均已独立运行，覆盖全部13份Notebook |
 | CDA 三级：敏捷数据挖掘 | 29份Notebook及辅助算法 | 待逐项迁移 |
 | 金融数据分析与挖掘案例 | 16份Notebook，含一份代码重复的Vintage检查点 | 待逐项迁移与补齐依赖 |
@@ -88,7 +93,7 @@ tools/                 文档构建、格式导出与项目检查
 outputs/               本地运行产物，不纳入Git
 ```
 
-已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前79项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除及输入数据不变等行为。
+已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前91项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除、日期筛选、零支付、流量不守恒及输入数据不变等行为。
 
 ## 数据、许可与后续
 

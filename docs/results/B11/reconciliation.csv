@@ -1,0 +1,13 @@
+﻿table,measure,expected,actual,difference
+daily,payment_cents,267252689,267252689,0
+daily,quantity,6851,6851,0
+daily,order_count,6644,6644,0
+categories,payment_cents,267252689,267252689,0
+categories,quantity,6851,6851,0
+categories,order_count,6644,6644,0
+cities,payment_cents,267252689,267252689,0
+cities,quantity,6851,6851,0
+cities,order_count,6644,6644,0
+products,payment_cents,267252689,267252689,0
+products,quantity,6851,6851,0
+products,order_count,6644,6644,0

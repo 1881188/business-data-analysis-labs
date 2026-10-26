@@ -66,13 +66,15 @@
     "lab_id": "B10",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "六类分析方法",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b10_methods/main.py"
   },
   {
     "lab_id": "B11",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "基础零售销售看板",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b11_retail/main.py"
   },
   {
     "lab_id": "B12",

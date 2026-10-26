@@ -148,6 +148,66 @@
       "metrics.csv"
     ]
   },
+  "B10": {
+    "module": "analysis_methods",
+    "entry": "labs/cda1_business/b10_methods/main.py",
+    "extra_code": [
+      "src/bda_labs/workbook_reference.py",
+      "src/bda_labs/pbix_audit.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "pbix_visual_map.csv",
+      "formula_checks.csv",
+      "snapshot_summary.csv",
+      "trend.png",
+      "comparison.png",
+      "composition.png",
+      "distribution.png",
+      "relationship.png",
+      "flows.png",
+      "annual.csv",
+      "weekly.csv",
+      "monthly.csv",
+      "products.csv",
+      "long_names.csv",
+      "radar.csv",
+      "mix.csv",
+      "year_mix.csv",
+      "area_mix.csv",
+      "illustration.csv",
+      "edges.csv",
+      "flow_balance.csv",
+      "price_statistics.csv",
+      "age_histogram.csv",
+      "categorical_relationships.csv",
+      "campaign_statistics.csv"
+    ]
+  },
+  "B11": {
+    "module": "retail_dashboard",
+    "entry": "labs/cda1_business/b11_retail/main.py",
+    "extra_code": [
+      "src/bda_labs/workbook_reference.py",
+      "src/bda_labs/pbix_audit.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "pbix_visual_map.csv",
+      "retail_dashboard.png",
+      "dashboard.html",
+      "metrics.csv",
+      "daily.csv",
+      "categories.csv",
+      "cities.csv",
+      "daily_city_category.csv",
+      "reconciliation.csv"
+    ]
+  },
   "S01": {
     "module": "cleaning",
     "entry": "labs/cda2_statistics/s01_cleaning/main.py",

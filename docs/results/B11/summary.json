@@ -1,0 +1,64 @@
+{
+  "lab_id": "B11",
+  "status": "execution_verified",
+  "metrics": {
+    "rows": 6644,
+    "order_count": 6644,
+    "nonnull_order_id_count": 6644,
+    "payment_cents": 267252689,
+    "payment": 2672526.89,
+    "quantity": 6851,
+    "payment_per_order": 402.2466721854305,
+    "zero_payment_rows": 20
+  },
+  "selection": {
+    "start_date": null,
+    "end_date": null,
+    "city": null,
+    "category": null
+  },
+  "source_rows": 6644,
+  "source_unique_orders": 6644,
+  "full_source_payment_cents": 267252689,
+  "workbook_coverage": {
+    "source_sheets": 1,
+    "mapped_sheets": 1
+  },
+  "pbix_visuals": 9,
+  "aggregate_checks": 12,
+  "aggregate_cube_rows": 1015,
+  "public_dashboard_grain": "date x city x category; one row per unique order verified before aggregation",
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/retail_dashboard.py": "d38ed618d62b6648d3e65745436b534c21aee16da8931084fb6a6a2c6708785f",
+    "labs/cda1_business/b11_retail/main.py": "f402c7b977b90a85d9d75c18a994a846484169c18a47d7604483ae7d4173fa95",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed"
+  },
+  "source_files": {
+    "retail_orders": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/零售订单表.xlsx",
+      "sha256": "478eb63e9f2d5378960331559d4296f295694190c7bd85f0537b1f90e877833f",
+      "bytes": 372301
+    },
+    "retail_pbix": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/快速搭建销售看板.pbix",
+      "sha256": "f984c201143445726f57caf2f1306ab47e0478328f2d0d36d28d449f747ac20f",
+      "bytes": 269458
+    }
+  },
+  "verified_at_utc": "2026-10-26T06:32:14.289322+00:00"
+}

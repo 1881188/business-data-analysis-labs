@@ -1,0 +1,128 @@
+{
+  "lab_id": "B10",
+  "status": "execution_verified",
+  "workbook_coverage": {
+    "source_sheets": 13,
+    "mapped_sheets": 13
+  },
+  "exercise_ranges": 18,
+  "source_formula_cells": 838,
+  "formula_cells_covered": 838,
+  "formula_checks": {
+    "recalculated": 60,
+    "saved_random_bounds": 778
+  },
+  "snapshot_cells": 1332,
+  "snapshot_differences": 410,
+  "pbix_visuals": 33,
+  "price_statistics": {
+    "mean": 36.21597633136095,
+    "min": 15.0,
+    "q1": 26.0,
+    "median": 33.0,
+    "q3": 44.75,
+    "max": 94.0,
+    "iqr": 18.75,
+    "upper_fence": 72.875,
+    "lower_fence": -2.125,
+    "outliers": 4
+  },
+  "flow_inconsistencies": [
+    {
+      "node": "博客页面",
+      "incoming": 250.0,
+      "outgoing": 270.0,
+      "outgoing_minus_incoming": 20.0,
+      "internal": true,
+      "unexplained_gain": true
+    }
+  ],
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/analysis_methods.py": "1d9f2ef99f7633b0865e2ba594c4b49f7e9107587e6e92478aca3ad1ef4eefd6",
+    "labs/cda1_business/b10_methods/main.py": "fb679a73915c4b433a625338b205a8c41a477b5df34f450ee52daf69219e837c",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed"
+  },
+  "source_files": {
+    "methods_trend_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-无答案/1趋势分析.xlsx",
+      "sha256": "65719f13f04a540a08163902fcbd903fdb3d4bc5dbd06da9c4301a1e8c83bfce",
+      "bytes": 11826
+    },
+    "methods_trend_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-有答案/1趋势分析-参考.xlsx",
+      "sha256": "910a41337e254be334babf26dab1a1cbda417d18d8a6975f33593dfdf3cb31bf",
+      "bytes": 32151
+    },
+    "methods_comparison_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-无答案/2对比分析.xlsx",
+      "sha256": "47722b726af685acef7be7337107d348e974c466e037cd4c42ec4c2e670f7262",
+      "bytes": 10715
+    },
+    "methods_comparison_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-有答案/2对比分析-参考.xlsx",
+      "sha256": "fdc616d3b1a141c82523e94ac0ccccfd7c39067b5d78e9c493f32fee9ec8dd55",
+      "bytes": 24636
+    },
+    "methods_composition_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-无答案/3构成分析.xlsx",
+      "sha256": "e126fc5bb47e556e75e06bdcba11da62ab597ce54c0c0fa2ba596be815d9e8d8",
+      "bytes": 10536
+    },
+    "methods_composition_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-有答案/4构成分析-参考.xlsx",
+      "sha256": "bedb04d5fd4c3c395be95a37da862b96e4778a50c1550da90d3327a69c544338",
+      "bytes": 33660
+    },
+    "methods_distribution_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-无答案/4分布分析.xlsx",
+      "sha256": "718adb0860a571c0d0866ab1d7b53e9d310038eb9741d8cd7dfa1a8aa1deec81",
+      "bytes": 21516
+    },
+    "methods_distribution_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-有答案/3分布分析-参考.xlsx",
+      "sha256": "1298fd0144a474e7fd6f896d3d7032931f9b2466034ee97babf67cd583a0f24b",
+      "bytes": 33154
+    },
+    "methods_relationship_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-无答案/5关系分析.xlsx",
+      "sha256": "209c7d82a92ffed0277e26bdc801fee1768088a74ce45eabbf470de0fc65869e",
+      "bytes": 16162
+    },
+    "methods_relationship_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-有答案/5关系分析-参考.xlsx",
+      "sha256": "a26feab6cb80ebeb952793eb25cc5ff92da232d5a1b64417632bb3c57ad67ef5",
+      "bytes": 35125
+    },
+    "methods_flow_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-无答案/6桑吉图.xlsx",
+      "sha256": "4b033e2fffdec7feb697fe2f05256ed2e407d446e283b5c64ab7e1e25baed3eb",
+      "bytes": 11001
+    },
+    "methods_pbix08": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-有答案/六类分析方法PowerBI-参考答案08.pbix",
+      "sha256": "eca537c6ed5e02c31767b5130ee17f7802d2d33614ddb54aa29b03efbe94f3c2",
+      "bytes": 651180
+    },
+    "methods_pbix09": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/2、由基础分析范式引申出的分析方法/data-有答案/六类分析方法PowerBI-参考答案09.pbix",
+      "sha256": "d968a1c70141d0a31097aeece09aafa408d5973fde3bc3900c5aa29b13e4c4c4",
+      "bytes": 1164116
+    }
+  },
+  "verified_at_utc": "2026-10-26T06:31:58.625838+00:00"
+}
