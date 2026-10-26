@@ -23,8 +23,13 @@ def main():
             if target and not (path.parent/target).exists():raise AssertionError(f"Broken local link {path}: {target}")
     for lab in PUBLIC:
         summary=json.loads((ROOT/f"docs/results/{lab}/summary.json").read_text(encoding="utf-8"))
-        if lab=='B11' and any(value is not None for value in summary.get('selection',{}).values()):
-            raise AssertionError('Published B11 report must use the default full-data selection')
+        if lab in {'B11','B12'} and any(value is not None for value in summary.get('selection',{}).values()):
+            raise AssertionError(f'Published {lab} report must use the default full-data selection')
+        if lab=='B13':
+            if summary.get('real_case_metrics_published') is not False or {'metrics','diagnostics'} & set(summary):
+                raise AssertionError('Restricted B13 results must remain local')
+            if any(name not in {'report.md','summary.json','workbook-map.md'} and not name.startswith('synthetic_') for name in PUBLIC[lab]):
+                raise AssertionError('Unexpected real-case B13 publication artifact')
         expected_state='参考核对通过' if summary['status']=='reference_verified' else '运行通过'
         if experiments[lab]['status']!=expected_state or experiments[lab]['target_script']!=specs[lab]['entry']:
             raise AssertionError(f'Experiment registry does not match the published result: {lab}')

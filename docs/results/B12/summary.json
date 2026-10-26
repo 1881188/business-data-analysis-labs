@@ -1,0 +1,80 @@
+{
+  "lab_id": "B12",
+  "status": "execution_verified",
+  "selection": {
+    "year": null,
+    "month": null,
+    "province": null,
+    "category": null
+  },
+  "metrics": {
+    "sales_cents": 571650900,
+    "cost_cents": 406040000,
+    "profit_cents": 165610900,
+    "sales": 5716509.0,
+    "cost": 4060400.0,
+    "profit": 1656109.0,
+    "orders": 860,
+    "detail_rows": 2185,
+    "margin": 0.28970635749895607
+  },
+  "source_orders": 860,
+  "source_details": 2185,
+  "missing_employee_orders": 201,
+  "checks": 18,
+  "pbix_visuals": 11,
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/province_sales.py": "deaf15d96d6c874227315b0ac49abce03b357ca393a342abe682e0b0d94e6757",
+    "labs/cda1_business/b12_province/main.py": "ef0630cce580675858137a79d9b3cfa6f37ed54e201f6d1a487728a131ac49c4",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "province_orders": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/订单表.csv",
+      "sha256": "39afd00825ec555f19f42268a37110a5ab14098193cfcbe4e991acb10e1ee7e0",
+      "bytes": 22402
+    },
+    "province_details": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/订单表明细表.csv",
+      "sha256": "efe702c929f133d164e6b4569da922293bfec28d5730eaeb739d300bed8fd94a",
+      "bytes": 42471
+    },
+    "province_products": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/商品表.csv",
+      "sha256": "d309c171f4f4e7a85b8198a9f93e5228bf9492d100ed8976212ac9918ba24314",
+      "bytes": 1083
+    },
+    "province_categories": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/商品类型表.csv",
+      "sha256": "4383c08b0c31e83886ed1ed1ea0474825b857b778787a82810f8717e771bae1c",
+      "bytes": 334
+    },
+    "province_employees": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/雇员表.csv",
+      "sha256": "e77a0884511f69d2875fc14c0528156d6f1b2c91821d40e08ab305a7ae70963f",
+      "bytes": 348
+    },
+    "province_pbix": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/分省销售分析.pbix",
+      "sha256": "a452961c9a4a687df17745126bb03c629d95cf72c59f4f474a52c4cf674703ba",
+      "bytes": 101374
+    }
+  },
+  "verified_at_utc": "2026-10-26T07:24:19.586196+00:00"
+}

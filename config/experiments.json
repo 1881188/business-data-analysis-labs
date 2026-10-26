@@ -80,13 +80,15 @@
     "lab_id": "B12",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "分省销售分析",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b12_province/main.py"
   },
   {
     "lab_id": "B13",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "服装零售经营分析",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b13_apparel/main.py"
   },
   {
     "lab_id": "B14",

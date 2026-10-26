@@ -208,6 +208,49 @@
       "reconciliation.csv"
     ]
   },
+  "B12": {
+    "module": "province_sales",
+    "entry": "labs/cda1_business/b12_province/main.py",
+    "extra_code": [
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/pbix_audit.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "province_dashboard.png",
+      "monthly.csv",
+      "provinces.csv",
+      "categories.csv",
+      "products.csv",
+      "table_profile.csv",
+      "missing_employees.csv",
+      "pbix_visual_map.csv",
+      "pbix_saved_states.csv",
+      "saved_scope_metrics.csv"
+    ]
+  },
+  "B13": {
+    "module": "apparel_analysis",
+    "entry": "labs/cda1_business/b13_apparel/main.py",
+    "extra_code": [
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/pbix_audit.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "synthetic_dashboard.png",
+      "synthetic_targets.png",
+      "synthetic_cohorts.png",
+      "synthetic_metrics.csv",
+      "synthetic_cohorts.csv",
+      "synthetic_targets.csv"
+    ]
+  },
   "S01": {
     "module": "cleaning",
     "entry": "labs/cda2_statistics/s01_cleaning/main.py",

@@ -1,0 +1,87 @@
+{
+  "lab_id": "B13",
+  "status": "execution_verified",
+  "publication_scope": "original implementation and explicitly synthetic outputs only",
+  "real_case_metrics_published": false,
+  "workbook_coverage": {
+    "source_sheets": 30,
+    "mapped_sheets": 30
+  },
+  "source_formula_cells": 0,
+  "formula_cells_covered": 0,
+  "source_duplicate_sha256_match": true,
+  "local_validation": "order reconciliation, dimension integrity and grouped amount conservation passed",
+  "synthetic_metrics": {
+    "paid": 735.0,
+    "listed": 900.0,
+    "discount": 0.8166666666666667,
+    "members": 3,
+    "member_sales": 735.0,
+    "member_average": 245.0,
+    "orders": 6,
+    "order_average": 122.5,
+    "quantity": 7,
+    "unit_average": 105.0,
+    "attachment": 1.1666666666666667,
+    "sales_per_area": 2.45
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/apparel_analysis.py": "4b37bf1638f0ce85ee463961d8e7da5d5337a34d29ab6854eab0ed5463163ff9",
+    "labs/cda1_business/b13_apparel/main.py": "ef66481a8ff0874730d871824dbbe16546aecebb6030ca48defc1a3ddd3da6bb",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "apparel_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/服装零售-原始数据.xlsx",
+      "sha256": "15e8def3f3bf93b74fb67326e9d264ded13462fde9dc281ed137f354e0b828d0",
+      "bytes": 6545588
+    },
+    "apparel_raw_copy": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/案例数据ToS/服装零售-原始数据.xlsx",
+      "sha256": "15e8def3f3bf93b74fb67326e9d264ded13462fde9dc281ed137f354e0b828d0",
+      "bytes": 6545588
+    },
+    "apparel_guide": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/【分析思路完整】零售-服装代理商销售分析.xlsx",
+      "sha256": "09b4165553ec61d193f3f4eb1bac0b0fd0ae659096b400add378404157a90ce3",
+      "bytes": 274063
+    },
+    "apparel_dictionary": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/案例数据ToS/【案例】零售-服装代理商销售分析.xlsx",
+      "sha256": "e3c9420eac6dde90f4a4d1f1253abf1a079e07a51cf1ef1813af1f957223e34c",
+      "bytes": 154769
+    },
+    "apparel_pbix": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/【报表】-服装零售分析.pbix",
+      "sha256": "d076a9efb1376b36ee400c9e1c5e7c4621589d9aefecfdcf6f9aaf978eb0c953",
+      "bytes": 2114479
+    },
+    "apparel_metrics_image": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/1.指标分析.png",
+      "sha256": "297bcd9c032f1c19e51716badbf51ad790bdffb891a73a481327b70a96b25a7d",
+      "bytes": 141383
+    },
+    "apparel_store_image": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/2.店铺详情.png",
+      "sha256": "8928fa653a6192f5a02c4a0a4450e977c15246a104eb0f16780ce3306824ea53",
+      "bytes": 384720
+    }
+  },
+  "verified_at_utc": "2026-10-26T07:29:09.859243+00:00"
+}

@@ -388,5 +388,70 @@
     "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/快速搭建销售看板.pbix",
     "sha256": "f984c201143445726f57caf2f1306ab47e0478328f2d0d36d28d449f747ac20f",
     "bytes": 269458
+  },
+  "province_orders": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/订单表.csv",
+    "sha256": "39afd00825ec555f19f42268a37110a5ab14098193cfcbe4e991acb10e1ee7e0",
+    "bytes": 22402
+  },
+  "province_details": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/订单表明细表.csv",
+    "sha256": "efe702c929f133d164e6b4569da922293bfec28d5730eaeb739d300bed8fd94a",
+    "bytes": 42471
+  },
+  "province_products": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/商品表.csv",
+    "sha256": "d309c171f4f4e7a85b8198a9f93e5228bf9492d100ed8976212ac9918ba24314",
+    "bytes": 1083
+  },
+  "province_categories": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/商品类型表.csv",
+    "sha256": "4383c08b0c31e83886ed1ed1ea0474825b857b778787a82810f8717e771bae1c",
+    "bytes": 334
+  },
+  "province_employees": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/雇员表.csv",
+    "sha256": "e77a0884511f69d2875fc14c0528156d6f1b2c91821d40e08ab305a7ae70963f",
+    "bytes": 348
+  },
+  "province_pbix": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例1/分省销售分析.pbix",
+    "sha256": "a452961c9a4a687df17745126bb03c629d95cf72c59f4f474a52c4cf674703ba",
+    "bytes": 101374
+  },
+  "apparel_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/服装零售-原始数据.xlsx",
+    "sha256": "15e8def3f3bf93b74fb67326e9d264ded13462fde9dc281ed137f354e0b828d0",
+    "bytes": 6545588
+  },
+  "apparel_raw_copy": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/案例数据ToS/服装零售-原始数据.xlsx",
+    "sha256": "15e8def3f3bf93b74fb67326e9d264ded13462fde9dc281ed137f354e0b828d0",
+    "bytes": 6545588
+  },
+  "apparel_guide": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/【分析思路完整】零售-服装代理商销售分析.xlsx",
+    "sha256": "09b4165553ec61d193f3f4eb1bac0b0fd0ae659096b400add378404157a90ce3",
+    "bytes": 274063
+  },
+  "apparel_dictionary": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/案例数据ToS/【案例】零售-服装代理商销售分析.xlsx",
+    "sha256": "e3c9420eac6dde90f4a4d1f1253abf1a079e07a51cf1ef1813af1f957223e34c",
+    "bytes": 154769
+  },
+  "apparel_pbix": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/【报表】-服装零售分析.pbix",
+    "sha256": "d076a9efb1376b36ee400c9e1c5e7c4621589d9aefecfdcf6f9aaf978eb0c953",
+    "bytes": 2114479
+  },
+  "apparel_metrics_image": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/1.指标分析.png",
+    "sha256": "297bcd9c032f1c19e51716badbf51ad790bdffb891a73a481327b70a96b25a7d",
+    "bytes": 141383
+  },
+  "apparel_store_image": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/2.店铺详情.png",
+    "sha256": "8928fa653a6192f5a02c4a0a4450e977c15246a104eb0f16780ce3306824ea53",
+    "bytes": 384720
   }
 }

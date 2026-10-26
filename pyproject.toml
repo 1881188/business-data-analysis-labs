@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "business-data-analysis-labs"
-version = "0.7.0"
+version = "0.8.0"
 description = "Business analysis coursework migrated from Excel, Power BI and Jupyter to Python"
 requires-python = ">=3.11"
 dependencies = [

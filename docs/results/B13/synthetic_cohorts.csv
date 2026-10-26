@@ -1,0 +1,7 @@
+﻿cohort,age_month,cohort_members,repeat_members,repeat_rate,observed,complete_calendar_month
+2024-01,0,2,2.0,1.0,True,False
+2024-01,1,2,1.0,0.5,True,True
+2024-01,2,2,2.0,1.0,True,False
+2024-02,0,1,1.0,1.0,True,True
+2024-02,1,1,0.0,0.0,True,False
+2024-02,2,1,,,False,False

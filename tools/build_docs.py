@@ -13,8 +13,13 @@ def main():
         source=ROOT/"outputs"/lab
         if not source.is_dir():source=ROOT/"docs/results"/lab
         summary=json.loads((source/"summary.json").read_text(encoding="utf-8"))
-        if lab=='B11' and any(value is not None for value in summary.get('selection',{}).values()):
-            raise RuntimeError('B11 publication requires the default full-data run; keep filtered runs in a separate output root')
+        if lab in {'B11','B12'} and any(value is not None for value in summary.get('selection',{}).values()):
+            raise RuntimeError(f'{lab} publication requires the default full-data run; keep filtered runs in a separate output root')
+        if lab=='B13':
+            if summary.get('real_case_metrics_published') is not False or {'metrics','diagnostics'} & set(summary):
+                raise RuntimeError('B13 publication must omit restricted real-case results')
+            if any(name not in {'report.md','summary.json','workbook-map.md'} and not name.startswith('synthetic_') for name in files):
+                raise RuntimeError('B13 publication is limited to methods, provenance and synthetic outputs')
         for path,digest in summary["implementation_sha256"].items():
             if sha256(ROOT/path)!=digest:raise RuntimeError(f"{lab} results are stale after editing {path}; rerun this lab")
         target=ROOT/"docs/results"/lab
