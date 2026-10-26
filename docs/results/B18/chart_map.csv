@@ -1,0 +1,9 @@
+﻿chart,title,category_reference,value_reference,cached_categories,cached_values,category_value_length_equal,numeric_cache_matched,python_destination
+xl/charts/chart1.xml,购买客户的性别分布,准备区!$A$7:$A$9,准备区!$B$7:$B$9,2,2,True,True,marketing_dashboard:客户性别
+xl/charts/chart2.xml,女性消费客户的年龄段分布,准备区!$G$27:$G$31,准备区!$H$27:$H$31,4,4,True,True,age_reference_comparison:错误参考与两性正确年龄段并列
+xl/charts/chart3.xml,50岁以上的女性客户的消费品类分布,准备区!$B$85:$B$93,准备区!$C$85:$C$93,8,8,True,True,marketing_dashboard:女性50岁及以上品类
+xl/charts/chart4.xml,50岁以上女性服饰和护肤品消费人群的支付方式分布,准备区!$B$110:$B$113,准备区!$C$110:$C$113,3,3,True,True,marketing_dashboard:目标子集支付方式
+xl/charts/chart5.xml,购买客户的性别分布,准备区!$A$7:$A$9,准备区!$B$7:$B$9,2,2,True,True,marketing_dashboard:客户性别
+xl/charts/chart6.xml,女性消费客户的年龄段分布,准备区!$G$27:$G$31,准备区!$H$27:$H$31,4,4,True,True,age_reference_comparison:错误参考与两性正确年龄段并列
+xl/charts/chart7.xml,50岁以上的女性客户的消费品类分布,准备区!$B$85:$B$93,准备区!$C$85:$C$93,8,8,True,True,marketing_dashboard:女性50岁及以上品类
+xl/charts/chart8.xml,50岁以上女性服饰和护肤品消费人群的支付方式分布,准备区!$B$110:$B$113,准备区!$C$110:$C$113,3,3,True,True,marketing_dashboard:目标子集支付方式

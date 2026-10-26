@@ -1,0 +1,79 @@
+{
+  "lab_id": "B18",
+  "status": "reference_verified",
+  "customers": 3926,
+  "quantity": 11661,
+  "source_input_equality": true,
+  "scope_counts": [
+    {
+      "scope": "all",
+      "customers": 3926,
+      "quantity": 11661,
+      "share_of_all_customers": 1.0
+    },
+    {
+      "scope": "female",
+      "customers": 2371,
+      "quantity": 7002,
+      "share_of_all_customers": 0.6039225674987264
+    },
+    {
+      "scope": "female_50_plus",
+      "customers": 918,
+      "quantity": 2723,
+      "share_of_all_customers": 0.2338257768721345
+    },
+    {
+      "scope": "female_50_plus_clothing_cosmetics",
+      "customers": 445,
+      "quantity": 1351,
+      "share_of_all_customers": 0.11334691798267957
+    }
+  ],
+  "source_formula_cells": 3978,
+  "formula_cells_covered": 3978,
+  "formula_cache_matches": 3978,
+  "wrong_preparation_references": 52,
+  "wrong_preparation_age_labels": 8,
+  "numeric_reference_checks": 125,
+  "chart_numeric_checks": 34,
+  "charts": 8,
+  "workbook_coverage": {
+    "source_sheets": 5,
+    "mapped_sheets": 5
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/marketing_audience.py": "bfe29736f7b8bbe03823f9e393a8a4e56191cc242dab7a40c4018228d0ce3504",
+    "labs/cda1_business/b18_marketing/main.py": "b5cfb1670eeea79d21bcc2770807327dcdda378f3c7adbb91fd8d002fe420849",
+    "src/bda_labs/case_workbooks.py": "8197e546cb5e9de192c781a0d319b366cc708452871cf6b422127545694b4a71",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "marketing_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第3章 商业数据分析框架/案例3：电商平台的精准营销/案例3：电商平台的精准营销-原始数据.xlsx",
+      "sha256": "9616c92e83ba548450296961df451e474ce028c7e928ff8c482f685dc90fef39",
+      "bytes": 175800
+    },
+    "marketing_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第3章 商业数据分析框架/案例3：电商平台的精准营销/案例3：电商平台的精准营销-完整案例.xlsx",
+      "sha256": "558c1edc57d3525b686d57742ede5f20a88a2e1483c0033b45eaa6acd10334ba",
+      "bytes": 542573
+    }
+  },
+  "verified_at_utc": "2026-10-26T10:44:28.381792+00:00"
+}

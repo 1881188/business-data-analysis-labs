@@ -1,0 +1,126 @@
+﻿scope,cell,saved,python,formula,numeric_compared,matched
+gender,B7,2371,2371,,True,True
+gender,B8,1555,1555,,True,True
+gender total,B9,3926,3926,,True,True
+female exact age,B23,42,42,,True,True
+male counts under female heading,E23,32,32,,True,True
+female exact age,B24,49,49,,True,True
+male counts under female heading,E24,26,26,,True,True
+female exact age,B25,38,38,,True,True
+male counts under female heading,E25,30,30,,True,True
+female exact age,B26,38,38,,True,True
+male counts under female heading,E26,35,35,,True,True
+female exact age,B27,46,46,,True,True
+male counts under female heading,E27,40,40,,True,True
+female exact age,B28,39,39,,True,True
+male counts under female heading,E28,41,41,,True,True
+female exact age,B29,48,48,,True,True
+male counts under female heading,E29,32,32,,True,True
+female exact age,B30,40,40,,True,True
+male counts under female heading,E30,34,34,,True,True
+female exact age,B31,56,56,,True,True
+male counts under female heading,E31,26,26,,True,True
+female exact age,B32,52,52,,True,True
+male counts under female heading,E32,27,27,,True,True
+female exact age,B33,46,46,,True,True
+male counts under female heading,E33,31,31,,True,True
+female exact age,B34,51,51,,True,True
+male counts under female heading,E34,33,33,,True,True
+female exact age,B35,33,33,,True,True
+male counts under female heading,E35,33,33,,True,True
+female exact age,B36,43,43,,True,True
+male counts under female heading,E36,37,37,,True,True
+female exact age,B37,50,50,,True,True
+male counts under female heading,E37,30,30,,True,True
+female exact age,B38,47,47,,True,True
+male counts under female heading,E38,24,24,,True,True
+female exact age,B39,41,41,,True,True
+male counts under female heading,E39,31,31,,True,True
+female exact age,B40,41,41,,True,True
+male counts under female heading,E40,29,29,,True,True
+female exact age,B41,43,43,,True,True
+male counts under female heading,E41,29,29,,True,True
+female exact age,B42,56,56,,True,True
+male counts under female heading,E42,36,36,,True,True
+female exact age,B43,39,39,,True,True
+male counts under female heading,E43,34,34,,True,True
+female exact age,B44,38,38,,True,True
+male counts under female heading,E44,29,29,,True,True
+female exact age,B45,48,48,,True,True
+male counts under female heading,E45,33,33,,True,True
+female exact age,B46,45,45,,True,True
+male counts under female heading,E46,35,35,,True,True
+female exact age,B47,43,43,,True,True
+male counts under female heading,E47,21,21,,True,True
+female exact age,B48,50,50,,True,True
+male counts under female heading,E48,29,29,,True,True
+female exact age,B49,54,54,,True,True
+male counts under female heading,E49,38,38,,True,True
+female exact age,B50,43,43,,True,True
+male counts under female heading,E50,21,21,,True,True
+female exact age,B51,42,42,,True,True
+male counts under female heading,E51,25,25,,True,True
+female exact age,B52,57,57,,True,True
+male counts under female heading,E52,36,36,,True,True
+female exact age,B53,48,48,,True,True
+male counts under female heading,E53,36,36,,True,True
+female exact age,B54,47,47,,True,True
+male counts under female heading,E54,24,24,,True,True
+female exact age,B55,48,48,,True,True
+male counts under female heading,E55,29,29,,True,True
+female exact age,B56,49,49,,True,True
+male counts under female heading,E56,22,22,,True,True
+female exact age,B57,52,52,,True,True
+male counts under female heading,E57,25,25,,True,True
+female exact age,B58,36,36,,True,True
+male counts under female heading,E58,24,24,,True,True
+female exact age,B59,43,43,,True,True
+male counts under female heading,E59,25,25,,True,True
+female exact age,B60,37,37,,True,True
+male counts under female heading,E60,25,25,,True,True
+female exact age,B61,47,47,,True,True
+male counts under female heading,E61,35,35,,True,True
+female exact age,B62,51,51,,True,True
+male counts under female heading,E62,27,27,,True,True
+female exact age,B63,47,47,,True,True
+male counts under female heading,E63,27,27,,True,True
+female exact age,B64,45,45,,True,True
+male counts under female heading,E64,31,31,,True,True
+female exact age,B65,53,53,,True,True
+male counts under female heading,E65,24,24,,True,True
+female exact age,B66,48,48,,True,True
+male counts under female heading,E66,24,24,,True,True
+female exact age,B67,51,51,,True,True
+male counts under female heading,E67,32,32,,True,True
+female exact age,B68,49,49,,True,True
+male counts under female heading,E68,38,38,,True,True
+female exact age,B69,52,52,,True,True
+male counts under female heading,E69,34,34,,True,True
+female exact age,B70,37,37,,True,True
+male counts under female heading,E70,23,23,,True,True
+female exact age,B71,42,42,,True,True
+male counts under female heading,E71,33,33,,True,True
+female exact age,B72,46,46,,True,True
+male counts under female heading,E72,30,30,,True,True
+female exact age,B73,46,46,,True,True
+male counts under female heading,E73,23,23,,True,True
+female exact age,B74,39,39,,True,True
+male counts under female heading,E74,27,27,,True,True
+wrong-reference grouped male count,H27,265,265,,True,True
+wrong-reference grouped male count,H28,313,313,,True,True
+wrong-reference grouped male count,H29,412,412,,True,True
+wrong-reference grouped male count,H30,565,565,,True,True
+wrong-reference male total,H31,1555,1555,,True,True
+female 50+ category,C85,57,57,,True,True
+female 50+ category,C86,310,310,,True,True
+female 50+ category,C87,135,135,,True,True
+female 50+ category,C88,144,144,,True,True
+female 50+ category,C89,99,99,,True,True
+female 50+ category,C90,35,35,,True,True
+female 50+ category,C91,42,42,,True,True
+female 50+ category,C92,96,96,,True,True
+female 50+ total,C93,918,918,,True,True
+selected category payment,C110,150,150,,True,True
+selected category payment,C111,201,201,,True,True
+selected category payment,C112,94,94,,True,True
+selected payment total,C113,445,445,,True,True

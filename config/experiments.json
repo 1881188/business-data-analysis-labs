@@ -122,13 +122,15 @@
     "lab_id": "B18",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "电商精准营销",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda1_business/b18_marketing/main.py"
   },
   {
     "lab_id": "B19",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "银行产品业务看板",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b19_bank_products/main.py"
   },
   {
     "lab_id": "B20",

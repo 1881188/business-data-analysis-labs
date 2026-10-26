@@ -341,6 +341,59 @@
       "admin_comparison.png"
     ]
   },
+  "B18": {
+    "module": "marketing_audience",
+    "entry": "labs/cda1_business/b18_marketing/main.py",
+    "extra_code": [
+      "src/bda_labs/case_workbooks.py",
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "gender_counts.csv",
+      "gender_age_bands.csv",
+      "older_female_categories.csv",
+      "target_payment.csv",
+      "scope_counts.csv",
+      "formula_audit.csv",
+      "prepare_formula_issues.csv",
+      "reference_counts.csv",
+      "chart_map.csv",
+      "marketing_dashboard.png",
+      "age_reference_comparison.png"
+    ]
+  },
+  "B19": {
+    "module": "bank_products",
+    "entry": "labs/cda1_business/b19_bank_products/main.py",
+    "extra_code": [
+      "src/bda_labs/case_workbooks.py",
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py",
+      "src/bda_labs/pbix_audit.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "pbix_visual_map.csv",
+      "product_profile.csv",
+      "product_risk.csv",
+      "segment_income.csv",
+      "segment_age_band.csv",
+      "segment_education.csv",
+      "segment_gender.csv",
+      "reason_counts.csv",
+      "purpose_counts.csv",
+      "saved_path.csv",
+      "bank_dashboard.png",
+      "bank_demographics.png",
+      "bank_reasons.png"
+    ]
+  },
   "S01": {
     "module": "cleaning",
     "entry": "labs/cda2_statistics/s01_cleaning/main.py",

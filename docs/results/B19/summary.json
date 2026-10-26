@@ -1,0 +1,90 @@
+{
+  "lab_id": "B19",
+  "status": "execution_verified",
+  "selection": {
+    "income": null,
+    "age_band": null,
+    "education": null,
+    "gender": null,
+    "category_code": null,
+    "risk_code": null,
+    "saved_path": null
+  },
+  "source_records": 440,
+  "selected_records": 440,
+  "whole_snapshot_progress": {
+    "amount": 23584352.0,
+    "monthly_target": 25000000.0,
+    "elapsed_days": 29,
+    "month_days": 31,
+    "full_month_attainment": 0.94337408,
+    "elapsed_time_fraction": 0.9354838709677419,
+    "time_prorated_target": 23387096.774193548,
+    "attainment_vs_time_prorated_target": 1.0084343613793103,
+    "remaining_days": 2,
+    "remaining_monthly_gap": 1415648.0,
+    "required_daily_amount_remaining": 707824.0
+  },
+  "selected_amount_against_institution_target": {
+    "amount": 23584352.0,
+    "monthly_target": 25000000.0,
+    "elapsed_days": 29,
+    "month_days": 31,
+    "full_month_attainment": 0.94337408,
+    "elapsed_time_fraction": 0.9354838709677419,
+    "time_prorated_target": 23387096.774193548,
+    "attainment_vs_time_prorated_target": 1.0084343613793103,
+    "remaining_days": 2,
+    "remaining_monthly_gap": 1415648.0,
+    "required_daily_amount_remaining": 707824.0
+  },
+  "saved_expansion_path": {
+    "income": "10万-20万",
+    "age_band": "31-40岁",
+    "education": "大学本科"
+  },
+  "sql_numeric_checks": 40,
+  "conservation_tables": 8,
+  "negative_yield_records": 42,
+  "exact_duplicate_source_rows": 0,
+  "pbix_visuals": 6,
+  "workbook_coverage": {
+    "source_sheets": 5,
+    "mapped_sheets": 5
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/bank_products.py": "50ab4a32a6141dd452a5dac02fec28b95a36c83e7863769cbe5262051c1808d7",
+    "labs/cda1_business/b19_bank_products/main.py": "c9aeef1507bd55e750907608a06befe4254c80ab97d9ade7f27528472440f9bf",
+    "src/bda_labs/case_workbooks.py": "8197e546cb5e9de192c781a0d319b366cc708452871cf6b422127545694b4a71",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed"
+  },
+  "source_files": {
+    "bank_products_data": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章  PowerBI业务看板案例-银行案例/银行案例数据 - 学员用.xlsx",
+      "sha256": "2935bb695c72d29127e2c87c871eb9960e958e7fd4360dca3e2e9d53c32cf009",
+      "bytes": 41457
+    },
+    "bank_products_pbix": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章  PowerBI业务看板案例-银行案例/案例结果.pbix",
+      "sha256": "63dd014a77c5e2b2171982bfd6e809780ce53e773087b9e08b863c09fb95dc2c",
+      "bytes": 196096
+    }
+  },
+  "verified_at_utc": "2026-10-26T10:41:32.584756+00:00"
+}

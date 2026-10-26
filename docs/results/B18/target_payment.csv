@@ -1,0 +1,4 @@
+﻿payment,customers,quantity,customer_share_in_scope
+Alipay,150,443,0.33707865168539325
+Card,201,609,0.451685393258427
+WeChat Pay,94,299,0.21123595505617979
