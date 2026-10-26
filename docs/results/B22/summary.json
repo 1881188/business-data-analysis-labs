@@ -1,0 +1,80 @@
+{
+  "lab_id": "B22",
+  "status": "execution_verified",
+  "series_observations": {
+    "air_monthly": 144,
+    "credit_with_holiday": 31,
+    "credit_without_holiday": 31
+  },
+  "fixed_holdout_models": 9,
+  "source_numeric_checks": 1070,
+  "wps_future_comparison_points": 31,
+  "chart_numeric_checks": 206,
+  "decomposition_reconstruction_checks": 3,
+  "pbix_visuals": 2,
+  "workbook_coverage": {
+    "source_sheets": 7,
+    "mapped_sheets": 7
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/effect_forecasting.py": "c2fabb34976069fe46bf2a423f319fcb845d00e089106d8278ff395257b44ce9",
+    "labs/cda1_business/b22_forecasting/main.py": "21388fead1106b44225d9950575ab9f265e09176651aca69b6121b2cc266b0d6",
+    "src/bda_labs/case_workbooks.py": "8197e546cb5e9de192c781a0d319b366cc708452871cf6b422127545694b4a71",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6",
+    "src/bda_labs/closure_tools.py": "44b824e926de8dec443f7b1cba1872aa46d6fd4b0caf72989102c5e75f9e5e8d",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed"
+  },
+  "source_files": {
+    "air_csv": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/AirPassengers.csv",
+      "sha256": "6a032411a7b014a96b6bb42244a3b16cfe0dd575995e3e326ebb01ed86983ce5",
+      "bytes": 3784
+    },
+    "air_excel": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/AirPassengers.xlsx",
+      "sha256": "9d66fa863313de328b212dac0b417bd779fbd63c5a492e4fad8371052655c8aa",
+      "bytes": 17500
+    },
+    "air_wps": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/AIR_WPS自带AI功能做时间序列预测.xlsx",
+      "sha256": "92a0831209412bd5bec2fe47eb2fb4ff74c061fbdee91be9ffd6f85a6c9dc5a4",
+      "bytes": 21768
+    },
+    "credit_holiday": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/信用卡消费额_含节日.xlsx",
+      "sha256": "270119dff94fd95b1456bf197113fd9255f4ec717c1b2f17e64c8a1a4c26fcca",
+      "bytes": 11041
+    },
+    "credit_no_holiday": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/信用卡消费额_去除节日.xlsx",
+      "sha256": "805d411e95006e44a05abf9494549d3196787f3ce4734657277e3adb69851bfd",
+      "bytes": 10610
+    },
+    "credit_wps": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/信用卡消费额_WPS自带AI功能做时间序列预测.xlsx",
+      "sha256": "0f9d552f5d4ffdd822f5734a278d0f0813a433501d9690db4b9435af358abf4a",
+      "bytes": 207237
+    },
+    "decomposition_pbix": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/效应分解法.pbix",
+      "sha256": "93b868909908fec645e3e4d477bd7af9be1b693db2a8ee5b7220078af9f01339",
+      "bytes": 75310
+    }
+  },
+  "verified_at_utc": "2026-10-26T11:37:39.358350+00:00"
+}

@@ -136,19 +136,22 @@
     "lab_id": "B20",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "银行申请渠道归因",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda1_business/b20_channels/main.py"
   },
   {
     "lab_id": "B21",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "SQL与客户画像",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b21_profiles/main.py"
   },
   {
     "lab_id": "B22",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "效应分解与预测",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b22_forecasting/main.py"
   },
   {
     "lab_id": "S01",

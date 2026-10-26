@@ -2,9 +2,9 @@
 
 将四套教材中的 Excel、Power BI 案例迁移为 Python，把 Jupyter Notebook 整理为独立脚本，记录业务问题、指标口径、结果和解释。
 
-当前完成 **32 个实验单元**，分属两本教材：**一级完成 B01—B19 共19个，计划中的B20—B22共3个仍待迁移；一级整本尚未完成。二级完成 S01—S13 共13份Notebook迁移。** 三级与金融专题尚未完成实验迁移，阅读导出稿不计完成。B编号是仓库实施单元，一个单元可合并多个教材练习，不能与原文件夹数量直接比较。
+当前完成 **35 个实验单元**，分属两本教材：**一级规划的 B01—B22 共22个迁移单元已全部实现并运行；二级 S01—S13 共13份Notebook迁移完成。** 三级与金融专题尚未完成实验迁移，阅读导出稿不计完成。B编号是仓库实施单元，一个单元可合并多个教材练习，不能与原文件夹数量直接比较。
 
-本批新增B18电商精准营销和B19银行产品购买看板。B18核对3978个公式缓存，纠正女性图混入男性人数及错行年龄分组；B19区分购买记录/客户、整月目标/时间进度目标和筛选贡献。客户ID、逐人记录及银行四级组合明细只留本地。13个实验完成报告中明确范围的参考核对，其余19个为运行通过。B13受源资料传播限制，GitHub继续仅发布新增代码、方法与合成示例，真实结果保留本地。完整待办见[实验索引](docs/experiment-index.md)。
+本批完成B20渠道增减分解、B21 SQL与信用卡时点画像、B22效应分解及预测，一级22/22个规划单元收尾。[一级完成范围与限制](docs/level1-completion.md)列明62份Excel和11份案例PBIX的去向，参考模板和插件不计为额外实验。客户ID、逐人记录及历史特征只留本地。14个实验完成报告中明确范围的参考核对，其余21个为运行通过。B13受源资料传播限制，GitHub继续仅发布新增代码、方法与合成示例，真实结果保留本地。完整待办见[实验索引](docs/experiment-index.md)。
 
 ![RFM客户分层](docs/results/B05/rfm_segments.png)
 
@@ -31,6 +31,9 @@
 | B17 | 一级：财务期间费用分解 | [实验入口](labs/cda1_business/b17_expenses/README.md) | [两版对照与对账](docs/results/B17/report.md) | 两版独立分析，11个公式复算；完整版未解释差额不强行归因 |
 | B18 | 一级：电商精准营销 | [实验入口](labs/cda1_business/b18_marketing/README.md) | [客群与参考纠错](docs/results/B18/report.md) | 3926个唯一客户，3978个公式核对；52处错行、8处标签差异，旧图混入男性人数 |
 | B19 | 一级：银行产品购买看板 | [实验入口](labs/cda1_business/b19_bank_products/README.md) | [目标与筛选口径](docs/results/B19/report.md) | 440条购买记录；40项SQL核对、6个PBIX容器迁移，隐藏DAX未解码 |
+| B20 | 一级：银行申请渠道归因 | [实验入口](labs/cda1_business/b20_channels/README.md) | [贡献与总计纠错](docs/results/B20/report.md) | 1597笔申请，3195个公式及98项数字缓存；贡献分解不作因果结论 |
+| B21 | 一级：SQL与信用卡画像 | [实验入口](labs/cda1_business/b21_profiles/README.md) | [历史窗口与SQL](docs/results/B21/report.md) | SQL1—9、19组查询与11596项逐卡核对，180/365窗口分别保留 |
+| B22 | 一级：效应分解与预测 | [实验入口](labs/cda1_business/b22_forecasting/README.md) | [时间留出与预测](docs/results/B22/report.md) | 三条序列、九组留出评价，WPS预测只作未知算法快照对照 |
 | S01 | 二级：数据整合和清洗 | [实验入口](labs/cda2_statistics/s01_cleaning/README.md) | [结果与解释](docs/results/S01/report.md) | 12个小节，分块读取、关联、汇总等关键检查通过 |
 | S02 | 二级：Python数据可视化 | [实验入口](labs/cda2_statistics/s02_visualization/README.md) | [结果与解释](docs/results/S02/report.md) | 22个非空代码单元，13幅图，模拟数据明确标注 |
 | S03 | 二级：描述性统计 | [实验入口](labs/cda2_statistics/s03_descriptive/README.md) | [结果与解释](docs/results/S03/report.md) | 12项缓存值核对，包含重复标准差检查；方差另用精确公式复算 |
@@ -60,6 +63,7 @@ python -m venv .venv
 也可以单独运行：
 
 ```powershell
+python run_labs.py --lab B20 B21 B22
 python run_labs.py --lab B18 B19
 python run_labs.py --lab B16 B17
 python run_labs.py --lab B14 B15
@@ -84,7 +88,7 @@ python tools/check_project.py
 
 | 板块 | 整理范围 | 当前进度 |
 |---|---|---|
-| CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B01—B19共19个已运行；B20—B22共3个待迁移，一级尚未完成 |
+| CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B01—B22共22个规划单元全部运行；专有引擎、参考模板及数据限制见完成说明 |
 | CDA 二级：量化策略分析 | 13份Notebook及辅助代码 | S01-S13均已独立运行，覆盖全部13份Notebook |
 | CDA 三级：敏捷数据挖掘 | 29份Notebook及辅助算法 | 待逐项迁移 |
 | 金融数据分析与挖掘案例 | 16份Notebook，含一份代码重复的Vintage检查点 | 待逐项迁移与补齐依赖 |
@@ -105,7 +109,7 @@ tools/                 文档构建、格式导出与项目检查
 outputs/               本地运行产物，不纳入Git
 ```
 
-已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前165项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除、日期筛选、零支付、流量不守恒及输入数据不变等行为。
+已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前192项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除、日期筛选、零支付、流量不守恒及输入数据不变等行为。
 
 ## 数据、许可与后续
 

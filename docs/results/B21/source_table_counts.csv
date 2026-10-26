@@ -1,0 +1,14 @@
+﻿table,records,grain
+accounts,4500,account_id
+clients,5369,client_id
+disp,5369,disp_id
+card,892,card_id
+loans,682,loan_id
+order,6471,order_id
+district,77,A1
+sale,12,teaching row
+table1,3,teaching row
+table2,2,teaching row
+one,7,teaching row
+two,5,teaching row
+trans,1056320,trans_id

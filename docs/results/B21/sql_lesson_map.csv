@@ -1,0 +1,10 @@
+﻿source_section,portable_examples,boundary
+SQL1,本地SQLite内存库、13张输入表清单与列类型,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL2,select_columns; distinct_years; filter_2012; sort_year,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL3,ratio_filter,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL4,date_and_case,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL5,group_having,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL6,join_cross; join_inner; join_left; join_right; join_outer; non_equi_calendar_join,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL7,in_subquery; correlated_exists,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL8,union_all; union_distinct,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句
+SQL9,create_table_as; create_view,新建临时表/视图仅在内存库；不执行原服务器建库、导入或文件路径语句

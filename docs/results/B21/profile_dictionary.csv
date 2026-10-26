@@ -1,0 +1,11 @@
+﻿field,grain,definition,missing_rule
+age_at_issue,card_id at issued,发卡日已满周岁，另保留DATEDIFF/365兼容值,出生/发卡缺失报错
+last_days,card_id at issued,所有发卡日之前交易中最近日期间隔,无历史保持未知
+last_day_balance_mean_cents,card_id at issued,同一最近交易日的余额均值，不冒充日终,同日多笔保留数量/最小/最大；无历史未知
+w180_records,card_id at issued,0<发卡日−交易日<180的交易笔数,完整输入下无匹配为0
+w365_records,card_id at issued,0<发卡日−交易日<365的交易笔数,完整输入下无匹配为0
+debit/credit_cents,card_id at issued,各窗口内原借/原贷标签的金额和,无匹配为0，不擅自重命名流入流出
+transaction_weighted_balance,card_id at issued,窗口内交易行余额均值，不是平均每日资产,无匹配未知
+credit_over_debit,card_id at issued,原贷金额/原借金额；用于复核源SQL所谓出入比,分母0未知
+credit_over_transaction_mean_balance,card_id at issued,原贷金额/交易行加权平均余额,分母0未知
+unavailable_tags,card_id at issued,职业、婚姻、收入、APP行为等模板字段缺上游数据,不造标签、不生成虚构典型个人

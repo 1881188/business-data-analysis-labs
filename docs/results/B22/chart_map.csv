@@ -1,0 +1,5 @@
+﻿chart,series,value_reference,range_positions,cached_numeric_points,sparse_positions,cached_values_match_cells,python_destination,source
+xl/charts/chart1.xml,1,Sheet3!$B$2:$B$169,168,144,24,True,历史与保存预测分列，稀疏点索引保持；未知WPS算法不冒充复现,air_wps
+xl/charts/chart1.xml,2,Sheet3!$C$2:$C$169,168,24,144,True,历史与保存预测分列，稀疏点索引保持；未知WPS算法不冒充复现,air_wps
+xl/charts/chart1.xml,1,Sheet2!$B$2:$B$39,38,31,7,True,历史与保存预测分列，稀疏点索引保持；未知WPS算法不冒充复现,credit_wps
+xl/charts/chart1.xml,2,Sheet2!$C$2:$C$39,38,7,31,True,历史与保存预测分列，稀疏点索引保持；未知WPS算法不冒充复现,credit_wps

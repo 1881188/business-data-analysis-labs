@@ -1,0 +1,54 @@
+{
+  "lab_id": "B20",
+  "status": "reference_verified",
+  "applications": 1597,
+  "source_duplicates_match": true,
+  "source_formula_cells": 3195,
+  "formula_cells_covered": 3195,
+  "numeric_reference_checks": 98,
+  "chart_numeric_checks": 34,
+  "workbook_coverage": {
+    "source_sheets": 4,
+    "mapped_sheets": 4
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/channel_attribution.py": "671aebe1dd6206124daac7fcaf254391bc67ebd4c1d24e17dd2e702d6ac5d3ff",
+    "labs/cda1_business/b20_channels/main.py": "db6751f4b7e91a83b7bbe86d0a318e5f2b1d354e6ddf3ce917546273716818f3",
+    "src/bda_labs/case_workbooks.py": "8197e546cb5e9de192c781a0d319b366cc708452871cf6b422127545694b4a71",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6",
+    "src/bda_labs/closure_tools.py": "44b824e926de8dec443f7b1cba1872aa46d6fd4b0caf72989102c5e75f9e5e8d"
+  },
+  "source_files": {
+    "applications_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章 WPS归因分析案例-银行案例/归因分析数据.xlsx",
+      "sha256": "a564d12431e289387411fed5b7b37de71aafdc07e6d226d49eee59b620cd8554",
+      "bytes": 52083
+    },
+    "applications_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章 WPS归因分析案例-银行案例/归因分析 - 结果.xlsx",
+      "sha256": "7fe164198bb3f4d50a1424a5f8efef296ea603e621b2a7b7ec8e46a439f08f50",
+      "bytes": 191764
+    },
+    "applications_report": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章 WPS归因分析案例-银行案例/2021年5月贷款申请情况月度分析报告.docx",
+      "sha256": "555ac14c6187cbf926be10bd02ca3ca157ad8719a9073d714b4239c3c8de0cc9",
+      "bytes": 413784
+    }
+  },
+  "verified_at_utc": "2026-10-26T11:19:59.940527+00:00"
+}

@@ -10,7 +10,7 @@ course-materials/
 └── 4《金融数据分析和数据挖掘案例实战》/
 ```
 
-当前32个实验使用[输入清单](../config/datasets.json)中的104条文件路径：52份Excel、26份CSV、11份Notebook、3份PPTX、10份PBIX与2份PNG。清单给出准确相对路径、文件字节数和SHA-256。Notebook用于读取教学说明、单元格范围和已保存的参考输出，不执行原单元格。原始与参考文件必须分别保留，不能互相覆盖。
+当前35个实验使用[输入清单](../config/datasets.json)中的136条文件路径：64份Excel、40份CSV、11份Notebook、5份PPTX、11份PBIX、2份PNG、2份SQL与1份DOCX。清单给出准确相对路径、文件字节数和SHA-256。Notebook用于读取教学说明、单元格范围和已保存的参考输出，不执行原单元格。原始与参考文件必须分别保留，不能互相覆盖。
 
 以下三种指定方式按优先级使用：
 
@@ -43,6 +43,9 @@ course-materials/
 | B17 | 原始/完整各3张输入表，总额2行、期间项6行、管理项16行 | 两版10处金额不同；分层残差不覆盖总额，右侧透视不重复计量 |
 | B18 | 3926个唯一客户、性别/年龄/品类/件数/支付方式、2023年1月快照 | 人数不等于件数；没有金额/未购买访客，错误年龄参考图独立核查 |
 | B19 | 440条购买记录、风险/产品/学历3维度及目标业务文字 | 无客户ID/日期，期限单位未知；机构目标不随局部筛选分摊，四级组合仅本地 |
+| B20 | 1597个唯一申请，两份Excel及月报 | 两个参考副本不重复计入；月份与贡献、总计错误单列 |
+| B21 | 第9章8实体及5个无表头教学CSV、2份SQL、2课件和5份模板 | 发卡前历史；不执行源服务器导入；逐卡数据不公开，无事实的模板字段不伪造 |
+| B22 | AIR CSV/Excel/WPS与两份信用卡序列、信用卡WPS及PBIX | 三序列单独分解/回测；未来与WPS预测不是已观察真实值 |
 | S01 | sample.csv：id/name/scores；big.csv：ID/CNT_TBM/CNT_ATM/CNT_POS | 文件只读；其余小表和随机数是明确标注的教学演示 |
 | S02 | 2017年15个交易日的OHLC；其余为模拟/示意数据 | 日期排序，保留原数值，13幅图，无界面运行 |
 | S03 | 16,210条房源记录；AREA/price | ddof=1样本方差，线性插值分位数，明确单位缺失 |
@@ -68,3 +71,5 @@ B13发布范围单独收紧：`local_*.png`、`private_summary.json`、参考截
 B14/B15的`employees_private.csv`、`students_private.csv`、`ranking_private.csv`只保存在本地；公开允许列表不含姓名、工号、学号、生日或逐人成绩。筛选运行请用单独输出目录，构建工具拒绝筛选结果覆盖默认公开报告。
 
 B18/B19的`audience_private.csv`、`age_formula_checks_private.csv`、`purchases_private.csv`、`decomposition_private.csv`不公开。B19筛选运行另用输出目录，构建工具拒绝其覆盖默认全量报告。WordCloud插件不执行、不捆绑。
+
+B20的`applications_private.csv`、B21的`card_features_private.csv`仅留本地；公开结果不含申请/卡/客户/账户标识与逐卡历史日期特征。B22只发布已提供的聚合时间序列和新模型输出，保留原尺度、未知预测算法与近似区间说明。

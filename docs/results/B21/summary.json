@@ -1,0 +1,168 @@
+{
+  "lab_id": "B21",
+  "status": "execution_verified",
+  "cards": 892,
+  "distinct_cardholders": 892,
+  "transactions": 1056320,
+  "cards_without_preissue_history": 0,
+  "cards_with_latest_day_ties": 253,
+  "latest_day_join_rows": 1175,
+  "max_w180_records": 69,
+  "windows_differing_cards": 892,
+  "sql_profile_numeric_checks": 11596,
+  "sql_lesson_queries": 19,
+  "sql_lesson_groups": 9,
+  "source_table_counts": {
+    "accounts": 4500,
+    "clients": 5369,
+    "disp": 5369,
+    "card": 892,
+    "loans": 682,
+    "order": 6471,
+    "district": 77,
+    "sale": 12,
+    "table1": 3,
+    "table2": 2,
+    "one": 7,
+    "two": 5,
+    "trans": 1056320
+  },
+  "workbook_coverage": {
+    "source_sheets": 17,
+    "mapped_sheets": 17
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/sql_profiles.py": "cee6b590b1c849e65f3571009729c5b8d611d03a6e2b1b09b0dad6deb76dee88",
+    "labs/cda1_business/b21_profiles/main.py": "7c72efef41de7cfc41531cab7d5a057c21527dbb49048ac147b2d51a947ca712",
+    "src/bda_labs/case_workbooks.py": "8197e546cb5e9de192c781a0d319b366cc708452871cf6b422127545694b4a71",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "sql_basics": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第8章 SQL语言基础与Mysql入门/SQL基础语法.sql",
+      "sha256": "f59e5a1d91f0aefc3465f71c01aad5558bbe79870a01bfbc68dfb6945714a933",
+      "bytes": 7515
+    },
+    "profile_sql": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/信用卡客户画像.sql",
+      "sha256": "e43497ba5aeda6c8fcf2cea9c1052e38c182cb366e8c3b86149cad9886e354c5",
+      "bytes": 5470
+    },
+    "profile_slides": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/信用卡客户画像.pptx",
+      "sha256": "f13072fae70fffcea234a0493be4405f5cfc7bc53b503948fad64df504768cd5",
+      "bytes": 3162144
+    },
+    "metrics_slides": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第7章 指标体系构建方法/指标体系设计课件.pptx",
+      "sha256": "a732fb2175b61e472065aaeb1412c35dca8727dfb6e6162d2e61ae3030dc624e",
+      "bytes": 5746943
+    },
+    "profile_accounts": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/accounts.csv",
+      "sha256": "0b2efe71f7f6e15458da37430cbba1cc318d9ec3d36043320a544a60796066b4",
+      "bytes": 111386
+    },
+    "profile_clients": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/clients.csv",
+      "sha256": "777267f9fd68ee99f6a5fbdf80192c8039630074414c9388b590443295ac56c9",
+      "bytes": 121661
+    },
+    "profile_disp": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/disp.csv",
+      "sha256": "912ed298ceec0686e9bfc76cc1a8c7cbd101d74f63810bb62033680397e94386",
+      "bytes": 119125
+    },
+    "profile_card": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/card.csv",
+      "sha256": "23d5c5389b1cb9c4ced08d27f4ea723b41a99b441db57ec7f5d4a4157ac88f0b",
+      "bytes": 24677
+    },
+    "profile_loans": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/loans.csv",
+      "sha256": "abe38ccd1dabf56b4b273cfbc107f9462571c3625f57e9f8958c91d62896ed33",
+      "bytes": 26341
+    },
+    "profile_order": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/order.csv",
+      "sha256": "484f4587af1b9ead8de458ec475b2fc252819956b8088b2fd8e58f3482dcae15",
+      "bytes": 232385
+    },
+    "profile_district": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/district.csv",
+      "sha256": "b2354e59829f9c8e61e68a77df53f92648416d948d755b9a1002b1a150c83ccf",
+      "bytes": 3815
+    },
+    "profile_trans": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/trans.csv",
+      "sha256": "3454278d2caac56994ec9de3706014059d316db56d4fb0cbc3af9a2f7646830a",
+      "bytes": 62452664
+    },
+    "sql_sale": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/sale.csv",
+      "sha256": "05c8ede1dd67325e1d1b83ed20613954c5f26583b5a832c7875cb2c0bb9b8cdc",
+      "bytes": 240
+    },
+    "sql_table1": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/Table1.csv",
+      "sha256": "9f8e4d061759ab87e24ac863f7c2b8e2aa39de1a9db6c5f9e408a82309bb46fe",
+      "bytes": 15
+    },
+    "sql_table2": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/Table2.csv",
+      "sha256": "85de1a6a1ef916d50543ed2a13d29565f98b6889fa74f3ba25bedc722810908e",
+      "bytes": 10
+    },
+    "sql_one": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/One.csv",
+      "sha256": "06562ed9a14f55545f8c65470b427acf894384c7346e433738463be2c0847caf",
+      "bytes": 35
+    },
+    "sql_two": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/Two.csv",
+      "sha256": "3cae2d153e33d18c9b081d6e11f8aa4ba8f243b3228289543a0a6b078a2abbb8",
+      "bytes": 25
+    },
+    "metric_template": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第7章 指标体系构建方法/1、指标体系设计模板.xlsx",
+      "sha256": "edfe594e52b18e693a898e2688aa934bde309f0ef727f43b1f59ee05238a1c8e",
+      "bytes": 13859
+    },
+    "base_standard_template": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第13章 指标体系管理/1、基础数据标准编制模板.xlsx",
+      "sha256": "471ee4ef224ba9431a505d7ff3c2b69c900d427c6f8c5309729732b08a0625f8",
+      "bytes": 84979
+    },
+    "metric_standard_template": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第13章 指标体系管理/2、指标数据标准编制模板.xlsx",
+      "sha256": "da9a5679afee5f8172ae91475cf0a05905e81c8e63ba83aa791d46847765932b",
+      "bytes": 23479
+    },
+    "marketing_tags": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/标签体系参考/客户运营类标签/营销类标签.xlsx",
+      "sha256": "b714c8fc030bbb3fb419932cda0ffe5153f34fe21ecf47cf752ed2bd8d7bff8a",
+      "bytes": 105082
+    },
+    "antifraud_tags": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/标签体系参考/操作风险类标签/反欺诈特征列表.xlsx",
+      "sha256": "1a335346b3e22cbf4902d7618b62f09ea77f591c936c344c14a01223008d2935",
+      "bytes": 11528
+    }
+  },
+  "verified_at_utc": "2026-10-26T11:51:04.165803+00:00"
+}

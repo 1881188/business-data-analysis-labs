@@ -54,9 +54,12 @@ def main():
     if len([r for r in rows if r['source_file'].endswith('.ipynb')])!=58:raise AssertionError('Incomplete Notebook map')
     forbidden={'customers.csv','test_predictions.csv','split_membership.csv','write.csv',
                'employees_private.csv','students_private.csv','ranking_private.csv',
-               'audience_private.csv','age_formula_checks_private.csv','purchases_private.csv','decomposition_private.csv'}
+               'audience_private.csv','age_formula_checks_private.csv','purchases_private.csv','decomposition_private.csv',
+               'applications_private.csv','card_features_private.csv'}
     for path in (ROOT/'docs/results').rglob('*'):
         if path.name in forbidden:raise AssertionError(f'Private or intermediate output in publication: {path}')
+    from check_level1_coverage import check
+    check(ROOT)
     print(f'PASS: Python syntax, local links, {len(PUBLIC)} result provenance records, 572 source mappings and publication allowlist.')
 
 

@@ -1,0 +1,12 @@
+{
+  "cards": 892,
+  "distinct_cardholders": 892,
+  "transactions": 1056320,
+  "cards_without_preissue_history": 0,
+  "cards_with_latest_day_ties": 253,
+  "latest_day_join_rows": 1175,
+  "max_w180_records": 69,
+  "windows_differing_cards": 892,
+  "sql_profile_numeric_checks": 11596,
+  "sql_lesson_queries": 19
+}

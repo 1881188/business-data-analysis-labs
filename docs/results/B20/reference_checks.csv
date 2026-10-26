@@ -1,0 +1,99 @@
+﻿scope,cell,saved,python,formula,numeric_compared,matched
+monthly count,C16,64.0,64.0,,True,True
+channel monthly,I17,21.0,21.0,,True,True
+channel monthly,J17,37.0,37.0,,True,True
+channel monthly,K17,6.0,6.0,,True,True
+monthly pivot total,L17,64.0,64.0,,True,True
+monthly share,C51,0.328125,0.328125,,True,True
+monthly share,D51,0.578125,0.578125,,True,True
+monthly share,E51,0.09375,0.09375,,True,True
+monthly share total,F51,1.0,1.0,,True,True
+monthly count,C17,208.0,208.0,,True,True
+monthly growth,D17,2.25,2.25,,True,True
+channel monthly,I18,99.0,99.0,,True,True
+channel monthly,J18,95.0,95.0,,True,True
+channel monthly,K18,14.0,14.0,,True,True
+monthly pivot total,L18,208.0,208.0,,True,True
+monthly share,C52,0.475961538461538,0.47596153846153844,,True,True
+monthly share,D52,0.456730769230769,0.4567307692307692,,True,True
+monthly share,E52,0.0673076923076923,0.0673076923076923,,True,True
+monthly share total,F52,1.0,1.0,,True,True
+monthly count,C18,273.0,273.0,,True,True
+monthly growth,D18,0.3125,0.3125,,True,True
+channel monthly,I19,138.0,138.0,,True,True
+channel monthly,J19,118.0,118.0,,True,True
+channel monthly,K19,17.0,17.0,,True,True
+monthly pivot total,L19,273.0,273.0,,True,True
+monthly share,C53,0.505494505494506,0.5054945054945055,,True,True
+monthly share,D53,0.432234432234432,0.43223443223443225,,True,True
+monthly share,E53,0.0622710622710623,0.06227106227106227,,True,True
+monthly share total,F53,1.0,1.0,,True,True
+monthly count,C19,282.0,282.0,,True,True
+monthly growth,D19,0.032967032967033,0.03296703296703297,,True,True
+channel monthly,I20,132.0,132.0,,True,True
+channel monthly,J20,135.0,135.0,,True,True
+channel monthly,K20,15.0,15.0,,True,True
+monthly pivot total,L20,282.0,282.0,,True,True
+monthly share,C54,0.468085106382979,0.46808510638297873,,True,True
+monthly share,D54,0.478723404255319,0.4787234042553192,,True,True
+monthly share,E54,0.0531914893617021,0.05319148936170213,,True,True
+monthly share total,F54,1.0,1.0,,True,True
+monthly count,C20,271.0,271.0,,True,True
+monthly growth,D20,-0.0390070921985816,-0.03900709219858156,,True,True
+channel monthly,I21,142.0,142.0,,True,True
+channel monthly,J21,113.0,113.0,,True,True
+channel monthly,K21,16.0,16.0,,True,True
+monthly pivot total,L21,271.0,271.0,,True,True
+monthly share,C55,0.523985239852399,0.5239852398523985,,True,True
+monthly share,D55,0.416974169741697,0.41697416974169743,,True,True
+monthly share,E55,0.0590405904059041,0.05904059040590406,,True,True
+monthly share total,F55,1.0,1.0,,True,True
+monthly count,C21,269.0,269.0,,True,True
+monthly growth,D21,-0.00738007380073801,-0.007380073800738007,,True,True
+channel monthly,I22,130.0,130.0,,True,True
+channel monthly,J22,122.0,122.0,,True,True
+channel monthly,K22,17.0,17.0,,True,True
+monthly pivot total,L22,269.0,269.0,,True,True
+monthly share,C56,0.483271375464684,0.483271375464684,,True,True
+monthly share,D56,0.453531598513011,0.45353159851301117,,True,True
+monthly share,E56,0.0631970260223048,0.06319702602230483,,True,True
+monthly share total,F56,1.0,1.0,,True,True
+monthly count,C22,230.0,230.0,,True,True
+monthly growth,D22,-0.144981412639405,-0.1449814126394052,,True,True
+channel monthly,I23,107.0,107.0,,True,True
+channel monthly,J23,103.0,103.0,,True,True
+channel monthly,K23,20.0,20.0,,True,True
+monthly pivot total,L23,230.0,230.0,,True,True
+monthly share,C57,0.465217391304348,0.4652173913043478,,True,True
+monthly share,D57,0.447826086956522,0.44782608695652176,,True,True
+monthly share,E57,0.0869565217391304,0.08695652173913043,,True,True
+monthly share total,F57,1.0,1.0,,True,True
+total,C23,1597.0,1597.0,,True,True
+channel total,I24,769.0,769.0,,True,True
+channel total,J24,723.0,723.0,,True,True
+channel total,K24,105.0,105.0,,True,True
+grand total,L24,1597.0,1597.0,,True,True
+bridge total,B44,269.0,269.0,,True,True
+bridge count,C44,17.0,17.0,,True,True
+bridge count,D44,130.0,130.0,,True,True
+bridge count,E44,122.0,122.0,,True,True
+bridge total,B45,230.0,230.0,,True,True
+bridge count,C45,20.0,20.0,,True,True
+bridge count,D45,107.0,107.0,,True,True
+bridge count,E45,103.0,103.0,,True,True
+net change,B46,-39.0,-39.0,,True,True
+saved contribution total,B47,1.0,1.0,,True,True
+channel delta,C46,3.0,3.0,,True,True
+mixed-sign saved convention,C47,0.0769230769230769,0.07692307692307693,,True,True
+channel delta,D46,-23.0,-23.0,,True,True
+mixed-sign saved convention,D47,-0.58974358974359,-0.5897435897435898,=-58.974358974359%,True,True
+channel delta,E46,-19.0,-19.0,,True,True
+mixed-sign saved convention,E47,-0.487179487179487,-0.48717948717948717,,True,True
+signed net contribution,C58,0.58974358974359,0.5897435897435898,,True,True
+saved total includes difference row,C59,0.478818998716303,0.47881899871630296,,True,True
+signed net contribution,D58,0.487179487179487,0.48717948717948717,,True,True
+saved total includes difference row,D59,0.45186136071887,0.45186136071887034,,True,True
+signed net contribution,E58,-0.0769230769230769,-0.07692307692307693,,True,True
+saved total includes difference row,E59,0.0693196405648267,0.0693196405648267,,True,True
+signed net sum,F58,1.0,1.0,,True,True
+saved average share sum,F59,1.0,1.0,,True,True

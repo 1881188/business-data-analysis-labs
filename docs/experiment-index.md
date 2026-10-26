@@ -1,6 +1,6 @@
 # 实验索引
 
-目前32个独立实验已运行，其中13个完成指定参考核对（B04, B05, B06, B07, B08, B09, B16, B17, B18, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
+目前35个独立实验已运行，其中14个完成指定参考核对（B04, B05, B06, B07, B08, B09, B16, B17, B18, B20, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
 
 素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。
 
@@ -28,9 +28,9 @@
 | B17 | 财务费用分解 | 参考核对通过 | [代码](../labs/cda1_business/b17_expenses/main.py) · [报告](results/B17/report.md) |
 | B18 | 电商精准营销 | 参考核对通过 | [代码](../labs/cda1_business/b18_marketing/main.py) · [报告](results/B18/report.md) |
 | B19 | 银行产品业务看板 | 运行通过 | [代码](../labs/cda1_business/b19_bank_products/main.py) · [报告](results/B19/report.md) |
-| B20 | 银行申请渠道归因 | 待迁移 | — |
-| B21 | SQL与客户画像 | 待迁移 | — |
-| B22 | 效应分解与预测 | 待迁移 | — |
+| B20 | 银行申请渠道归因 | 参考核对通过 | [代码](../labs/cda1_business/b20_channels/main.py) · [报告](results/B20/report.md) |
+| B21 | SQL与客户画像 | 运行通过 | [代码](../labs/cda1_business/b21_profiles/main.py) · [报告](results/B21/report.md) |
+| B22 | 效应分解与预测 | 运行通过 | [代码](../labs/cda1_business/b22_forecasting/main.py) · [报告](results/B22/report.md) |
 
 ## 2《CDA 二级认证教材：量化策略分析》
 

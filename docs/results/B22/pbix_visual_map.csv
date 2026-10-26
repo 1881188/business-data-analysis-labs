@@ -1,0 +1,3 @@
+﻿page,visual,kind,fields,aggregations,title_literal,filters,order_by,source,python_destination
+第 1 页,1,lineChart,Sum(AirPassengers.AIR); AirPassengers.DATE.变体.日期层次结构.年,"[{""reference_name"": ""Sum(AirPassengers.AIR)"", ""display_name"": ""AIR 的总和"", ""function_code"": 0, ""function"": ""Sum""}]",,"{""report"": null, ""page"": ""[]"", ""visual"": ""[]""}",[],效应分解法.pbix,原始AIR：月度12季节+24期未来；未重建PowerBI自动预测引擎
+第 2 页,1,lineChart,AirPassengers.DATE.变体.日期层次结构.年; AirPassengers.DATE.变体.日期层次结构.月份; Sum(AirPassengers.ln_AIR),"[{""reference_name"": ""Sum(AirPassengers.ln_AIR)"", ""display_name"": ""ln_AIR 的总和"", ""function_code"": 0, ""function"": ""Sum""}]",,"{""report"": null, ""page"": ""[]"", ""visual"": ""[]""}",[],效应分解法.pbix,log AIR：按月取对数后加性分解；不先按年求对数合计再当月序列

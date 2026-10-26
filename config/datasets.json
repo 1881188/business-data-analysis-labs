@@ -518,5 +518,165 @@
     "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章  PowerBI业务看板案例-银行案例/案例结果.pbix",
     "sha256": "63dd014a77c5e2b2171982bfd6e809780ce53e773087b9e08b863c09fb95dc2c",
     "bytes": 196096
+  },
+  "applications_raw": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章 WPS归因分析案例-银行案例/归因分析数据.xlsx",
+    "sha256": "a564d12431e289387411fed5b7b37de71aafdc07e6d226d49eee59b620cd8554",
+    "bytes": 52083
+  },
+  "applications_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章 WPS归因分析案例-银行案例/归因分析 - 结果.xlsx",
+    "sha256": "7fe164198bb3f4d50a1424a5f8efef296ea603e621b2a7b7ec8e46a439f08f50",
+    "bytes": 191764
+  },
+  "applications_report": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第5章 业务数据分析/第5章 WPS归因分析案例-银行案例/2021年5月贷款申请情况月度分析报告.docx",
+    "sha256": "555ac14c6187cbf926be10bd02ca3ca157ad8719a9073d714b4239c3c8de0cc9",
+    "bytes": 413784
+  },
+  "sql_basics": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第8章 SQL语言基础与Mysql入门/SQL基础语法.sql",
+    "sha256": "f59e5a1d91f0aefc3465f71c01aad5558bbe79870a01bfbc68dfb6945714a933",
+    "bytes": 7515
+  },
+  "profile_sql": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/信用卡客户画像.sql",
+    "sha256": "e43497ba5aeda6c8fcf2cea9c1052e38c182cb366e8c3b86149cad9886e354c5",
+    "bytes": 5470
+  },
+  "profile_slides": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/信用卡客户画像.pptx",
+    "sha256": "f13072fae70fffcea234a0493be4405f5cfc7bc53b503948fad64df504768cd5",
+    "bytes": 3162144
+  },
+  "metrics_slides": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第7章 指标体系构建方法/指标体系设计课件.pptx",
+    "sha256": "a732fb2175b61e472065aaeb1412c35dca8727dfb6e6162d2e61ae3030dc624e",
+    "bytes": 5746943
+  },
+  "metric_template": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第7章 指标体系构建方法/1、指标体系设计模板.xlsx",
+    "sha256": "edfe594e52b18e693a898e2688aa934bde309f0ef727f43b1f59ee05238a1c8e",
+    "bytes": 13859
+  },
+  "base_standard_template": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第13章 指标体系管理/1、基础数据标准编制模板.xlsx",
+    "sha256": "471ee4ef224ba9431a505d7ff3c2b69c900d427c6f8c5309729732b08a0625f8",
+    "bytes": 84979
+  },
+  "metric_standard_template": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第13章 指标体系管理/2、指标数据标准编制模板.xlsx",
+    "sha256": "da9a5679afee5f8172ae91475cf0a05905e81c8e63ba83aa791d46847765932b",
+    "bytes": 23479
+  },
+  "marketing_tags": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/标签体系参考/客户运营类标签/营销类标签.xlsx",
+    "sha256": "b714c8fc030bbb3fb419932cda0ffe5153f34fe21ecf47cf752ed2bd8d7bff8a",
+    "bytes": 105082
+  },
+  "antifraud_tags": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/标签体系参考/操作风险类标签/反欺诈特征列表.xlsx",
+    "sha256": "1a335346b3e22cbf4902d7618b62f09ea77f591c936c344c14a01223008d2935",
+    "bytes": 11528
+  },
+  "air_csv": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/AirPassengers.csv",
+    "sha256": "6a032411a7b014a96b6bb42244a3b16cfe0dd575995e3e326ebb01ed86983ce5",
+    "bytes": 3784
+  },
+  "air_excel": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/AirPassengers.xlsx",
+    "sha256": "9d66fa863313de328b212dac0b417bd779fbd63c5a492e4fad8371052655c8aa",
+    "bytes": 17500
+  },
+  "air_wps": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/AIR_WPS自带AI功能做时间序列预测.xlsx",
+    "sha256": "92a0831209412bd5bec2fe47eb2fb4ff74c061fbdee91be9ffd6f85a6c9dc5a4",
+    "bytes": 21768
+  },
+  "credit_wps": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/信用卡消费额_WPS自带AI功能做时间序列预测.xlsx",
+    "sha256": "0f9d552f5d4ffdd822f5734a278d0f0813a433501d9690db4b9435af358abf4a",
+    "bytes": 207237
+  },
+  "credit_no_holiday": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/信用卡消费额_去除节日.xlsx",
+    "sha256": "805d411e95006e44a05abf9494549d3196787f3ce4734657277e3adb69851bfd",
+    "bytes": 10610
+  },
+  "credit_holiday": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/信用卡消费额_含节日.xlsx",
+    "sha256": "270119dff94fd95b1456bf197113fd9255f4ec717c1b2f17e64c8a1a4c26fcca",
+    "bytes": 11041
+  },
+  "decomposition_pbix": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第10章 使用效应分解方法做预报/效应分解法.pbix",
+    "sha256": "93b868909908fec645e3e4d477bd7af9be1b693db2a8ee5b7220078af9f01339",
+    "bytes": 75310
+  },
+  "profile_accounts": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/accounts.csv",
+    "sha256": "0b2efe71f7f6e15458da37430cbba1cc318d9ec3d36043320a544a60796066b4",
+    "bytes": 111386
+  },
+  "profile_clients": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/clients.csv",
+    "sha256": "777267f9fd68ee99f6a5fbdf80192c8039630074414c9388b590443295ac56c9",
+    "bytes": 121661
+  },
+  "profile_disp": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/disp.csv",
+    "sha256": "912ed298ceec0686e9bfc76cc1a8c7cbd101d74f63810bb62033680397e94386",
+    "bytes": 119125
+  },
+  "profile_card": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/card.csv",
+    "sha256": "23d5c5389b1cb9c4ced08d27f4ea723b41a99b441db57ec7f5d4a4157ac88f0b",
+    "bytes": 24677
+  },
+  "profile_loans": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/loans.csv",
+    "sha256": "abe38ccd1dabf56b4b273cfbc107f9462571c3625f57e9f8958c91d62896ed33",
+    "bytes": 26341
+  },
+  "profile_order": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/order.csv",
+    "sha256": "484f4587af1b9ead8de458ec475b2fc252819956b8088b2fd8e58f3482dcae15",
+    "bytes": 232385
+  },
+  "profile_trans": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/trans.csv",
+    "sha256": "3454278d2caac56994ec9de3706014059d316db56d4fb0cbc3af9a2f7646830a",
+    "bytes": 62452664
+  },
+  "profile_district": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/district.csv",
+    "sha256": "b2354e59829f9c8e61e68a77df53f92648416d948d755b9a1002b1a150c83ccf",
+    "bytes": 3815
+  },
+  "sql_sale": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/sale.csv",
+    "sha256": "05c8ede1dd67325e1d1b83ed20613954c5f26583b5a832c7875cb2c0bb9b8cdc",
+    "bytes": 240
+  },
+  "sql_table1": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/Table1.csv",
+    "sha256": "9f8e4d061759ab87e24ac863f7c2b8e2aa39de1a9db6c5f9e408a82309bb46fe",
+    "bytes": 15
+  },
+  "sql_table2": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/Table2.csv",
+    "sha256": "85de1a6a1ef916d50543ed2a13d29565f98b6889fa74f3ba25bedc722810908e",
+    "bytes": 10
+  },
+  "sql_one": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/One.csv",
+    "sha256": "06562ed9a14f55545f8c65470b427acf894384c7346e433738463be2c0847caf",
+    "bytes": 35
+  },
+  "sql_two": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/Two.csv",
+    "sha256": "3cae2d153e33d18c9b081d6e11f8aa4ba8f243b3228289543a0a6b078a2abbb8",
+    "bytes": 25
   }
 }

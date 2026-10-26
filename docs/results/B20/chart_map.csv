@@ -1,0 +1,6 @@
+﻿chart,series,value_reference,range_positions,cached_numeric_points,sparse_positions,cached_values_match_cells,python_destination
+xl/charts/chart1.xml,1,业务描述!$C$16:$C$23,8,7,1,True,月度数量和环比双图
+xl/charts/chart1.xml,2,业务描述!$D$16:$D$23,8,6,2,True,月度数量和环比双图
+xl/charts/chart2.xml,1,业务描述!$I$17:$I$24,8,7,1,True,按月渠道构成，不重复总计
+xl/charts/chart2.xml,2,业务描述!$J$17:$J$24,8,7,1,True,按月渠道构成，不重复总计
+xl/charts/chart2.xml,3,业务描述!$K$17:$K$24,8,7,1,True,按月渠道构成，不重复总计

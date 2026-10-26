@@ -394,6 +394,81 @@
       "bank_reasons.png"
     ]
   },
+  "B20": {
+    "module": "channel_attribution",
+    "entry": "labs/cda1_business/b20_channels/main.py",
+    "extra_code": [
+      "src/bda_labs/case_workbooks.py",
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py",
+      "src/bda_labs/closure_tools.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "monthly_applications.csv",
+      "monthly_channel_counts.csv",
+      "monthly_channel_shares.csv",
+      "channel_change.csv",
+      "reference_checks.csv",
+      "formula_audit.csv",
+      "chart_map.csv",
+      "channel_attribution.png"
+    ]
+  },
+  "B21": {
+    "module": "sql_profiles",
+    "entry": "labs/cda1_business/b21_profiles/main.py",
+    "extra_code": [
+      "src/bda_labs/case_workbooks.py",
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "sql_checks.csv",
+      "sql_lesson_map.csv",
+      "portable_queries.sql",
+      "profile_dictionary.csv",
+      "card_profiles.csv",
+      "issue_year_counts.csv",
+      "source_table_counts.csv",
+      "template_coverage.csv",
+      "profile_diagnostics.json",
+      "card_profile.png",
+      "sql_validation.png"
+    ]
+  },
+  "B22": {
+    "module": "effect_forecasting",
+    "entry": "labs/cda1_business/b22_forecasting/main.py",
+    "extra_code": [
+      "src/bda_labs/case_workbooks.py",
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py",
+      "src/bda_labs/closure_tools.py",
+      "src/bda_labs/pbix_audit.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "forecast_metrics.csv",
+      "holdout_predictions.csv",
+      "future_predictions.csv",
+      "decomposition.csv",
+      "reference_checks.csv",
+      "wps_forecast_comparison.csv",
+      "chart_map.csv",
+      "pbix_visual_map.csv",
+      "air_forecasting.png",
+      "credit_forecasting.png",
+      "effect_decomposition.png"
+    ]
+  },
   "S01": {
     "module": "cleaning",
     "entry": "labs/cda2_statistics/s01_cleaning/main.py",
