@@ -188,5 +188,130 @@
     "path": "2《CDA 二级认证教材：量化策略分析》/第9章-用户分群/层次聚类/fa_cities_10.csv",
     "sha256": "65d980820b59f8323e609ba5ca4fffb29a23ec5523c507eb2464411650414a04",
     "bytes": 1099
+  },
+  "mall_model": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/维度模型演示/商场销售数据表.xlsx",
+    "sha256": "db78da68e7c4a79b7a73a4b5db81604fdcc7c305b2d0fe9125b0da4bdb4f5efc",
+    "bytes": 1232445
+  },
+  "sales_model": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/创建数据模型示例.xlsx",
+    "sha256": "cfb2ed40b0752e8ae4af3b8beff0c80699bfdae9ecc43da074798901f987ed57",
+    "bytes": 159049
+  },
+  "mall_pbix": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/维度模型演示/商场销售数据表.pbix",
+    "sha256": "1df8f3412f72ebcd3b0aca5e33dce2bd70a3f52dad9738e998495d5ae30e85ec",
+    "bytes": 491602
+  },
+  "bank_model_pbix": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/用PowerB演示数据模型的用处.pbix",
+    "sha256": "95f6e1e704b7c80f6df4c8aac776b3f120bb515dc1218e2a758d2e2331ae83f9",
+    "bytes": 20923479
+  },
+  "bank_dictionary": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/数据库介绍.pptx",
+    "sha256": "679d348b4a29cc43879307ca3fc4a02eede9edcd807eab143bff3cbb801d2c2a",
+    "bytes": 86503
+  },
+  "bank_relationship_slides": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/用PowerB演示数据模型的用处.pptx",
+    "sha256": "066ce3ba9a958d36dfa31b7ede2594bdde9a2fc66960e8a8e04f83b724b6621e",
+    "bytes": 2098052
+  },
+  "pbi_basics_slides": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/PowerBI基础操作0208.pptx",
+    "sha256": "f73a7c9329521cb14b64e8ce474d9ec98c84d40f07479cce05374433112199c4",
+    "bytes": 4157678
+  },
+  "basic_functions": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/4、EXCEL基础操作/1、电子表格常用函数（WPS和EXCEL）.xlsx",
+    "sha256": "7cf455a1a7ee45e5338c2b5e8050b33321995e7d778fdf5f9695bacfe6a5e0fc",
+    "bytes": 952293
+  },
+  "lookup_functions": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/4、EXCEL基础操作/2、电子表格查找引用函数（WPS和EXCEL）.xlsx",
+    "sha256": "2f7f73bf3cb00641165772367e221894f5994d964228db42409a031ee7f94d6d",
+    "bytes": 285948
+  },
+  "wps_functions": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/WPS电子表格/4、WPS电子表格的公式与函数/1EXCEL常用函数-讲解使用.xlsx",
+    "sha256": "f915446179e1d81eb8faeb27a9d6cc1b92af86fe023707bd3011d4c726f141ac",
+    "bytes": 264652
+  },
+  "pivot_exercises": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/WPS电子表格/4、WPS电子表格的公式与函数/2透视表&条件格式&引用&查找练习.xlsx",
+    "sha256": "4e530c32749f5e5c76e425d844bbb98efb4eba3769335bdd514573fd17d2c972",
+    "bytes": 198372
+  },
+  "pivot_reference": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/WPS电子表格/4、WPS电子表格的公式与函数/2透视表&条件格式&引用&查找练习-参考.xlsx",
+    "sha256": "2875894b5722b13cf0ef1feafac6a0d8fead9ab0346e27abe190e00d29204f79",
+    "bytes": 94702
+  },
+  "etl_dirty_orders": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/ETL演示数据/数据清洗示例数据.xlsx",
+    "sha256": "3a661f7b2c633ef77a59d18a58c51039a2a4ca04b25c3f2cfaad6bd2801ce331",
+    "bytes": 14791
+  },
+  "etl_split_orders": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/ETL演示数据/拆分列示例数据.xlsx",
+    "sha256": "75eae3da552018e2788a9bc6beaee073ff73dbc34f5f88e76bfd0213a9a8254d",
+    "bytes": 9130
+  },
+  "etl_course_join": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/合并演示数据/BI横向合并练习文件 .xlsx",
+    "sha256": "09beb8e2613caeade48f9e8c32465d9c434437006490b9d7d6a84c0f7e84b21f",
+    "bytes": 11395
+  },
+  "etl_append_same": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/合并演示数据/纵向合并演示-各字段名称一致.xlsx",
+    "sha256": "96d4c1ab32f6be6c653eca6600d8a70b26b7cdc6a7fa06bc6d744b2ba529ef2b",
+    "bytes": 9616
+  },
+  "etl_append_different": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/合并演示数据/纵向合并演示-字段名称不一致.xlsx",
+    "sha256": "10ec446c64c20c95c5b01a8f8946a2e9c8a28cb758ccf233a05863bf82362051",
+    "bytes": 9641
+  },
+  "bank_accounts": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/accounts.csv",
+    "sha256": "0b2efe71f7f6e15458da37430cbba1cc318d9ec3d36043320a544a60796066b4",
+    "bytes": 111386
+  },
+  "bank_clients": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/clients.csv",
+    "sha256": "777267f9fd68ee99f6a5fbdf80192c8039630074414c9388b590443295ac56c9",
+    "bytes": 121661
+  },
+  "bank_disp": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/disp.csv",
+    "sha256": "912ed298ceec0686e9bfc76cc1a8c7cbd101d74f63810bb62033680397e94386",
+    "bytes": 119125
+  },
+  "bank_card": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/card.csv",
+    "sha256": "23d5c5389b1cb9c4ced08d27f4ea723b41a99b441db57ec7f5d4a4157ac88f0b",
+    "bytes": 24677
+  },
+  "bank_loans": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/loans.csv",
+    "sha256": "abe38ccd1dabf56b4b273cfbc107f9462571c3625f57e9f8958c91d62896ed33",
+    "bytes": 26341
+  },
+  "bank_order": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/order.csv",
+    "sha256": "484f4587af1b9ead8de458ec475b2fc252819956b8088b2fd8e58f3482dcae15",
+    "bytes": 232385
+  },
+  "bank_trans": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/trans.csv",
+    "sha256": "4b5eba97e8b4f68c66911c3247336ab76b528f13b976daa2f9f45ac99c2c7a51",
+    "bytes": 60359451
+  },
+  "bank_district": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第1章 数据分析思维/关系模型演示-不建议用poweBI操作关系型数据模型/district.csv",
+    "sha256": "b2354e59829f9c8e61e68a77df53f92648416d948d755b9a1002b1a150c83ccf",
+    "bytes": 3815
   }
 }

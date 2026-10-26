@@ -1,0 +1,13 @@
+﻿page,visual,kind,fields,aggregations,source,migration
+第 1 页,1,areaChart,产品销售数据表.订单日期; Sum(产品销售数据表.销售额),"[{""reference_name"": ""Sum(产品销售数据表.销售额)"", ""display_name"": null, ""function_code"": 0}]",mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 1 页,2,slicer,日期表.年度,[],mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 1 页,3,multiRowCard,产品销售数据表.产品名称; Sum(产品销售数据表.销售额),"[{""reference_name"": ""Sum(产品销售数据表.销售额)"", ""display_name"": null, ""function_code"": 0}]",mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 1 页,4,slicer,日期表.月,[],mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 2 页,1,lineChart,Sum(产品销售数据表.销售额); 日期表.日期.变体.日期层次结构.年; 日期表.日期.变体.日期层次结构.月份; 日期表.日期.变体.日期层次结构.日,"[{""reference_name"": ""Sum(产品销售数据表.销售额)"", ""display_name"": ""销售额 的平均值"", ""function_code"": 1}]",mall_pbix,按原配置输出均值及总额序列；不凭Sum引用名判断
+第 2 页,2,slicer,日期表.年度,[],mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 2 页,3,slicer,日期表.日期.变体.日期层次结构.月份,[],mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 2 页,4,multiRowCard,产品销售数据表.产品名称; Sum(产品销售数据表.销售额),"[{""reference_name"": ""Sum(产品销售数据表.销售额)"", ""display_name"": ""销售额"", ""function_code"": 0}]",mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 2 页,5,keyDriversVisual,Sum(产品销售数据表.销售单价); 产品销售数据表.订单日期,"[{""reference_name"": ""Sum(产品销售数据表.销售单价)"", ""display_name"": ""销售单价"", ""function_code"": 0}]",mall_pbix,保留配置记录；不复刻PowerBI自动影响因素算法
+第 2 页,6,slicer,,[],mall_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 1 页,1,columnChart,clients.sex; card.type; CountNonNull(clients.sex),"[{""reference_name"": ""CountNonNull(clients.sex)"", ""display_name"": ""sex 的计数"", ""function_code"": 5}]",bank_model_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联
+第 2 页,1,stackedAreaChart,loans.date.变体.日期层次结构.年; Sum(loans.amount); clients.sex,"[{""reference_name"": ""Sum(loans.amount)"", ""display_name"": ""amount 的总和"", ""function_code"": 0}]",bank_model_pbix,年份/月筛选与groupby聚合或持卡人/贷款所有者关联

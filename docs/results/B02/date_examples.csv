@@ -1,0 +1,70 @@
+﻿exercise,input,result
+WORKDAY_with_supplied_holidays,2017-09-30 00:00:00,2017-10-20
+NETWORKDAYS_inclusive_with_supplied_holidays,2017-09-30 00:00:00 to 2017-10-20 00:00:00,10
+EDATE_probation,2017-11-18 00:00:00,2018-02-18
+WEEKDAY_weekend,2017-11-18,True
+WEEKDAY_weekend,2017-11-19,True
+WEEKDAY_weekend,2017-11-20,False
+WEEKDAY_weekend,2017-11-21,False
+WEEKDAY_weekend,2017-11-22,False
+WEEKDAY_weekend,2017-11-23,False
+WEEKDAY_weekend,2017-11-24,False
+WEEKDAY_weekend,2017-11-25,True
+WEEKDAY_weekend,2017-11-26,True
+WEEKDAY_weekend,2017-11-27,False
+WEEKDAY_weekend,2017-11-28,False
+WEEKDAY_weekend,2017-11-29,False
+WEEKDAY_weekend,2017-11-30,False
+WEEKDAY_weekend,2017-12-01,False
+WEEKDAY_weekend,2017-12-02,True
+WEEKDAY_weekend,2017-12-03,True
+WEEKDAY_weekend,2017-12-04,False
+WEEKDAY_weekend,2017-12-05,False
+WEEKDAY_weekend,2017-12-06,False
+WEEKDAY_weekend,2017-12-07,False
+EOMONTH,2011-12-10,2011-12-31
+days_in_month,2011-12-10,31
+EOMONTH,2013-02-15,2013-02-28
+days_in_month,2013-02-15,28
+EOMONTH,2012-04-19,2012-04-30
+days_in_month,2012-04-19,30
+EOMONTH,2012-08-01,2012-08-31
+days_in_month,2012-08-01,31
+EOMONTH,2011-10-01,2011-10-31
+days_in_month,2011-10-01,31
+EOMONTH,2013-06-22,2013-06-30
+days_in_month,2013-06-22,30
+EOMONTH,2013-09-01,2013-09-30
+days_in_month,2013-09-01,30
+EOMONTH,2012-04-19,2012-04-30
+days_in_month,2012-04-19,30
+EOMONTH,2012-03-01,2012-03-31
+days_in_month,2012-03-01,31
+EOMONTH,2011-10-01,2011-10-31
+days_in_month,2011-10-01,31
+EOMONTH,2013-06-22,2013-06-30
+days_in_month,2013-06-22,30
+EOMONTH,2013-09-01,2013-09-30
+days_in_month,2013-09-01,30
+EOMONTH,2012-04-19,2012-04-30
+days_in_month,2012-04-19,30
+EOMONTH,2012-08-01,2012-08-31
+days_in_month,2012-08-01,31
+EOMONTH,2011-01-01,2011-01-31
+days_in_month,2011-01-01,31
+leap_year,2000,True
+leap_year,2001,False
+leap_year,2002,False
+leap_year,2003,False
+leap_year,2004,True
+leap_year,2005,False
+leap_year,2006,False
+leap_year,2007,False
+leap_year,2008,True
+leap_year,2009,False
+leap_year,2010,False
+leap_year,2001,False
+DATEDIF_complete_months,2017-09-30 to 2017-10-20,0
+YEAR,2025-02-02 22:05:45,2025
+MONTH,2025-02-02 22:05:45,2
+DAY,2025-02-02 22:05:45,2

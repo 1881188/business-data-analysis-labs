@@ -18,3 +18,5 @@
 S07查阅了[fa_kit原项目](https://github.com/bmcmenamin/fa_kit)的主成分提取、预处理和varimax旋转语义。该项目由Brenton McMenamin维护、声明MIT许可。本仓库不捆绑fa_kit源文件，实际以已安装的scikit-learn和statsmodels完成数值计算，详细方法和接口链接见S07报告。PCA/ANOVA/卡方的定义分别参照相关库的官方文档，未复制第三方安装包。
 
 S12、S13沿用上述单位主成分方向旋转语义，数值实现仍使用scikit-learn、statsmodels和SciPy，未引入或复制fa_kit代码。S12的树图使用matplotlib导出，不捆绑Graphviz或pydotplus。
+
+B01/B02/B03只读课程工作簿、CSV、课件和PBIX的公开容器元数据；不捆绑教材图像或原始数据，不执行工作簿公式、宏或PBIX专有DataModel引擎。新增实现使用pandas、openpyxl、Python Decimal与SQLite，数值规则和迁移边界见对应实验报告。

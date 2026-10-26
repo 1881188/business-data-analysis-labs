@@ -1,0 +1,104 @@
+{
+  "lab_id": "B03",
+  "status": "execution_verified",
+  "cleaning": {
+    "input_rows_below_header": 30,
+    "blank_rows_removed": 3,
+    "retained_details": 27,
+    "excel_error_cells": 7,
+    "genuine_zero_paid_details": 4,
+    "unknown_product_details": 4,
+    "non_ip_details": 27,
+    "duplicate_order_ids": 0,
+    "exact_duplicate_details": 0,
+    "paid_minor_total": 1362920,
+    "quantity_total": 23
+  },
+  "course_join": {
+    "enrollment_records": 13,
+    "enrolled_students": 7,
+    "students_without_enrollments": 0
+  },
+  "split_source_rows": 2,
+  "bridge_rows_without_measures": 6,
+  "append": [
+    {
+      "branch": "same_schema",
+      "records": 8,
+      "units": 52,
+      "sales_amount": 1212.0,
+      "missing_amounts": 0
+    },
+    {
+      "branch": "explicit_amount_mapping",
+      "records": 8,
+      "units": 52,
+      "sales_amount": 1212.0,
+      "missing_amounts": 0
+    },
+    {
+      "branch": "INVALID_naive_append_different_names",
+      "records": 8,
+      "units": 52,
+      "sales_amount": 806.0,
+      "missing_amounts": 4
+    }
+  ],
+  "workbook_coverage": {
+    "source_sheets": 11,
+    "mapped_sheets": 11
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/etl_tables.py": "eadc33067bfb87e337daacb5100811a0415b362b00876b9a11cb6b192673c200",
+    "labs/cda1_business/b03_etl/main.py": "59ca79900f7301924d718a4a9805f847b0cf749de43e843a6a99743664b781d1",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "pbi_basics_slides": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/PowerBI基础操作0208.pptx",
+      "sha256": "f73a7c9329521cb14b64e8ce474d9ec98c84d40f07479cce05374433112199c4",
+      "bytes": 4157678
+    },
+    "etl_dirty_orders": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/ETL演示数据/数据清洗示例数据.xlsx",
+      "sha256": "3a661f7b2c633ef77a59d18a58c51039a2a4ca04b25c3f2cfaad6bd2801ce331",
+      "bytes": 14791
+    },
+    "etl_split_orders": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/ETL演示数据/拆分列示例数据.xlsx",
+      "sha256": "75eae3da552018e2788a9bc6beaee073ff73dbc34f5f88e76bfd0213a9a8254d",
+      "bytes": 9130
+    },
+    "etl_course_join": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/合并演示数据/BI横向合并练习文件 .xlsx",
+      "sha256": "09beb8e2613caeade48f9e8c32465d9c434437006490b9d7d6a84c0f7e84b21f",
+      "bytes": 11395
+    },
+    "etl_append_same": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/合并演示数据/纵向合并演示-各字段名称一致.xlsx",
+      "sha256": "96d4c1ab32f6be6c653eca6600d8a70b26b7cdc6a7fa06bc6d744b2ba529ef2b",
+      "bytes": 9616
+    },
+    "etl_append_different": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/ETL练习文件/合并演示数据/纵向合并演示-字段名称不一致.xlsx",
+      "sha256": "10ec446c64c20c95c5b01a8f8946a2e9c8a28cb758ccf233a05863bf82362051",
+      "bytes": 9641
+    }
+  },
+  "verified_at_utc": "2026-10-26T05:39:13.279295+00:00"
+}

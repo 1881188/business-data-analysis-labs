@@ -1,0 +1,4 @@
+﻿branch,records,units,sales_amount,missing_amounts
+same_schema,8,52,1212.0,0
+explicit_amount_mapping,8,52,1212.0,0
+INVALID_naive_append_different_names,8,52,806.0,4

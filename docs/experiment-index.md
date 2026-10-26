@@ -1,6 +1,6 @@
 # 实验索引
 
-目前19个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
+目前22个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
 
 素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。
 
@@ -9,9 +9,9 @@
 
 | ID | 实验/来源名称 | 状态 | 实现与结果 |
 |---|---|---|---|
-| B01 | 关系与维度数据模型 | 待迁移 | — |
-| B02 | Excel与WPS函数、查找与透视 | 待迁移 | — |
-| B03 | ETL清洗、拆分与合并 | 待迁移 | — |
+| B01 | 关系与维度数据模型 | 运行通过 | [代码](../labs/cda1_business/b01_models/main.py) · [报告](results/B01/report.md) |
+| B02 | Excel与WPS函数、查找与透视 | 运行通过 | [代码](../labs/cda1_business/b02_functions/main.py) · [报告](results/B02/report.md) |
+| B03 | ETL清洗、拆分与合并 | 运行通过 | [代码](../labs/cda1_business/b03_etl/main.py) · [报告](results/B03/report.md) |
 | B04 | 波士顿矩阵 | 参考核对通过 | [代码](../labs/cda1_business/b04_bcg/main.py) · [报告](results/B04/report.md) |
 | B05 | RFM客户价值分层 | 参考核对通过 | [代码](../labs/cda1_business/b05_rfm/main.py) · [报告](results/B05/report.md) |
 | B06 | 用户忠诚度模型 | 参考核对通过 | [代码](../labs/cda1_business/b06_loyalty/main.py) · [报告](results/B06/report.md) |

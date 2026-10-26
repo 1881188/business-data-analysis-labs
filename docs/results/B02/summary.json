@@ -1,0 +1,71 @@
+{
+  "lab_id": "B02",
+  "status": "execution_verified",
+  "workbook_coverage": {
+    "source_sheets": 31,
+    "mapped_sheets": 31
+  },
+  "source_formula_cells": 292,
+  "formula_cells_covered": 292,
+  "all_cached_cells_checked": 365,
+  "matched_cached_cells": 363,
+  "confirmed_source_differences": 0,
+  "random_cells_not_compared": 2,
+  "seed": 20261026,
+  "frozen_textbook_clock": "2025-02-02 22:05:45",
+  "pivot_region_filter": [
+    "济南"
+  ],
+  "pivot_records": 36,
+  "pivot_amount": 5049500.0,
+  "functions_documented": 54,
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/spreadsheet_functions.py": "e7247b8ce093ba6c0d3dd453ecf09a97d51996dad055b6a2024c34f0ab0e4dd9",
+    "labs/cda1_business/b02_functions/main.py": "fc7f86caa478c03576660b516a9c35f8f93c61a4b46522316d77080b88594a7b",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6",
+    "src/bda_labs/excel_semantics.py": "4dd1d9c9100948b1a7053b6735b4d4c8e0f2489ed6bc48026eca8f1baa1bb4db"
+  },
+  "source_files": {
+    "basic_functions": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/4、EXCEL基础操作/1、电子表格常用函数（WPS和EXCEL）.xlsx",
+      "sha256": "7cf455a1a7ee45e5338c2b5e8050b33321995e7d778fdf5f9695bacfe6a5e0fc",
+      "bytes": 952293
+    },
+    "lookup_functions": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/4、EXCEL基础操作/2、电子表格查找引用函数（WPS和EXCEL）.xlsx",
+      "sha256": "2f7f73bf3cb00641165772367e221894f5994d964228db42409a031ee7f94d6d",
+      "bytes": 285948
+    },
+    "wps_functions": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/WPS电子表格/4、WPS电子表格的公式与函数/1EXCEL常用函数-讲解使用.xlsx",
+      "sha256": "f915446179e1d81eb8faeb27a9d6cc1b92af86fe023707bd3011d4c726f141ac",
+      "bytes": 264652
+    },
+    "pivot_exercises": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/WPS电子表格/4、WPS电子表格的公式与函数/2透视表&条件格式&引用&查找练习.xlsx",
+      "sha256": "4e530c32749f5e5c76e425d844bbb98efb4eba3769335bdd514573fd17d2c972",
+      "bytes": 198372
+    },
+    "pivot_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/WPS电子表格/4、WPS电子表格的公式与函数/2透视表&条件格式&引用&查找练习-参考.xlsx",
+      "sha256": "2875894b5722b13cf0ef1feafac6a0d8fead9ab0346e27abe190e00d29204f79",
+      "bytes": 94702
+    }
+  },
+  "verified_at_utc": "2026-10-26T05:56:26.117672+00:00"
+}

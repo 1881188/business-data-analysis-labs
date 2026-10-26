@@ -2,7 +2,7 @@
 
 将四套教材中的 Excel、Power BI 案例迁移为 Python，把 Jupyter Notebook 整理为独立脚本，记录业务问题、指标口径、结果和解释。
 
-当前完成 **19 个实验**：6个Excel案例迁移和13个Notebook重构。二级教材13份Notebook均已形成独立可运行实验。10个实验完成报告中明确范围的参考核对，其余9个为运行通过；新批次线性回归、Kmeans和层次聚类另列教材兼容核对与改动边界，共提供110个非空代码单元的迁移对照。其他材料按[实验索引](docs/experiment-index.md)继续推进，未完成项目不计入完成数。
+当前完成 **22 个实验**：9个Excel/Power BI案例迁移和13个Notebook重构。二级教材13份Notebook均已形成独立可运行实验。10个实验完成报告中明确范围的参考核对，其余12个为运行通过。本批新增关系与维度模型、函数查找与透视、ETL清洗合并；明确记录错行公式、筛选分母和数据粒度，原材料不改写。其他材料按[实验索引](docs/experiment-index.md)继续推进，未完成项目不计入完成数。
 
 ![RFM客户分层](docs/results/B05/rfm_segments.png)
 
@@ -10,6 +10,9 @@
 
 | ID | 实验与教材 | 代码说明 | 结果报告 | 验证状态 |
 |---|---|---|---|---|
+| B01 | 一级：关系与维度模型 | [实验入口](labs/cda1_business/b01_models/README.md) | [结果与解释](docs/results/B01/report.md) | 8表关系、3组模型；区分12960个正确缓存与4处错误业务引用 |
+| B02 | 一级：函数、查找与透视 | [实验入口](labs/cda1_business/b02_functions/README.md) | [结果与解释](docs/results/B02/report.md) | 31张工作表、292格保存公式全覆盖；363项缓存值核对 |
+| B03 | 一级：ETL清洗、拆列与合并 | [实验入口](labs/cda1_business/b03_etl/README.md) | [结果与解释](docs/results/B03/report.md) | 保留真实零，错误单元格单列；拆分不重复计量，追加显式映射 |
 | B04 | 一级：波士顿矩阵 | [实验入口](labs/cda1_business/b04_bcg/README.md) | [结果与解释](docs/results/B04/report.md) | 14个品牌的份额/增长及两条阈值核对通过 |
 | B05 | 一级：RFM客户价值分层 | [实验入口](labs/cda1_business/b05_rfm/README.md) | [结果与解释](docs/results/B05/report.md) | 7,178名客户的R/F/M、消费日期与标签全部对账一致 |
 | B06 | 一级：用户忠诚度 | [实验入口](labs/cda1_business/b06_loyalty/README.md) | [结果与解释](docs/results/B06/report.md) | 990名会员标签一致；705名会员F/M及评分一致 |
@@ -45,6 +48,7 @@ python -m venv .venv
 也可以单独运行：
 
 ```powershell
+python run_labs.py --lab B01 B02 B03
 python run_labs.py --lab B05
 python run_labs.py --lab B04 B06 B07 B08
 python run_labs.py --lab B09 S02 S03 S04 S05
@@ -63,7 +67,7 @@ python tools/check_project.py
 
 | 板块 | 整理范围 | 当前进度 |
 |---|---|---|
-| CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B04-B09已完成对应范围的参考核对 |
+| CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B01-B09已运行，B04-B09完成对应范围的参考核对 |
 | CDA 二级：量化策略分析 | 13份Notebook及辅助代码 | S01-S13均已独立运行，覆盖全部13份Notebook |
 | CDA 三级：敏捷数据挖掘 | 29份Notebook及辅助算法 | 待逐项迁移 |
 | 金融数据分析与挖掘案例 | 16份Notebook，含一份代码重复的Vintage检查点 | 待逐项迁移与补齐依赖 |
@@ -84,7 +88,7 @@ tools/                 文档构建、格式导出与项目检查
 outputs/               本地运行产物，不纳入Git
 ```
 
-已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前62项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除及输入数据不变等行为。
+已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前79项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除及输入数据不变等行为。
 
 ## 数据、许可与后续
 

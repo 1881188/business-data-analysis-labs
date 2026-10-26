@@ -3,19 +3,22 @@
     "lab_id": "B01",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "关系与维度数据模型",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b01_models/main.py"
   },
   {
     "lab_id": "B02",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "Excel与WPS函数、查找与透视",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b02_functions/main.py"
   },
   {
     "lab_id": "B03",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "ETL清洗、拆分与合并",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b03_etl/main.py"
   },
   {
     "lab_id": "B04",

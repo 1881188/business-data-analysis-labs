@@ -1,0 +1,9 @@
+﻿table,records,key,missing_cells
+accounts,4500,account_id,0
+clients,5369,client_id,0
+disp,5369,disp_id,0
+card,892,card_id,0
+loans,682,loan_id,0
+order,6471,order_id,1379
+district,77,A1,2
+trans,1056320,trans_id,2262171

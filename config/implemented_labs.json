@@ -1,4 +1,81 @@
 {
+  "B01": {
+    "module": "data_models",
+    "entry": "labs/cda1_business/b01_models/main.py",
+    "extra_code": [
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "model_summary.png",
+      "mall_sales.png",
+      "bank_card_gender.png",
+      "mall_monthly.csv",
+      "mall_products.csv",
+      "mall_cities.csv",
+      "mall_price_differences.csv",
+      "mall_formula_issues.csv",
+      "sales_region_totals.csv",
+      "sales_product_totals.csv",
+      "bank_table_profile.csv",
+      "bank_district_totals.csv",
+      "card_gender_counts.csv",
+      "loan_owner_gender.csv",
+      "fanout_diagnostics.csv",
+      "pbix_visual_map.csv",
+      "schema.md",
+      "source-map.md"
+    ]
+  },
+  "B02": {
+    "module": "spreadsheet_functions",
+    "entry": "labs/cda1_business/b02_functions/main.py",
+    "extra_code": [
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py",
+      "src/bda_labs/excel_semantics.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "function_diagnostics.png",
+      "conditional_formatting.png",
+      "pivot_product_totals.csv",
+      "pivot_product_city.csv",
+      "pivot_filtered_staff.csv",
+      "formula_checks.csv",
+      "cache_differences.csv",
+      "exercise_summary.csv",
+      "function_map.csv",
+      "date_examples.csv",
+      "tariff_comparison.csv",
+      "multiplication_table.csv",
+      "conditional_flags.csv",
+      "grade_distribution.csv",
+      "workbook-map.md"
+    ]
+  },
+  "B03": {
+    "module": "etl_tables",
+    "entry": "labs/cda1_business/b03_etl/main.py",
+    "extra_code": [
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "etl_diagnostics.png",
+      "etl_quality.csv",
+      "etl_category_totals.csv",
+      "course_summary.csv",
+      "append_summary.csv",
+      "split_units.csv",
+      "workbook-map.md"
+    ]
+  },
   "B04": {
     "module": "bcg",
     "entry": "labs/cda1_business/b04_bcg/main.py",

@@ -29,6 +29,11 @@ def main():
         coverage=summary.get('notebook_coverage')
         if coverage and coverage['nonempty_code_cells']!=coverage['mapped_code_cells']:
             raise AssertionError(f'Incomplete Notebook coverage: {lab}')
+        workbook_coverage=summary.get('workbook_coverage')
+        if workbook_coverage and workbook_coverage['source_sheets']!=workbook_coverage['mapped_sheets']:
+            raise AssertionError(f'Incomplete worksheet coverage: {lab}')
+        if 'source_formula_cells' in summary and summary['source_formula_cells']!=summary['formula_cells_covered']:
+            raise AssertionError(f'Incomplete saved-formula coverage: {lab}')
         for path,digest in summary['implementation_sha256'].items():
             if sha256(ROOT/path)!=digest:raise AssertionError(f"Stale results: {lab} / {path}")
         expected={f'{lab}/{name}' for name in PUBLIC[lab]}

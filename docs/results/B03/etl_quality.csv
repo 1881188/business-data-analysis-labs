@@ -1,0 +1,12 @@
+﻿check,value
+input_rows_below_header,30
+blank_rows_removed,3
+retained_details,27
+excel_error_cells,7
+genuine_zero_paid_details,4
+unknown_product_details,4
+non_ip_details,27
+duplicate_order_ids,0
+exact_duplicate_details,0
+paid_minor_total,1362920
+quantity_total,23

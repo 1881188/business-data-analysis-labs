@@ -1,0 +1,3 @@
+﻿demonstration,safe_grain,safe_records,naive_join_records,original_fact_amount,naive_repeated_amount
+transactions_joined_directly_to_orders,account,4500,1858450,6257862197.0,10727174305.0
+loans_joined_to_all_account_users,loan_id,682,827,103261740.0,125539872.0
