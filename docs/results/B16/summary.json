@@ -1,0 +1,59 @@
+{
+  "lab_id": "B16",
+  "status": "reference_verified",
+  "records": 1187,
+  "provinces": 31,
+  "months": 48,
+  "missing_province_month_combinations": 301,
+  "source_input_equality": true,
+  "numeric_reference_checks": 238,
+  "formula_checks": 52,
+  "source_formula_cells": 52,
+  "formula_cells_covered": 52,
+  "chart_numeric_checks": 140,
+  "charts": 10,
+  "chart_length_mismatches": 2,
+  "november_2020": {
+    "prior_amount": 526730.0,
+    "amount": 468821.0,
+    "yoy_growth": -0.1099405767660851
+  },
+  "workbook_coverage": {
+    "source_sheets": 5,
+    "mapped_sheets": 5
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/income_trends.py": "37c2c97b5abae175720419acad76fadabf78087fd44e8bc7bf952bd13d88a13b",
+    "labs/cda1_business/b16_income/main.py": "3a0004577f015e4aa8b88fe1c0da3ba38ad9408de8b19b5f16f8bab227ad16bb",
+    "src/bda_labs/case_workbooks.py": "8197e546cb5e9de192c781a0d319b366cc708452871cf6b422127545694b4a71",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "income_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第3章 商业数据分析框架/案例1：收入趋势分析/案例1：收入趋势分析原始数据.xlsx",
+      "sha256": "22590edc89f5807600c602911d58ec1c9c1696da643bd896accf827200c40953",
+      "bytes": 35297
+    },
+    "income_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第3章 商业数据分析框架/案例1：收入趋势分析/案例1：收入趋势分析案例-完整.xlsx",
+      "sha256": "9ddcaac3f98900ea652e9867163ece0d6b1336cd75615916a75597f7fed82a20",
+      "bytes": 233570
+    }
+  },
+  "verified_at_utc": "2026-10-26T10:20:30.582154+00:00"
+}

@@ -294,6 +294,53 @@
       "total_bands.csv"
     ]
   },
+  "B16": {
+    "module": "income_trends",
+    "entry": "labs/cda1_business/b16_income/main.py",
+    "extra_code": [
+      "src/bda_labs/case_workbooks.py",
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "reference_checks.csv",
+      "chart_map.csv",
+      "monthly_trends.csv",
+      "annual_trends.csv",
+      "november_province_bridge.csv",
+      "sichuan_monthly.csv",
+      "income_dashboard.png",
+      "income_drilldown.png"
+    ]
+  },
+  "B17": {
+    "module": "expense_breakdown",
+    "entry": "labs/cda1_business/b17_expenses/main.py",
+    "extra_code": [
+      "src/bda_labs/case_workbooks.py",
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "reference_checks.csv",
+      "chart_map.csv",
+      "raw_reconciliation.csv",
+      "raw_period_changes.csv",
+      "raw_admin_changes.csv",
+      "complete_reconciliation.csv",
+      "complete_period_changes.csv",
+      "complete_admin_changes.csv",
+      "snapshot_differences.csv",
+      "expense_dashboard.png",
+      "admin_comparison.png"
+    ]
+  },
   "S01": {
     "module": "cleaning",
     "entry": "labs/cda2_statistics/s01_cleaning/main.py",

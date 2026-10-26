@@ -1,0 +1,7 @@
+﻿chart,title,category_reference,value_reference,cached_categories,cached_values,category_value_length_equal,numeric_cache_matched,python_destination
+xl/charts/chart1.xml,三大期间财务费用7月较6月增长情况,准备区!$A$19:$A$21,准备区!$E$19:$E$21,3,3,True,True,expense_dashboard:期间费用差额及未解释差额
+xl/charts/chart2.xml,管理费用7月环比增长分析,准备区!$A$31:$A$38,准备区!$E$31:$E$38,8,8,True,True,admin_comparison:管理明细增长与金额贡献分列
+xl/charts/chart3.xml,总财务费用对比,准备区!$B$5:$B$6,准备区!$C$5:$C$6,2,2,True,True,expense_dashboard:报告总费用
+xl/charts/chart4.xml,三大期间财务费用7月较6月增长情况,准备区!$A$19:$A$21,准备区!$E$19:$E$21,3,3,True,True,expense_dashboard:期间费用差额及未解释差额
+xl/charts/chart5.xml,管理费用7月环比增长分析,准备区!$A$31:$A$38,准备区!$E$31:$E$38,8,8,True,True,admin_comparison:管理明细增长与金额贡献分列
+xl/charts/chart6.xml,总财务费用对比,准备区!$B$5:$B$6,准备区!$C$5:$C$6,2,2,True,True,expense_dashboard:报告总费用

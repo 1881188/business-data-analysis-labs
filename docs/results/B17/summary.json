@@ -1,0 +1,76 @@
+{
+  "lab_id": "B17",
+  "status": "reference_verified",
+  "snapshots": {
+    "raw": {
+      "reported_prior": 1560000.0,
+      "reported_current": 1638600.0,
+      "reported_delta": 78600.0,
+      "reported_growth": 0.05038461538461538,
+      "observed_period_delta": 78600.0,
+      "total_residual_prior": 0.0,
+      "total_residual_current": 0.0,
+      "total_residual_delta": 0.0,
+      "admin_delta": 70000.0,
+      "admin_residual_delta": 0.0
+    },
+    "complete": {
+      "reported_prior": 1560000.0,
+      "reported_current": 1638600.0,
+      "reported_delta": 78600.0,
+      "reported_growth": 0.05038461538461538,
+      "observed_period_delta": 14350.0,
+      "total_residual_prior": -4900.0,
+      "total_residual_current": 59350.0,
+      "total_residual_delta": 64250.0,
+      "admin_delta": 15050.0,
+      "admin_residual_delta": 0.0
+    }
+  },
+  "differing_input_amounts": 10,
+  "numeric_reference_checks": 59,
+  "formula_checks": 11,
+  "source_formula_cells": 11,
+  "formula_cells_covered": 11,
+  "chart_numeric_checks": 26,
+  "charts": 6,
+  "bridge_checks": 4,
+  "workbook_coverage": {
+    "source_sheets": 9,
+    "mapped_sheets": 9
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/expense_breakdown.py": "4e6a01950ce738bc38582279175858e44ea3512d4eff4a018266a3737f909586",
+    "labs/cda1_business/b17_expenses/main.py": "55766bd89e9e8de42ba9ca8c1ff307450e231ae01c6b8a8a2be2bb22545dc519",
+    "src/bda_labs/case_workbooks.py": "8197e546cb5e9de192c781a0d319b366cc708452871cf6b422127545694b4a71",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "expenses_raw": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第3章 商业数据分析框架/案例2：财务费用分析/案例2：财务费用分析-原始数据.xlsx",
+      "sha256": "44f9c3c287752ddc1d71d624e5e49c061e208c9a7408676fc291f66197073778",
+      "bytes": 15717
+    },
+    "expenses_reference": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第3章 商业数据分析框架/案例2：财务费用分析/案例2：财务费用分析-完整案例.xlsx",
+      "sha256": "0a8612bd0faa01e30cb29679213ae2c5b273776b7cf10d87311b3435b1b408a3",
+      "bytes": 174036
+    }
+  },
+  "verified_at_utc": "2026-10-26T10:14:48.769519+00:00"
+}

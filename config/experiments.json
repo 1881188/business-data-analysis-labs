@@ -108,13 +108,15 @@
     "lab_id": "B16",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "收入趋势分析",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda1_business/b16_income/main.py"
   },
   {
     "lab_id": "B17",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "财务费用分解",
-    "status": "待迁移"
+    "status": "参考核对通过",
+    "target_script": "labs/cda1_business/b17_expenses/main.py"
   },
   {
     "lab_id": "B18",

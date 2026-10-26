@@ -1,0 +1,60 @@
+﻿scope,cell,saved,python,formula,numeric_compared,matched
+reported total,C5,1560000.0,1560000.0,,True,True
+reported total,C6,1638600.0,1638600.0,,True,True
+saved pivot,B19,1064900.0,1064900.0,,True,True
+saved pivot,C19,1079950.0,1079950.0,,True,True
+saved pivot,D19,2144850.0,2144850.0,,True,True
+saved change formula,E19,15050.0,15050.0,=C19-B19,True,True
+saved pivot,B20,200000.0,200000.0,,True,True
+saved pivot,C20,198500.0,198500.0,,True,True
+saved pivot,D20,398500.0,398500.0,,True,True
+saved change formula,E20,-1500.0,-1500.0,=C20-B20,True,True
+saved pivot,B21,300000.0,300000.0,,True,True
+saved pivot,C21,300800.0,300800.0,,True,True
+saved pivot,D21,600800.0,600800.0,,True,True
+saved change formula,E21,800.0,800.0,=C21-B21,True,True
+saved pivot total,B22,1564900.0,1564900.0,,True,True
+saved pivot total,C22,1579250.0,1579250.0,,True,True
+saved pivot total,D22,3144150.0,3144150.0,,True,True
+saved pivot,B31,110000.0,110000.0,,True,True
+saved pivot,C31,110050.0,110050.0,,True,True
+saved pivot,D31,220050.0,220050.0,,True,True
+saved change formula,E31,0.00045454545454545455,0.00045454545454545455,=(C31-B31)/B31,True,True
+saved pivot,B32,110000.0,110000.0,,True,True
+saved pivot,C32,110000.0,110000.0,,True,True
+saved pivot,D32,220000.0,220000.0,,True,True
+saved change formula,E32,0.0,0.0,=(C32-B32)/B32,True,True
+saved pivot,B33,59900.0,59900.0,,True,True
+saved pivot,C33,60000.0,60000.0,,True,True
+saved pivot,D33,119900.0,119900.0,,True,True
+saved change formula,E33,0.001669449081803005,0.001669449081803005,=(C33-B33)/B33,True,True
+saved pivot,B34,330000.0,330000.0,,True,True
+saved pivot,C34,330000.0,330000.0,,True,True
+saved pivot,D34,660000.0,660000.0,,True,True
+saved change formula,E34,0.0,0.0,=(C34-B34)/B34,True,True
+saved pivot,B35,55000.0,55000.0,,True,True
+saved pivot,C35,60000.0,60000.0,,True,True
+saved pivot,D35,115000.0,115000.0,,True,True
+saved change formula,E35,0.09090909090909091,0.09090909090909091,=(C35-B35)/B35,True,True
+saved pivot,B36,70000.0,70000.0,,True,True
+saved pivot,C36,69900.0,69900.0,,True,True
+saved pivot,D36,139900.0,139900.0,,True,True
+saved change formula,E36,-0.0014285714285714286,-0.0014285714285714286,=(C36-B36)/B36,True,True
+saved pivot,B37,220000.0,220000.0,,True,True
+saved pivot,C37,220000.0,220000.0,,True,True
+saved pivot,D37,440000.0,440000.0,,True,True
+saved change formula,E37,0.0,0.0,=(C37-B37)/B37,True,True
+saved pivot,B38,110000.0,110000.0,,True,True
+saved pivot,C38,120000.0,120000.0,,True,True
+saved pivot,D38,230000.0,230000.0,,True,True
+saved change formula,E38,0.09090909090909091,0.09090909090909091,=(C38-B38)/B38,True,True
+saved pivot total,B39,1064900.0,1064900.0,,True,True
+saved pivot total,C39,1079950.0,1079950.0,,True,True
+saved pivot total,D39,2144850.0,2144850.0,,True,True
+raw side pivot,N12,1060000.0,1060000.0,,True,True
+raw side pivot,N13,200000.0,200000.0,,True,True
+raw side pivot,N14,300000.0,300000.0,,True,True
+raw side pivot,N15,1130000.0,1130000.0,,True,True
+raw side pivot,N16,200600.0,200600.0,,True,True
+raw side pivot,N17,308000.0,308000.0,,True,True
+raw side pivot total,N18,3198600.0,3198600.0,,True,True

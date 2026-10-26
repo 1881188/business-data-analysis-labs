@@ -1,0 +1,244 @@
+﻿scope,cell,saved,python,formula,numeric_compared,matched
+annual,B5,2931068.0,2931068.0,,True,True
+annual,B6,3431930.0,3431930.0,,True,True
+annual,B7,4243549.0,4243549.0,,True,True
+annual,B8,5462455.0,5462455.0,,True,True
+annual total,B9,16069002.0,16069002.0,,True,True
+2020 month,B21,222864.0,222864.0,,True,True
+2020 month,B22,285483.0,285483.0,,True,True
+2020 month,B23,399712.0,399712.0,,True,True
+2020 month,B24,333401.0,333401.0,,True,True
+2020 month,B25,632803.0,632803.0,,True,True
+2020 month,B26,565524.0,565524.0,,True,True
+2020 month,B27,340306.0,340306.0,,True,True
+2020 month,B28,588746.0,588746.0,,True,True
+2020 month,B29,502801.0,502801.0,,True,True
+2020 month,B30,577451.0,577451.0,,True,True
+2020 month,B31,468821.0,468821.0,,True,True
+2020 month,B32,544543.0,544543.0,,True,True
+2020 total,B33,5462455.0,5462455.0,,True,True
+monthly pivot,B44,178402.0,178402.0,,True,True
+monthly pivot,C44,222864.0,222864.0,,True,True
+monthly two-year total,D44,401266.0,401266.0,,True,True
+saved denominator,E44,0.1995028358101802,0.1995028358101802,=(C44-B44)/C44,True,True
+monthly pivot,B45,190254.0,190254.0,,True,True
+monthly pivot,C45,285483.0,285483.0,,True,True
+monthly two-year total,D45,475737.0,475737.0,,True,True
+saved denominator,E45,0.33357152615041874,0.33357152615041874,=(C45-B45)/C45,True,True
+monthly pivot,B46,207809.0,207809.0,,True,True
+monthly pivot,C46,399712.0,399712.0,,True,True
+monthly two-year total,D46,607521.0,607521.0,,True,True
+saved denominator,E46,0.48010317428548555,0.48010317428548555,=(C46-B46)/C46,True,True
+monthly pivot,B47,220114.0,220114.0,,True,True
+monthly pivot,C47,333401.0,333401.0,,True,True
+monthly two-year total,D47,553515.0,553515.0,,True,True
+saved denominator,E47,0.33979202221948945,0.33979202221948945,=(C47-B47)/C47,True,True
+monthly pivot,B48,399125.0,399125.0,,True,True
+monthly pivot,C48,632803.0,632803.0,,True,True
+monthly two-year total,D48,1031928.0,1031928.0,,True,True
+saved denominator,E48,0.3692744819477784,0.3692744819477784,=(C48-B48)/C48,True,True
+monthly pivot,B49,442846.0,442846.0,,True,True
+monthly pivot,C49,565524.0,565524.0,,True,True
+monthly two-year total,D49,1008370.0,1008370.0,,True,True
+saved denominator,E49,0.21692801720174565,0.21692801720174565,=(C49-B49)/C49,True,True
+monthly pivot,B50,224139.0,224139.0,,True,True
+monthly pivot,C50,340306.0,340306.0,,True,True
+monthly two-year total,D50,564445.0,564445.0,,True,True
+saved denominator,E50,0.34136042267841293,0.34136042267841293,=(C50-B50)/C50,True,True
+monthly pivot,B51,443250.0,443250.0,,True,True
+monthly pivot,C51,588746.0,588746.0,,True,True
+monthly two-year total,D51,1031996.0,1031996.0,,True,True
+saved denominator,E51,0.2471286429122236,0.2471286429122236,=(C51-B51)/C51,True,True
+monthly pivot,B52,463359.0,463359.0,,True,True
+monthly pivot,C52,502801.0,502801.0,,True,True
+monthly two-year total,D52,966160.0,966160.0,,True,True
+saved denominator,E52,0.07844455361067301,0.07844455361067301,=(C52-B52)/C52,True,True
+monthly pivot,B53,484793.0,484793.0,,True,True
+monthly pivot,C53,577451.0,577451.0,,True,True
+monthly two-year total,D53,1062244.0,1062244.0,,True,True
+saved denominator,E53,0.16046036806586186,0.16046036806586186,=(C53-B53)/C53,True,True
+monthly pivot,B54,526730.0,526730.0,,True,True
+monthly pivot,C54,468821.0,468821.0,,True,True
+monthly two-year total,D54,995551.0,995551.0,,True,True
+saved denominator,E54,-0.12352049076299909,-0.12352049076299909,=(C54-B54)/C54,True,True
+monthly pivot,B55,462728.0,462728.0,,True,True
+monthly pivot,C55,544543.0,544543.0,,True,True
+monthly two-year total,D55,1007271.0,1007271.0,,True,True
+saved denominator,E55,0.15024525152283658,0.15024525152283658,=(C55-B55)/C55,True,True
+pivot annual total,B56,4243549.0,4243549.0,,True,True
+pivot annual total,C56,5462455.0,5462455.0,,True,True
+pivot combined total,D56,9706004.0,9706004.0,,True,True
+monthly pivot,B106,4287.0,4287.0,,True,True
+monthly pivot,C106,10911.0,10911.0,,True,True
+monthly two-year total,D106,15198.0,15198.0,,True,True
+saved denominator,E106,0.6070937585922463,0.6070937585922463,=(C106-B106)/C106,True,True
+monthly pivot,B107,6679.0,6679.0,,True,True
+monthly pivot,C107,16251.0,16251.0,,True,True
+monthly two-year total,D107,22930.0,22930.0,,True,True
+saved denominator,E107,0.5890099070826411,0.5890099070826411,=(C107-B107)/C107,True,True
+monthly pivot,B108,5812.0,5812.0,,True,True
+monthly pivot,C108,3825.0,3825.0,,True,True
+monthly two-year total,D108,9637.0,9637.0,,True,True
+saved denominator,E108,-0.5194771241830065,-0.5194771241830065,=(C108-B108)/C108,True,True
+monthly pivot,B109,3003.0,3003.0,,True,True
+monthly pivot,C109,5101.0,5101.0,,True,True
+monthly two-year total,D109,8104.0,8104.0,,True,True
+saved denominator,E109,0.41129190354832385,0.41129190354832385,=(C109-B109)/C109,True,True
+monthly pivot,B110,10453.0,10453.0,,True,True
+monthly pivot,C110,8417.0,8417.0,,True,True
+monthly two-year total,D110,18870.0,18870.0,,True,True
+saved denominator,E110,-0.24189141024117858,-0.24189141024117858,=(C110-B110)/C110,True,True
+monthly pivot,B111,18844.0,18844.0,,True,True
+monthly pivot,C111,8144.0,8144.0,,True,True
+monthly two-year total,D111,26988.0,26988.0,,True,True
+saved denominator,E111,-1.3138506876227898,-1.3138506876227898,=(C111-B111)/C111,True,True
+monthly pivot,B112,15444.0,15444.0,,True,True
+monthly pivot,C112,3507.0,3507.0,,True,True
+monthly two-year total,D112,18951.0,18951.0,,True,True
+saved denominator,E112,-3.403763900769889,-3.403763900769889,=(C112-B112)/C112,True,True
+monthly pivot,B113,3729.0,3729.0,,True,True
+monthly pivot,C113,14205.0,14205.0,,True,True
+monthly two-year total,D113,17934.0,17934.0,,True,True
+saved denominator,E113,0.7374868004223865,0.7374868004223865,=(C113-B113)/C113,True,True
+monthly pivot,B114,7604.0,7604.0,,True,True
+monthly pivot,C114,984.0,984.0,,True,True
+monthly two-year total,D114,8588.0,8588.0,,True,True
+saved denominator,E114,-6.727642276422764,-6.727642276422764,=(C114-B114)/C114,True,True
+monthly pivot,B115,6518.0,6518.0,,True,True
+monthly pivot,C115,11033.0,11033.0,,True,True
+monthly two-year total,D115,17551.0,17551.0,,True,True
+saved denominator,E115,0.40922686485996557,0.40922686485996557,=(C115-B115)/C115,True,True
+monthly pivot,B116,18019.0,18019.0,,True,True
+monthly pivot,C116,1955.0,1955.0,,True,True
+monthly two-year total,D116,19974.0,19974.0,,True,True
+saved denominator,E116,-8.21687979539642,-8.21687979539642,=(C116-B116)/C116,True,True
+monthly pivot,B117,682.0,682.0,,True,True
+monthly pivot,C117,21686.0,21686.0,,True,True
+monthly two-year total,D117,22368.0,22368.0,,True,True
+saved denominator,E117,0.9685511389836761,0.9685511389836761,=(C117-B117)/C117,True,True
+pivot annual total,B118,101074.0,101074.0,,True,True
+pivot annual total,C118,106019.0,106019.0,,True,True
+pivot combined total,D118,207093.0,207093.0,,True,True
+November province pivot,B66,16336.0,16336.0,,True,True
+November province pivot,C66,18377.0,18377.0,,True,True
+November two-year total,D66,34713.0,34713.0,,True,True
+saved denominator with Excel blank,E66,0.11106274147031615,0.11106274147031615,=(C66-B66)/C66,True,True
+November province pivot,B67,28504.0,28504.0,,True,True
+November province pivot,C67,15309.0,15309.0,,True,True
+November two-year total,D67,43813.0,43813.0,,True,True
+saved denominator with Excel blank,E67,-0.8619112940100594,-0.8619112940100594,=(C67-B67)/C67,True,True
+November province pivot,B68,5523.0,5523.0,,True,True
+November province pivot,C68,5456.0,5456.0,,True,True
+November two-year total,D68,10979.0,10979.0,,True,True
+saved denominator with Excel blank,E68,-0.012280058651026392,-0.012280058651026392,=(C68-B68)/C68,True,True
+November province pivot,B69,157.0,157.0,,True,True
+November province pivot,C69,18153.0,18153.0,,True,True
+November two-year total,D69,18310.0,18310.0,,True,True
+saved denominator with Excel blank,E69,0.991351291797499,0.991351291797499,=(C69-B69)/C69,True,True
+November province pivot,B70,43391.0,43391.0,,True,True
+November province pivot,C70,33506.0,33506.0,,True,True
+November two-year total,D70,76897.0,76897.0,,True,True
+saved denominator with Excel blank,E70,-0.2950217871426013,-0.2950217871426013,=(C70-B70)/C70,True,True
+November province pivot,B71,2406.0,2406.0,,True,True
+November province pivot,C71,9276.0,9276.0,,True,True
+November two-year total,D71,11682.0,11682.0,,True,True
+saved denominator with Excel blank,E71,0.740620957309185,0.740620957309185,=(C71-B71)/C71,True,True
+November province pivot,B72,,,,False,True
+November province pivot,C72,2032.0,2032.0,,True,True
+November two-year total,D72,2032.0,2032.0,,True,True
+saved denominator with Excel blank,E72,1.0,1.0,=(C72-B72)/C72,True,True
+November province pivot,B73,893.0,893.0,,True,True
+November province pivot,C73,5432.0,5432.0,,True,True
+November two-year total,D73,6325.0,6325.0,,True,True
+saved denominator with Excel blank,E73,0.8356038291605302,0.8356038291605302,=(C73-B73)/C73,True,True
+November province pivot,B74,46697.0,46697.0,,True,True
+November province pivot,C74,21682.0,21682.0,,True,True
+November two-year total,D74,68379.0,68379.0,,True,True
+saved denominator with Excel blank,E74,-1.1537219813670325,-1.1537219813670325,=(C74-B74)/C74,True,True
+November province pivot,B75,21890.0,21890.0,,True,True
+November province pivot,C75,13270.0,13270.0,,True,True
+November two-year total,D75,35160.0,35160.0,,True,True
+saved denominator with Excel blank,E75,-0.6495855312735493,-0.6495855312735493,=(C75-B75)/C75,True,True
+November province pivot,B76,13052.0,13052.0,,True,True
+November province pivot,C76,32828.0,32828.0,,True,True
+November two-year total,D76,45880.0,45880.0,,True,True
+saved denominator with Excel blank,E76,0.6024125746314122,0.6024125746314122,=(C76-B76)/C76,True,True
+November province pivot,B77,24170.0,24170.0,,True,True
+November province pivot,C77,25481.0,25481.0,,True,True
+November two-year total,D77,49651.0,49651.0,,True,True
+saved denominator with Excel blank,E77,0.05145010007456536,0.05145010007456536,=(C77-B77)/C77,True,True
+November province pivot,B78,18205.0,18205.0,,True,True
+November province pivot,C78,2068.0,2068.0,,True,True
+November two-year total,D78,20273.0,20273.0,,True,True
+saved denominator with Excel blank,E78,-7.803191489361702,-7.803191489361702,=(C78-B78)/C78,True,True
+November province pivot,B79,24654.0,24654.0,,True,True
+November province pivot,C79,10628.0,10628.0,,True,True
+November two-year total,D79,35282.0,35282.0,,True,True
+saved denominator with Excel blank,E79,-1.31972149040271,-1.31972149040271,=(C79-B79)/C79,True,True
+November province pivot,B80,3197.0,3197.0,,True,True
+November province pivot,C80,19517.0,19517.0,,True,True
+November two-year total,D80,22714.0,22714.0,,True,True
+saved denominator with Excel blank,E80,0.8361940872060255,0.8361940872060255,=(C80-B80)/C80,True,True
+November province pivot,B81,30890.0,30890.0,,True,True
+November province pivot,C81,56347.0,56347.0,,True,True
+November two-year total,D81,87237.0,87237.0,,True,True
+saved denominator with Excel blank,E81,0.451789802473956,0.451789802473956,=(C81-B81)/C81,True,True
+November province pivot,B82,3797.0,3797.0,,True,True
+November province pivot,C82,700.0,700.0,,True,True
+November two-year total,D82,4497.0,4497.0,,True,True
+saved denominator with Excel blank,E82,-4.424285714285714,-4.424285714285714,=(C82-B82)/C82,True,True
+November province pivot,B83,9987.0,9987.0,,True,True
+November province pivot,C83,,,,False,True
+November two-year total,D83,9987.0,9987.0,,True,True
+manual zero for absent current record,E83,0.0,0.0,,True,True
+November province pivot,B84,6108.0,6108.0,,True,True
+November province pivot,C84,,,,False,True
+November two-year total,D84,6108.0,6108.0,,True,True
+manual zero for absent current record,E84,0.0,0.0,,True,True
+November province pivot,B85,73342.0,73342.0,,True,True
+November province pivot,C85,51737.0,51737.0,,True,True
+November two-year total,D85,125079.0,125079.0,,True,True
+saved denominator with Excel blank,E85,-0.4175928252507876,-0.4175928252507876,=(C85-B85)/C85,True,True
+November province pivot,B86,97.0,97.0,,True,True
+November province pivot,C86,253.0,253.0,,True,True
+November two-year total,D86,350.0,350.0,,True,True
+saved denominator with Excel blank,E86,0.616600790513834,0.616600790513834,=(C86-B86)/C86,True,True
+November province pivot,B87,33018.0,33018.0,,True,True
+November province pivot,C87,13716.0,13716.0,,True,True
+November two-year total,D87,46734.0,46734.0,,True,True
+saved denominator with Excel blank,E87,-1.4072615923009624,-1.4072615923009624,=(C87-B87)/C87,True,True
+November province pivot,B88,37522.0,37522.0,,True,True
+November province pivot,C88,9629.0,9629.0,,True,True
+November two-year total,D88,47151.0,47151.0,,True,True
+saved denominator with Excel blank,E88,-2.8967701734344167,-2.8967701734344167,=(C88-B88)/C88,True,True
+November province pivot,B89,18019.0,18019.0,,True,True
+November province pivot,C89,1955.0,1955.0,,True,True
+November two-year total,D89,19974.0,19974.0,,True,True
+saved denominator with Excel blank,E89,-8.21687979539642,-8.21687979539642,=(C89-B89)/C89,True,True
+November province pivot,B90,38031.0,38031.0,,True,True
+November province pivot,C90,26661.0,26661.0,,True,True
+November two-year total,D90,64692.0,64692.0,,True,True
+saved denominator with Excel blank,E90,-0.42646562394508836,-0.42646562394508836,=(C90-B90)/C90,True,True
+November province pivot,B91,,,,False,True
+November province pivot,C91,5580.0,5580.0,,True,True
+November two-year total,D91,5580.0,5580.0,,True,True
+saved denominator with Excel blank,E91,1.0,1.0,=(C91-B91)/C91,True,True
+November province pivot,B92,,,,False,True
+November province pivot,C92,16459.0,16459.0,,True,True
+November two-year total,D92,16459.0,16459.0,,True,True
+saved denominator with Excel blank,E92,1.0,1.0,=(C92-B92)/C92,True,True
+November province pivot,B93,3461.0,3461.0,,True,True
+November province pivot,C93,5871.0,5871.0,,True,True
+November two-year total,D93,9332.0,9332.0,,True,True
+saved denominator with Excel blank,E93,0.41049225004258216,0.41049225004258216,=(C93-B93)/C93,True,True
+November province pivot,B94,14661.0,14661.0,,True,True
+November province pivot,C94,26777.0,26777.0,,True,True
+November two-year total,D94,41438.0,41438.0,,True,True
+saved denominator with Excel blank,E94,0.4524778728012847,0.4524778728012847,=(C94-B94)/C94,True,True
+November province pivot,B95,8722.0,8722.0,,True,True
+November province pivot,C95,20121.0,20121.0,,True,True
+November two-year total,D95,28843.0,28843.0,,True,True
+saved denominator with Excel blank,E95,0.5665225386412206,0.5665225386412206,=(C95-B95)/C95,True,True
+November total,B96,526730.0,526730.0,,True,True
+November total,C96,468821.0,468821.0,,True,True
+November total,D96,995551.0,995551.0,,True,True

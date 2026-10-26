@@ -1,0 +1,11 @@
+﻿chart,title,category_reference,value_reference,cached_categories,cached_values,category_value_length_equal,numeric_cache_matched,python_destination
+xl/charts/chart1.xml,年度销售趋势分析,准备区!$A$5:$A$9,准备区!$B$5:$B$9,4,4,True,True,income_dashboard:年度已观察金额（不把总计当一年）
+xl/charts/chart2.xml,2020年月销售趋势分析,准备区!$A$21:$A$33,准备区!$B$21:$B$33,12,12,True,True,income_dashboard:2020月度金额（不把总计当一月）
+xl/charts/chart3.xml,2020年销售同比增长率趋势分析,,,12,12,True,True,income_dashboard:标准同比与原式分开
+xl/charts/chart4.xml,2020年11月各省份同比增长情况分析,准备区!$A$66:$A$94,准备区!$E$66:$E$95,29,30,False,True,province_bridge:类别/数值长度错配修正；按省键关联
+xl/charts/chart5.xml,四川省2020年各月同比增长情况,准备区!$A$106:$A$117,准备区!$E$106:$E$117,12,12,True,True,income_drilldown:四川标准同比与原式分开
+xl/charts/chart6.xml,年度销售趋势分析,准备区!$A$5:$A$9,准备区!$B$5:$B$9,4,4,True,True,income_dashboard:年度已观察金额（不把总计当一年）
+xl/charts/chart7.xml,2020年月销售趋势分析,准备区!$A$21:$A$33,准备区!$B$21:$B$33,12,12,True,True,income_dashboard:2020月度金额（不把总计当一月）
+xl/charts/chart8.xml,2020年销售同比增长率趋势分析,,,12,12,True,True,income_dashboard:标准同比与原式分开
+xl/charts/chart9.xml,2020年11月各省份同比增长情况分析,准备区!$A$66:$A$94,准备区!$E$66:$E$95,29,30,False,True,province_bridge:类别/数值长度错配修正；按省键关联
+xl/charts/chart10.xml,四川省2020年各月同比增长情况,准备区!$A$106:$A$117,准备区!$E$106:$E$117,12,12,True,True,income_drilldown:四川标准同比与原式分开
