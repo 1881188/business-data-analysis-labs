@@ -1,6 +1,6 @@
 # 实验索引
 
-目前26个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
+目前28个独立实验已运行，其中10个完成指定参考核对（B04, B05, B06, B07, B08, B09, S03, S05, S06, S07）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。
 
 素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。
 
@@ -22,8 +22,8 @@
 | B11 | 基础零售销售看板 | 运行通过 | [代码](../labs/cda1_business/b11_retail/main.py) · [报告](results/B11/report.md) |
 | B12 | 分省销售分析 | 运行通过 | [代码](../labs/cda1_business/b12_province/main.py) · [报告](results/B12/report.md) |
 | B13 | 服装零售经营分析 | 运行通过 | [代码](../labs/cda1_business/b13_apparel/main.py) · [报告](results/B13/report.md) |
-| B14 | 人力资源分析 | 待迁移 | — |
-| B15 | 学生考试多表分析 | 待迁移 | — |
+| B14 | 人力资源分析 | 运行通过 | [代码](../labs/cda1_business/b14_hr/main.py) · [报告](results/B14/report.md) |
+| B15 | 学生考试多表分析 | 运行通过 | [代码](../labs/cda1_business/b15_exams/main.py) · [报告](results/B15/report.md) |
 | B16 | 收入趋势分析 | 待迁移 | — |
 | B17 | 财务费用分解 | 待迁移 | — |
 | B18 | 电商精准营销 | 待迁移 | — |

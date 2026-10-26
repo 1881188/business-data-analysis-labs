@@ -1,0 +1,70 @@
+{
+  "lab_id": "B14",
+  "status": "execution_verified",
+  "selection": {
+    "start_date": null,
+    "end_date": null,
+    "department": null
+  },
+  "analysis_start": "2022-01-01",
+  "analysis_end": "2022-08-21",
+  "source_event_cutoff": "2022-08-21",
+  "metrics": {
+    "source_employee_records": 200,
+    "opening": 93,
+    "hires": 31,
+    "exits": 42,
+    "closing": 82,
+    "touched": 124,
+    "person_days": 21013,
+    "period_days": 233,
+    "average_daily_headcount": 90.18454935622317,
+    "period_exits_per_average_headcount": 0.46571170227954123
+  },
+  "last_month_complete": false,
+  "previous_month_exits": 6,
+  "last_month_exit_relative_change": 0.0,
+  "status_date_mismatches": 0,
+  "daily_enumeration_check": true,
+  "monthly_continuity_check": true,
+  "group_conservation_checks": 24,
+  "workbook_coverage": {
+    "source_sheets": 1,
+    "mapped_sheets": 1
+  },
+  "pbix_visuals": 6,
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/hr_workforce.py": "7bbd8a7ca2577e41ce872950a8275cbe7984feb9fb99282dc5c49c20d5ce229e",
+    "labs/cda1_business/b14_hr/main.py": "aa1fe89f7c16d3cc86c4d9af20d5c4dad432024a3501de79fade94f8012be303",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "hr_employees": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/人力案例/员工信息.xlsx",
+      "sha256": "5f5dd3fb69f65ad39f1ea8306f04c71ecb770b34b913ff94890b5d45bf99bd32",
+      "bytes": 23121
+    },
+    "hr_pbix": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/人力案例/人力资源看板.pbix",
+      "sha256": "9fc807511c5f0e5459cd64b835114b80bd0481bdfef3900ea8250b3f56b58600",
+      "bytes": 200799
+    }
+  },
+  "verified_at_utc": "2026-10-26T07:56:42.619634+00:00"
+}

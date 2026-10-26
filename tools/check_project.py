@@ -23,7 +23,7 @@ def main():
             if target and not (path.parent/target).exists():raise AssertionError(f"Broken local link {path}: {target}")
     for lab in PUBLIC:
         summary=json.loads((ROOT/f"docs/results/{lab}/summary.json").read_text(encoding="utf-8"))
-        if lab in {'B11','B12'} and any(value is not None for value in summary.get('selection',{}).values()):
+        if lab in {'B11','B12','B14','B15'} and any(value is not None for value in summary.get('selection',{}).values()):
             raise AssertionError(f'Published {lab} report must use the default full-data selection')
         if lab=='B13':
             if summary.get('real_case_metrics_published') is not False or {'metrics','diagnostics'} & set(summary):
@@ -52,7 +52,8 @@ def main():
     with (ROOT/'docs/source-map.csv').open(encoding='utf-8-sig',newline='') as stream:rows=list(csv.DictReader(stream))
     if len(rows)!=572:raise AssertionError('Incomplete material map')
     if len([r for r in rows if r['source_file'].endswith('.ipynb')])!=58:raise AssertionError('Incomplete Notebook map')
-    forbidden={'customers.csv','test_predictions.csv','split_membership.csv','write.csv'}
+    forbidden={'customers.csv','test_predictions.csv','split_membership.csv','write.csv',
+               'employees_private.csv','students_private.csv','ranking_private.csv'}
     for path in (ROOT/'docs/results').rglob('*'):
         if path.name in forbidden:raise AssertionError(f'Private or intermediate output in publication: {path}')
     print(f'PASS: Python syntax, local links, {len(PUBLIC)} result provenance records, 572 source mappings and publication allowlist.')

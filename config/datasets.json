@@ -453,5 +453,30 @@
     "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/案例2/2.店铺详情.png",
     "sha256": "8928fa653a6192f5a02c4a0a4450e977c15246a104eb0f16780ce3306824ea53",
     "bytes": 384720
+  },
+  "hr_employees": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/人力案例/员工信息.xlsx",
+    "sha256": "5f5dd3fb69f65ad39f1ea8306f04c71ecb770b34b913ff94890b5d45bf99bd32",
+    "bytes": 23121
+  },
+  "hr_pbix": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/人力案例/人力资源看板.pbix",
+    "sha256": "9fc807511c5f0e5459cd64b835114b80bd0481bdfef3900ea8250b3f56b58600",
+    "bytes": 200799
+  },
+  "exam_roster": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/学生考试案例/学生及老师信息.xlsx",
+    "sha256": "77cac0b25e4afc68318f158bc3a9ad36070cafc5f2afdb9fc2a1f0810b538514",
+    "bytes": 12398
+  },
+  "exam_scores": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/学生考试案例/考试记录.xlsx",
+    "sha256": "8b427feb734e1ca85a54a580bc7df13af57bcb3bdfa5fed54573cbcc551ade96",
+    "bytes": 10687
+  },
+  "exam_pbix": {
+    "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/学生考试案例/学生案例.pbix",
+    "sha256": "751e1eb694d6082ab18d52b22fac7f88d62a28f6b78434199a95625b1a87f2ec",
+    "bytes": 83584
   }
 }

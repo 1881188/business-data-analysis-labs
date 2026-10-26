@@ -1,0 +1,72 @@
+{
+  "lab_id": "B15",
+  "status": "execution_verified",
+  "selection": {
+    "classes": null
+  },
+  "metrics": {
+    "enrolled": 59,
+    "distinct_teacher_names": 3,
+    "exam_records": 59,
+    "students_with_observed_scores": 59,
+    "complete_exams": 59,
+    "mean_total_complete": 225.57627118644066,
+    "max_total_complete": 269.0,
+    "min_total_complete": 135.0,
+    "mean_observed_subject_score": 75.19209039548022,
+    "known_any_failed": 24,
+    "known_all_passed": 35,
+    "failure_outcome_unknown": 0
+  },
+  "source_students": 59,
+  "source_exam_records": 59,
+  "source_teacher_rows": 3,
+  "pass_count_implementations_agree": true,
+  "outcome_partition_check": true,
+  "complete_total_band_check": true,
+  "date_epoch": "1899-12-30",
+  "workbook_coverage": {
+    "source_sheets": 3,
+    "mapped_sheets": 3
+  },
+  "pbix_visuals": 20,
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/student_exams.py": "f792d3ca0c70792d0f26539c7d6b6fab7ccd43e2c74dc1e29502c4ad7a27b4e7",
+    "labs/cda1_business/b15_exams/main.py": "8c25bf5d2f2905676de2f57269717d7bf100541b8d2a48231353499abc5766f8",
+    "src/bda_labs/tabular_tools.py": "994bb2d9a59e4bde63067a694ac90579aec003ac1e156f603d01f56829084224",
+    "src/bda_labs/pbix_audit.py": "91e6850c6b02ad9a36fa491eb60950c9802f576ef547c47673df0aaadfd0c0ed",
+    "src/bda_labs/workbook_reference.py": "956a5da70dcc85959d1bd00e1f4244d37bba729692b186a2df25f9710f1db9a6"
+  },
+  "source_files": {
+    "exam_roster": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/学生考试案例/学生及老师信息.xlsx",
+      "sha256": "77cac0b25e4afc68318f158bc3a9ad36070cafc5f2afdb9fc2a1f0810b538514",
+      "bytes": 12398
+    },
+    "exam_scores": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/学生考试案例/考试记录.xlsx",
+      "sha256": "8b427feb734e1ca85a54a580bc7df13af57bcb3bdfa5fed54573cbcc551ade96",
+      "bytes": 10687
+    },
+    "exam_pbix": {
+      "path": "1《CDA 一级认证教材：商业数据分析》/第2章 数据分析方法/5、PowerBI基本操作/函数练习文件/学生考试案例/学生案例.pbix",
+      "sha256": "751e1eb694d6082ab18d52b22fac7f88d62a28f6b78434199a95625b1a87f2ec",
+      "bytes": 83584
+    }
+  },
+  "verified_at_utc": "2026-10-26T08:26:11.728020+00:00"
+}

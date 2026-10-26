@@ -251,6 +251,49 @@
       "synthetic_targets.csv"
     ]
   },
+  "B14": {
+    "module": "hr_workforce",
+    "entry": "labs/cda1_business/b14_hr/main.py",
+    "extra_code": [
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/pbix_audit.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "pbix_visual_map.csv",
+      "workforce_dashboard.png",
+      "daily_headcount.csv",
+      "monthly_workforce.csv",
+      "department_workforce.csv",
+      "age_band_workforce.csv",
+      "gender_workforce.csv",
+      "education_workforce.csv"
+    ]
+  },
+  "B15": {
+    "module": "student_exams",
+    "entry": "labs/cda1_business/b15_exams/main.py",
+    "extra_code": [
+      "src/bda_labs/tabular_tools.py",
+      "src/bda_labs/pbix_audit.py",
+      "src/bda_labs/workbook_reference.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "workbook-map.md",
+      "pbix_visual_map.csv",
+      "exam_dashboard.png",
+      "exam_denominators.png",
+      "subject_statistics.csv",
+      "class_context.csv",
+      "query_examples.csv",
+      "total_bands.csv"
+    ]
+  },
   "S01": {
     "module": "cleaning",
     "entry": "labs/cda2_statistics/s01_cleaning/main.py",

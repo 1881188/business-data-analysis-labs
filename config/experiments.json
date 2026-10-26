@@ -94,13 +94,15 @@
     "lab_id": "B14",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "人力资源分析",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b14_hr/main.py"
   },
   {
     "lab_id": "B15",
     "book": "1《CDA 一级认证教材：商业数据分析》",
     "title": "学生考试多表分析",
-    "status": "待迁移"
+    "status": "运行通过",
+    "target_script": "labs/cda1_business/b15_exams/main.py"
   },
   {
     "lab_id": "B16",

@@ -13,7 +13,7 @@ def main():
         source=ROOT/"outputs"/lab
         if not source.is_dir():source=ROOT/"docs/results"/lab
         summary=json.loads((source/"summary.json").read_text(encoding="utf-8"))
-        if lab in {'B11','B12'} and any(value is not None for value in summary.get('selection',{}).values()):
+        if lab in {'B11','B12','B14','B15'} and any(value is not None for value in summary.get('selection',{}).values()):
             raise RuntimeError(f'{lab} publication requires the default full-data run; keep filtered runs in a separate output root')
         if lab=='B13':
             if summary.get('real_case_metrics_published') is not False or {'metrics','diagnostics'} & set(summary):

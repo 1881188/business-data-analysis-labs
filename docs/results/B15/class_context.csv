@@ -1,0 +1,4 @@
+﻿class_id,enrolled,distinct_teacher_names,exam_records,students_with_observed_scores,complete_exams,mean_total_complete,max_total_complete,min_total_complete,mean_observed_subject_score,known_any_failed,known_all_passed,failure_outcome_unknown,class_share_of_grade,chinese_passed,chinese_pass_share_of_grade
+1,23,1,23,23,23,224.3913043478261,269.0,135.0,74.79710144927536,8,15,0,0.3898305084745763,18,0.3673469387755102
+2,18,1,18,18,18,225.05555555555554,258.0,188.0,75.01851851851852,8,10,0,0.3050847457627119,15,0.30612244897959184
+3,18,1,18,18,18,227.61111111111111,267.0,186.0,75.87037037037037,8,10,0,0.3050847457627119,16,0.32653061224489793
