@@ -1,0 +1,91 @@
+{
+  "lab_id": "F02",
+  "title": "第二章某银行贷款产品精准营销模型代码通过",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 11,
+    "mapped_code_cells": 11,
+    "source_cells_total": 44
+  },
+  "train_rows": 2783,
+  "test_rows": 1193,
+  "scoring_rows": 3818,
+  "scoring_mean_probability": 0.032785430499552855,
+  "train_only_cap_bounds": {
+    "std_balance": [
+      0.0,
+      30850.574418556575
+    ],
+    "cv_balance": [
+      0.0,
+      0.7689528443911258
+    ],
+    "sum_expenditure": [
+      0.0,
+      852803.1999999997
+    ]
+  },
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab",
+    "labs/finance_cases/f02/main.py": "344f06639a3b182397479788c20888e0d9fbc41b55251e2c17481cd43d0809c8",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "f02_input1": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/tran0917.csv",
+      "sha256": "30aa69a503d64c606a6ef20d9adba121df8e65fe69b00da918cd48fa27ea7ea7",
+      "bytes": 622002
+    },
+    "f02_input2": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/pred0917.csv",
+      "sha256": "beb058feefd84a006a8e9d03d03ba2d883d97cb71040f95692c207dde41efed1",
+      "bytes": 601067
+    },
+    "f02_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/第二章某银行贷款产品精准营销模型代码通过.ipynb",
+      "sha256": "1662829592aaf3ca23fa38d72380efe8c399eff6d3d477250ccd517f6c73e2b4",
+      "bytes": 62670
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:04:40.477980+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f02/main.py": {
+      "executed_sha256": "e07ee77167189f6acf6f3b8f045c82b5609f597f0c7e393f5989ac22b0b3513f",
+      "published_sha256": "344f06639a3b182397479788c20888e0d9fbc41b55251e2c17481cd43d0809c8",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

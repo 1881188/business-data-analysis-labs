@@ -1,0 +1,80 @@
+{
+  "lab_id": "F04",
+  "title": "Vintage-checkpoint",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 4,
+    "mapped_code_cells": 4,
+    "source_cells_total": 4
+  },
+  "customer_rows": 2665,
+  "repayment_rows": 15841,
+  "cohorts": 6,
+  "pandas_sqlite_aggregate_checked": true,
+  "source_year_branch_differences": 0,
+  "duplicate_of": "F05",
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_finance.py": "b63d7808ae5d62db52344fd6b8b34a90d9033dfb6933ac8742076047e2b3cfd2",
+    "labs/finance_cases/f04/main.py": "451339aa84ad0c28c31f0bfa7b46eaedb31246dffab3968348b5a65b9e5633b1",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab"
+  },
+  "source_files": {
+    "f04_input1": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/customer_detail.sql",
+      "sha256": "8233318eb4c273a380c30bebbcb56ac606241c443d3ab8b8365ad64e5e7fca81",
+      "bytes": 457109
+    },
+    "f04_input2": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/repayment_sum_month.sql",
+      "sha256": "600f843e69a2bc49a4b20d1f6b5f32380fed845ffe32b440f270db55cf80bb9b",
+      "bytes": 3318709
+    },
+    "f04_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/Vintage-checkpoint.ipynb",
+      "sha256": "efda5740c7ea9ed33cbedc32715210de2a5e75ccd7e41bf934bfcf6a3571e06e",
+      "bytes": 8230
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:12:20.148542+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f04/main.py": {
+      "executed_sha256": "466995964609a7be7d380b301567f197e273e2795776c5725790e0af99548d7b",
+      "published_sha256": "451339aa84ad0c28c31f0bfa7b46eaedb31246dffab3968348b5a65b9e5633b1",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

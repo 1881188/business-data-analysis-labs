@@ -1,0 +1,78 @@
+{
+  "lab_id": "M05",
+  "title": "2.3.3变量聚类",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 1,
+    "mapped_code_cells": 1,
+    "source_cells_total": 3
+  },
+  "rows": 10,
+  "selected_features": [
+    "X4",
+    "X2"
+  ],
+  "source_helper_bugs_corrected": [
+    "global_best_alpha",
+    "correlation_list_mutation"
+  ],
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_profiles.py": "07a8a00a9265f5882f435ca585ad4662e021393f79b33dc71321eead765280b0",
+    "labs/cda3_mining/m05/main.py": "51f4a8a823af17339117f4bcb754e60b6ae6181d30a8801ff30ab3af836cc2a1",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/dimension_reduction.py": "7bf4030bf590b25a252dd090442ab9860c0518a39b38bdac36ed247f88e5f80b"
+  },
+  "source_files": {
+    "m05_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/cities_10.csv",
+      "sha256": "3a2b56849b754ce147f4482c6f277acf0e1d05abd223a70d0bf2ca0d0b0e22b8",
+      "bytes": 658
+    },
+    "m05_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.3变量聚类.ipynb",
+      "sha256": "a485e5e884ca4dd80d5f7af964b34f368085b6e45091aebd89d1d0bda0dd15f0",
+      "bytes": 4556
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:57:33.203756+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m05/main.py": {
+      "executed_sha256": "9876197783e5538e63b1cd7f59481008ba68ac0af3fe435502067c25d057c620",
+      "published_sha256": "51f4a8a823af17339117f4bcb754e60b6ae6181d30a8801ff30ab3af836cc2a1",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

@@ -678,5 +678,475 @@
     "path": "1《CDA 一级认证教材：商业数据分析》/第9章 用户标签体系与用户画像专题/data/在Mysql中创建数据/mysql_csv/Two.csv",
     "sha256": "3cae2d153e33d18c9b081d6e11f8aa4ba8f243b3228289543a0a6b078a2abbb8",
     "bytes": 25
+  },
+  "m03_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.1-2.3.2.主成分_因子分析_层次聚类(经济发展数据).ipynb",
+    "sha256": "35d2ba70131349e776394ac33658b2bcefac1b776385469a43cfd444fa6077af",
+    "bytes": 251826
+  },
+  "m03_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/cities_10.csv",
+    "sha256": "3a2b56849b754ce147f4482c6f277acf0e1d05abd223a70d0bf2ca0d0b0e22b8",
+    "bytes": 658
+  },
+  "m04_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.1主成分分析(Loan_aplya打分).ipynb",
+    "sha256": "5607940166a9192a393b596345ee492bfd52405a2a55a39f6b9b38f4b00fbc96",
+    "bytes": 17735
+  },
+  "m04_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/Loan_aply.csv",
+    "sha256": "b178d5cdb810054bffdc35482694423ae81d1db734520d614f84519d7baf0032",
+    "bytes": 300
+  },
+  "m05_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.3变量聚类.ipynb",
+    "sha256": "a485e5e884ca4dd80d5f7af964b34f368085b6e45091aebd89d1d0bda0dd15f0",
+    "bytes": 4556
+  },
+  "m05_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/cities_10.csv",
+    "sha256": "3a2b56849b754ce147f4482c6f277acf0e1d05abd223a70d0bf2ca0d0b0e22b8",
+    "bytes": 658
+  },
+  "m06_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.4层次聚类(经济发展数据).ipynb",
+    "sha256": "b0993d59f5f78f07b600ccc4073c6b97e092c40b3c36ff71aa089d3093fdf3c5",
+    "bytes": 28384
+  },
+  "m06_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/cities_10.csv",
+    "sha256": "3a2b56849b754ce147f4482c6f277acf0e1d05abd223a70d0bf2ca0d0b0e22b8",
+    "bytes": 658
+  },
+  "m07_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.5Kmeans聚类用户细分.ipynb",
+    "sha256": "3abf20ca64fe096bf8b82f306f04e9380391c6873943f4c821be99dd657b667e",
+    "bytes": 756542
+  },
+  "m07_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/data_clust.csv",
+    "sha256": "8bd551b5bed11f87d45a9d1cc07f40c0b95aae5d1db0545217adcc17165f03ed",
+    "bytes": 9689464
+  },
+  "m08_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/2.4.1.关联规则（银行产品交叉销售分析）.ipynb",
+    "sha256": "a110af478742060e99c117ceb9f54c11921911aaae95940052efd42a0c096956",
+    "bytes": 59577
+  },
+  "m08_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/bank_prod_order.csv",
+    "sha256": "e7505217d13d09d31ac3e3641499185d0d584e38d25ef5011359dcea9a39afbc",
+    "bytes": 40490
+  },
+  "m09_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/2.4.2.序列模式（银行产品交叉销售分析）.ipynb",
+    "sha256": "154d11a0d25f21de0cad7903b6fbfbdc62452e160a7b097a725f713b3ee76b5e",
+    "bytes": 6167
+  },
+  "m09_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/bank_prod_order.csv",
+    "sha256": "e7505217d13d09d31ac3e3641499185d0d584e38d25ef5011359dcea9a39afbc",
+    "bytes": 40490
+  },
+  "m10_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/上课版-银行产品交叉销售分析-mlxtendApriori copy.ipynb",
+    "sha256": "34d95078bbf046d66990588bea2ed4f8f140e2706420fda97d0fd5c9315b18b5",
+    "bytes": 92689
+  },
+  "m10_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/bank_prod_order(1).csv",
+    "sha256": "e7505217d13d09d31ac3e3641499185d0d584e38d25ef5011359dcea9a39afbc",
+    "bytes": 40490
+  },
+  "m11_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/课后答案版-银行产品交叉销售分析-mlxtendApriori.ipynb",
+    "sha256": "655906de3af5730173483553bff8d3189840f4b7efba8bc00fdaf531b261a815",
+    "bytes": 123462
+  },
+  "m11_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/bank_prod_order(1).csv",
+    "sha256": "e7505217d13d09d31ac3e3641499185d0d584e38d25ef5011359dcea9a39afbc",
+    "bytes": 40490
+  },
+  "m22_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.1线性规划.ipynb",
+    "sha256": "27ba5f75438f2f540f7f06cb8debde1400d2fb94a492fa6f2c8631f6f6877a19",
+    "bytes": 3342
+  },
+  "m22_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/productivity.lp",
+    "sha256": "1365f2381718a296e5d513edb575cc551b5954991daa7ca9a174949dccaed082",
+    "bytes": 128
+  },
+  "m23_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.2整数规划.ipynb",
+    "sha256": "e1732d476701e671a78cefd159c8d9e3cd48f8832511c99761366b0b04f60525",
+    "bytes": 4565
+  },
+  "m23_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/campaign.lp",
+    "sha256": "629400951cb7804af05d558b2a53152640f027761cc73f8798c6d2bd3a5adea7",
+    "bytes": 1522
+  },
+  "m24_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.3二次规划.ipynb",
+    "sha256": "5d8b376be940f4d90bbdb300f4647b70dfea46c557e8f433bc4004d7cac66b63",
+    "bytes": 5006
+  },
+  "m24_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/qp1.lp",
+    "sha256": "5d792563de68cf207cf326ce83048f20d52e337603628b65466c0fdc9ac77106",
+    "bytes": 138
+  },
+  "m25_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/流程挖掘pm4py.ipynb",
+    "sha256": "13bce6dbfd2890c200ea59c07dfb2ee38711251ecd11d6b545703cf38469adf9",
+    "bytes": 205106
+  },
+  "m25_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/running-example.xes",
+    "sha256": "663cd7b1da01cd024291e527a46079e0e7676fcf3a81ca8f5dee070b073c5df9",
+    "bytes": 15891
+  },
+  "f03_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第3章-多维特征的客户细分/第3章多维特征的客户细分代码通过.ipynb",
+    "sha256": "1f50d82dad2b399435171edfe9d070ed84cb4adf987ff4d192fd7e98e3d7808d",
+    "bytes": 740434
+  },
+  "f03_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第3章-多维特征的客户细分/data_clust.csv",
+    "sha256": "975c83f4e951da59ffc1d317001d8742f180df3fe99df2fd8e67e951562ad463",
+    "bytes": 9689464
+  },
+  "f09_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第9章-算法工程化/第9章算法工程化代码通过.ipynb",
+    "sha256": "21b76a34946a733a91d0eb6940086331fa3150c536c00fde2ff3329bf0d4a858",
+    "bytes": 15012
+  },
+  "f10_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/02-社交网络-基本理论CODE.ipynb",
+    "sha256": "ae18424ed06e67198fd93b4a757a49e26b46a1197c52d3c4d4c9eebb92cff029",
+    "bytes": 78525
+  },
+  "f11_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-1-深度遍历和广度遍历.ipynb",
+    "sha256": "f36fcafb1946b0ed65dae91d5f074604a3fc4c8bfe6937e24ea8c4fca107c29c",
+    "bytes": 5062
+  },
+  "f12_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-2-社交网络-核心度量指标.ipynb",
+    "sha256": "60f04eae1f993ba92b81b36c92aa0bef45d3361a58de591819f3c93301fe1d54",
+    "bytes": 53245
+  },
+  "f13_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-3-PageRank-Python实现.ipynb",
+    "sha256": "86498c55b0c3629955d7cba8103965cc7b1ef06d2648b61e24e4fcb3af3079e3",
+    "bytes": 7475
+  },
+  "f14_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/04-社交网络算法-小案例.ipynb",
+    "sha256": "8c25b10ad0e9d970e9dde53349665e4881176ce5064b19eabb200bc9a841bec0",
+    "bytes": 134312
+  },
+  "f14_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/stormofswords.csv",
+    "sha256": "ad96028bae9431b945860d70b4ee64bd27ba3351da2e0339bb3cfe25b5a2c77d",
+    "bytes": 5554
+  },
+  "f15_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/04-社交网络算法-小案例_子网分割.ipynb",
+    "sha256": "179d742e50540857e49289a58110d4e233040e8f7f80e834910f353131b53527",
+    "bytes": 174136
+  },
+  "f15_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/stormofswords.csv",
+    "sha256": "ad96028bae9431b945860d70b4ee64bd27ba3351da2e0339bb3cfe25b5a2c77d",
+    "bytes": 5554
+  },
+  "f16_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/05-社交网络—银行交易圈实践-社区发现 .ipynb",
+    "sha256": "76c04cdf055945bbaf54a1c83f3de555ee302c5b5d0e175637cac0e149af893d",
+    "bytes": 174148
+  },
+  "f16_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/Archive-社交网络-交易对手明细汇总.csv",
+    "sha256": "19b25a8a6dcc20c5cd773c817ee92887b874926e76c5281e495ad94673003708",
+    "bytes": 864268
+  },
+  "m01_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/2.1线性回归.ipynb",
+    "sha256": "d29e06835e358626e793b1cb9b2bc2f1b69d54acc39faf620b7ba735f9b4c289",
+    "bytes": 486219
+  },
+  "m01_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/creditcard_exp.csv",
+    "sha256": "c925161f16b0c3e107359c17ecd07d06613913b109959040727303b8727a0aab",
+    "bytes": 7011
+  },
+  "m01_input2": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/creditcard_exp_out_of_sample.csv",
+    "sha256": "787a667d1fa34799826d3cb869fb42836021dc43acbb0d358306bb5b88a09427",
+    "bytes": 1324
+  },
+  "m02_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/2.2逻辑回归.ipynb",
+    "sha256": "ac74a029ce0fcb41c4f5780e147c8d29d5529d170a08a162bcc42ff9ec0a339f",
+    "bytes": 53795
+  },
+  "m02_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/creditcard_exp.csv",
+    "sha256": "c925161f16b0c3e107359c17ecd07d06613913b109959040727303b8727a0aab",
+    "bytes": 7011
+  },
+  "m02_input2": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/creditcard_exp_out_of_sample.csv",
+    "sha256": "787a667d1fa34799826d3cb869fb42836021dc43acbb0d358306bb5b88a09427",
+    "bytes": 1324
+  },
+  "m12_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/3.1.1-3.1.2分类（反欺诈_DT_EnsembleMethods）.ipynb",
+    "sha256": "7388efef6e65dd9c5e17d16407ac90737de99bf616d40786eca50b92c28c7841",
+    "bytes": 472352
+  },
+  "m12_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/loan_net.csv",
+    "sha256": "a92a9769ba3266b2965c1df9aa1fec1defae3e67cd0d05c332f65b9f53dba9dc",
+    "bytes": 302589
+  },
+  "m13_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/3.1.3-3.1.6分类（反欺诈_KNN_NB _SVM_MLP）.ipynb",
+    "sha256": "f63a0f26d2fd657ba54b1a7fdc078d89f0f6e06c6c6dfbf246ee7b72c5efc4e9",
+    "bytes": 275412
+  },
+  "m13_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/loan_net.csv",
+    "sha256": "a92a9769ba3266b2965c1df9aa1fec1defae3e67cd0d05c332f65b9f53dba9dc",
+    "bytes": 302589
+  },
+  "m14_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/1_XGBoost专题_课堂代码.ipynb",
+    "sha256": "10b1413b3a19b616638829990f4004c54ccdae0730d4e6a579b2e07c3b21510b",
+    "bytes": 292382
+  },
+  "m14_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/保险数据_第一期.csv",
+    "sha256": "256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496",
+    "bytes": 4734769
+  },
+  "m15_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/2_LightGBM专题_课堂代码.ipynb",
+    "sha256": "6e8afb4a519ad2fe92a8d26cf5bce9cf499bcf584c548012eae077c6ef75b254",
+    "bytes": 53958
+  },
+  "m15_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/保险数据_第一期.csv",
+    "sha256": "256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496",
+    "bytes": 4734769
+  },
+  "m16_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/3_模型解释性专题_课堂代码.ipynb",
+    "sha256": "4dd9146a4fb980a9b7dd49eb45a93b68c6cb04baca3a19ba1e77f775f8382295",
+    "bytes": 22192
+  },
+  "m16_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/保险数据_第一期.csv",
+    "sha256": "256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496",
+    "bytes": 4734769
+  },
+  "m17_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.2违规识别（孤立森林、局部异常因子）/3.2违规识别(IsolationForrest_LOF无监督).ipynb",
+    "sha256": "425ef1f98419bb081d3415f26a785f65d9bb540d5aa2a0e9e0a995ad52bd0961",
+    "bytes": 57298
+  },
+  "m17_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.2违规识别（孤立森林、局部异常因子）/creditcard.csv",
+    "sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+    "bytes": 150828752
+  },
+  "m18_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.1销售数据预测(趋势分解法-不建议学习).ipynb",
+    "sha256": "4aa8142ed46948e3ec771932b6e734d444be77fb07b57b6323057d1ed65bcc0c",
+    "bytes": 236750
+  },
+  "m18_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/air.csv",
+    "sha256": "c6c99f4369349757d3e4d41ee065359a55625e4de6552f6ac281e120745ebe58",
+    "bytes": 2062
+  },
+  "m19_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.2销售数据预测(SARIMA).ipynb",
+    "sha256": "560d2e92efb60859617470940d29aadad4bd349e551bd14c2a6c9af63ecb63ce",
+    "bytes": 367029
+  },
+  "m19_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/tractor_sales.csv",
+    "sha256": "b2b8fae112e389a15dcdd411c287778fc52ac6432cb000b86f1defbf8975778c",
+    "bytes": 2043
+  },
+  "m20_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.3股价预测(LSTM).ipynb",
+    "sha256": "c7243ae916ac0e42eda388072415065a79ef7ca8978874eab297072486fcf6ba",
+    "bytes": 212300
+  },
+  "m20_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/google_stock_prics.csv",
+    "sha256": "e257dd8caa5e06c61a246f32cdc0dff39ddbf7b1caf72494b5729393a80fceda",
+    "bytes": 129975
+  },
+  "m21_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/ARIMA.ipynb",
+    "sha256": "fa7f8fd9da3b0c7e2d8076d2da802ed3edd4592ca6b76a1f1821df23d0bd281f",
+    "bytes": 541797
+  },
+  "m21_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/ts_simu200.csv",
+    "sha256": "f4cf61defb47fd1fd8d3922f2905bd6677f7baac6f86f05e5dd2617a36cab84e",
+    "bytes": 38072
+  },
+  "m26_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/5.1 模型参数优化方法.ipynb",
+    "sha256": "619804df89e6a7c57546580482f137dd9b0d5463c8fdd0d6d153ba2de6c449b4",
+    "bytes": 117934
+  },
+  "m26_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/保险数据_第一期.csv",
+    "sha256": "256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496",
+    "bytes": 4734769
+  },
+  "m27_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/5.2&3 pipeline_保险案例.ipynb",
+    "sha256": "1aeb113ebef766543e7aa0779f174e0388994240762a2b9b61fb19e9abd95743",
+    "bytes": 79748
+  },
+  "m27_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/保险数据_第一期.csv",
+    "sha256": "256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496",
+    "bytes": 4734769
+  },
+  "m27_input2": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/保险案例_新进用户.csv",
+    "sha256": "f6c7602ce11c42c9fd3915a957d1591fc18f4fa08574b49bb6053789ffdae106",
+    "bytes": 662
+  },
+  "m28_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/6 特征工程/Feature-engineering.ipynb",
+    "sha256": "1faa5fedb19fe4eb080e4be37477f9512e241cb4961486197298ae03156c89c2",
+    "bytes": 223115
+  },
+  "m28_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/6 特征工程/telecom_bill.csv",
+    "sha256": "705b75efc76724bd40bd1b7ab6b5d18b6e688c8b6de1a0ad88b67c198d8fdece",
+    "bytes": 152597
+  },
+  "m29_notebook": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/7 类别不平衡问题/类别不平衡专题_课堂代码.ipynb",
+    "sha256": "4747108bc6d4d0d21c0a31b950b96bff63e4b1f8f025caa9fd5e17d2ca981962",
+    "bytes": 618765
+  },
+  "m29_input1": {
+    "path": "3《CDA 三级认证教材：敏捷数据挖掘》/7 类别不平衡问题/train_set.csv",
+    "sha256": "4064acd9aee5736ef58109c0e3af3f3884662bfb266262c2c30a97fededac511",
+    "bytes": 1659221
+  },
+  "f02_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/第二章某银行贷款产品精准营销模型代码通过.ipynb",
+    "sha256": "1662829592aaf3ca23fa38d72380efe8c399eff6d3d477250ccd517f6c73e2b4",
+    "bytes": 62670
+  },
+  "f02_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/tran0917.csv",
+    "sha256": "30aa69a503d64c606a6ef20d9adba121df8e65fe69b00da918cd48fa27ea7ea7",
+    "bytes": 622002
+  },
+  "f02_input2": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/pred0917.csv",
+    "sha256": "beb058feefd84a006a8e9d03d03ba2d883d97cb71040f95692c207dde41efed1",
+    "bytes": 601067
+  },
+  "f04_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/Vintage-checkpoint.ipynb",
+    "sha256": "efda5740c7ea9ed33cbedc32715210de2a5e75ccd7e41bf934bfcf6a3571e06e",
+    "bytes": 8230
+  },
+  "f04_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/customer_detail.sql",
+    "sha256": "8233318eb4c273a380c30bebbcb56ac606241c443d3ab8b8365ad64e5e7fca81",
+    "bytes": 457109
+  },
+  "f04_input2": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/repayment_sum_month.sql",
+    "sha256": "600f843e69a2bc49a4b20d1f6b5f32380fed845ffe32b440f270db55cf80bb9b",
+    "bytes": 3318709
+  },
+  "f05_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/Vintage.ipynb",
+    "sha256": "efda5740c7ea9ed33cbedc32715210de2a5e75ccd7e41bf934bfcf6a3571e06e",
+    "bytes": 8230
+  },
+  "f05_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/customer_detail.sql",
+    "sha256": "8233318eb4c273a380c30bebbcb56ac606241c443d3ab8b8365ad64e5e7fca81",
+    "bytes": 457109
+  },
+  "f05_input2": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/repayment_sum_month.sql",
+    "sha256": "600f843e69a2bc49a4b20d1f6b5f32380fed845ffe32b440f270db55cf80bb9b",
+    "bytes": 3318709
+  },
+  "f06_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/第5章贷前信用风险预测模型（A卡）代码通过.ipynb",
+    "sha256": "4284c801f9233a809ab3e5ff6b1e9e849213a7edfc088256311ec5403a4084fd",
+    "bytes": 334433
+  },
+  "f06_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/creditdata_small.csv",
+    "sha256": "b64e0ba6b3bd0833cd4ed60f05fb6e2d91840083708733464e0507fcad239cca",
+    "bytes": 15812065
+  },
+  "f06_input2": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/customer_detail.sql",
+    "sha256": "8233318eb4c273a380c30bebbcb56ac606241c443d3ab8b8365ad64e5e7fca81",
+    "bytes": 457109
+  },
+  "f06_input3": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/repayment_sum_month.sql",
+    "sha256": "600f843e69a2bc49a4b20d1f6b5f32380fed845ffe32b440f270db55cf80bb9b",
+    "bytes": 3318709
+  },
+  "f07_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第6章-贷中信用风险预测模型（B卡）/第6章贷中信用风险预测模型（B卡）代码通过.ipynb",
+    "sha256": "698445ae02ed9764f201cf27b526d8ea98396c5702661fc577548923ec8a2eb4",
+    "bytes": 90683
+  },
+  "f07_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第6章-贷中信用风险预测模型（B卡）/Data/CreditBalance.csv",
+    "sha256": "c20380bb5c24f6d0200115897aecaf55f991dde86bca7926b0b0bc9513fc446c",
+    "bytes": 29636228
+  },
+  "f07_input2": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第6章-贷中信用风险预测模型（B卡）/Data/label.csv",
+    "sha256": "a22c805737a30a441f200fcfd77637caa8ab5d0db8545a3eeee8cee2a47a75e6",
+    "bytes": 960538
+  },
+  "f08_notebook": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/第8章申请反欺诈模型代码通过.ipynb",
+    "sha256": "015f797d6b54e3a14cd8dafbea343ee542004390120eee0d8941e84ad8efcae8",
+    "bytes": 5952459
+  },
+  "f08_input1": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan1_org_basic.csv",
+    "sha256": "174ba3016836aff1b92edc3ba5c0b3d74311d9ac61f218de92be4ce4ded619a9",
+    "bytes": 695373
+  },
+  "f08_input2": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan1_org_net.csv",
+    "sha256": "2a9f2f11026d4ac0c7296c53f4131fe4b1b471d96f2fd7c8b5427ff8a4673e87",
+    "bytes": 1409178
+  },
+  "f08_input3": {
+    "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan2_analysis_basic.csv",
+    "sha256": "fafc161b8393e81f814e69ec0698385faf82f691bd03eb8b6459b6c5fd2b5af3",
+    "bytes": 4536480
   }
 }

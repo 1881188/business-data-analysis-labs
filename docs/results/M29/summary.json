@@ -1,0 +1,87 @@
+{
+  "lab_id": "M29",
+  "title": "类别不平衡专题_课堂代码",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 21,
+    "mapped_code_cells": 21,
+    "source_cells_total": 37
+  },
+  "raw_complete_rows": 18560,
+  "train_rows": 12992,
+  "test_rows": 5568,
+  "categorical_features": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "plain_SMOTE_fractional_category_rows": 9924,
+  "SMOTENC_categories_checked": true,
+  "imbalanced_learn_version": "0.13.0",
+  "xgboost_version": "3.0.5",
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_balance.py": "fd31d25f21d8e23109095cd9fca94a4df7a4bcc9b35b69ee72c688761b2051d3",
+    "labs/cda3_mining/m29/main.py": "a8974371e60cd9e94721668f3b41e947ffd6a655e821817fbc12fe59f72a3ff9",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab"
+  },
+  "source_files": {
+    "m29_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/7 类别不平衡问题/train_set.csv",
+      "sha256": "4064acd9aee5736ef58109c0e3af3f3884662bfb266262c2c30a97fededac511",
+      "bytes": 1659221
+    },
+    "m29_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/7 类别不平衡问题/类别不平衡专题_课堂代码.ipynb",
+      "sha256": "4747108bc6d4d0d21c0a31b950b96bff63e4b1f8f025caa9fd5e17d2ca981962",
+      "bytes": 618765
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:04:34.912844+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m29/main.py": {
+      "executed_sha256": "5c0e84ff1bfb7b7ec145ce16e571320f74ddaa43f439448fd8df65663ad0eae4",
+      "published_sha256": "a8974371e60cd9e94721668f3b41e947ffd6a655e821817fbc12fe59f72a3ff9",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

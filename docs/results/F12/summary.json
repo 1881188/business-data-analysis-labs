@@ -1,0 +1,65 @@
+{
+  "lab_id": "F12",
+  "title": "03-2-社交网络-核心度量指标",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 21,
+    "mapped_code_cells": 21,
+    "source_cells_total": 22
+  },
+  "networkx_version": "3.6.1",
+  "star_identity_checked": true,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_networks.py": "52a3e9ea759f839c07ea9593f578b5009eb52037a7c465a036428043926ecb4a",
+    "labs/finance_cases/f12/main.py": "1144e38bc2c93c40d2f925c7ab2738db934b27f0a874894d2f68b7d14586b860",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "f12_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-2-社交网络-核心度量指标.ipynb",
+      "sha256": "60f04eae1f993ba92b81b36c92aa0bef45d3361a58de591819f3c93301fe1d54",
+      "bytes": 53245
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:58:09.416683+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f12/main.py": {
+      "executed_sha256": "8fa9d65ce39e1ec2c03deaf2ea1460a0fc8e0d270700217e44e08863156a114a",
+      "published_sha256": "1144e38bc2c93c40d2f925c7ab2738db934b27f0a874894d2f68b7d14586b860",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

@@ -4,14 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "business-data-analysis-labs"
-version = "1.0.0"
+version = "1.1.0"
 description = "Business analysis coursework migrated from Excel, Power BI and Jupyter to Python"
 requires-python = ">=3.11"
 dependencies = [
   "numpy>=2.0,<3", "pandas>=2.2,<3", "openpyxl>=3.1,<4",
   "matplotlib>=3.9,<4", "scipy>=1.14,<2", "statsmodels>=0.14,<0.16",
-  "scikit-learn>=1.6,<1.7", "threadpoolctl>=3.5,<4"
+  "scikit-learn>=1.6,<1.7", "threadpoolctl>=3.5,<4", "networkx>=3.4,<4"
 ]
+
+[project.optional-dependencies]
+advanced = ["xgboost==3.0.5", "lightgbm==4.6.0", "imbalanced-learn==0.13.0",
+            "optuna==4.5.0", "prophet==1.1.7", "cmdstanpy==1.2.5", "tensorflow==2.20.0", "toad==0.1.5"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

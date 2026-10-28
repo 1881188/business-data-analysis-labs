@@ -26,10 +26,14 @@ def main():
         target.mkdir(parents=True,exist_ok=True)
         for name in files:
             if source.resolve()!=target.resolve():shutil.copyfile(source/name,target/name)
+            if name.endswith('.md'):
+                path=target/name
+                formatted='\n'.join(line.rstrip() for line in path.read_text(encoding='utf-8').splitlines()).rstrip()+'\n'
+                path.write_bytes(formatted.encode('utf-8'))
         statuses[lab]=summary["status"]
     config=json.loads((ROOT/"config/experiments.json").read_text(encoding="utf-8"))
     verified=[key for key,state in statuses.items() if state=='reference_verified']
-    lines=["# 实验索引","",f"目前{len(statuses)}个独立实验已运行，其中{len(verified)}个完成指定参考核对（{', '.join(verified)}）。核对范围与差异见各报告。实施单元与源Notebook不是同一计数口径，不计算混合完成率。","",
+    lines=["# 实验索引","",f"目前{len(statuses)}个编号入口已运行，其中{len(verified)}个完成指定参考核对（{', '.join(verified)}）。F04是F05的重复检查点，共享实现，不计额外业务案例。一级为22个规划实施单元；二级13/13、三级29/29、金融15/16份Notebook来源已运行（金融含这份重复来源）。F01缺少原输入，仍待补资料。核对范围与差异见各报告，不计算跨口径的混合完成率。","",
         "素材覆盖：572份文件，58份Notebook、9份已有Python辅助文件、65份Excel；插件和阅读资料不按独立实验验收。所有来源见[source-map.csv](source-map.csv)。",""]
     last=None
     for item in config:

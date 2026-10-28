@@ -1,0 +1,73 @@
+{
+  "lab_id": "M09",
+  "title": "2.4.2.序列模式（银行产品交叉销售分析）",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 4,
+    "mapped_code_cells": 4,
+    "source_cells_total": 9
+  },
+  "customers": 720,
+  "pattern_counts": {
+    "AprioriAll_support_0.1": 14,
+    "PrefixSpan_count_100": 7
+  },
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_rules.py": "39f60267e6bbdcc40483e008ef313b99e079649c76ada4b155b85ad03ca39ffc",
+    "labs/cda3_mining/m09/main.py": "67a5e0f020e0b41fb1109b3cf1e73f6ca6e33fd392bc3a831c71041b45e146ab",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "m09_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/bank_prod_order.csv",
+      "sha256": "e7505217d13d09d31ac3e3641499185d0d584e38d25ef5011359dcea9a39afbc",
+      "bytes": 40490
+    },
+    "m09_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/2.4.2.序列模式（银行产品交叉销售分析）.ipynb",
+      "sha256": "154d11a0d25f21de0cad7903b6fbfbdc62452e160a7b097a725f713b3ee76b5e",
+      "bytes": 6167
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:57:48.625036+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m09/main.py": {
+      "executed_sha256": "20ba50c62858ff83deabf1c821aaef189b44587ac27a54d1f26120673e6169b8",
+      "published_sha256": "67a5e0f020e0b41fb1109b3cf1e73f6ca6e33fd392bc3a831c71041b45e146ab",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

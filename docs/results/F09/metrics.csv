@@ -1,0 +1,32 @@
+﻿section,item,value,nonmissing
+calendar_example,col1,"[10, 20]",
+calendar_example,year,"[2023, 2023]",
+calendar_example,mth,"[1, 2]",
+calendar_example,day,"[1, 1]",
+calendar_example,hour,"[10, 15]",
+calendar_example,minute,"[0, 30]",
+calendar_example,second,"[0, 0]",
+calendar_example,week,"[6, 2]",
+calendar_example,day_of_year,"[1, 32]",
+calendar_example,week_of_year,"[52, 5]",
+calendar_example,minute_of_day,"[600, 930]",
+calendar_example,is_leap_year,"[False, False]",
+calendar_example,is_mth_start,"[True, True]",
+calendar_example,is_mth_end,"[False, False]",
+calendar_example,is_quarter_start,"[True, False]",
+calendar_example,is_quarter_end,"[False, False]",
+calendar_example,is_year_start,"[True, False]",
+calendar_example,is_year_end,"[False, False]",
+calendar_example,is_weekend,"[True, False]",
+calendar_example,is_working,"[True, True]",
+calendar_example,period,"[nan, nan]",
+calendar_example,season,"['winter', 'winter']",
+calendar_example,is_public_holiday,"[True, False]",
+history_example,col1,,12.0
+history_example,col1-1day,,11.0
+history_example,col1-2day,,10.0
+history_example,col1-3day,,9.0
+history_example,col1_last_3_day_mean,,9.0
+history_example,col1_last_2_mins,,10.0
+history_example,col1_lag_1_corr,,8.0
+history_example,col1_lag_2_corr,,7.0

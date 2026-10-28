@@ -1,0 +1,150 @@
+{
+  "lab_id": "M15",
+  "title": "2_LightGBM专题_课堂代码",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 15,
+    "mapped_code_cells": 15,
+    "source_cells_total": 21
+  },
+  "best_iteration": 57,
+  "lightgbm_version": "4.6.0",
+  "binary_roundtrip_checked": true,
+  "train_rows": 27342,
+  "test_rows": 11718,
+  "encoded_features": [
+    "GEND",
+    "AART",
+    "ADBT",
+    "ADEP",
+    "AHBP",
+    "AHCH",
+    "ARES",
+    "AHRT",
+    "ADGS",
+    "AHRL",
+    "AVIS",
+    "BANK",
+    "FINI",
+    "INLI",
+    "INMEDI",
+    "INVE",
+    "IOLP",
+    "ONLA",
+    "SGFA",
+    "SGLL",
+    "SGOE",
+    "SGSE",
+    "SGTC",
+    "NOC19",
+    "NAH19",
+    "age",
+    "c210apvt",
+    "c210b200",
+    "c210blu",
+    "c210bpvt",
+    "c210cip",
+    "c210ebi",
+    "c210hmi",
+    "c210hva",
+    "c210kses",
+    "c210mah",
+    "c210mob",
+    "c210mys",
+    "c210pdv",
+    "c210pmr",
+    "c210poo",
+    "c210psu",
+    "c210pwc",
+    "c210wht",
+    "ilor",
+    "meda",
+    "pdpe",
+    "tins",
+    "zhip19"
+  ],
+  "categorical_features": [
+    "GEND",
+    "AART",
+    "ADBT",
+    "ADEP",
+    "AHBP",
+    "AHCH",
+    "ARES",
+    "AHRT",
+    "ADGS",
+    "AHRL",
+    "AVIS",
+    "BANK",
+    "FINI",
+    "INLI",
+    "INMEDI",
+    "INVE",
+    "IOLP",
+    "ONLA",
+    "SGFA",
+    "SGLL",
+    "SGOE",
+    "SGSE",
+    "SGTC"
+  ],
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_supervised.py": "2f1e48d6b09bd7ea5a668ef3741a133bc694382cae5bfa8659492047a515146e",
+    "labs/cda3_mining/m15/main.py": "c72d6152dfb5b7b6fa85ed0c62e53ec1285287f4799a149237ca4f063e65d672",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab"
+  },
+  "source_files": {
+    "m15_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/保险数据_第一期.csv",
+      "sha256": "256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496",
+      "bytes": 4734769
+    },
+    "m15_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/2_LightGBM专题_课堂代码.ipynb",
+      "sha256": "6e8afb4a519ad2fe92a8d26cf5bce9cf499bcf584c548012eae077c6ef75b254",
+      "bytes": 53958
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:18:15.470174+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m15/main.py": {
+      "executed_sha256": "9ad49e04a5f9df795412bf7dfb8f72bd54b8dc0d70ba235bfa64770646b2efb5",
+      "published_sha256": "c72d6152dfb5b7b6fa85ed0c62e53ec1285287f4799a149237ca4f063e65d672",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

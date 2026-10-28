@@ -1,0 +1,72 @@
+{
+  "lab_id": "M13",
+  "title": "3.1.3-3.1.6分类（反欺诈_KNN_NB _SVM_MLP）",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 12,
+    "mapped_code_cells": 12,
+    "source_cells_total": 18
+  },
+  "train_rows": 16392,
+  "test_rows": 10929,
+  "split_seed": 1234,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_supervised.py": "2f1e48d6b09bd7ea5a668ef3741a133bc694382cae5bfa8659492047a515146e",
+    "labs/cda3_mining/m13/main.py": "cd14bbd39fdb66ae5aebb1d126a2529900128748c791c77819d539b711bd6e83",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab"
+  },
+  "source_files": {
+    "m13_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/loan_net.csv",
+      "sha256": "a92a9769ba3266b2965c1df9aa1fec1defae3e67cd0d05c332f65b9f53dba9dc",
+      "bytes": 302589
+    },
+    "m13_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/3.1.3-3.1.6分类（反欺诈_KNN_NB _SVM_MLP）.ipynb",
+      "sha256": "f63a0f26d2fd657ba54b1a7fdc078d89f0f6e06c6c6dfbf246ee7b72c5efc4e9",
+      "bytes": 275412
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:23:50.153957+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m13/main.py": {
+      "executed_sha256": "46bd558451283b1791b5756859a70dc12c0430cfeef36c3b28127aad29523ab9",
+      "published_sha256": "cd14bbd39fdb66ae5aebb1d126a2529900128748c791c77819d539b711bd6e83",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

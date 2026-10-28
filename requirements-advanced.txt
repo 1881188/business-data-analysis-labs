@@ -1,0 +1,10 @@
+# Verified Python 3.13 advanced-model environment; original data are separate.
+-r requirements.txt
+xgboost==3.0.5
+lightgbm==4.6.0
+imbalanced-learn==0.13.0
+optuna==4.5.0
+prophet==1.1.7
+cmdstanpy==1.2.5
+tensorflow==2.20.0
+toad==0.1.5

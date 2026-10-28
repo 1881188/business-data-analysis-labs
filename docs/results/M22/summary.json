@@ -1,0 +1,75 @@
+{
+  "lab_id": "M22",
+  "title": "4.2.1线性规划",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 5,
+    "mapped_code_cells": 5,
+    "source_cells_total": 15
+  },
+  "solver": "scipy-HiGHS",
+  "objective": 27500.0,
+  "constraint_residual": 0.0,
+  "variables": 2,
+  "constraints": 3,
+  "integer_variables": 0,
+  "independent_vertex_check": true,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_optimization.py": "d1abac52afa1dc5750c1a4ce949973c55db63f9f9caad18520b16d77ffe122c5",
+    "labs/cda3_mining/m22/main.py": "bd2f1510e13e9b68fa1ae5db6ee7c34641a8716cc1c16f513e408ebb54f10746",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "m22_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/productivity.lp",
+      "sha256": "1365f2381718a296e5d513edb575cc551b5954991daa7ca9a174949dccaed082",
+      "bytes": 128
+    },
+    "m22_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.1线性规划.ipynb",
+      "sha256": "27ba5f75438f2f540f7f06cb8debde1400d2fb94a492fa6f2c8631f6f6877a19",
+      "bytes": 3342
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:57:52.177309+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m22/main.py": {
+      "executed_sha256": "9fedce7cd30a5948df955813417d2c77ad0c0c87cdfc2f46349a5793b7de23b2",
+      "published_sha256": "bd2f1510e13e9b68fa1ae5db6ee7c34641a8716cc1c16f513e408ebb54f10746",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

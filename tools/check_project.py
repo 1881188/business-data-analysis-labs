@@ -60,6 +60,8 @@ def main():
         if path.name in forbidden:raise AssertionError(f'Private or intermediate output in publication: {path}')
     from check_level1_coverage import check
     check(ROOT)
+    from check_advanced_coverage import check as check_advanced
+    check_advanced(ROOT)
     print(f'PASS: Python syntax, local links, {len(PUBLIC)} result provenance records, 572 source mappings and publication allowlist.')
 
 

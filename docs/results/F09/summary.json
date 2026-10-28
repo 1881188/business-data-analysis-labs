@@ -1,0 +1,67 @@
+{
+  "lab_id": "F09",
+  "title": "第9章算法工程化代码通过",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 3,
+    "mapped_code_cells": 3,
+    "source_cells_total": 15
+  },
+  "sample_rows": 2,
+  "synthetic_validation_rows": 12,
+  "future_perturbation_checked": true,
+  "clone_checked": true,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_engineering.py": "cb5d79fdb4eb8cce11eef448d6bae03e3289dd14856c91fc439ef6f8757147d5",
+    "labs/finance_cases/f09/main.py": "2ca0f071b7b1bbf586aacac5788d5f92a785bd530bd32434179a5b07bc328fb7",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "f09_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第9章-算法工程化/第9章算法工程化代码通过.ipynb",
+      "sha256": "21b76a34946a733a91d0eb6940086331fa3150c536c00fde2ff3329bf0d4a858",
+      "bytes": 15012
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:58:00.739980+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f09/main.py": {
+      "executed_sha256": "f36f3d88dd1f144bfdd8951381e22306aad1ec9fccc5168d771b5f5f7fece2bf",
+      "published_sha256": "2ca0f071b7b1bbf586aacac5788d5f92a785bd530bd32434179a5b07bc328fb7",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿section,item,count,value
+AprioriAll_support_0.1,{网银},511,0.7097222222222223
+AprioriAll_support_0.1,{好享贷},449,0.6236111111111111
+AprioriAll_support_0.1,{好享贷} → {网银},304,0.4222222222222222
+AprioriAll_support_0.1,{手机银行},176,0.24444444444444444
+AprioriAll_support_0.1,{手机银行} → {网银},144,0.2
+AprioriAll_support_0.1,{好享贷} → {手机银行},105,0.14583333333333334
+AprioriAll_support_0.1,{pos贷},102,0.14166666666666666
+AprioriAll_support_0.1,{外汇保},94,0.13055555555555556
+AprioriAll_support_0.1,{财务通},88,0.12222222222222222
+AprioriAll_support_0.1,{黄金1号},83,0.11527777777777778
+AprioriAll_support_0.1,{好享贷} → {手机银行} → {网银},81,0.1125
+AprioriAll_support_0.1,{pos贷} → {网银},78,0.10833333333333334
+AprioriAll_support_0.1,{黄金1号} → {外汇保},75,0.10416666666666667
+AprioriAll_support_0.1,{外汇保} → {网银},72,0.1
+PrefixSpan_count_100,{网银},511,0.7097222222222223
+PrefixSpan_count_100,{好享贷},449,0.6236111111111111
+PrefixSpan_count_100,{好享贷} → {网银},304,0.4222222222222222
+PrefixSpan_count_100,{手机银行},176,0.24444444444444444
+PrefixSpan_count_100,{手机银行} → {网银},144,0.2
+PrefixSpan_count_100,{好享贷} → {手机银行},105,0.14583333333333334
+PrefixSpan_count_100,{pos贷},102,0.14166666666666666

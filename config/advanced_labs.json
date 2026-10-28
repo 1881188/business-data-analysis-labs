@@ -1,0 +1,2087 @@
+{
+  "M03": {
+    "title": "2.3.1-2.3.2.主成分_因子分析_层次聚类(经济发展数据)",
+    "notebook": "m03_notebook",
+    "inputs": [
+      "m03_input1"
+    ],
+    "purpose": "理解变量压缩、经济特征与客户细分，形成可解释的聚合画像。",
+    "method": "保留标准化、主成分/旋转方向、稀疏性或聚类的教学目标。固定随机种子；旋转单位特征向量以保持 fa_kit 语义；不发布客户逐行得分。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ],
+        "topic": "标准化、相关性和双主成分",
+        "implementation": "src/bda_labs/advanced_profiles.py：标准化、相关性和双主成分"
+      },
+      {
+        "cells": [
+          11,
+          13,
+          14,
+          15,
+          16
+        ],
+        "topic": "稀疏主成分与惩罚路径",
+        "implementation": "src/bda_labs/advanced_profiles.py：稀疏主成分与惩罚路径"
+      },
+      {
+        "cells": [
+          20,
+          22,
+          24,
+          26,
+          27,
+          28
+        ],
+        "topic": "旋转主成分和因子得分",
+        "implementation": "src/bda_labs/advanced_profiles.py：旋转主成分和因子得分"
+      },
+      {
+        "cells": [
+          30,
+          31
+        ],
+        "topic": "Ward聚类与簇均值",
+        "implementation": "src/bda_labs/advanced_profiles.py：Ward聚类与簇均值"
+      }
+    ]
+  },
+  "M04": {
+    "title": "2.3.1主成分分析(Loan_aplya打分)",
+    "notebook": "m04_notebook",
+    "inputs": [
+      "m04_input1"
+    ],
+    "purpose": "理解变量压缩、经济特征与客户细分，形成可解释的聚合画像。",
+    "method": "保留标准化、主成分/旋转方向、稀疏性或聚类的教学目标。固定随机种子；旋转单位特征向量以保持 fa_kit 语义；不发布客户逐行得分。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "topic": "贷款申请相关性与五主成分",
+        "implementation": "src/bda_labs/advanced_profiles.py：贷款申请相关性与五主成分"
+      },
+      {
+        "cells": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "topic": "逐行评分恒等式和一主成分重拟合",
+        "implementation": "src/bda_labs/advanced_profiles.py：逐行评分恒等式和一主成分重拟合"
+      }
+    ]
+  },
+  "M05": {
+    "title": "2.3.3变量聚类",
+    "notebook": "m05_notebook",
+    "inputs": [
+      "m05_input1"
+    ],
+    "purpose": "理解变量压缩、经济特征与客户细分，形成可解释的聚合画像。",
+    "method": "保留标准化、主成分/旋转方向、稀疏性或聚类的教学目标。固定随机种子；旋转单位特征向量以保持 fa_kit 语义；不发布客户逐行得分。",
+    "sections": [
+      {
+        "cells": [
+          2
+        ],
+        "topic": "稀疏主成分分组、代表变量和辅助脚本纠错",
+        "implementation": "src/bda_labs/advanced_profiles.py：稀疏主成分分组、代表变量和辅助脚本纠错"
+      }
+    ]
+  },
+  "M06": {
+    "title": "2.3.4层次聚类(经济发展数据)",
+    "notebook": "m06_notebook",
+    "inputs": [
+      "m06_input1"
+    ],
+    "purpose": "理解变量压缩、经济特征与客户细分，形成可解释的聚合画像。",
+    "method": "保留标准化、主成分/旋转方向、稀疏性或聚类的教学目标。固定随机种子；旋转单位特征向量以保持 fa_kit 语义；不发布客户逐行得分。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          5
+        ],
+        "topic": "标准化、旋转和因子得分",
+        "implementation": "src/bda_labs/advanced_profiles.py：标准化、旋转和因子得分"
+      },
+      {
+        "cells": [
+          7,
+          9
+        ],
+        "topic": "Ward距离树与两簇中心",
+        "implementation": "src/bda_labs/advanced_profiles.py：Ward距离树与两簇中心"
+      }
+    ]
+  },
+  "M07": {
+    "title": "2.3.5Kmeans聚类用户细分",
+    "notebook": "m07_notebook",
+    "inputs": [
+      "m07_input1"
+    ],
+    "purpose": "理解变量压缩、经济特征与客户细分，形成可解释的聚合画像。",
+    "method": "保留标准化、主成分/旋转方向、稀疏性或聚类的教学目标。固定随机种子；旋转单位特征向量以保持 fa_kit 语义；不发布客户逐行得分。",
+    "sections": [
+      {
+        "cells": [
+          4,
+          5,
+          8,
+          9,
+          11,
+          12
+        ],
+        "topic": "缺失填补和类别清洗",
+        "implementation": "src/bda_labs/advanced_profiles.py：缺失填补和类别清洗"
+      },
+      {
+        "cells": [
+          16,
+          19,
+          21
+        ],
+        "topic": "卡方检验、二值化与偏好比率",
+        "implementation": "src/bda_labs/advanced_profiles.py：卡方检验、二值化与偏好比率"
+      },
+      {
+        "cells": [
+          24,
+          27,
+          28,
+          30,
+          32,
+          33,
+          36,
+          37,
+          38
+        ],
+        "topic": "分维度、分位数及标准化",
+        "implementation": "src/bda_labs/advanced_profiles.py：分维度、分位数及标准化"
+      },
+      {
+        "cells": [
+          40,
+          42,
+          44,
+          46,
+          48,
+          51,
+          53,
+          56
+        ],
+        "topic": "家庭和爱好旋转因子",
+        "implementation": "src/bda_labs/advanced_profiles.py：家庭和爱好旋转因子"
+      },
+      {
+        "cells": [
+          58,
+          59,
+          61
+        ],
+        "topic": "KMeans轮廓与SSD搜索和选定簇",
+        "implementation": "src/bda_labs/advanced_profiles.py：KMeans轮廓与SSD搜索和选定簇"
+      },
+      {
+        "cells": [
+          63,
+          65,
+          68,
+          69
+        ],
+        "topic": "解释树和交叉客群",
+        "implementation": "src/bda_labs/advanced_profiles.py：解释树和交叉客群"
+      }
+    ]
+  },
+  "M08": {
+    "title": "2.4.1.关联规则（银行产品交叉销售分析）",
+    "notebook": "m08_notebook",
+    "inputs": [
+      "m08_input1"
+    ],
+    "purpose": "用银行产品篮子和订单先后关系发现交叉销售模式。",
+    "method": "独立实现精确 Apriori 与完整有序项集模式增长，替换旧包和辅助脚本。以客户数作为支持度分母，不把订单内共现误记为先后。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          3,
+          4
+        ],
+        "topic": "客户篮子和Apriori",
+        "implementation": "src/bda_labs/advanced_rules.py：客户篮子和Apriori"
+      },
+      {
+        "cells": [
+          6,
+          8
+        ],
+        "topic": "规则筛选与分布图",
+        "implementation": "src/bda_labs/advanced_rules.py：规则筛选与分布图"
+      },
+      {
+        "cells": [
+          10,
+          11
+        ],
+        "topic": "产品映射及FP-growth语义的精确规则重建",
+        "implementation": "src/bda_labs/advanced_rules.py：产品映射及FP-growth语义的精确规则重建"
+      }
+    ]
+  },
+  "M09": {
+    "title": "2.4.2.序列模式（银行产品交叉销售分析）",
+    "notebook": "m09_notebook",
+    "inputs": [
+      "m09_input1"
+    ],
+    "purpose": "用银行产品篮子和订单先后关系发现交叉销售模式。",
+    "method": "独立实现精确 Apriori 与完整有序项集模式增长，替换旧包和辅助脚本。以客户数作为支持度分母，不把订单内共现误记为先后。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          3
+        ],
+        "topic": "客户有序订单项集",
+        "implementation": "src/bda_labs/advanced_rules.py：客户有序订单项集"
+      },
+      {
+        "cells": [
+          4
+        ],
+        "topic": "AprioriAll相对支持度完整模式",
+        "implementation": "src/bda_labs/advanced_rules.py：AprioriAll相对支持度完整模式"
+      },
+      {
+        "cells": [
+          6
+        ],
+        "topic": "PrefixSpan绝对计数阈值完整模式",
+        "implementation": "src/bda_labs/advanced_rules.py：PrefixSpan绝对计数阈值完整模式"
+      }
+    ]
+  },
+  "M10": {
+    "title": "上课版-银行产品交叉销售分析-mlxtendApriori copy",
+    "notebook": "m10_notebook",
+    "inputs": [
+      "m10_input1"
+    ],
+    "purpose": "用银行产品篮子和订单先后关系发现交叉销售模式。",
+    "method": "独立实现精确 Apriori 与完整有序项集模式增长，替换旧包和辅助脚本。以客户数作为支持度分母，不把订单内共现误记为先后。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "topic": "路径迁移、客户篮子与布尔编码",
+        "implementation": "src/bda_labs/advanced_rules.py：路径迁移、客户篮子与布尔编码"
+      },
+      {
+        "cells": [
+          8,
+          9
+        ],
+        "topic": "频繁项集及规则指标",
+        "implementation": "src/bda_labs/advanced_rules.py：频繁项集及规则指标"
+      },
+      {
+        "cells": [
+          10,
+          11
+        ],
+        "topic": "筛选与图形",
+        "implementation": "src/bda_labs/advanced_rules.py：筛选与图形"
+      }
+    ]
+  },
+  "M11": {
+    "title": "课后答案版-银行产品交叉销售分析-mlxtendApriori",
+    "notebook": "m11_notebook",
+    "inputs": [
+      "m11_input1"
+    ],
+    "purpose": "用银行产品篮子和订单先后关系发现交叉销售模式。",
+    "method": "独立实现精确 Apriori 与完整有序项集模式增长，替换旧包和辅助脚本。以客户数作为支持度分母，不把订单内共现误记为先后。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "topic": "路径迁移、客户篮子与布尔编码",
+        "implementation": "src/bda_labs/advanced_rules.py：路径迁移、客户篮子与布尔编码"
+      },
+      {
+        "cells": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "topic": "频繁项集、规则和筛选",
+        "implementation": "src/bda_labs/advanced_rules.py：频繁项集、规则和筛选"
+      },
+      {
+        "cells": [
+          14,
+          15,
+          16,
+          19
+        ],
+        "topic": "财务通和好享贷规则",
+        "implementation": "src/bda_labs/advanced_rules.py：财务通和好享贷规则"
+      }
+    ]
+  },
+  "M22": {
+    "title": "4.2.1线性规划",
+    "notebook": "m22_notebook",
+    "inputs": [
+      "m22_input1"
+    ],
+    "purpose": "将资源配置模型的目标、边界、约束和变量类型迁移为可求解问题。",
+    "method": "逐项读取受支持 LP 语法，使用 SciPy HiGHS 或二次优化；验证约束、最优性和数值残差，不依赖商业 CPLEX。",
+    "sections": [
+      {
+        "cells": [
+          7,
+          9,
+          11,
+          13,
+          14
+        ],
+        "topic": "LP文件解析、线性规划、目标与解",
+        "implementation": "src/bda_labs/advanced_optimization.py：LP文件解析、线性规划、目标与解"
+      }
+    ]
+  },
+  "M23": {
+    "title": "4.2.2整数规划",
+    "notebook": "m23_notebook",
+    "inputs": [
+      "m23_input1"
+    ],
+    "purpose": "将资源配置模型的目标、边界、约束和变量类型迁移为可求解问题。",
+    "method": "逐项读取受支持 LP 语法，使用 SciPy HiGHS 或二次优化；验证约束、最优性和数值残差，不依赖商业 CPLEX。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          5,
+          7,
+          9,
+          10
+        ],
+        "topic": "LP文件解析、整数营销配置、缺失整数声明诊断",
+        "implementation": "src/bda_labs/advanced_optimization.py：LP文件解析、整数营销配置、缺失整数声明诊断"
+      }
+    ]
+  },
+  "M24": {
+    "title": "4.2.3二次规划",
+    "notebook": "m24_notebook",
+    "inputs": [
+      "m24_input1"
+    ],
+    "purpose": "将资源配置模型的目标、边界、约束和变量类型迁移为可求解问题。",
+    "method": "逐项读取受支持 LP 语法，使用 SciPy HiGHS 或二次优化；验证约束、最优性和数值残差，不依赖商业 CPLEX。",
+    "sections": [
+      {
+        "cells": [
+          2
+        ],
+        "topic": "二次规划目标解析、等式约束和KKT验证",
+        "implementation": "src/bda_labs/advanced_optimization.py：二次规划目标解析、等式约束和KKT验证"
+      }
+    ]
+  },
+  "M25": {
+    "title": "流程挖掘pm4py",
+    "notebook": "m25_notebook",
+    "inputs": [
+      "m25_input1"
+    ],
+    "purpose": "从事件日志提取流程关系频次和环节耗时。",
+    "method": "使用标准库 XML 解析 XES，验证导出回读及事件计数；按原始 trace 内事件顺序统计直接跟随图。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "topic": "XES导入、日志层级检查和导出回读",
+        "implementation": "src/bda_labs/advanced_process.py：XES导入、日志层级检查和导出回读"
+      },
+      {
+        "cells": [
+          13
+        ],
+        "topic": "直接跟随频次",
+        "implementation": "src/bda_labs/advanced_process.py：直接跟随频次"
+      },
+      {
+        "cells": [
+          14
+        ],
+        "topic": "直接跟随平均耗时",
+        "implementation": "src/bda_labs/advanced_process.py：直接跟随平均耗时"
+      }
+    ]
+  },
+  "F03": {
+    "title": "第3章多维特征的客户细分代码通过",
+    "notebook": "f03_notebook",
+    "inputs": [
+      "f03_input1"
+    ],
+    "purpose": "理解变量压缩、经济特征与客户细分，形成可解释的聚合画像。",
+    "method": "保留标准化、主成分/旋转方向、稀疏性或聚类的教学目标。固定随机种子；旋转单位特征向量以保持 fa_kit 语义；不发布客户逐行得分。",
+    "sections": [
+      {
+        "cells": [
+          5,
+          8,
+          10,
+          12,
+          13
+        ],
+        "topic": "缺失填补和类别清洗",
+        "implementation": "src/bda_labs/advanced_profiles.py：缺失填补和类别清洗"
+      },
+      {
+        "cells": [
+          15,
+          16,
+          17
+        ],
+        "topic": "卡方检验、二值化与偏好比率",
+        "implementation": "src/bda_labs/advanced_profiles.py：卡方检验、二值化与偏好比率"
+      },
+      {
+        "cells": [
+          19,
+          20,
+          21,
+          22,
+          24,
+          25
+        ],
+        "topic": "分维度、分位数及标准化",
+        "implementation": "src/bda_labs/advanced_profiles.py：分维度、分位数及标准化"
+      },
+      {
+        "cells": [
+          26,
+          27,
+          29,
+          31
+        ],
+        "topic": "家庭和爱好旋转因子",
+        "implementation": "src/bda_labs/advanced_profiles.py：家庭和爱好旋转因子"
+      },
+      {
+        "cells": [
+          33,
+          34,
+          35
+        ],
+        "topic": "KMeans轮廓与SSD搜索和选定簇",
+        "implementation": "src/bda_labs/advanced_profiles.py：KMeans轮廓与SSD搜索和选定簇"
+      },
+      {
+        "cells": [
+          37,
+          38,
+          39
+        ],
+        "topic": "解释树和交叉客群",
+        "implementation": "src/bda_labs/advanced_profiles.py：解释树和交叉客群"
+      }
+    ]
+  },
+  "F09": {
+    "title": "第9章算法工程化代码通过",
+    "notebook": "f09_notebook",
+    "inputs": [],
+    "purpose": "把时间特征整理为可复用、可克隆的 sklearn 转换器。",
+    "method": "保留日期、布尔日历和历史窗口三类特征；修正 shift(1) 被重复使用的错误，滚动相关仅使用当前时点之前的数据。",
+    "sections": [
+      {
+        "cells": [
+          10
+        ],
+        "topic": "三个可克隆时间转换器及未来信息修正",
+        "implementation": "src/bda_labs/advanced_engineering.py：三个可克隆时间转换器及未来信息修正"
+      },
+      {
+        "cells": [
+          12
+        ],
+        "topic": "教材样例与额外时序验证",
+        "implementation": "src/bda_labs/advanced_engineering.py：教材样例与额外时序验证"
+      },
+      {
+        "cells": [
+          14
+        ],
+        "topic": "性能建议与适用边界",
+        "implementation": "src/bda_labs/advanced_engineering.py：性能建议与适用边界"
+      }
+    ]
+  },
+  "F10": {
+    "title": "02-社交网络-基本理论CODE",
+    "notebook": "f10_notebook",
+    "inputs": [],
+    "purpose": "理解关系网络、路径搜索、中心性或交易圈社区。",
+    "method": "采用 NetworkX 图模型；自编算法与独立库或数学恒等式核对。社区模型采用无权目标和固定种子，客户关系明细不公开。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "topic": "简单无向图、重复边、自环和绘图",
+        "implementation": "src/bda_labs/advanced_networks.py：简单无向图、重复边、自环和绘图"
+      },
+      {
+        "cells": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "topic": "有向图、出入度与聚合图示",
+        "implementation": "src/bda_labs/advanced_networks.py：有向图、出入度与聚合图示"
+      }
+    ]
+  },
+  "F11": {
+    "title": "03-1-深度遍历和广度遍历",
+    "notebook": "f11_notebook",
+    "inputs": [],
+    "purpose": "理解关系网络、路径搜索、中心性或交易圈社区。",
+    "method": "采用 NetworkX 图模型；自编算法与独立库或数学恒等式核对。社区模型采用无权目标和固定种子，客户关系明细不公开。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "topic": "BFS/DFS路径搜索和边界修正",
+        "implementation": "src/bda_labs/advanced_networks.py：BFS/DFS路径搜索和边界修正"
+      },
+      {
+        "cells": [
+          3
+        ],
+        "topic": "样例图及最短路核对",
+        "implementation": "src/bda_labs/advanced_networks.py：样例图及最短路核对"
+      }
+    ]
+  },
+  "F12": {
+    "title": "03-2-社交网络-核心度量指标",
+    "notebook": "f12_notebook",
+    "inputs": [],
+    "purpose": "理解关系网络、路径搜索、中心性或交易圈社区。",
+    "method": "采用 NetworkX 图模型；自编算法与独立库或数学恒等式核对。社区模型采用无权目标和固定种子，客户关系明细不公开。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "topic": "有向图及总度、出度和入度",
+        "implementation": "src/bda_labs/advanced_networks.py：有向图及总度、出度和入度"
+      },
+      {
+        "cells": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "topic": "无向星形图",
+        "implementation": "src/bda_labs/advanced_networks.py：无向星形图"
+      },
+      {
+        "cells": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "topic": "四种中心性及星形恒等式",
+        "implementation": "src/bda_labs/advanced_networks.py：四种中心性及星形恒等式"
+      }
+    ]
+  },
+  "F13": {
+    "title": "03-3-PageRank-Python实现",
+    "notebook": "f13_notebook",
+    "inputs": [],
+    "purpose": "理解关系网络、路径搜索、中心性或交易圈社区。",
+    "method": "采用 NetworkX 图模型；自编算法与独立库或数学恒等式核对。社区模型采用无权目标和固定种子，客户关系明细不公开。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "topic": "链接矩阵和累计迭代修正",
+        "implementation": "src/bda_labs/advanced_networks.py：链接矩阵和累计迭代修正"
+      },
+      {
+        "cells": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "topic": "随机图、转换矩阵、悬挂节点与收敛核对",
+        "implementation": "src/bda_labs/advanced_networks.py：随机图、转换矩阵、悬挂节点与收敛核对"
+      }
+    ]
+  },
+  "F14": {
+    "title": "04-社交网络算法-小案例",
+    "notebook": "f14_notebook",
+    "inputs": [
+      "f14_input1"
+    ],
+    "purpose": "理解关系网络、路径搜索、中心性或交易圈社区。",
+    "method": "采用 NetworkX 图模型；自编算法与独立库或数学恒等式核对。社区模型采用无权目标和固定种子，客户关系明细不公开。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "topic": "有向图导入与聚合度数图；明细不公开",
+        "implementation": "src/bda_labs/advanced_networks.py：有向图导入与聚合度数图；明细不公开"
+      }
+    ]
+  },
+  "F15": {
+    "title": "04-社交网络算法-小案例_子网分割",
+    "notebook": "f15_notebook",
+    "inputs": [
+      "f15_input1"
+    ],
+    "purpose": "理解关系网络、路径搜索、中心性或交易圈社区。",
+    "method": "采用 NetworkX 图模型；自编算法与独立库或数学恒等式核对。社区模型采用无权目标和固定种子，客户关系明细不公开。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3
+        ],
+        "topic": "有向展示和无向社区图",
+        "implementation": "src/bda_labs/advanced_networks.py：有向展示和无向社区图"
+      },
+      {
+        "cells": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "topic": "Louvain分区和计数",
+        "implementation": "src/bda_labs/advanced_networks.py：Louvain分区和计数"
+      },
+      {
+        "cells": [
+          9,
+          10
+        ],
+        "topic": "聚合社区图替代节点明细布局",
+        "implementation": "src/bda_labs/advanced_networks.py：聚合社区图替代节点明细布局"
+      }
+    ]
+  },
+  "F16": {
+    "title": "05-社交网络—银行交易圈实践-社区发现 ",
+    "notebook": "f16_notebook",
+    "inputs": [
+      "f16_input1"
+    ],
+    "purpose": "理解关系网络、路径搜索、中心性或交易圈社区。",
+    "method": "采用 NetworkX 图模型；自编算法与独立库或数学恒等式核对。社区模型采用无权目标和固定种子，客户关系明细不公开。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "topic": "读取交易端点并排除无关统计字段",
+        "implementation": "src/bda_labs/advanced_networks.py：读取交易端点并排除无关统计字段"
+      },
+      {
+        "cells": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "topic": "简单图、Louvain与社区数",
+        "implementation": "src/bda_labs/advanced_networks.py：简单图、Louvain与社区数"
+      },
+      {
+        "cells": [
+          12,
+          13
+        ],
+        "topic": "聚合社区规模图；客户标识不公开",
+        "implementation": "src/bda_labs/advanced_networks.py：聚合社区规模图；客户标识不公开"
+      }
+    ]
+  },
+  "M01": {
+    "title": "2.1线性回归",
+    "notebook": "m01_notebook",
+    "inputs": [
+      "m01_input1",
+      "m01_input2"
+    ],
+    "purpose": "理解客户金额、客户响应或贷款营销的回归与样本外评分。",
+    "method": "保留源模型、诊断及选择方法，修复指标口径与清洗不一致；模型选择和预处理只拟合训练范围，个人评分不公开。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          13,
+          15,
+          17
+        ],
+        "topic": "数据、散点相关、单变量OLS与样本外预测",
+        "implementation": "src/bda_labs/advanced_regression.py：数据、散点相关、单变量OLS与样本外预测"
+      },
+      {
+        "cells": [
+          19,
+          20,
+          22,
+          23
+        ],
+        "topic": "多元OLS与前向AIC",
+        "implementation": "src/bda_labs/advanced_regression.py：多元OLS与前向AIC"
+      },
+      {
+        "cells": [
+          25,
+          26,
+          27,
+          29,
+          31,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          43
+        ],
+        "topic": "对数响应、残差正态性、影响与异常点",
+        "implementation": "src/bda_labs/advanced_regression.py：对数响应、残差正态性、影响与异常点"
+      },
+      {
+        "cells": [
+          45,
+          47,
+          49,
+          51,
+          52,
+          53,
+          55,
+          56,
+          58
+        ],
+        "topic": "共线性、比率、类别交互及样本外评分",
+        "implementation": "src/bda_labs/advanced_regression.py：共线性、比率、类别交互及样本外评分"
+      },
+      {
+        "cells": [
+          60,
+          62,
+          65,
+          66,
+          68,
+          70,
+          72,
+          73,
+          75,
+          76
+        ],
+        "topic": "L1/L2/弹性网、训练内CV及系数路径",
+        "implementation": "src/bda_labs/advanced_regression.py：L1/L2/弹性网、训练内CV及系数路径"
+      }
+    ]
+  },
+  "M02": {
+    "title": "2.2逻辑回归",
+    "notebook": "m02_notebook",
+    "inputs": [
+      "m02_input1",
+      "m02_input2"
+    ],
+    "purpose": "理解客户金额、客户响应或贷款营销的回归与样本外评分。",
+    "method": "保留源模型、诊断及选择方法，修复指标口径与清洗不一致；模型选择和预处理只拟合训练范围，个人评分不公开。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          11,
+          12
+        ],
+        "topic": "读取清洗、固定划分、单变量Logit及阈值",
+        "implementation": "src/bda_labs/advanced_regression.py：读取清洗、固定划分、单变量Logit及阈值"
+      },
+      {
+        "cells": [
+          21,
+          22,
+          23,
+          24,
+          26,
+          28,
+          29
+        ],
+        "topic": "训练内缩放、RFECV、正则CV和预测",
+        "implementation": "src/bda_labs/advanced_regression.py：训练内缩放、RFECV、正则CV和预测"
+      },
+      {
+        "cells": [
+          32,
+          34,
+          36,
+          37,
+          39
+        ],
+        "topic": "分类评估、ROC、样本外评分与自建模型回读",
+        "implementation": "src/bda_labs/advanced_regression.py：分类评估、ROC、样本外评分与自建模型回读"
+      }
+    ]
+  },
+  "M12": {
+    "title": "3.1.1-3.1.2分类（反欺诈_DT_EnsembleMethods）",
+    "notebook": "m12_notebook",
+    "inputs": [
+      "m12_input1"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3
+        ],
+        "topic": "划分与决策树四折调参",
+        "implementation": "src/bda_labs/advanced_supervised.py：划分与决策树四折调参"
+      },
+      {
+        "cells": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "topic": "规则与分类、ROC/PR/KS指标",
+        "implementation": "src/bda_labs/advanced_supervised.py：规则与分类、ROC/PR/KS指标"
+      },
+      {
+        "cells": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "topic": "自建模型回读与本次树规则替代过期硬编码",
+        "implementation": "src/bda_labs/advanced_supervised.py：自建模型回读与本次树规则替代过期硬编码"
+      },
+      {
+        "cells": [
+          16,
+          17,
+          19,
+          20
+        ],
+        "topic": "随机森林和AdaBoost",
+        "implementation": "src/bda_labs/advanced_supervised.py：随机森林和AdaBoost"
+      },
+      {
+        "cells": [
+          22,
+          24,
+          25,
+          27
+        ],
+        "topic": "XGBoost、训练内早停、搜索和重要性",
+        "implementation": "src/bda_labs/advanced_supervised.py：XGBoost、训练内早停、搜索和重要性"
+      },
+      {
+        "cells": [
+          29,
+          31,
+          32,
+          33
+        ],
+        "topic": "LightGBM随机搜索及持久化教学调整",
+        "implementation": "src/bda_labs/advanced_supervised.py：LightGBM随机搜索及持久化教学调整"
+      }
+    ]
+  },
+  "M13": {
+    "title": "3.1.3-3.1.6分类（反欺诈_KNN_NB _SVM_MLP）",
+    "notebook": "m13_notebook",
+    "inputs": [
+      "m13_input1"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "topic": "折内缩放、KNN调参和分类指标",
+        "implementation": "src/bda_labs/advanced_supervised.py：折内缩放、KNN调参和分类指标"
+      },
+      {
+        "cells": [
+          8,
+          9
+        ],
+        "topic": "非负原始变量的多项式朴素贝叶斯",
+        "implementation": "src/bda_labs/advanced_supervised.py：非负原始变量的多项式朴素贝叶斯"
+      },
+      {
+        "cells": [
+          11,
+          12,
+          13
+        ],
+        "topic": "线性/RBF支持向量机及折内缩放",
+        "implementation": "src/bda_labs/advanced_supervised.py：线性/RBF支持向量机及折内缩放"
+      },
+      {
+        "cells": [
+          15,
+          16
+        ],
+        "topic": "MLP随机搜索与留出评估",
+        "implementation": "src/bda_labs/advanced_supervised.py：MLP随机搜索与留出评估"
+      }
+    ]
+  },
+  "M14": {
+    "title": "1_XGBoost专题_课堂代码",
+    "notebook": "m14_notebook",
+    "inputs": [
+      "m14_input1"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "topic": "训练内编码、sklearn与原生API和参数解释",
+        "implementation": "src/bda_labs/advanced_supervised.py：训练内编码、sklearn与原生API和参数解释"
+      },
+      {
+        "cells": [
+          8,
+          14
+        ],
+        "topic": "独立验证早停",
+        "implementation": "src/bda_labs/advanced_supervised.py：独立验证早停"
+      },
+      {
+        "cells": [
+          15
+        ],
+        "topic": "单调约束",
+        "implementation": "src/bda_labs/advanced_supervised.py：单调约束"
+      },
+      {
+        "cells": [
+          19
+        ],
+        "topic": "交互约束",
+        "implementation": "src/bda_labs/advanced_supervised.py：交互约束"
+      },
+      {
+        "cells": [
+          21
+        ],
+        "topic": "并行树森林",
+        "implementation": "src/bda_labs/advanced_supervised.py：并行树森林"
+      }
+    ]
+  },
+  "M15": {
+    "title": "2_LightGBM专题_课堂代码",
+    "notebook": "m15_notebook",
+    "inputs": [
+      "m15_input1"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          4
+        ],
+        "topic": "依赖说明、训练内编码与HistGB",
+        "implementation": "src/bda_labs/advanced_supervised.py：依赖说明、训练内编码与HistGB"
+      },
+      {
+        "cells": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "topic": "sklearn/原生LightGBM和二进制回读",
+        "implementation": "src/bda_labs/advanced_supervised.py：sklearn/原生LightGBM和二进制回读"
+      },
+      {
+        "cells": [
+          14,
+          15,
+          17,
+          18,
+          19
+        ],
+        "topic": "类别数据集、参考集、早停和模型回读",
+        "implementation": "src/bda_labs/advanced_supervised.py：类别数据集、参考集、早停和模型回读"
+      },
+      {
+        "cells": [
+          20,
+          21
+        ],
+        "topic": "单调与交互约束",
+        "implementation": "src/bda_labs/advanced_supervised.py：单调与交互约束"
+      }
+    ]
+  },
+  "M16": {
+    "title": "3_模型解释性专题_课堂代码",
+    "notebook": "m16_notebook",
+    "inputs": [
+      "m16_input1"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          4,
+          6
+        ],
+        "topic": "训练内编码与可识别Logit",
+        "implementation": "src/bda_labs/advanced_supervised.py：训练内编码与可识别Logit"
+      },
+      {
+        "cells": [
+          13,
+          16,
+          19,
+          20,
+          23,
+          24
+        ],
+        "topic": "树/森林/XGB/LGB重要性",
+        "implementation": "src/bda_labs/advanced_supervised.py：树/森林/XGB/LGB重要性"
+      },
+      {
+        "cells": [
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "topic": "TreeSHAP加和验证及聚合贡献替代个体图",
+        "implementation": "src/bda_labs/advanced_supervised.py：TreeSHAP加和验证及聚合贡献替代个体图"
+      },
+      {
+        "cells": [
+          34,
+          35
+        ],
+        "topic": "四变量偏依赖及数值",
+        "implementation": "src/bda_labs/advanced_supervised.py：四变量偏依赖及数值"
+      },
+      {
+        "cells": [
+          39,
+          40
+        ],
+        "topic": "Iris教学树和复杂规则解释",
+        "implementation": "src/bda_labs/advanced_supervised.py：Iris教学树和复杂规则解释"
+      },
+      {
+        "cells": [
+          43,
+          44,
+          46
+        ],
+        "topic": "决策树及五棵树路径校验（不公开个人路径）",
+        "implementation": "src/bda_labs/advanced_supervised.py：决策树及五棵树路径校验（不公开个人路径）"
+      },
+      {
+        "cells": [
+          50,
+          51,
+          52
+        ],
+        "topic": "前五变量简化树规则",
+        "implementation": "src/bda_labs/advanced_supervised.py：前五变量简化树规则"
+      },
+      {
+        "cells": [
+          55,
+          56,
+          57
+        ],
+        "topic": "经验取值约束的随机反事实搜索替代dice_ml",
+        "implementation": "src/bda_labs/advanced_supervised.py：经验取值约束的随机反事实搜索替代dice_ml"
+      }
+    ]
+  },
+  "M17": {
+    "title": "3.2违规识别(IsolationForrest_LOF无监督)",
+    "notebook": "m17_notebook",
+    "inputs": [
+      "m17_input1"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "topic": "类别分布与V1-V28峰度",
+        "implementation": "src/bda_labs/advanced_supervised.py：类别分布与V1-V28峰度"
+      },
+      {
+        "cells": [
+          7,
+          9,
+          10
+        ],
+        "topic": "无标签拟合孤立森林与独立标签验证段选择",
+        "implementation": "src/bda_labs/advanced_supervised.py：无标签拟合孤立森林与独立标签验证段选择"
+      },
+      {
+        "cells": [
+          12
+        ],
+        "topic": "不加载教材序列化模型；持久化注释说明",
+        "implementation": "src/bda_labs/advanced_supervised.py：不加载教材序列化模型；持久化注释说明"
+      },
+      {
+        "cells": [
+          14,
+          16,
+          17
+        ],
+        "topic": "500邻居LOF新样本评估；未执行注释扩展搜索",
+        "implementation": "src/bda_labs/advanced_supervised.py：500邻居LOF新样本评估；未执行注释扩展搜索"
+      }
+    ]
+  },
+  "M18": {
+    "title": "4.1.1销售数据预测(趋势分解法-不建议学习)",
+    "notebook": "m18_notebook",
+    "inputs": [
+      "m18_input1"
+    ],
+    "purpose": "理解趋势、季节性、自相关或循环神经网络预测。",
+    "method": "使用时间先后划分训练、验证及留出；预测窗口严格早于目标日。保留原算法族，并区分未来投影与已有真值的回测。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "topic": "Prophet依赖迁移及月序列",
+        "implementation": "src/bda_labs/advanced_timeseries.py：Prophet依赖迁移及月序列"
+      },
+      {
+        "cells": [
+          10,
+          12,
+          13
+        ],
+        "topic": "加法模型和36月预测",
+        "implementation": "src/bda_labs/advanced_timeseries.py：加法模型和36月预测"
+      },
+      {
+        "cells": [
+          15,
+          17,
+          18,
+          19
+        ],
+        "topic": "中国节假日乘法模型与变点/组件说明",
+        "implementation": "src/bda_labs/advanced_timeseries.py：中国节假日乘法模型与变点/组件说明"
+      }
+    ]
+  },
+  "M19": {
+    "title": "4.1.2销售数据预测(SARIMA)",
+    "notebook": "m19_notebook",
+    "inputs": [
+      "m19_input1"
+    ],
+    "purpose": "理解趋势、季节性、自相关或循环神经网络预测。",
+    "method": "使用时间先后划分训练、验证及留出；预测窗口严格早于目标日。保留原算法族，并区分未来投影与已有真值的回测。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "topic": "月序列及乘法分解和注释说明",
+        "implementation": "src/bda_labs/advanced_timeseries.py：月序列及乘法分解和注释说明"
+      },
+      {
+        "cells": [
+          9,
+          11,
+          12
+        ],
+        "topic": "对数差分、64组SARIMA和训练AIC",
+        "implementation": "src/bda_labs/advanced_timeseries.py：对数差分、64组SARIMA和训练AIC"
+      },
+      {
+        "cells": [
+          14,
+          16,
+          17
+        ],
+        "topic": "残差诊断、留出及36月预测区间",
+        "implementation": "src/bda_labs/advanced_timeseries.py：残差诊断、留出及36月预测区间"
+      }
+    ]
+  },
+  "M20": {
+    "title": "4.1.3股价预测(LSTM)",
+    "notebook": "m20_notebook",
+    "inputs": [
+      "m20_input1"
+    ],
+    "purpose": "理解趋势、季节性、自相关或循环神经网络预测。",
+    "method": "使用时间先后划分训练、验证及留出；预测窗口严格早于目标日。保留原算法族，并区分未来投影与已有真值的回测。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          4,
+          6,
+          7,
+          8
+        ],
+        "topic": "时间划分、训练缩放与60步窗口",
+        "implementation": "src/bda_labs/advanced_timeseries.py：时间划分、训练缩放与60步窗口"
+      },
+      {
+        "cells": [
+          10,
+          11,
+          13
+        ],
+        "topic": "双层LSTM、Dropout、双输出和100epoch",
+        "implementation": "src/bda_labs/advanced_timeseries.py：双层LSTM、Dropout、双输出和100epoch"
+      },
+      {
+        "cells": [
+          15,
+          16,
+          17
+        ],
+        "topic": "训练/验证损失及同目标日期Open/Close评估",
+        "implementation": "src/bda_labs/advanced_timeseries.py：训练/验证损失及同目标日期Open/Close评估"
+      }
+    ]
+  },
+  "M21": {
+    "title": "ARIMA",
+    "notebook": "m21_notebook",
+    "inputs": [
+      "m21_input1"
+    ],
+    "purpose": "理解趋势、季节性、自相关或循环神经网络预测。",
+    "method": "使用时间先后划分训练、验证及留出；预测窗口严格早于目标日。保留原算法族，并区分未来投影与已有真值的回测。",
+    "sections": [
+      {
+        "cells": [
+          3,
+          4,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19
+        ],
+        "topic": "AR1拟合、残差诊断与预测",
+        "implementation": "src/bda_labs/advanced_timeseries.py：AR1拟合、残差诊断与预测"
+      },
+      {
+        "cells": [
+          22,
+          24,
+          26,
+          27,
+          29
+        ],
+        "topic": "MA1拟合、残差诊断与预测",
+        "implementation": "src/bda_labs/advanced_timeseries.py：MA1拟合、残差诊断与预测"
+      },
+      {
+        "cells": [
+          32,
+          33,
+          35,
+          37,
+          38,
+          40
+        ],
+        "topic": "ARMA及修复网格搜索",
+        "implementation": "src/bda_labs/advanced_timeseries.py：ARMA及修复网格搜索"
+      },
+      {
+        "cells": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50
+        ],
+        "topic": "差分ADF及ARIMA",
+        "implementation": "src/bda_labs/advanced_timeseries.py：差分ADF及ARIMA"
+      }
+    ]
+  },
+  "M26": {
+    "title": "5.1 模型参数优化方法",
+    "notebook": "m26_notebook",
+    "inputs": [
+      "m26_input1"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          2
+        ],
+        "topic": "训练内编码和独立测试划分",
+        "implementation": "src/bda_labs/advanced_supervised.py：训练内编码和独立测试划分"
+      },
+      {
+        "cells": [
+          5
+        ],
+        "topic": "网格搜索",
+        "implementation": "src/bda_labs/advanced_supervised.py：网格搜索"
+      },
+      {
+        "cells": [
+          7
+        ],
+        "topic": "逐次减半搜索",
+        "implementation": "src/bda_labs/advanced_supervised.py：逐次减半搜索"
+      },
+      {
+        "cells": [
+          9,
+          10
+        ],
+        "topic": "随机搜索及最优参数",
+        "implementation": "src/bda_labs/advanced_supervised.py：随机搜索及最优参数"
+      },
+      {
+        "cells": [
+          12
+        ],
+        "topic": "TPE贝叶斯搜索及训练三折目标",
+        "implementation": "src/bda_labs/advanced_supervised.py：TPE贝叶斯搜索及训练三折目标"
+      }
+    ]
+  },
+  "M27": {
+    "title": "5.2&3 pipeline_保险案例",
+    "notebook": "m27_notebook",
+    "inputs": [
+      "m27_input1",
+      "m27_input2"
+    ],
+    "purpose": "理解模型、参数选择、解释与评估之间的关系。",
+    "method": "保留各源主题的模型族和主要方法；实际搜索预算在报告公开。折内预处理、训练内验证及独立留出防止信息泄露；所有标签约定与抽样范围显式记录。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "topic": "读取数据、类型拆分与ColumnTransformer",
+        "implementation": "src/bda_labs/advanced_supervised.py：读取数据、类型拆分与ColumnTransformer"
+      },
+      {
+        "cells": [
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "topic": "完整Pipeline、划分、折内调参和评估",
+        "implementation": "src/bda_labs/advanced_supervised.py：完整Pipeline、划分、折内调参和评估"
+      },
+      {
+        "cells": [
+          19,
+          21,
+          22
+        ],
+        "topic": "本次自建Pipeline持久化回读及新客预测",
+        "implementation": "src/bda_labs/advanced_supervised.py：本次自建Pipeline持久化回读及新客预测"
+      },
+      {
+        "cells": [
+          23
+        ],
+        "topic": "完成标准化和树模型调参练习",
+        "implementation": "src/bda_labs/advanced_supervised.py：完成标准化和树模型调参练习"
+      }
+    ]
+  },
+  "M28": {
+    "title": "Feature-engineering",
+    "notebook": "m28_notebook",
+    "inputs": [
+      "m28_input1"
+    ],
+    "purpose": "理解数据清洗、表示、降维和特征筛选的各类方法。",
+    "method": "逐项重建源演示，增加编码、归一化和白化恒等式校验；这是样本内教学分析，不声称模型泛化。",
+    "sections": [
+      {
+        "cells": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "topic": "流量异常、状态重编、盖帽及log1p",
+        "implementation": "src/bda_labs/advanced_features.py：流量异常、状态重编、盖帽及log1p"
+      },
+      {
+        "cells": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25
+        ],
+        "topic": "缺失策略、二值化和cut核对",
+        "implementation": "src/bda_labs/advanced_features.py：缺失策略、二值化和cut核对"
+      },
+      {
+        "cells": [
+          28,
+          29,
+          30,
+          32,
+          33,
+          35,
+          37,
+          38
+        ],
+        "topic": "入网时长、三类分箱与独热编码核对",
+        "implementation": "src/bda_labs/advanced_features.py：入网时长、三类分箱与独热编码核对"
+      },
+      {
+        "cells": [
+          40,
+          41,
+          42,
+          44,
+          46
+        ],
+        "topic": "标准化、极差、归一化及组合特征",
+        "implementation": "src/bda_labs/advanced_features.py：标准化、极差、归一化及组合特征"
+      },
+      {
+        "cells": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          55,
+          56,
+          57,
+          58
+        ],
+        "topic": "白化PCA、合成投影与LDA",
+        "implementation": "src/bda_labs/advanced_features.py：白化PCA、合成投影与LDA"
+      },
+      {
+        "cells": [
+          62,
+          63,
+          65,
+          66,
+          67,
+          68,
+          70,
+          71,
+          72,
+          74,
+          75,
+          76
+        ],
+        "topic": "方差、卡方、ANOVA及回归F筛选",
+        "implementation": "src/bda_labs/advanced_features.py：方差、卡方、ANOVA及回归F筛选"
+      },
+      {
+        "cells": [
+          78,
+          79,
+          81,
+          82,
+          83
+        ],
+        "topic": "RFE、随机森林与GBDT嵌入筛选",
+        "implementation": "src/bda_labs/advanced_features.py：RFE、随机森林与GBDT嵌入筛选"
+      }
+    ]
+  },
+  "M29": {
+    "title": "类别不平衡专题_课堂代码",
+    "notebook": "m29_notebook",
+    "inputs": [
+      "m29_input1"
+    ],
+    "purpose": "理解类别不平衡的采样策略及类别特征插值风险。",
+    "method": "保留六种合成采样及真实数据的SMOTE/SMOTENC、权重和更新步长比较；训练集重采样，测试集维持原分布。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          4
+        ],
+        "topic": "依赖、二维合成不平衡样本",
+        "implementation": "src/bda_labs/advanced_balance.py：依赖、二维合成不平衡样本"
+      },
+      {
+        "cells": [
+          6,
+          8,
+          10,
+          12,
+          15,
+          16
+        ],
+        "topic": "六类过采样/欠采样和清洗组合",
+        "implementation": "src/bda_labs/advanced_balance.py：六类过采样/欠采样和清洗组合"
+      },
+      {
+        "cells": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "topic": "实际数据、训练编码和基线",
+        "implementation": "src/bda_labs/advanced_balance.py：实际数据、训练编码和基线"
+      },
+      {
+        "cells": [
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "topic": "普通SMOTE反例及SMOTENC类别核对",
+        "implementation": "src/bda_labs/advanced_balance.py：普通SMOTE反例及SMOTENC类别核对"
+      },
+      {
+        "cells": [
+          32,
+          34
+        ],
+        "topic": "类别权重与max_delta_step",
+        "implementation": "src/bda_labs/advanced_balance.py：类别权重与max_delta_step"
+      }
+    ]
+  },
+  "F02": {
+    "title": "第二章某银行贷款产品精准营销模型代码通过",
+    "notebook": "f02_notebook",
+    "inputs": [
+      "f02_input1",
+      "f02_input2"
+    ],
+    "purpose": "理解客户金额、客户响应或贷款营销的回归与样本外评分。",
+    "method": "保留源模型、诊断及选择方法，修复指标口径与清洗不一致；模型选择和预处理只拟合训练范围，个人评分不公开。",
+    "sections": [
+      {
+        "cells": [
+          28,
+          29,
+          30,
+          32,
+          33,
+          35
+        ],
+        "topic": "缺失、箱线解释与训练分位数盖帽",
+        "implementation": "src/bda_labs/advanced_regression.py：缺失、箱线解释与训练分位数盖帽"
+      },
+      {
+        "cells": [
+          37,
+          38,
+          40,
+          41
+        ],
+        "topic": "固定划分、Logit及ROC",
+        "implementation": "src/bda_labs/advanced_regression.py：固定划分、Logit及ROC"
+      },
+      {
+        "cells": [
+          43
+        ],
+        "topic": "新客统一清洗与补齐评分",
+        "implementation": "src/bda_labs/advanced_regression.py：新客统一清洗与补齐评分"
+      }
+    ]
+  },
+  "F04": {
+    "title": "Vintage-checkpoint",
+    "notebook": "f04_notebook",
+    "inputs": [
+      "f04_input1",
+      "f04_input2"
+    ],
+    "purpose": "理解Vintage、A卡或B卡的业务口径与风险建模流程。",
+    "method": "离线重建SQL备份、账户观察窗口、分箱WOE和评分卡；核查关联与成熟账龄。只发布聚合统计，不发布客户行或数据库连接信息。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "topic": "与F05相同的Vintage检查点：备份解析、离线查询与MOB",
+        "implementation": "src/bda_labs/advanced_finance.py：与F05相同的Vintage检查点：备份解析、离线查询与MOB"
+      }
+    ]
+  },
+  "F05": {
+    "title": "Vintage",
+    "notebook": "f05_notebook",
+    "inputs": [
+      "f05_input1",
+      "f05_input2"
+    ],
+    "purpose": "理解Vintage、A卡或B卡的业务口径与风险建模流程。",
+    "method": "离线重建SQL备份、账户观察窗口、分箱WOE和评分卡；核查关联与成熟账龄。只发布聚合统计，不发布客户行或数据库连接信息。",
+    "sections": [
+      {
+        "cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "topic": "SQL备份解析、离线Vintage查询、成熟账龄和聚合核对",
+        "implementation": "src/bda_labs/advanced_finance.py：SQL备份解析、离线Vintage查询、成熟账龄和聚合核对"
+      }
+    ]
+  },
+  "F06": {
+    "title": "第5章贷前信用风险预测模型（A卡）代码通过",
+    "notebook": "f06_notebook",
+    "inputs": [
+      "f06_input1",
+      "f06_input2",
+      "f06_input3"
+    ],
+    "purpose": "理解Vintage、A卡或B卡的业务口径与风险建模流程。",
+    "method": "离线重建SQL备份、账户观察窗口、分箱WOE和评分卡；核查关联与成熟账龄。只发布聚合统计，不发布客户行或数据库连接信息。",
+    "sections": [
+      {
+        "cells": [
+          14,
+          16,
+          18,
+          21,
+          23,
+          24,
+          26
+        ],
+        "topic": "去重、类型、缺失和划分",
+        "implementation": "src/bda_labs/advanced_finance.py：去重、类型、缺失和划分"
+      },
+      {
+        "cells": [
+          28,
+          31,
+          33,
+          35,
+          37,
+          39
+        ],
+        "topic": "训练筛选、分箱、人工Age、WOE和相关性",
+        "implementation": "src/bda_labs/advanced_finance.py：训练筛选、分箱、人工Age、WOE和相关性"
+      },
+      {
+        "cells": [
+          42,
+          44,
+          46,
+          48
+        ],
+        "topic": "双向AIC、Logit、VIF与PSI",
+        "implementation": "src/bda_labs/advanced_finance.py：双向AIC、Logit、VIF与PSI"
+      },
+      {
+        "cells": [
+          53,
+          54,
+          55,
+          58,
+          59,
+          61,
+          62
+        ],
+        "topic": "ROC/KS、评分卡转分及分桶",
+        "implementation": "src/bda_labs/advanced_finance.py：ROC/KS、评分卡转分及分桶"
+      },
+      {
+        "cells": [
+          73,
+          74
+        ],
+        "topic": "本地备份表替代数据库枚举及Vintage离线查询",
+        "implementation": "src/bda_labs/advanced_finance.py：本地备份表替代数据库枚举及Vintage离线查询"
+      }
+    ]
+  },
+  "F07": {
+    "title": "第6章贷中信用风险预测模型（B卡）代码通过",
+    "notebook": "f07_notebook",
+    "inputs": [
+      "f07_input1",
+      "f07_input2"
+    ],
+    "purpose": "理解Vintage、A卡或B卡的业务口径与风险建模流程。",
+    "method": "离线重建SQL备份、账户观察窗口、分箱WOE和评分卡；核查关联与成熟账龄。只发布聚合统计，不发布客户行或数据库连接信息。",
+    "sections": [
+      {
+        "cells": [
+          12,
+          14,
+          16,
+          18,
+          20
+        ],
+        "topic": "还款/逾期/额度/趋势/稳定性/账户特征",
+        "implementation": "src/bda_labs/advanced_finance.py：还款/逾期/额度/趋势/稳定性/账户特征"
+      },
+      {
+        "cells": [
+          22,
+          23
+        ],
+        "topic": "三个窗口宽表与重复后缀修正",
+        "implementation": "src/bda_labs/advanced_finance.py：三个窗口宽表与重复后缀修正"
+      },
+      {
+        "cells": [
+          26,
+          28,
+          30
+        ],
+        "topic": "缺失检测与客户划分",
+        "implementation": "src/bda_labs/advanced_finance.py：缺失检测与客户划分"
+      },
+      {
+        "cells": [
+          32,
+          34,
+          36,
+          41
+        ],
+        "topic": "分箱WOE、相关和AIC筛选、Logit及评估",
+        "implementation": "src/bda_labs/advanced_finance.py：分箱WOE、相关和AIC筛选、Logit及评估"
+      }
+    ]
+  },
+  "F08": {
+    "title": "第8章申请反欺诈模型代码通过",
+    "notebook": "f08_notebook",
+    "inputs": [
+      "f08_input1",
+      "f08_input2",
+      "f08_input3"
+    ],
+    "purpose": "结合收入一致性和申请时点的关系网络理解反欺诈建模。",
+    "method": "重建按日关系特征、训练内异常特征和多模型搜索；已披露历史风险与申请者自身结果分离，所有个人关系与评分留在本地。",
+    "sections": [
+      {
+        "cells": [
+          14,
+          15,
+          16,
+          17,
+          21,
+          22,
+          23,
+          24,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          36,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          46,
+          47
+        ],
+        "topic": "收入一致性残差及标准化偏离（训练内拟合）",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：收入一致性残差及标准化偏离（训练内拟合）"
+      },
+      {
+        "cells": [
+          52,
+          55,
+          56,
+          59,
+          61,
+          62,
+          63
+        ],
+        "topic": "GBDT搜索和ROC/PR",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：GBDT搜索和ROC/PR"
+      },
+      {
+        "cells": [
+          68,
+          70,
+          72,
+          75,
+          77
+        ],
+        "topic": "指定连通分量及匿名聚合说明",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：指定连通分量及匿名聚合说明"
+      },
+      {
+        "cells": [
+          79,
+          81,
+          83,
+          85,
+          87,
+          89,
+          91,
+          93,
+          95
+        ],
+        "topic": "全图Louvain、连通分量和社区规模",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：全图Louvain、连通分量和社区规模"
+      },
+      {
+        "cells": [
+          97,
+          99,
+          101,
+          103
+        ],
+        "topic": "按日网络、已披露标签与历史联系人",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：按日网络、已披露标签与历史联系人"
+      },
+      {
+        "cells": [
+          106,
+          108,
+          109,
+          111
+        ],
+        "topic": "重新关联生成特征和第二样本GBDT",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：重新关联生成特征和第二样本GBDT"
+      },
+      {
+        "cells": [
+          113,
+          115,
+          117,
+          119,
+          121
+        ],
+        "topic": "训练内五种重采样演示",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：训练内五种重采样演示"
+      },
+      {
+        "cells": [
+          124,
+          126,
+          128
+        ],
+        "topic": "GP期望改进贝叶斯优化与独立留出评估",
+        "implementation": "src/bda_labs/advanced_financial_fraud.py：GP期望改进贝叶斯优化与独立留出评估"
+      }
+    ]
+  }
+}

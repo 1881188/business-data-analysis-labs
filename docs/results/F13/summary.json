@@ -1,0 +1,66 @@
+{
+  "lab_id": "F13",
+  "title": "03-3-PageRank-Python实现",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 21,
+    "mapped_code_cells": 21,
+    "source_cells_total": 22
+  },
+  "networkx_version": "3.6.1",
+  "seed": 42,
+  "independent_pagerank_checked": true,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_networks.py": "52a3e9ea759f839c07ea9593f578b5009eb52037a7c465a036428043926ecb4a",
+    "labs/finance_cases/f13/main.py": "4e2e1bddaa3ccb2912e6c2cfd3441bae99e06c180f2adf05aec53d8a5244827a",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "f13_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-3-PageRank-Python实现.ipynb",
+      "sha256": "86498c55b0c3629955d7cba8103965cc7b1ef06d2648b61e24e4fcb3af3079e3",
+      "bytes": 7475
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:58:12.686919+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f13/main.py": {
+      "executed_sha256": "52bd0f982643c695aa0f241fa30014e9a3c0194d84eb6e907b0523f217e1d539",
+      "published_sha256": "4e2e1bddaa3ccb2912e6c2cfd3441bae99e06c180f2adf05aec53d8a5244827a",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

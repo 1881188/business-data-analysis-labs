@@ -1,0 +1,81 @@
+{
+  "lab_id": "M16",
+  "title": "3_模型解释性专题_课堂代码",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 27,
+    "mapped_code_cells": 27,
+    "source_cells_total": 58
+  },
+  "train_rows": 27342,
+  "test_rows": 11718,
+  "TreeSHAP_additivity_checked": true,
+  "counterfactuals_found": 4,
+  "PDP_features": [
+    "GEND",
+    "BANK",
+    "age",
+    "meda"
+  ],
+  "forest_oob_accuracy": 0.6535366834906006,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_supervised.py": "2f1e48d6b09bd7ea5a668ef3741a133bc694382cae5bfa8659492047a515146e",
+    "labs/cda3_mining/m16/main.py": "aa8785b366a6bc1b2b405aa1a460b98c3e80c938a8222635c1c09aa4b5086419",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab",
+    "src/bda_labs/advanced_explanation.py": "f954097162310c5c97f8e62f910646b337e28f4aefefbd74385cb1310332baba"
+  },
+  "source_files": {
+    "m16_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/保险数据_第一期.csv",
+      "sha256": "256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496",
+      "bytes": 4734769
+    },
+    "m16_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/3_模型解释性专题_课堂代码.ipynb",
+      "sha256": "4dd9146a4fb980a9b7dd49eb45a93b68c6cb04baca3a19ba1e77f775f8382295",
+      "bytes": 22192
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:18:36.599873+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m16/main.py": {
+      "executed_sha256": "f831bf2e0d38616c54fce980d7ec0579aecfedeb3b62da83f9dd759ba91d544e",
+      "published_sha256": "aa8785b366a6bc1b2b405aa1a460b98c3e80c938a8222635c1c09aa4b5086419",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

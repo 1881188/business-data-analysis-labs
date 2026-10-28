@@ -1,0 +1,93 @@
+{
+  "lab_id": "F08",
+  "title": "第8章申请反欺诈模型代码通过",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 61,
+    "mapped_code_cells": 61,
+    "source_cells_total": 129
+  },
+  "initial_applications": 27321,
+  "network_rows": 49799,
+  "network_nodes": 87607,
+  "communities": 39182,
+  "historical_feature_customers": 39947,
+  "second_applications": 27321,
+  "network_match_fraction": 1.0,
+  "second_train_rows": 19125,
+  "second_test_rows": 8196,
+  "Bayesian_initial_points": 5,
+  "Bayesian_iterations": 10,
+  "repeated_user_groups": 3,
+  "holdout_group_overlap": 0,
+  "graph_feature_scope": "last_application_snapshot_in_supplied_event_log_excluding_own_outcome",
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_financial_fraud.py": "c8f6b98c410087eba44956b01aa69a84d1025f73afecb87805782476663d7c4a",
+    "labs/finance_cases/f08/main.py": "102fa59b53677f7c0464244951c36f1e33c78407bad7d5ed025dd42967da63f1",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab"
+  },
+  "source_files": {
+    "f08_input1": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan1_org_basic.csv",
+      "sha256": "174ba3016836aff1b92edc3ba5c0b3d74311d9ac61f218de92be4ce4ded619a9",
+      "bytes": 695373
+    },
+    "f08_input2": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan1_org_net.csv",
+      "sha256": "2a9f2f11026d4ac0c7296c53f4131fe4b1b471d96f2fd7c8b5427ff8a4673e87",
+      "bytes": 1409178
+    },
+    "f08_input3": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan2_analysis_basic.csv",
+      "sha256": "fafc161b8393e81f814e69ec0698385faf82f691bd03eb8b6459b6c5fd2b5af3",
+      "bytes": 4536480
+    },
+    "f08_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/第8章申请反欺诈模型代码通过.ipynb",
+      "sha256": "015f797d6b54e3a14cd8dafbea343ee542004390120eee0d8941e84ad8efcae8",
+      "bytes": 5952459
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:15:47.895410+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f08/main.py": {
+      "executed_sha256": "e0eacb334b68ef4e54f4e8a4c1c4de46202593003863d02fb9646d9e19113d51",
+      "published_sha256": "102fa59b53677f7c0464244951c36f1e33c78407bad7d5ed025dd42967da63f1",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

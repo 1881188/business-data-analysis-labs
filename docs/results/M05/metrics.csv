@@ -1,0 +1,7 @@
+﻿section,item,nonzero,disjoint_complete,component,value
+alpha_search,0.1,14.0,False,,
+alpha_search,0.3,13.0,False,,
+alpha_search,0.5,11.0,False,,
+alpha_search,0.7,9.0,True,,
+representative,X4,,,1.0,0.02392627872505758
+representative,X2,,,2.0,4.480145656407612e-16

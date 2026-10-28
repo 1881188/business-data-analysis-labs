@@ -433,11 +433,11 @@ SRC0431,2《CDA 二级认证教材：量化策略分析》,2《CDA 二级认证�
 SRC0432,2《CDA 二级认证教材：量化策略分析》,2《CDA 二级认证教材：量化策略分析》/第9章-用户分群/层次聚类/fa_cities_10.csv,65d980820b59f8323e609ba5ca4fffb29a23ec5523c507eb2464411650414a04,1099,data_or_reference,S13,labs/cda2_statistics/s13_hierarchy/main.py,execution_verified
 NB013,2《CDA 二级认证教材：量化策略分析》,2《CDA 二级认证教材：量化策略分析》/第9章-用户分群/层次聚类/hc_city10.ipynb,60cc99781677ec3d9c5a18d196b4b25bbde6d743d122d110b6cd0968fa2cc7f2,300516,notebook_source,S13,labs/cda2_statistics/s13_hierarchy/main.py,execution_verified
 SRC0434,2《CDA 二级认证教材：量化策略分析》,2《CDA 二级认证教材：量化策略分析》/第9章-用户分群/层次聚类/plot_dendrogram.png,6954124846fdd6bb8329d2d275e95c1fb2373f44a7d20ddb9fdf1d4685070e62,13791,reference_material,,,supplemental
-NB014,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/2.1线性回归.ipynb,d29e06835e358626e793b1cb9b2bc2f1b69d54acc39faf620b7ba735f9b4c289,486219,notebook_source,M01,,pending
+NB014,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/2.1线性回归.ipynb,d29e06835e358626e793b1cb9b2bc2f1b69d54acc39faf620b7ba735f9b4c289,486219,notebook_source,M01,labs/cda3_mining/m01/main.py,execution_verified
 SRC0436,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/creditcard_exp.csv,c925161f16b0c3e107359c17ecd07d06613913b109959040727303b8727a0aab,7011,data_or_reference,,,pending
 SRC0437,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/creditcard_exp_out_of_sample.csv,787a667d1fa34799826d3cb869fb42836021dc43acbb0d358306bb5b88a09427,1324,data_or_reference,,,pending
 SRC0438,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/data_processed/creditcard_exp_linear_regression.csv,d150518f3835b0225e9786bbf9dcfb078ec738e7413bf97bb95a641bef9df92f,4093,data_or_reference,,,pending
-NB015,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/2.2逻辑回归.ipynb,ac74a029ce0fcb41c4f5780e147c8d29d5529d170a08a162bcc42ff9ec0a339f,53795,notebook_source,M02,,pending
+NB015,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/2.2逻辑回归.ipynb,ac74a029ce0fcb41c4f5780e147c8d29d5529d170a08a162bcc42ff9ec0a339f,53795,notebook_source,M02,labs/cda3_mining/m02/main.py,execution_verified
 SRC0440,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/__pycache__/woe.cpython-312.pyc,d057cbbd7656f0c01160c01e88b65b1ee626081f08a52463ad82a4be9e434c49,21870,generated_cache,,,supplemental
 SRC0441,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/__pycache__/woe.cpython-38.pyc,1c7739d3826776a0c0b5838f99465cc38fb44e978266bf0ed48b32f409854ccd,11826,generated_cache,,,supplemental
 SRC0442,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/creditcard_exp.csv,c925161f16b0c3e107359c17ecd07d06613913b109959040727303b8727a0aab,7011,data_or_reference,,,pending
@@ -445,11 +445,11 @@ SRC0443,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证�
 SRC0444,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/data_processed/creditcard_exp_logistic_regression.csv,7188c8d85f64fa90c9f4095c7dc3048793cbcb5fd6b963353596dfb26217d84b,3970,data_or_reference,,,pending
 SRC0445,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/model/creditcard_logisticRegression.model,b135035664ecd55fb469d7b7359987aa363ce79492c985e8dbaf3e58559ffa72,4330,generated_cache,,,supplemental
 SRC0446,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/woe.py,d363b1fc0578a64b5fd5d10337ef5d2307dd1e261a8410e88a296678e92d94cb,15560,helper_code,,,pending
-NB016,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.1-2.3.2.主成分_因子分析_层次聚类(经济发展数据).ipynb,35d2ba70131349e776394ac33658b2bcefac1b776385469a43cfd444fa6077af,251826,notebook_source,M03,,pending
-NB017,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.1主成分分析(Loan_aplya打分).ipynb,5607940166a9192a393b596345ee492bfd52405a2a55a39f6b9b38f4b00fbc96,17735,notebook_source,M04,,pending
-NB018,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.3变量聚类.ipynb,a485e5e884ca4dd80d5f7af964b34f368085b6e45091aebd89d1d0bda0dd15f0,4556,notebook_source,M05,,pending
-NB019,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.4层次聚类(经济发展数据).ipynb,b0993d59f5f78f07b600ccc4073c6b97e092c40b3c36ff71aa089d3093fdf3c5,28384,notebook_source,M06,,pending
-NB020,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.5Kmeans聚类用户细分.ipynb,3abf20ca64fe096bf8b82f306f04e9380391c6873943f4c821be99dd657b667e,756542,notebook_source,M07,,pending
+NB016,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.1-2.3.2.主成分_因子分析_层次聚类(经济发展数据).ipynb,35d2ba70131349e776394ac33658b2bcefac1b776385469a43cfd444fa6077af,251826,notebook_source,M03,labs/cda3_mining/m03/main.py,execution_verified
+NB017,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.1主成分分析(Loan_aplya打分).ipynb,5607940166a9192a393b596345ee492bfd52405a2a55a39f6b9b38f4b00fbc96,17735,notebook_source,M04,labs/cda3_mining/m04/main.py,execution_verified
+NB018,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.3变量聚类.ipynb,a485e5e884ca4dd80d5f7af964b34f368085b6e45091aebd89d1d0bda0dd15f0,4556,notebook_source,M05,labs/cda3_mining/m05/main.py,execution_verified
+NB019,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.4层次聚类(经济发展数据).ipynb,b0993d59f5f78f07b600ccc4073c6b97e092c40b3c36ff71aa089d3093fdf3c5,28384,notebook_source,M06,labs/cda3_mining/m06/main.py,execution_verified
+NB020,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.5Kmeans聚类用户细分.ipynb,3abf20ca64fe096bf8b82f306f04e9380391c6873943f4c821be99dd657b667e,756542,notebook_source,M07,labs/cda3_mining/m07/main.py,execution_verified
 SRC0452,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/cities_10.csv,3a2b56849b754ce147f4482c6f277acf0e1d05abd223a70d0bf2ca0d0b0e22b8,658,data_or_reference,,,pending
 SRC0453,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/cities_FA_score.csv,65d980820b59f8323e609ba5ca4fffb29a23ec5523c507eb2464411650414a04,1099,data_or_reference,,,pending
 SRC0454,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/data_clust.csv,8bd551b5bed11f87d45a9d1cc07f40c0b95aae5d1db0545217adcc17165f03ed,9689464,data_or_reference,,,pending
@@ -458,8 +458,8 @@ SRC0456,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证�
 SRC0457,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/myscript/__pycache__/varSelec.cpython-38.pyc,7756e38db06d3396329d85215f900a0ea407aecda3da1553636730a5a1db8601,1731,generated_cache,,,supplemental
 SRC0458,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/myscript/varSelec.py,68958940ea7d20a1fb3a276809716fcb2811b0e1fd3d5f1e02bfc6ac07e6695c,2882,helper_code,,,pending
 SRC0459,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/plot_dendrogram1.png,6c51037bef1472fb7bff35f2633651de746005daadfbfbd7748652df059f0c84,13926,reference_material,,,supplemental
-NB021,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/2.4.1.关联规则（银行产品交叉销售分析）.ipynb,a110af478742060e99c117ceb9f54c11921911aaae95940052efd42a0c096956,59577,notebook_source,M08,,pending
-NB022,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/2.4.2.序列模式（银行产品交叉销售分析）.ipynb,154d11a0d25f21de0cad7903b6fbfbdc62452e160a7b097a725f713b3ee76b5e,6167,notebook_source,M09,,pending
+NB021,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/2.4.1.关联规则（银行产品交叉销售分析）.ipynb,a110af478742060e99c117ceb9f54c11921911aaae95940052efd42a0c096956,59577,notebook_source,M08,labs/cda3_mining/m08/main.py,execution_verified
+NB022,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/2.4.2.序列模式（银行产品交叉销售分析）.ipynb,154d11a0d25f21de0cad7903b6fbfbdc62452e160a7b097a725f713b3ee76b5e,6167,notebook_source,M09,labs/cda3_mining/m09/main.py,execution_verified
 SRC0462,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/bank_prod_order.csv,e7505217d13d09d31ac3e3641499185d0d584e38d25ef5011359dcea9a39afbc,40490,data_or_reference,,,pending
 SRC0463,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/myscript/__pycache__/apriori.cpython-312.pyc,0fb521021595e028e681123f1005509ed2d6abe1740382aca593ab4ab07fac64,4230,generated_cache,,,supplemental
 SRC0464,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/myscript/__pycache__/apriori.cpython-38.pyc,8cdb6c35b89a39deee1a2eee63c6acd6fbe2ebe98c7f6fafff71891ceafc759b,2792,generated_cache,,,supplemental
@@ -474,47 +474,47 @@ SRC0472,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证�
 SRC0473,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/myscript/prefixspan/PrefixSpan_test.txt,5f9b73456a684088468686868c9ace8c7aa487fc383c7a6ab8c6df8326e971c2,65,reference_material,,,supplemental
 SRC0474,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/myscript/prefixspan.py,29a08e3f405e0fc69e936f15b74ac393b72fa09e049b164fa860076b9e7171a3,4681,helper_code,,,pending
 SRC0475,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/bank_prod_order(1).csv,e7505217d13d09d31ac3e3641499185d0d584e38d25ef5011359dcea9a39afbc,40490,data_or_reference,,,pending
-NB023,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/上课版-银行产品交叉销售分析-mlxtendApriori copy.ipynb,34d95078bbf046d66990588bea2ed4f8f140e2706420fda97d0fd5c9315b18b5,92689,notebook_source,M10,,pending
-NB024,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/课后答案版-银行产品交叉销售分析-mlxtendApriori.ipynb,655906de3af5730173483553bff8d3189840f4b7efba8bc00fdaf531b261a815,123462,notebook_source,M11,,pending
-NB025,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/3.1.1-3.1.2分类（反欺诈_DT_EnsembleMethods）.ipynb,7388efef6e65dd9c5e17d16407ac90737de99bf616d40786eca50b92c28c7841,472352,notebook_source,M12,,pending
-NB026,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/3.1.3-3.1.6分类（反欺诈_KNN_NB _SVM_MLP）.ipynb,f63a0f26d2fd657ba54b1a7fdc078d89f0f6e06c6c6dfbf246ee7b72c5efc4e9,275412,notebook_source,M13,,pending
+NB023,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/上课版-银行产品交叉销售分析-mlxtendApriori copy.ipynb,34d95078bbf046d66990588bea2ed4f8f140e2706420fda97d0fd5c9315b18b5,92689,notebook_source,M10,labs/cda3_mining/m10/main.py,execution_verified
+NB024,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/2.4交叉销售（关联规则与序列模式）/关联规则-使用现成的python包/课后答案版-银行产品交叉销售分析-mlxtendApriori.ipynb,655906de3af5730173483553bff8d3189840f4b7efba8bc00fdaf531b261a815,123462,notebook_source,M11,labs/cda3_mining/m11/main.py,execution_verified
+NB025,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/3.1.1-3.1.2分类（反欺诈_DT_EnsembleMethods）.ipynb,7388efef6e65dd9c5e17d16407ac90737de99bf616d40786eca50b92c28c7841,472352,notebook_source,M12,labs/cda3_mining/m12/main.py,execution_verified
+NB026,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/3.1.3-3.1.6分类（反欺诈_KNN_NB _SVM_MLP）.ipynb,f63a0f26d2fd657ba54b1a7fdc078d89f0f6e06c6c6dfbf246ee7b72c5efc4e9,275412,notebook_source,M13,labs/cda3_mining/m13/main.py,execution_verified
 SRC0480,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/loan_net.csv,a92a9769ba3266b2965c1df9aa1fec1defae3e67cd0d05c332f65b9f53dba9dc,302589,data_or_reference,,,pending
 SRC0481,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/model/fraud_detection_dtree.model,5934b161813892935e9b64aa073709db3e6ba3151603af1132b7d8e51c624cf0,2857,generated_cache,,,supplemental
 SRC0482,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/model/fraud_detection_lightGBM.model,acb82c3c339e290c60930aacd4a7393057931dfcfe8c3f3581cfd3bdca2c3d89,41108,generated_cache,,,supplemental
 SRC0483,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/!警告-有些包谨慎使用（详见说明）.txt,07749e15c178ac6ab6c572b64be461ad3dde480f2e50f43dce769e2e85dc125e,125,reference_material,,,supplemental
-NB027,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/1_XGBoost专题_课堂代码.ipynb,10b1413b3a19b616638829990f4004c54ccdae0730d4e6a579b2e07c3b21510b,292382,notebook_source,M14,,pending
-NB028,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/2_LightGBM专题_课堂代码.ipynb,6e8afb4a519ad2fe92a8d26cf5bce9cf499bcf584c548012eae077c6ef75b254,53958,notebook_source,M15,,pending
-NB029,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/3_模型解释性专题_课堂代码.ipynb,4dd9146a4fb980a9b7dd49eb45a93b68c6cb04baca3a19ba1e77f775f8382295,22192,notebook_source,M16,,pending
+NB027,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/1_XGBoost专题_课堂代码.ipynb,10b1413b3a19b616638829990f4004c54ccdae0730d4e6a579b2e07c3b21510b,292382,notebook_source,M14,labs/cda3_mining/m14/main.py,execution_verified
+NB028,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/2_LightGBM专题_课堂代码.ipynb,6e8afb4a519ad2fe92a8d26cf5bce9cf499bcf584c548012eae077c6ef75b254,53958,notebook_source,M15,labs/cda3_mining/m15/main.py,execution_verified
+NB029,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/3_模型解释性专题_课堂代码.ipynb,4dd9146a4fb980a9b7dd49eb45a93b68c6cb04baca3a19ba1e77f775f8382295,22192,notebook_source,M16,labs/cda3_mining/m16/main.py,execution_verified
 SRC0487,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.1申请反欺诈（决策树系列等）/进阶内容_组合算法最近特性和模型解释/保险数据_第一期.csv,256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496,4734769,data_or_reference,,,pending
-NB030,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.2违规识别（孤立森林、局部异常因子）/3.2违规识别(IsolationForrest_LOF无监督).ipynb,425ef1f98419bb081d3415f26a785f65d9bb540d5aa2a0e9e0a995ad52bd0961,57298,notebook_source,M17,,pending
+NB030,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.2违规识别（孤立森林、局部异常因子）/3.2违规识别(IsolationForrest_LOF无监督).ipynb,425ef1f98419bb081d3415f26a785f65d9bb540d5aa2a0e9e0a995ad52bd0961,57298,notebook_source,M17,labs/cda3_mining/m17/main.py,execution_verified
 SRC0489,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/3.2违规识别（孤立森林、局部异常因子）/creditcard.csv,76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89,150828752,data_or_reference,,,pending
-NB031,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.1销售数据预测(趋势分解法-不建议学习).ipynb,4aa8142ed46948e3ec771932b6e734d444be77fb07b57b6323057d1ed65bcc0c,236750,notebook_source,M18,,pending
-NB032,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.2销售数据预测(SARIMA).ipynb,560d2e92efb60859617470940d29aadad4bd349e551bd14c2a6c9af63ecb63ce,367029,notebook_source,M19,,pending
-NB033,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.3股价预测(LSTM).ipynb,c7243ae916ac0e42eda388072415065a79ef7ca8978874eab297072486fcf6ba,212300,notebook_source,M20,,pending
+NB031,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.1销售数据预测(趋势分解法-不建议学习).ipynb,4aa8142ed46948e3ec771932b6e734d444be77fb07b57b6323057d1ed65bcc0c,236750,notebook_source,M18,labs/cda3_mining/m18/main.py,execution_verified
+NB032,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.2销售数据预测(SARIMA).ipynb,560d2e92efb60859617470940d29aadad4bd349e551bd14c2a6c9af63ecb63ce,367029,notebook_source,M19,labs/cda3_mining/m19/main.py,execution_verified
+NB033,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/4.1.3股价预测(LSTM).ipynb,c7243ae916ac0e42eda388072415065a79ef7ca8978874eab297072486fcf6ba,212300,notebook_source,M20,labs/cda3_mining/m20/main.py,execution_verified
 SRC0493,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/air.csv,c6c99f4369349757d3e4d41ee065359a55625e4de6552f6ac281e120745ebe58,2062,data_or_reference,,,pending
-NB034,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/ARIMA.ipynb,fa7f8fd9da3b0c7e2d8076d2da802ed3edd4592ca6b76a1f1821df23d0bd281f,541797,notebook_source,M21,,pending
+NB034,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/ARIMA.ipynb,fa7f8fd9da3b0c7e2d8076d2da802ed3edd4592ca6b76a1f1821df23d0bd281f,541797,notebook_source,M21,labs/cda3_mining/m21/main.py,execution_verified
 SRC0495,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/google_stock_prics.csv,e257dd8caa5e06c61a246f32cdc0dff39ddbf7b1caf72494b5729393a80fceda,129975,data_or_reference,,,pending
 SRC0496,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/tractor_sales.csv,b2b8fae112e389a15dcdd411c287778fc52ac6432cb000b86f1defbf8975778c,2043,data_or_reference,,,pending
 SRC0497,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.1时间序列预测/ts_simu200.csv,f4cf61defb47fd1fd8d3922f2905bd6677f7baac6f86f05e5dd2617a36cab84e,38072,data_or_reference,,,pending
-NB035,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.1线性规划.ipynb,27ba5f75438f2f540f7f06cb8debde1400d2fb94a492fa6f2c8631f6f6877a19,3342,notebook_source,M22,,pending
-NB036,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.2整数规划.ipynb,e1732d476701e671a78cefd159c8d9e3cd48f8832511c99761366b0b04f60525,4565,notebook_source,M23,,pending
-NB037,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.3二次规划.ipynb,5d8b376be940f4d90bbdb300f4647b70dfea46c557e8f433bc4004d7cac66b63,5006,notebook_source,M24,,pending
+NB035,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.1线性规划.ipynb,27ba5f75438f2f540f7f06cb8debde1400d2fb94a492fa6f2c8631f6f6877a19,3342,notebook_source,M22,labs/cda3_mining/m22/main.py,execution_verified
+NB036,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.2整数规划.ipynb,e1732d476701e671a78cefd159c8d9e3cd48f8832511c99761366b0b04f60525,4565,notebook_source,M23,labs/cda3_mining/m23/main.py,execution_verified
+NB037,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.3二次规划.ipynb,5d8b376be940f4d90bbdb300f4647b70dfea46c557e8f433bc4004d7cac66b63,5006,notebook_source,M24,labs/cda3_mining/m24/main.py,execution_verified
 SRC0501,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/campaign.lp,629400951cb7804af05d558b2a53152640f027761cc73f8798c6d2bd3a5adea7,1522,data_or_reference,,,pending
 SRC0502,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/productivity.lp,1365f2381718a296e5d513edb575cc551b5954991daa7ca9a174949dccaed082,128,data_or_reference,,,pending
 SRC0503,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/qp1.lp,5d792563de68cf207cf326ce83048f20d52e337603628b65466c0fdc9ac77106,138,data_or_reference,,,pending
 SRC0504,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/exportedLog.xes,27a1735757880ca8233dc289ac90ded041bb417745e186c14f2d07d786005c5e,15114,data_or_reference,,,pending
 SRC0505,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/petri.pnml,697835bc01694bfbfe3be097ff7f9b4264d9f9a07c8c977f9b5dec6a5ac2aacf,4949,data_or_reference,,,pending
 SRC0506,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/running-example.xes,663cd7b1da01cd024291e527a46079e0e7676fcf3a81ca8f5dee070b073c5df9,15891,data_or_reference,,,pending
-NB038,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/流程挖掘pm4py.ipynb,13bce6dbfd2890c200ea59c07dfb2ee38711251ecd11d6b545703cf38469adf9,205106,notebook_source,M25,,pending
-NB039,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/5.1 模型参数优化方法.ipynb,619804df89e6a7c57546580482f137dd9b0d5463c8fdd0d6d153ba2de6c449b4,117934,notebook_source,M26,,pending
-NB040,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/5.2&3 pipeline_保险案例.ipynb,1aeb113ebef766543e7aa0779f174e0388994240762a2b9b61fb19e9abd95743,79748,notebook_source,M27,,pending
+NB038,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/流程挖掘pm4py.ipynb,13bce6dbfd2890c200ea59c07dfb2ee38711251ecd11d6b545703cf38469adf9,205106,notebook_source,M25,labs/cda3_mining/m25/main.py,execution_verified
+NB039,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/5.1 模型参数优化方法.ipynb,619804df89e6a7c57546580482f137dd9b0d5463c8fdd0d6d153ba2de6c449b4,117934,notebook_source,M26,labs/cda3_mining/m26/main.py,execution_verified
+NB040,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/5.2&3 pipeline_保险案例.ipynb,1aeb113ebef766543e7aa0779f174e0388994240762a2b9b61fb19e9abd95743,79748,notebook_source,M27,labs/cda3_mining/m27/main.py,execution_verified
 SRC0510,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/model_20241222.joblib,3e397fd32c0463f7702c8ee44f3e319ffaf3cb01cc4867a0cdb3c8ded5531e63,31663,generated_cache,,,supplemental
 SRC0511,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/保险数据_第一期.csv,256610549408a2f71a7cd4df6d2a223a2ff464f91174aeb67c3e80d959b19496,4734769,data_or_reference,,,pending
 SRC0512,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/5 预测类算法的参数调优/保险案例_新进用户.csv,f6c7602ce11c42c9fd3915a957d1591fc18f4fa08574b49bb6053789ffdae106,662,data_or_reference,,,pending
-NB041,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/6 特征工程/Feature-engineering.ipynb,1faa5fedb19fe4eb080e4be37477f9512e241cb4961486197298ae03156c89c2,223115,notebook_source,M28,,pending
+NB041,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/6 特征工程/Feature-engineering.ipynb,1faa5fedb19fe4eb080e4be37477f9512e241cb4961486197298ae03156c89c2,223115,notebook_source,M28,labs/cda3_mining/m28/main.py,execution_verified
 SRC0514,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/6 特征工程/telecom_bill.csv,705b75efc76724bd40bd1b7ab6b5d18b6e688c8b6de1a0ad88b67c198d8fdece,152597,data_or_reference,,,pending
 SRC0515,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/7 类别不平衡问题/train_set.csv,4064acd9aee5736ef58109c0e3af3f3884662bfb266262c2c30a97fededac511,1659221,data_or_reference,,,pending
-NB042,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/7 类别不平衡问题/类别不平衡专题_课堂代码.ipynb,4747108bc6d4d0d21c0a31b950b96bff63e4b1f8f025caa9fd5e17d2ca981962,618765,notebook_source,M29,,pending
+NB042,3《CDA 三级认证教材：敏捷数据挖掘》,3《CDA 三级认证教材：敏捷数据挖掘》/7 类别不平衡问题/类别不平衡专题_课堂代码.ipynb,4747108bc6d4d0d21c0a31b950b96bff63e4b1f8f025caa9fd5e17d2ca981962,618765,notebook_source,M29,labs/cda3_mining/m29/main.py,execution_verified
 SRC0517,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/1 create_table.sql,0cca8169ca321ab04a85f5498aa25c0e6d52abfea1f405023e85592a4b70ad41,4278,data_or_reference,,,pending
 SRC0518,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/1 create_table_安全模式下导入.sql,3d518b6c89fe069cb84bc8b6e8589bb998ac45bc49bb055e024be94d083cd3c3,4837,data_or_reference,,,pending
 SRC0519,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/mysql_csv/kdd99_accounts.csv,52cb8adf2e824c614552f895a607dbfb98969131e7105a2caebb10f3b2e3479b,111347,data_or_reference,,,pending
@@ -531,25 +531,25 @@ SRC0529,4《金融数据分析和数据挖掘案例实战》,4《金融数据分
 SRC0530,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/mysql_csv/Table2.csv,85de1a6a1ef916d50543ed2a13d29565f98b6889fa74f3ba25bedc722810908e,10,data_or_reference,,,pending
 SRC0531,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/mysql_csv/Two.csv,3cae2d153e33d18c9b081d6e11f8aa4ba8f243b3228289543a0a6b078a2abbb8,25,data_or_reference,,,pending
 SRC0532,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/pred0917.csv,beb058feefd84a006a8e9d03d03ba2d883d97cb71040f95692c207dde41efed1,601067,data_or_reference,,,pending
-NB043,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/test.ipynb,c390eafbfb4d30b72f2dfd05b2d63e6440779a8804185ed113131020e8ac9851,20711,notebook_source,F01,,pending
+NB043,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/test.ipynb,c390eafbfb4d30b72f2dfd05b2d63e6440779a8804185ed113131020e8ac9851,20711,notebook_source,F01,labs/finance_cases/f01/main.py,pending
 SRC0534,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/tran0917.csv,30aa69a503d64c606a6ef20d9adba121df8e65fe69b00da918cd48fa27ea7ea7,622002,data_or_reference,,,pending
 SRC0535,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/数据库介绍.ppt,13446e5a88a95c4129f6cbe32b4e2bb9adcb35f13befee0596fb99b6db1fe4bf,379904,reference_material,,,supplemental
-NB044,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/第二章某银行贷款产品精准营销模型代码通过.ipynb,1662829592aaf3ca23fa38d72380efe8c399eff6d3d477250ccd517f6c73e2b4,62670,notebook_source,F02,,pending
+NB044,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/第二章某银行贷款产品精准营销模型代码通过.ipynb,1662829592aaf3ca23fa38d72380efe8c399eff6d3d477250ccd517f6c73e2b4,62670,notebook_source,F02,labs/finance_cases/f02/main.py,execution_verified
 SRC0537,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第2章-某银行贷款产品精准营销模型/第二章用到的sql.txt,45e0be61ce863d9b152eff5514873c2515143dde0e16c80246980a3445f8b0ab,5466,reference_material,,,supplemental
 SRC0538,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第3章-多维特征的客户细分/data_clust.csv,975c83f4e951da59ffc1d317001d8742f180df3fe99df2fd8e67e951562ad463,9689464,data_or_reference,,,pending
-NB045,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第3章-多维特征的客户细分/第3章多维特征的客户细分代码通过.ipynb,1f50d82dad2b399435171edfe9d070ed84cb4adf987ff4d192fd7e98e3d7808d,740434,notebook_source,F03,,pending
+NB045,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第3章-多维特征的客户细分/第3章多维特征的客户细分代码通过.ipynb,1f50d82dad2b399435171edfe9d070ed84cb4adf987ff4d192fd7e98e3d7808d,740434,notebook_source,F03,labs/finance_cases/f03/main.py,execution_verified
 SRC0540,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/creditdata.csv,b123ead07f9ff4279ac4cbedd5e98a224d4856b3d17789a56984914ac84033f2,23068672,data_or_reference,,,pending
 SRC0541,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/creditdata_small.csv,b64e0ba6b3bd0833cd4ed60f05fb6e2d91840083708733464e0507fcad239cca,15812065,data_or_reference,,,pending
 SRC0542,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/customer_detail.sql,8233318eb4c273a380c30bebbcb56ac606241c443d3ab8b8365ad64e5e7fca81,457109,data_or_reference,,,pending
 SRC0543,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/daily_report.sql,111d4b1f60bece786ea88531250c35c21ce3be86fe1b70853e70ccc63196d6b5,22503,data_or_reference,,,pending
 SRC0544,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/sql/repayment_sum_month.sql,600f843e69a2bc49a4b20d1f6b5f32380fed845ffe32b440f270db55cf80bb9b,3318709,data_or_reference,,,pending
-NB046,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/Vintage-checkpoint.ipynb,efda5740c7ea9ed33cbedc32715210de2a5e75ccd7e41bf934bfcf6a3571e06e,8230,notebook_source,F04,,pending
-NB047,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/Vintage.ipynb,efda5740c7ea9ed33cbedc32715210de2a5e75ccd7e41bf934bfcf6a3571e06e,8230,notebook_source,F05,,pending
+NB046,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/Vintage-checkpoint.ipynb,efda5740c7ea9ed33cbedc32715210de2a5e75ccd7e41bf934bfcf6a3571e06e,8230,notebook_source,F04,labs/finance_cases/f04/main.py,execution_verified
+NB047,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/Vintage/Vintage/Vintage.ipynb,efda5740c7ea9ed33cbedc32715210de2a5e75ccd7e41bf934bfcf6a3571e06e,8230,notebook_source,F05,labs/finance_cases/f05/main.py,execution_verified
 SRC0547,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/数据字典.xlsx,d136bc94a7c6f0092f969d8b6a06e10ff5bce05e873a17d94add7a4274270fd5,956881,data_or_reference,,,pending
-NB048,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/第5章贷前信用风险预测模型（A卡）代码通过.ipynb,4284c801f9233a809ab3e5ff6b1e9e849213a7edfc088256311ec5403a4084fd,334433,notebook_source,F06,,pending
+NB048,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第5章-贷前信用风险预测模型（A卡）/第5章贷前信用风险预测模型（A卡）代码通过.ipynb,4284c801f9233a809ab3e5ff6b1e9e849213a7edfc088256311ec5403a4084fd,334433,notebook_source,F06,labs/finance_cases/f06/main.py,execution_verified
 SRC0549,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第6章-贷中信用风险预测模型（B卡）/Data/CreditBalance.csv,c20380bb5c24f6d0200115897aecaf55f991dde86bca7926b0b0bc9513fc446c,29636228,data_or_reference,,,pending
 SRC0550,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第6章-贷中信用风险预测模型（B卡）/Data/label.csv,a22c805737a30a441f200fcfd77637caa8ab5d0db8545a3eeee8cee2a47a75e6,960538,data_or_reference,,,pending
-NB049,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第6章-贷中信用风险预测模型（B卡）/第6章贷中信用风险预测模型（B卡）代码通过.ipynb,698445ae02ed9764f201cf27b526d8ea98396c5702661fc577548923ec8a2eb4,90683,notebook_source,F07,,pending
+NB049,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第6章-贷中信用风险预测模型（B卡）/第6章贷中信用风险预测模型（B卡）代码通过.ipynb,698445ae02ed9764f201cf27b526d8ea98396c5702661fc577548923ec8a2eb4,90683,notebook_source,F07,labs/finance_cases/f07/main.py,execution_verified
 SRC0552,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan1_org_basic.csv,174ba3016836aff1b92edc3ba5c0b3d74311d9ac61f218de92be4ce4ded619a9,695373,data_or_reference,,,pending
 SRC0553,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan1_org_net.csv,2a9f2f11026d4ac0c7296c53f4131fe4b1b471d96f2fd7c8b5427ff8a4673e87,1409178,data_or_reference,,,pending
 SRC0554,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan2_analysis_basic.csv,fafc161b8393e81f814e69ec0698385faf82f691bd03eb8b6459b6c5fd2b5af3,4536480,data_or_reference,,,pending
@@ -557,16 +557,16 @@ SRC0555,4《金融数据分析和数据挖掘案例实战》,4《金融数据分
 SRC0556,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan2_analysis_net20250103.csv,aa1b45f1f8e0ce54f7afc730bc6ccc066fcaff64ab1a1bfb885376344b4d2e1f,753,data_or_reference,,,pending
 SRC0557,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/data/loan2_analysis_net202501031.csv,aa1b45f1f8e0ce54f7afc730bc6ccc066fcaff64ab1a1bfb885376344b4d2e1f,753,data_or_reference,,,pending
 SRC0558,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/Mymetrics.py,d9b745afe87e3821d4cfdfe7c35241718284338b6b5b05433150be3737b98cc9,1393,helper_code,,,pending
-NB050,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/第8章申请反欺诈模型代码通过.ipynb,015f797d6b54e3a14cd8dafbea343ee542004390120eee0d8941e84ad8efcae8,5952459,notebook_source,F08,,pending
+NB050,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第8章-申请反欺诈模型/第8章申请反欺诈模型代码通过.ipynb,015f797d6b54e3a14cd8dafbea343ee542004390120eee0d8941e84ad8efcae8,5952459,notebook_source,F08,labs/finance_cases/f08/main.py,execution_verified
 SRC0560,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第9章-算法工程化/teleco_camp.csv,972455ff7626f4e7f689d6311e1a23ac04e5a3e36228eb0405b1908dfce584d2,577384,data_or_reference,,,pending
-NB051,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第9章-算法工程化/第9章算法工程化代码通过.ipynb,21b76a34946a733a91d0eb6940086331fa3150c536c00fde2ff3329bf0d4a858,15012,notebook_source,F09,,pending
-NB052,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/02-社交网络-基本理论CODE.ipynb,ae18424ed06e67198fd93b4a757a49e26b46a1197c52d3c4d4c9eebb92cff029,78525,notebook_source,F10,,pending
-NB053,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-1-深度遍历和广度遍历.ipynb,f36fcafb1946b0ed65dae91d5f074604a3fc4c8bfe6937e24ea8c4fca107c29c,5062,notebook_source,F11,,pending
-NB054,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-2-社交网络-核心度量指标.ipynb,60f04eae1f993ba92b81b36c92aa0bef45d3361a58de591819f3c93301fe1d54,53245,notebook_source,F12,,pending
-NB055,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-3-PageRank-Python实现.ipynb,86498c55b0c3629955d7cba8103965cc7b1ef06d2648b61e24e4fcb3af3079e3,7475,notebook_source,F13,,pending
-NB056,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/04-社交网络算法-小案例.ipynb,8c25b10ad0e9d970e9dde53349665e4881176ce5064b19eabb200bc9a841bec0,134312,notebook_source,F14,,pending
-NB057,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/04-社交网络算法-小案例_子网分割.ipynb,179d742e50540857e49289a58110d4e233040e8f7f80e834910f353131b53527,174136,notebook_source,F15,,pending
-NB058,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/05-社交网络—银行交易圈实践-社区发现 .ipynb,76c04cdf055945bbaf54a1c83f3de555ee302c5b5d0e175637cac0e149af893d,174148,notebook_source,F16,,pending
+NB051,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/第9章-算法工程化/第9章算法工程化代码通过.ipynb,21b76a34946a733a91d0eb6940086331fa3150c536c00fde2ff3329bf0d4a858,15012,notebook_source,F09,labs/finance_cases/f09/main.py,execution_verified
+NB052,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/02-社交网络-基本理论CODE.ipynb,ae18424ed06e67198fd93b4a757a49e26b46a1197c52d3c4d4c9eebb92cff029,78525,notebook_source,F10,labs/finance_cases/f10/main.py,execution_verified
+NB053,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-1-深度遍历和广度遍历.ipynb,f36fcafb1946b0ed65dae91d5f074604a3fc4c8bfe6937e24ea8c4fca107c29c,5062,notebook_source,F11,labs/finance_cases/f11/main.py,execution_verified
+NB054,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-2-社交网络-核心度量指标.ipynb,60f04eae1f993ba92b81b36c92aa0bef45d3361a58de591819f3c93301fe1d54,53245,notebook_source,F12,labs/finance_cases/f12/main.py,execution_verified
+NB055,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/03-3-PageRank-Python实现.ipynb,86498c55b0c3629955d7cba8103965cc7b1ef06d2648b61e24e4fcb3af3079e3,7475,notebook_source,F13,labs/finance_cases/f13/main.py,execution_verified
+NB056,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/04-社交网络算法-小案例.ipynb,8c25b10ad0e9d970e9dde53349665e4881176ce5064b19eabb200bc9a841bec0,134312,notebook_source,F14,labs/finance_cases/f14/main.py,execution_verified
+NB057,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/04-社交网络算法-小案例_子网分割.ipynb,179d742e50540857e49289a58110d4e233040e8f7f80e834910f353131b53527,174136,notebook_source,F15,labs/finance_cases/f15/main.py,execution_verified
+NB058,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/05-社交网络—银行交易圈实践-社区发现 .ipynb,76c04cdf055945bbaf54a1c83f3de555ee302c5b5d0e175637cac0e149af893d,174148,notebook_source,F16,labs/finance_cases/f16/main.py,execution_verified
 SRC0569,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/Archive-社交网络-交易对手明细汇总.csv,19b25a8a6dcc20c5cd773c817ee92887b874926e76c5281e495ad94673003708,864268,data_or_reference,,,pending
 SRC0570,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/stack_network_links.csv,7580a10938a6419f83dfc2aaba21952d0f6aca7caa5c64920f2168121c3fb725,16490,data_or_reference,,,pending
 SRC0571,4《金融数据分析和数据挖掘案例实战》,4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/stack_network_nodes.csv,1134e35b144e41039d9721340c7b15b8455911340545e1967df44a3c6774696d,1845,data_or_reference,,,pending

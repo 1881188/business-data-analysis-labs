@@ -1,0 +1,78 @@
+{
+  "lab_id": "M28",
+  "title": "Feature-engineering",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 59,
+    "mapped_code_cells": 59,
+    "source_cells_total": 85
+  },
+  "input_rows": 3000,
+  "retained_rows": 2997,
+  "traffic_outliers_removed": 3,
+  "expenditure_cap": [
+    -141.8674461374681,
+    216.0301161408048
+  ],
+  "PCA_whitening_checked": true,
+  "one_hot_identity_checked": true,
+  "evaluation_scope": "descriptive_in_sample",
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_features.py": "206f052e264d8bab1de1f754f60a8c425709a979f7289ae9db79eb6809aa03cb",
+    "labs/cda3_mining/m28/main.py": "8962c3e316fc1359bb22d29f4d1d6d09eea4c556d4c2c2cb8cfd60aaa2fd6468",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "m28_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/6 特征工程/telecom_bill.csv",
+      "sha256": "705b75efc76724bd40bd1b7ab6b5d18b6e688c8b6de1a0ad88b67c198d8fdece",
+      "bytes": 152597
+    },
+    "m28_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/6 特征工程/Feature-engineering.ipynb",
+      "sha256": "1faa5fedb19fe4eb080e4be37477f9512e241cb4961486197298ae03156c89c2",
+      "bytes": 223115
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:04:26.052486+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m28/main.py": {
+      "executed_sha256": "e734fd881d3cced040132ea12e581d537899fb95b7b0c4667a7ef1f1784d7ef0",
+      "published_sha256": "8962c3e316fc1359bb22d29f4d1d6d09eea4c556d4c2c2cb8cfd60aaa2fd6468",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

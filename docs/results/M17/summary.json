@@ -1,0 +1,76 @@
+{
+  "lab_id": "M17",
+  "title": "3.2违规识别(IsolationForrest_LOF无监督)",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 11,
+    "mapped_code_cells": 11,
+    "source_cells_total": 18
+  },
+  "raw_rows": 284807,
+  "fit_sample_rows": 5000,
+  "validation_rows": 56961,
+  "test_rows": 56962,
+  "seed": 42,
+  "LOF_neighbors": 500,
+  "contamination": 0.02,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_supervised.py": "2f1e48d6b09bd7ea5a668ef3741a133bc694382cae5bfa8659492047a515146e",
+    "labs/cda3_mining/m17/main.py": "4b9f863b1ffe113bdf7edd9d4b82640159c86f566a5f68cb12cf1849b513c077",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab"
+  },
+  "source_files": {
+    "m17_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.2违规识别（孤立森林、局部异常因子）/creditcard.csv",
+      "sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89",
+      "bytes": 150828752
+    },
+    "m17_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/3.2违规识别（孤立森林、局部异常因子）/3.2违规识别(IsolationForrest_LOF无监督).ipynb",
+      "sha256": "425ef1f98419bb081d3415f26a785f65d9bb540d5aa2a0e9e0a995ad52bd0961",
+      "bytes": 57298
+    }
+  },
+  "verified_at_utc": "2026-10-28T11:19:24.952307+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m17/main.py": {
+      "executed_sha256": "304a5e547fb9450d3f47fb76e3545beeae389ad44bea18d7f2597a193d840b0b",
+      "published_sha256": "4b9f863b1ffe113bdf7edd9d4b82640159c86f566a5f68cb12cf1849b513c077",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

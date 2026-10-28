@@ -1,0 +1,86 @@
+{
+  "lab_id": "M02",
+  "title": "2.2逻辑回归",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 20,
+    "mapped_code_cells": 20,
+    "source_cells_total": 41
+  },
+  "train_rows": 70,
+  "test_rows": 30,
+  "scoring_rows": 30,
+  "selected_features": [
+    "Age",
+    "Income",
+    "dist_avg_income",
+    "Selfempl",
+    "edu_class"
+  ],
+  "C": 166.81005372000558,
+  "new_customer_mean_probability": 0.13358454512060486,
+  "self_created_model_roundtrip": true,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab",
+    "labs/cda3_mining/m02/main.py": "34cb33378b17bd5b0312bdac7f4adf2091e1fdebdae7d32a61bc65ef36d94e81",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "m02_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/creditcard_exp.csv",
+      "sha256": "c925161f16b0c3e107359c17ecd07d06613913b109959040727303b8727a0aab",
+      "bytes": 7011
+    },
+    "m02_input2": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/creditcard_exp_out_of_sample.csv",
+      "sha256": "787a667d1fa34799826d3cb869fb42836021dc43acbb0d358306bb5b88a09427",
+      "bytes": 1324
+    },
+    "m02_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.2用户响应预测（逻辑回归）/2.2逻辑回归.ipynb",
+      "sha256": "ac74a029ce0fcb41c4f5780e147c8d29d5529d170a08a162bcc42ff9ec0a339f",
+      "bytes": 53795
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:58:38.058762+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m02/main.py": {
+      "executed_sha256": "ee259f2159839c237843680f3867597b0e48f82862c964fbb3d89837e4e84a59",
+      "published_sha256": "34cb33378b17bd5b0312bdac7f4adf2091e1fdebdae7d32a61bc65ef36d94e81",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

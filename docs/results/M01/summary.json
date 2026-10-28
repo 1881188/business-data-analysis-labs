@@ -1,0 +1,83 @@
+{
+  "lab_id": "M01",
+  "title": "2.1线性回归",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 45,
+    "mapped_code_cells": 45,
+    "source_cells_total": 78
+  },
+  "training_rows": 70,
+  "descriptive_outliers_removed": 2,
+  "scoring_rows": 30,
+  "oos_predictions_aggregate": {
+    "mean": 336.1313040531449,
+    "min": 186.00754711039605,
+    "max": 804.0760683890818
+  },
+  "holdout_rows": 21,
+  "split_seed": 42,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_regression.py": "31b6fcae9312a4aba05fb7c3d0100e3b04deb18f176476c78fd667f6931da8ab",
+    "labs/cda3_mining/m01/main.py": "8acea94588d1b24360ef187334ff40294e56a2bb1f0efb1a0c869801bc47b877",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "m01_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/creditcard_exp.csv",
+      "sha256": "c925161f16b0c3e107359c17ecd07d06613913b109959040727303b8727a0aab",
+      "bytes": 7011
+    },
+    "m01_input2": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/creditcard_exp_out_of_sample.csv",
+      "sha256": "787a667d1fa34799826d3cb869fb42836021dc43acbb0d358306bb5b88a09427",
+      "bytes": 1324
+    },
+    "m01_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.1客户价值预测（线性回归）/2.1线性回归.ipynb",
+      "sha256": "d29e06835e358626e793b1cb9b2bc2f1b69d54acc39faf620b7ba735f9b4c289",
+      "bytes": 486219
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:58:42.141674+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m01/main.py": {
+      "executed_sha256": "999df5632fb8deb77e6951eee314fd07bc8f896fda0f69be0f97a0321ee50195",
+      "published_sha256": "8acea94588d1b24360ef187334ff40294e56a2bb1f0efb1a0c869801bc47b877",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

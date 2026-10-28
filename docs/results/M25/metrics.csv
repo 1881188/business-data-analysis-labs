@@ -1,0 +1,17 @@
+﻿section,item,count,mean_seconds
+directly_follows,check ticket → decide,6,181960.0
+directly_follows,check ticket → examine casually,2,92430.0
+directly_follows,check ticket → examine thoroughly,1,95820.0
+directly_follows,decide → pay compensation,3,514160.0
+directly_follows,decide → reinitiate request,3,66400.0
+directly_follows,decide → reject request,3,154240.0
+directly_follows,examine casually → check ticket,4,47970.0
+directly_follows,examine casually → decide,2,375420.0
+directly_follows,examine thoroughly → check ticket,2,309090.0
+directly_follows,examine thoroughly → decide,1,76740.0
+directly_follows,register request → check ticket,2,39120.0
+directly_follows,register request → examine casually,3,32240.0
+directly_follows,register request → examine thoroughly,1,83040.0
+directly_follows,reinitiate request → check ticket,1,252900.0
+directly_follows,reinitiate request → examine casually,1,73080.0
+directly_follows,reinitiate request → examine thoroughly,1,2880.0

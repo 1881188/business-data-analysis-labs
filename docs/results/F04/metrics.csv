@@ -1,0 +1,7 @@
+﻿section,item,loan_amount_10000,mob_1_source_rate,mob_1_observed,mob_1_mature_rate,mob_2_source_rate,mob_2_observed,mob_2_mature_rate,mob_3_source_rate,mob_3_observed,mob_3_mature_rate,mob_4_source_rate,mob_4_observed,mob_4_mature_rate,mob_5_source_rate,mob_5_observed,mob_5_mature_rate,mob_6_source_rate,mob_6_observed,mob_6_mature_rate
+Vintage,2017-11,1001.9,0.0,True,0.0,0.0,True,0.0,0.0,True,0.0,0.0212,True,0.0212,0.0212,True,0.0212,0.0771,True,0.0771
+Vintage,2017-12,1294.2,0.0,True,0.0,0.0,True,0.0,0.0,True,0.0,0.0,True,0.0,0.0,True,0.0,0.0102,True,0.0102
+Vintage,2018-01,1481.5,0.0091,True,0.0091,0.0263,True,0.0263,0.0172,True,0.0172,0.0263,True,0.0263,0.0416,True,0.0416,0.0759,True,0.0759
+Vintage,2018-02,610.6,0.0,True,0.0,0.0,True,0.0,0.0079,True,0.0079,0.0079,True,0.0079,0.0079,True,0.0079,0.0457,True,0.0457
+Vintage,2018-03,1248.2,0.0,True,0.0,0.0,True,0.0,0.0263,True,0.0263,0.0263,True,0.0263,0.0433,True,0.0433,0.1672,True,0.1672
+Vintage,2018-04,1174.1,0.0,True,0.0,0.0,True,0.0,0.0272,True,0.0272,0.0451,True,0.0451,0.0547,True,0.0547,0.1369,True,0.1369

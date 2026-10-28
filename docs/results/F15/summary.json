@@ -1,0 +1,78 @@
+{
+  "lab_id": "F15",
+  "title": "04-社交网络算法-小案例_子网分割",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 10,
+    "mapped_code_cells": 10,
+    "source_cells_total": 11
+  },
+  "networkx_version": "3.6.1",
+  "input_rows": 352,
+  "nodes": 107,
+  "edges": 352,
+  "directed_edges": 352,
+  "self_loops": 0,
+  "connected_components": 1,
+  "communities": 6,
+  "modularity_unweighted": 0.48005714101239666,
+  "seed": 42,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_networks.py": "52a3e9ea759f839c07ea9593f578b5009eb52037a7c465a036428043926ecb4a",
+    "labs/finance_cases/f15/main.py": "8d5feba1304baf385a93122a73f8705a20d6fddb27b00e676c726cbd886094a3",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "f15_input1": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/stormofswords.csv",
+      "sha256": "ad96028bae9431b945860d70b4ee64bd27ba3351da2e0339bb3cfe25b5a2c77d",
+      "bytes": 5554
+    },
+    "f15_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/04-社交网络算法-小案例_子网分割.ipynb",
+      "sha256": "179d742e50540857e49289a58110d4e233040e8f7f80e834910f353131b53527",
+      "bytes": 174136
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:58:18.683213+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f15/main.py": {
+      "executed_sha256": "ffe0ce0ad037cd0bb45c376ccdecb9d351fd8866030f97252a4d8b1de086633b",
+      "published_sha256": "8d5feba1304baf385a93122a73f8705a20d6fddb27b00e676c726cbd886094a3",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

@@ -705,5 +705,730 @@
       "city_variance.csv",
       "scale_sensitivity.csv"
     ]
+  },
+  "M03": {
+    "module": "advanced_profiles",
+    "entry": "labs/cda3_mining/m03/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M04": {
+    "module": "advanced_profiles",
+    "entry": "labs/cda3_mining/m04/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M05": {
+    "module": "advanced_profiles",
+    "entry": "labs/cda3_mining/m05/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M06": {
+    "module": "advanced_profiles",
+    "entry": "labs/cda3_mining/m06/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M07": {
+    "module": "advanced_profiles",
+    "entry": "labs/cda3_mining/m07/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M08": {
+    "module": "advanced_rules",
+    "entry": "labs/cda3_mining/m08/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M09": {
+    "module": "advanced_rules",
+    "entry": "labs/cda3_mining/m09/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M10": {
+    "module": "advanced_rules",
+    "entry": "labs/cda3_mining/m10/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M11": {
+    "module": "advanced_rules",
+    "entry": "labs/cda3_mining/m11/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M22": {
+    "module": "advanced_optimization",
+    "entry": "labs/cda3_mining/m22/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M23": {
+    "module": "advanced_optimization",
+    "entry": "labs/cda3_mining/m23/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M24": {
+    "module": "advanced_optimization",
+    "entry": "labs/cda3_mining/m24/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M25": {
+    "module": "advanced_process",
+    "entry": "labs/cda3_mining/m25/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F03": {
+    "module": "advanced_profiles",
+    "entry": "labs/finance_cases/f03/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/dimension_reduction.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F09": {
+    "module": "advanced_engineering",
+    "entry": "labs/finance_cases/f09/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F10": {
+    "module": "advanced_networks",
+    "entry": "labs/finance_cases/f10/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F11": {
+    "module": "advanced_networks",
+    "entry": "labs/finance_cases/f11/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F12": {
+    "module": "advanced_networks",
+    "entry": "labs/finance_cases/f12/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F13": {
+    "module": "advanced_networks",
+    "entry": "labs/finance_cases/f13/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F14": {
+    "module": "advanced_networks",
+    "entry": "labs/finance_cases/f14/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F15": {
+    "module": "advanced_networks",
+    "entry": "labs/finance_cases/f15/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F16": {
+    "module": "advanced_networks",
+    "entry": "labs/finance_cases/f16/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M01": {
+    "module": "advanced_regression",
+    "entry": "labs/cda3_mining/m01/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M02": {
+    "module": "advanced_regression",
+    "entry": "labs/cda3_mining/m02/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M12": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m12/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M13": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m13/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M14": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m14/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M15": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m15/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M16": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m16/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py",
+      "src/bda_labs/advanced_explanation.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M17": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m17/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M18": {
+    "module": "advanced_timeseries",
+    "entry": "labs/cda3_mining/m18/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M19": {
+    "module": "advanced_timeseries",
+    "entry": "labs/cda3_mining/m19/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M20": {
+    "module": "advanced_timeseries",
+    "entry": "labs/cda3_mining/m20/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M21": {
+    "module": "advanced_timeseries",
+    "entry": "labs/cda3_mining/m21/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M26": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m26/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M27": {
+    "module": "advanced_supervised",
+    "entry": "labs/cda3_mining/m27/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M28": {
+    "module": "advanced_features",
+    "entry": "labs/cda3_mining/m28/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "M29": {
+    "module": "advanced_balance",
+    "entry": "labs/cda3_mining/m29/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F02": {
+    "module": "advanced_regression",
+    "entry": "labs/finance_cases/f02/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F04": {
+    "module": "advanced_finance",
+    "entry": "labs/finance_cases/f04/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F05": {
+    "module": "advanced_finance",
+    "entry": "labs/finance_cases/f05/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F06": {
+    "module": "advanced_finance",
+    "entry": "labs/finance_cases/f06/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F07": {
+    "module": "advanced_finance",
+    "entry": "labs/finance_cases/f07/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
+  },
+  "F08": {
+    "module": "advanced_financial_fraud",
+    "entry": "labs/finance_cases/f08/main.py",
+    "extra_code": [
+      "src/bda_labs/advanced_common.py",
+      "src/bda_labs/notebook_reference.py",
+      "config/advanced_labs.json",
+      "src/bda_labs/advanced_regression.py"
+    ],
+    "public": [
+      "report.md",
+      "summary.json",
+      "metrics.csv",
+      "figure.png",
+      "notebook-map.md"
+    ]
   }
 }

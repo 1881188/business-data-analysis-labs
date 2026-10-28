@@ -1,0 +1,78 @@
+{
+  "lab_id": "M23",
+  "title": "4.2.2整数规划",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 5,
+    "mapped_code_cells": 5,
+    "source_cells_total": 12
+  },
+  "solver": "scipy-HiGHS",
+  "objective": 745.0,
+  "constraint_residual": 0.0,
+  "variables": 27,
+  "constraints": 12,
+  "integer_variables": 26,
+  "all_binary_comparison_objective": 745.0,
+  "missing_integer_declarations": [
+    "x19"
+  ],
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_optimization.py": "d1abac52afa1dc5750c1a4ce949973c55db63f9f9caad18520b16d77ffe122c5",
+    "labs/cda3_mining/m23/main.py": "1afca637d4dd91150059cabc096f68879af3a79de8e5e4fe8b7599ef82962e44",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "m23_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/campaign.lp",
+      "sha256": "629400951cb7804af05d558b2a53152640f027761cc73f8798c6d2bd3a5adea7",
+      "bytes": 1522
+    },
+    "m23_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.2运筹优化/4.2.2整数规划.ipynb",
+      "sha256": "e1732d476701e671a78cefd159c8d9e3cd48f8832511c99761366b0b04f60525",
+      "bytes": 4565
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:57:54.161209+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m23/main.py": {
+      "executed_sha256": "96f56e8a3c1d345ad76dcc06ffc45974c7cae554193f56166d92c736913b9fb9",
+      "published_sha256": "1afca637d4dd91150059cabc096f68879af3a79de8e5e4fe8b7599ef82962e44",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

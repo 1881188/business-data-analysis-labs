@@ -1,0 +1,78 @@
+{
+  "lab_id": "F16",
+  "title": "05-社交网络—银行交易圈实践-社区发现 ",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 12,
+    "mapped_code_cells": 12,
+    "source_cells_total": 14
+  },
+  "networkx_version": "3.6.1",
+  "input_rows": 6903,
+  "nodes": 7059,
+  "edges": 6903,
+  "directed_edges": 6903,
+  "self_loops": 0,
+  "connected_components": 343,
+  "communities": 343,
+  "modularity_unweighted": 0.9955544861223306,
+  "seed": 42,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_networks.py": "52a3e9ea759f839c07ea9593f578b5009eb52037a7c465a036428043926ecb4a",
+    "labs/finance_cases/f16/main.py": "f2caa525d8b15ca6f1bcbaeb054ab1e5eb853369b06cd7f3831be6e9d557aa75",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "f16_input1": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/data/Archive-社交网络-交易对手明细汇总.csv",
+      "sha256": "19b25a8a6dcc20c5cd773c817ee92887b874926e76c5281e495ad94673003708",
+      "bytes": 864268
+    },
+    "f16_notebook": {
+      "path": "4《金融数据分析和数据挖掘案例实战》/补充-社交网络/05-社交网络—银行交易圈实践-社区发现 .ipynb",
+      "sha256": "76c04cdf055945bbaf54a1c83f3de555ee302c5b5d0e175637cac0e149af893d",
+      "bytes": 174148
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:58:24.068588+00:00",
+  "publication_line_endings": {
+    "labs/finance_cases/f16/main.py": {
+      "executed_sha256": "e9ff3e9f2599ae8f3f64ec6a2471203ec79991c4afe19aa7f2bb4b51bc57049e",
+      "published_sha256": "f2caa525d8b15ca6f1bcbaeb054ab1e5eb853369b06cd7f3831be6e9d557aa75",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "lab_id": "M25",
+  "title": "流程挖掘pm4py",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 8,
+    "mapped_code_cells": 8,
+    "source_cells_total": 16
+  },
+  "traces": 6,
+  "events": 42,
+  "transitions": 36,
+  "distinct_transitions": 16,
+  "roundtrip_checked": true,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_process.py": "3e9a0e2f991af09570f771c02b4680ea06337613aa2ff4425f2971e2fed2be7a",
+    "labs/cda3_mining/m25/main.py": "5c7fcba019d9fdab948604547e68c433ca52e36c9e7b3ed875ab692744482db8",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4"
+  },
+  "source_files": {
+    "m25_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/running-example.xes",
+      "sha256": "663cd7b1da01cd024291e527a46079e0e7676fcf3a81ca8f5dee070b073c5df9",
+      "bytes": 15891
+    },
+    "m25_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/4.3流程挖掘/流程挖掘pm4py.ipynb",
+      "sha256": "13bce6dbfd2890c200ea59c07dfb2ee38711251ecd11d6b545703cf38469adf9",
+      "bytes": 205106
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:57:56.988630+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m25/main.py": {
+      "executed_sha256": "b892ca6af07cd8bb6c18971f61acb9839226b4ec4585a85e983f3f5e04b82542",
+      "published_sha256": "5c7fcba019d9fdab948604547e68c433ca52e36c9e7b3ed875ab692744482db8",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

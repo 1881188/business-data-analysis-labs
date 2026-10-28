@@ -1,0 +1,76 @@
+{
+  "lab_id": "M03",
+  "title": "2.3.1-2.3.2.主成分_因子分析_层次聚类(经济发展数据)",
+  "status": "execution_verified",
+  "notebook_coverage": {
+    "nonempty_code_cells": 20,
+    "mapped_code_cells": 20,
+    "source_cells_total": 34
+  },
+  "rows": 10,
+  "cluster_counts": [
+    5,
+    5
+  ],
+  "rotation_gradient_norm": 7.545674802401228e-09,
+  "retained_variance_ratio": 0.9232788705681049,
+  "advanced_runtime": {
+    "networkx": "3.6.1",
+    "xgboost": "3.0.5",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.20.0",
+    "toad": "0.1.5",
+    "prophet": "1.1.7",
+    "imbalanced-learn": "0.13.0",
+    "optuna": "4.5.0"
+  },
+  "runtime": {
+    "python": "3.13.0",
+    "platform": "Windows",
+    "packages": {
+      "numpy": "2.2.3",
+      "pandas": "2.2.3",
+      "scipy": "1.15.2",
+      "statsmodels": "0.15.0",
+      "scikit-learn": "1.6.1",
+      "matplotlib": "3.10.1",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "implementation_sha256": {
+    "src/bda_labs/common.py": "4f239160b33222e4fd2665541ab2f809f60f61959084b23a54936d7ad0444566",
+    "src/bda_labs/advanced_profiles.py": "07a8a00a9265f5882f435ca585ad4662e021393f79b33dc71321eead765280b0",
+    "labs/cda3_mining/m03/main.py": "a6684eb65e3e616322bcc3c3fd0757e29d077a8e317cf3714a3454754c9e3911",
+    "src/bda_labs/advanced_common.py": "989447dfba38fe9520f7c8a06e76b3bd8ab4ceee836f58473554cf4e03b893a9",
+    "src/bda_labs/notebook_reference.py": "73ced84d293cfa05564ae24a0ebb30214b2a093bcb913c7efe3bd292a423502d",
+    "config/advanced_labs.json": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+    "src/bda_labs/dimension_reduction.py": "7bf4030bf590b25a252dd090442ab9860c0518a39b38bdac36ed247f88e5f80b"
+  },
+  "source_files": {
+    "m03_input1": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/cities_10.csv",
+      "sha256": "3a2b56849b754ce147f4482c6f277acf0e1d05abd223a70d0bf2ca0d0b0e22b8",
+      "bytes": 658
+    },
+    "m03_notebook": {
+      "path": "3《CDA 三级认证教材：敏捷数据挖掘》/2.3用户画像（主成分、因子分析、变量聚类、层次聚类、kmeans聚类）/2.3.1-2.3.2.主成分_因子分析_层次聚类(经济发展数据).ipynb",
+      "sha256": "35d2ba70131349e776394ac33658b2bcefac1b776385469a43cfd444fa6077af",
+      "bytes": 251826
+    }
+  },
+  "verified_at_utc": "2026-10-28T10:57:43.129376+00:00",
+  "publication_line_endings": {
+    "labs/cda3_mining/m03/main.py": {
+      "executed_sha256": "07268e6a58d0fd00c3cfdae2d7462cdd20ef51fbc6e7f8ce8da7dea118523f8b",
+      "published_sha256": "a6684eb65e3e616322bcc3c3fd0757e29d077a8e317cf3714a3454754c9e3911",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "Python_AST_equal"
+    },
+    "config/advanced_labs.json": {
+      "executed_sha256": "fd15bccfd990ab30d4c5df264a3c402eff2475da109107a58b481551b9d59d7a",
+      "published_sha256": "0da6525774193bb8a5573cda9158ad20b0ade26f30aa65272a7957ef18f926e4",
+      "operation": "CRLF_to_LF_only",
+      "semantic_check": "JSON_value_equal"
+    }
+  }
+}

@@ -2,9 +2,11 @@
 
 将四套教材中的 Excel、Power BI 案例迁移为 Python，把 Jupyter Notebook 整理为独立脚本，记录业务问题、指标口径、结果和解释。
 
-当前完成 **35 个实验单元**，分属两本教材：**一级规划的 B01—B22 共22个迁移单元已全部实现并运行；二级 S01—S13 共13份Notebook迁移完成。** 三级与金融专题尚未完成实验迁移，阅读导出稿不计完成。B编号是仓库实施单元，一个单元可合并多个教材练习，不能与原文件夹数量直接比较。
+当前 **79 个编号入口已用配套输入运行**：一级 B01—B22 全部 22 个规划迁移单元、二级 S01—S13 全部 13 份 Notebook、三级 M01—M29 全部 29 份 Notebook，以及金融 F02—F16 共 15 份来源。金融 F04 是 F05 的重复检查点，共享实现，不能算额外业务案例。**F01 缺少原输入 data12261.csv，仍待补资料；未计入完成。**
 
-本批完成B20渠道增减分解、B21 SQL与信用卡时点画像、B22效应分解及预测，一级22/22个规划单元收尾。[一级完成范围与限制](docs/level1-completion.md)列明62份Excel和11份案例PBIX的去向，参考模板和插件不计为额外实验。客户ID、逐人记录及历史特征只留本地。14个实验完成报告中明确范围的参考核对，其余21个为运行通过。B13受源资料传播限制，GitHub继续仅发布新增代码、方法与合成示例，真实结果保留本地。完整待办见[实验索引](docs/experiment-index.md)。
+本批补齐三级与金融可运行来源，包含模型解释、LSTM、三类运筹规划、流程日志、评分卡和关系网络。[预测结果速览](docs/advanced-results.md)汇总留出指标；[三级与金融迁移说明](docs/advanced-migration.md)列明方法、搜索预算、抽样与时点验证边界；[实验索引](docs/experiment-index.md)提供每份 `.py`、逐单元格对照、图表和报告。14 个入口完成指定范围的参考核对，65 个为运行通过，不把随机结果称为旧输出逐值复现。
+
+一级完成范围与专有引擎、参考模板限制见[一级完成说明](docs/level1-completion.md)。B13 真实结果继续留在本地，仅公开新增代码、方法和独立合成示例。所有个人标识、逐行预测、关系边及新训练模型均不公开。
 
 ![RFM客户分层](docs/results/B05/rfm_segments.png)
 
@@ -52,17 +54,19 @@ RFM样本中18.45%的重要价值客户贡献62.45%的销售额。流失实验�
 
 ## 运行
 
-实测环境为 Windows、Python 3.13.0，依赖版本见[requirements.txt](requirements.txt)。原始教材配套数据不随仓库分发，先按[数据准备说明](data/README.md)准备四个教材目录。
+实测环境为 Windows、Python 3.13.0，基础依赖见[requirements.txt](requirements.txt)，运行全部模型使用[高级依赖锁定清单](requirements-advanced-lock.txt)。原始教材配套数据不随仓库分发，先按[数据准备说明](data/README.md)准备四个教材目录。
 
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements-advanced-lock.txt
 .\.venv\Scripts\python.exe run_labs.py --lab all --data-root "你的教材配套资料目录"
 ```
 
 也可以单独运行：
 
 ```powershell
+python run_labs.py --lab M01 M02 M18 M19 M20 M21
+python run_labs.py --lab F02 F03 F05 F06 F07 F08
 python run_labs.py --lab B20 B21 B22
 python run_labs.py --lab B18 B19
 python run_labs.py --lab B16 B17
@@ -84,14 +88,16 @@ python tools/check_project.py
 
 `--lab all`只运行当前已实现并登记的实验；失败会返回非零状态，未实现项目不会被静默算成完成。原始输入按SHA-256检查，不匹配的资料版本需要先审查。
 
+新增三级与金融的入口和聚合结果见[完整实验索引](docs/experiment-index.md)；按主题的实现与注意事项见[迁移说明](docs/advanced-migration.md)。
+
 ## 四个教材板块
 
 | 板块 | 整理范围 | 当前进度 |
 |---|---|---|
 | CDA 一级：商业数据分析 | 建议22个迁移单元，涵盖数据处理、RFM、留存、看板、归因与预测 | B01—B22共22个规划单元全部运行；专有引擎、参考模板及数据限制见完成说明 |
 | CDA 二级：量化策略分析 | 13份Notebook及辅助代码 | S01-S13均已独立运行，覆盖全部13份Notebook |
-| CDA 三级：敏捷数据挖掘 | 29份Notebook及辅助算法 | 待逐项迁移 |
-| 金融数据分析与挖掘案例 | 16份Notebook，含一份代码重复的Vintage检查点 | 待逐项迁移与补齐依赖 |
+| CDA 三级：敏捷数据挖掘 | 29份Notebook及辅助算法 | M01—M29全部迁移并运行；实际搜索预算见迁移说明 |
+| 金融数据分析与挖掘案例 | 16份Notebook，含一份代码重复的Vintage检查点 | F02—F16运行（F04/F05共享）；F01缺data12261.csv待验证 |
 
 [source-map.csv](docs/source-map.csv)记录572份原材料的相对路径、哈希、类型和实现去向，插件与参考资料不按独立实验计数。[迁移说明](docs/migration-guide.md)记录首批关键修正。
 
@@ -109,10 +115,10 @@ tools/                 文档构建、格式导出与项目检查
 outputs/               本地运行产物，不纳入Git
 ```
 
-已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前192项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除、日期筛选、零支付、流量不守恒及输入数据不变等行为。
+已实现入口、计算模块及公开产物统一登记在[implemented_labs.json](config/implemented_labs.json)，避免各工具各维护一套名单。当前209项合成数据测试覆盖订单粒度、分位数边界、登录去重、未到期观察、模型训练分区、抽样数量、白化与旋转、设计矩阵可识别性、检验合计行排除、日期筛选、零支付、流量不守恒及输入数据不变等行为。
 
 ## 数据、许可与后续
 
 本仓库新增代码使用[MIT许可](LICENSE)，教材、第三方代码和数据的权利范围另见[来源说明](THIRD_PARTY_NOTICES.md)。公开成果只保留聚合表和必要图表，客户级RFM、预测与分区记录留在本地输出。
 
-GitHub公开仓库：[1881188/business-data-analysis-labs](https://github.com/1881188/business-data-analysis-labs)。检查运行见[GitHub Actions](https://github.com/1881188/business-data-analysis-labs/actions)，详细状态见[进度记录](docs/progress.md)。按当前交付约定仅发布GitHub。后续批次继续覆盖全部教材实验，已完成样例不替代全量要求。
+GitHub公开仓库：[1881188/business-data-analysis-labs](https://github.com/1881188/business-data-analysis-labs)。检查运行见[GitHub Actions](https://github.com/1881188/business-data-analysis-labs/actions)，详细状态见[进度记录](docs/progress.md)。按当前交付约定仅发布GitHub。剩余 F01 待取得原数据后登记哈希、运行并审核；不以其他输入替代。
