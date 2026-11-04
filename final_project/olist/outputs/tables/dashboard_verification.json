@@ -1,8 +1,10 @@
 {
   "full_scope_reconciliation": "passed",
   "state_filter_reconciliation": "passed",
+  "chart_wan_brl_units_match_kpi": "passed",
   "date_filter_reconciliation": "passed",
   "category_filter_reconciliation": "passed",
+  "final_screenshot_scope_reconciliation": "passed",
   "crossed_filters_raw_decimal_reconciliation": "passed",
   "mixed_category_orders_without_double_counting": {
     "result": "passed",
@@ -12,5 +14,10 @@
   "dash_http_callbacks_full_and_empty": "passed",
   "filtered_csv_download_http_and_money": "passed",
   "reset_callback": "passed",
-  "browser_manual_interactions": "pending"
+  "browser_manual_interactions": {
+    "evidence": "outputs/screenshots/acceptance_manifest.json",
+    "source": "separate author-operated browser session and approved screenshots",
+    "screenshots": 3,
+    "automated_browser_clicks": false
+  }
 }

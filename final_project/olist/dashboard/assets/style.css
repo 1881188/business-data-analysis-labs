@@ -5,3 +5,72 @@
 @media(min-width:1600px){.main-content{padding-left:45px;padding-right:45px}.metric-value{font-size:32px}.panel-heading{padding-top:22px}}
 @media(max-width:1150px){.sidebar{width:215px;min-width:215px;padding:25px 16px}.main-content{width:calc(100% - 215px);padding:25px 22px}.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.chart-grid{grid-template-columns:1fr}.metric-value{font-size:28px}}
 @media(max-width:720px){.app-shell{display:block}.sidebar{position:relative;width:100%;height:auto;overflow:visible;padding:20px}.brand{margin-bottom:20px}.sidebar nav{display:none}.sidebar-label{display:none}.filter-label{margin-top:0}.sidebar .source-note{display:none}.sidebar label{margin-top:13px}.main-content{width:100%;padding:22px 16px}.page-header{display:block}.page-header h1{font-size:25px}.status-badge{display:inline-block;margin-top:14px}.kpi-grid{gap:9px}.metric{padding:14px 12px}.metric-value{font-size:25px}.table-heading{align-items:flex-start}.metric-detail{font-size:9px}}
+
+/* High contrast controls for Dash 4; retain support for older DatePicker markup. */
+.sidebar .dash-datepicker{width:100%;min-width:0;color-scheme:light}
+.sidebar .dash-datepicker-input-wrapper{
+    position:relative;display:flex;flex-direction:column;align-items:stretch;gap:6px;
+    width:100%;min-width:0;padding:8px 30px 8px 11px;
+    background:#f4f7fc!important;border:1px solid #aebed5!important;border-radius:6px;
+    color:#182b48!important;
+}
+.sidebar .dash-datepicker-input-wrapper > div{min-width:0;max-width:100%}
+.sidebar .dash-datepicker-input,.sidebar .DateInput_input{
+    width:100%!important;max-width:100%;background:transparent!important;
+    color:#182b48!important;-webkit-text-fill-color:#182b48!important;caret-color:#087aa4;
+    font-size:13px!important;line-height:22px!important;font-weight:550;
+}
+.sidebar .dash-datepicker-input::placeholder{color:#566b88!important;opacity:1}
+.sidebar .dash-datepicker-range-arrow{display:none}
+.sidebar .dash-datepicker-caret-icon{position:absolute;right:10px;top:calc(50% - 7px);color:#425b7d}
+.sidebar .dash-datepicker-input-wrapper:focus-within{outline:2px solid var(--blue);outline-offset:2px}
+.sidebar .DateRangePickerInput{background:#f4f7fc!important}
+.sidebar .dash-dropdown{color-scheme:light;min-width:0;--text-color:#182b48;--background-color:#f4f7fc}
+.sidebar .dash-dropdown-trigger{background:#f4f7fc!important;color:#182b48!important;border-color:#aebed5!important;min-width:0}
+.sidebar .dash-dropdown-value,.sidebar .dash-dropdown-value-item{color:#182b48!important}
+.sidebar .dash-dropdown-value-item{background:#e0eaf7!important}
+.sidebar .dash-dropdown-placeholder{color:#405b7d!important}
+.sidebar .dash-dropdown-trigger-icon,.sidebar .dash-dropdown-clear{color:#405b7d!important}
+.dash-dropdown-content{color-scheme:light;background:#f4f7fc!important;color:#182b48!important}
+.dash-dropdown-option,.dash-dropdown-search{color:#182b48!important}
+.dash-datepicker-content{color-scheme:light;background:#f4f7fc!important;color:#182b48!important;z-index:1000}
+.dash-datepicker-calendar-date-inside,.dash-datepicker-calendar-month-header{color:#182b48!important}
+.dash-datepicker-calendar-date-selected{background:#087da5!important;color:#fff!important}
+.dash-datepicker-calendar-date-highlighted{background:#d7edf7!important;color:#182b48!important}
+.dash-datepicker-calendar-date-disabled{color:#94a0b2!important}
+
+/* Split panes: a draggable divider, with independent vertical scrolling. */
+.sidebar-resizer{display:none}
+@media(min-width:721px){
+    html,body{height:100%;overflow:hidden}
+    .app-shell{--sidebar-width:280px;height:100vh;height:100dvh;min-height:0;width:100%;overflow:hidden}
+    .sidebar{position:relative;top:auto;flex:0 0 var(--sidebar-width);width:var(--sidebar-width);
+        min-width:0;height:100%;padding:26px 20px;overflow-x:hidden;overflow-y:auto;
+        overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#52627f #151c35}
+    .sidebar-resizer{display:block;position:relative;flex:0 0 10px;width:10px;height:100%;
+        cursor:col-resize;touch-action:none;background:#12192f;border:0;outline:none}
+    .sidebar-resizer::after{content:'';position:absolute;left:3px;top:calc(50% - 26px);
+        width:4px;height:52px;border-radius:3px;background:#617492}
+    .sidebar-resizer:hover,.sidebar-resizer:focus-visible,.is-resizing .sidebar-resizer{background:#203a54}
+    .sidebar-resizer:hover::after,.sidebar-resizer:focus-visible::after,.is-resizing .sidebar-resizer::after{background:var(--blue)}
+    .main-content{flex:1 1 0;min-width:0;width:auto;max-width:none;height:100%;margin:0;
+        overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scroll-behavior:smooth;
+        scrollbar-width:thin;scrollbar-color:#52627f var(--bg);container-type:inline-size}
+    .chart-grid,.kpi-grid{min-width:0}
+    .chart-grid .panel{min-width:0}
+    .is-resizing,.is-resizing *{cursor:col-resize!important;user-select:none!important}
+}
+@container(max-width:1050px){
+    .kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .chart-grid{grid-template-columns:1fr}
+}
+@container(max-width:650px){
+    .page-header{display:block}
+    .status-badge{display:inline-block;margin-top:14px}
+    .table-heading{align-items:flex-start;flex-wrap:wrap}
+}
+@media(max-width:720px){
+    .sidebar{overflow-x:hidden}
+    .sidebar-resizer{display:none}
+    .main-content{min-width:0}
+}

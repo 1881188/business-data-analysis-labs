@@ -4,7 +4,7 @@
 
 2018年1—7月商品金额比2017年同期增长161.59%，主要伴随订单数增加；17个A类品类贡献全部商品金额的79.85%。配送逾期与低评分有关，不能据此解释因果。SARIMA相对较强的4周同星期均值基线，仅降低1.67%的测试RMSE，预测能力有限。
 
-[论文公开版 Word](docs/Olist电商销售与履约分析_公开修订版20261104.docx) · [PDF](docs/Olist电商销售与履约分析_公开修订版20261104.pdf) · [图表索引](docs/05_图表索引与解读.md) · [看板使用与验收](docs/06_交互大屏使用与验收.md) · [AI使用披露](docs/AI使用披露.md)
+[论文公开版 Word](docs/Olist电商销售与履约分析_公开看板验收版20261105.docx) · [PDF](docs/Olist电商销售与履约分析_公开看板验收版20261105.pdf) · [图表索引](docs/05_图表索引与解读.md) · [看板使用与验收](docs/06_交互大屏使用与验收.md) · [AI使用披露](docs/AI使用披露.md)
 
 ## 数据与口径
 
@@ -14,7 +14,7 @@
 
 ## 复现
 
-实测Python 3.12，依赖版本见`requirements.txt`。从仓库根目录进入本项目后运行：
+完整流程实测Python 3.12，看板另在Python 3.13环境核查。完整依赖版本见`requirements.txt`。从仓库根目录进入本项目后运行：
 
 ```powershell
 cd final_project/olist
@@ -40,19 +40,23 @@ Windows默认使用微软雅黑；其他系统需安装中文字体，并将`OLI
 
 日期、收货州、品类联合筛选，联动4个KPI、4张图和订单明细，支持CSV导出与重置。品类筛选仅汇总所选商品，订单去重；配送与评分仍属整单结果，明细分列所选金额及整单金额。
 
-金额守恒、关联基数、预测误差独立复算、筛选回调、空结果、CSV和重置均有脚本核查。页面实际操作与视觉验收截至2026-11-04仍待完成，尚无真实截图，详情及复核步骤见[截图目录说明](outputs/screenshots/README.md)。HTTP检查通过不等同于页面已验收。
+金额守恒、关联基数、预测误差独立复算、筛选回调、空结果、CSV、重置及金额图单位均有脚本核查。2026年11月5日由作者完成浏览器操作并确认3张最终截图，见[真实截图与验收记录](outputs/screenshots/README.md)。程序检查和作者操作分别留证，未声称自动浏览器点击。
+
+看板支持悬停查看、日期/州/品类联动、可调宽双栏与独立滚动；导航高亮随栏目变化。Python负责分析、图表和筛选，前端脚本仅用于分栏及导航。
+
+![Olist看板实际运行截图](outputs/screenshots/dashboard_01_overview_hover.png)
 
 ## 目录与个人分工
 
 ```text
 data/                  数据说明与来源哈希；明细由脚本本地生成
-scripts/               01—11阶段脚本
-dashboard/             Dash页面、聚合逻辑及CSS
+scripts/               01—12阶段脚本
+dashboard/             Dash页面、聚合逻辑、样式与布局脚本
 outputs/figures/       15张原始分析图及预览图
 outputs/paper_panels/  正文8组组合图
 outputs/template_overview/  10种模板复现总览
 outputs/tables/        聚合分析、预测及核查结果
-outputs/screenshots/  真实页面验收说明；截图待补
+outputs/screenshots/  3张真实截图、哈希及验收说明
 docs/                  脱敏论文、方法与图表说明、AI披露
 requirements.txt       独立依赖清单
 run_all.py             一键分析和绘图

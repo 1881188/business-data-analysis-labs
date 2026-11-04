@@ -4,9 +4,11 @@ import sys
 import csv
 import json
 import io
+import hashlib
+from math import isclose
 from decimal import Decimal
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from dashboard.app import app,DATA,update
+from dashboard.app import app,DATA,update,figures
 from dashboard.data import START,END
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -23,6 +25,14 @@ def main():
     assert sp['metrics']['revenue_cents']==466785342
     assert sp['metrics']['orders']==37242
     checks['state_filter_reconciliation']='passed'
+    # Charts labelled 万 BRL must agree with the KPI, not be 100 times larger.
+    for result in (full,sp):
+        trend,category,regional,_=figures(result)
+        assert isclose(sum(trend.data[0].y)*10000,result['metrics']['revenue_cents']/100,abs_tol=.01)
+        assert isclose(sum(category.data[0].x)*10000,result['categories'].head(8)['cents'].sum()/100,abs_tol=.01)
+        assert isclose(sum(regional.data[0].y)*10000,result['states'].head(8)['cents'].sum()/100,abs_tol=.01)
+    assert isclose(figures(sp)[2].data[0].y[0],466.785342,abs_tol=.000001)
+    checks['chart_wan_brl_units_match_kpi']='passed'
     year=DATA.select('2018-01-01',END)
     assert year['metrics']['revenue_cents']==637954848
     checks['date_filter_reconciliation']='passed'
@@ -30,6 +40,13 @@ def main():
     assert health['metrics']['revenue_cents']==111016649
     assert health['metrics']['orders']==7845
     checks['category_filter_reconciliation']='passed'
+    screenshot_scope=DATA.select(categories=['health_beauty','watches_gifts','sports_leisure','cool_stuff'])
+    assert screenshot_scope['metrics']['orders']==23441
+    assert screenshot_scope['metrics']['revenue_cents']==369920867
+    assert screenshot_scope['metrics']['logistics_orders']==23438
+    on_time=screenshot_scope['ratings'].loc[~screenshot_scope['ratings']['late_delivery_flag']].iloc[0]
+    assert int(on_time['orders'])==21677 and round(float(on_time['score']),2)==4.34
+    checks['final_screenshot_scope_reconciliation']='passed'
     crossed=DATA.select('2018-01-01','2018-03-31',['SP'],['health_beauty','watches_gifts'])
     assert not crossed['orders']['order_id'].duplicated().any()
     assert (crossed['orders']['selected_cents']<=crossed['orders']['merchandise_value_cents']).all()
@@ -99,7 +116,19 @@ def main():
     assert reset_data['state-filter']['value']==[] and reset_data['category-filter']['value']==[]
     assert reset_data['date-filter']['start_date']==START and reset_data['date-filter']['end_date']==END
     checks['reset_callback']='passed'
-    checks['browser_manual_interactions']='pending'
+    evidence=ROOT/'outputs/screenshots/acceptance_manifest.json'
+    if evidence.exists():
+        manual=json.loads(evidence.read_text(encoding='utf-8'))
+        for image in manual['screenshots']:
+            path=ROOT/'outputs/screenshots'/image['filename']
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==image['sha256']
+        checks['browser_manual_interactions']={
+            'evidence':'outputs/screenshots/acceptance_manifest.json',
+            'source':'separate author-operated browser session and approved screenshots',
+            'screenshots':len(manual['screenshots']),
+            'automated_browser_clicks':False}
+    else:
+        checks['browser_manual_interactions']='pending; separate manual evidence required'
     path=ROOT/'outputs/tables/dashboard_verification.json'
     path.write_text(json.dumps(checks,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(checks,ensure_ascii=False,indent=2))

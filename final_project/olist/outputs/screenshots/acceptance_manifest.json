@@ -1,0 +1,88 @@
+{
+  "acceptance_date": "2026-11-05",
+  "status": "author manual verification and final screenshots accepted; automated data checks passed",
+  "browser": "Microsoft Edge on Windows, local service",
+  "scope": "Manual browser operations are performed by the author. The Python check script validates data, callbacks and screenshot hashes; it does not perform browser clicks.",
+  "manual_operations": [
+    "date/state/category filtering",
+    "CSV download and reset confirmed by author",
+    "trend and rating hover tooltips",
+    "order detail scrolling",
+    "navigation selection visible for overview, sales and delivery"
+  ],
+  "presentation_checks": [
+    "high-contrast stacked dates",
+    "independently scrolling panes",
+    "resizable sidebar logic and width limits checked",
+    "navigation click/scroll/hash logic checked"
+  ],
+  "screenshots": [
+    {
+      "filename": "dashboard_01_overview_hover.png",
+      "sha256": "3bec2d1d83b3afd0121a4eac42a855c1a12c73d4b4d212e7c9bd3d1077de9d92",
+      "source": "author-operated browser; user-approved final screenshot",
+      "capture_session": "2026-11-05",
+      "original_pixels_preserved": true
+    },
+    {
+      "filename": "dashboard_02_filters.png",
+      "sha256": "9649f41cac0d86920768483f2e72905706e151412e151076ca65ca8a2f6acf40",
+      "source": "author-operated browser; user-approved final screenshot",
+      "capture_session": "2026-11-05",
+      "original_pixels_preserved": true
+    },
+    {
+      "filename": "dashboard_03_delivery_orders.png",
+      "sha256": "483374ab6f15006bc021338671b5667653f585b2bda341bc72575a391afa6c70",
+      "source": "author-operated browser; user-approved final screenshot",
+      "capture_session": "2026-11-05",
+      "original_pixels_preserved": true
+    }
+  ],
+  "scenarios": [
+    {
+      "scope": "full",
+      "orders": 89860,
+      "revenue_brl": "12342450.49",
+      "late_denominator": 89852,
+      "late_rate_display": "6.83%"
+    },
+    {
+      "scope": "SP",
+      "orders": 37242,
+      "revenue_brl": "4667853.42",
+      "late_denominator": 37235,
+      "late_rate_display": "4.11%"
+    },
+    {
+      "scope": "2018 Q1; SP; health_beauty,watches_gifts",
+      "orders": 1128,
+      "revenue_brl": "171828.20",
+      "late_denominator": 1128,
+      "late_rate_display": "9.49%"
+    },
+    {
+      "scope": "full period; health_beauty,watches_gifts,sports_leisure,cool_stuff",
+      "orders": 23441,
+      "revenue_brl": "3699208.67",
+      "late_denominator": 23438,
+      "late_rate_display": "7.01%",
+      "on_time_review_orders": 21677,
+      "on_time_mean_score_display": "4.34",
+      "on_time_low_rating_display": "8.2%",
+      "late_mean_score_display": "2.19"
+    }
+  ],
+  "fixes": [
+    "chart cents-to-wan-BRL divisor corrected to 1000000",
+    "graph containers explicitly sized",
+    "date and dropdown contrast",
+    "resizable independent panes",
+    "active navigation follows clicks and scrolling"
+  ],
+  "limitations": [
+    "No automated real-browser click run is claimed.",
+    "Static screenshots cannot prove every transition; CSV/reset also rely on author feedback and independently checked callback responses.",
+    "Screenshots are historical sample exploration, not live business data."
+  ]
+}

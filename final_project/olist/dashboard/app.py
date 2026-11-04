@@ -37,20 +37,20 @@ def figures(result):
     if not result['metrics']['orders']:
         return [graph_empty() for _ in range(4)]
     monthly=result['monthly']
-    trend=themed(go.Figure(go.Scatter(x=monthly['month'],y=monthly['cents']/10000,mode='lines+markers',
+    trend=themed(go.Figure(go.Scatter(x=monthly['month'],y=monthly['cents']/1000000,mode='lines+markers',
         line={'color':BLUE,'width':2.5},marker={'size':5},fill='tozeroy',fillcolor='rgba(35,185,230,.08)',
         hovertemplate='%{x}<br>商品金额 %{y:,.2f} 万 BRL<extra></extra>')))
     trend.update_yaxes(title_text='万 BRL',title_font_size=10)
     trend.update_xaxes(nticks=7)
     cats=result['categories'].head(8).iloc[::-1]
     names=[CATEGORY_NAMES.get(x,x.replace('_',' ')) for x in cats['category_display']]
-    structure=themed(go.Figure(go.Bar(x=cats['cents']/10000,y=names,orientation='h',
+    structure=themed(go.Figure(go.Bar(x=cats['cents']/1000000,y=names,orientation='h',
         marker_color=BLUE,customdata=cats['category_display'],
         hovertemplate='%{y}<br>%{x:,.2f} 万 BRL<extra></extra>')))
     structure.update_layout(margin={'l':135,'r':20,'t':15,'b':42})
     structure.update_xaxes(title_text='万 BRL',title_font_size=10)
     regions=result['states'].head(8)
-    regional=themed(go.Figure(go.Bar(x=regions['customer_state'],y=regions['cents']/10000,
+    regional=themed(go.Figure(go.Bar(x=regions['customer_state'],y=regions['cents']/1000000,
         marker_color=PINK,hovertemplate='收货州 %{x}<br>%{y:,.2f} 万 BRL<extra></extra>')))
     regional.update_yaxes(title_text='万 BRL',title_font_size=10)
     ratings=result['ratings']
@@ -108,7 +108,9 @@ def table(result):
 
 def panel(title,subtitle,graph_id,figure,anchor=None):
     return html.Section([html.Div([html.H2(title),html.P(subtitle)],className='panel-heading'),
-                         dcc.Graph(id=graph_id,figure=figure,config={'displayModeBar':False,'responsive':True})],
+                         dcc.Graph(id=graph_id,figure=figure,responsive=True,
+                                   style={'height':'270px','minHeight':'270px','minWidth':0},
+                                   config={'displayModeBar':False,'responsive':True})],
                          className='panel',id=anchor or graph_id+'-panel')
 
 
@@ -122,7 +124,8 @@ app.layout=html.Div([
         html.Div('联动筛选',className='sidebar-label filter-label'),
         html.Label('购买日期'),
         dcc.DatePickerRange(id='date-filter',start_date=START,end_date=END,min_date_allowed=START,max_date_allowed=END,
-           display_format='YYYY-MM-DD',first_day_of_week=1,minimum_nights=0,number_of_months_shown=1),
+           display_format='YYYY-MM-DD',first_day_of_week=1,minimum_nights=0,number_of_months_shown=1,
+           start_date_placeholder_text='开始日期',end_date_placeholder_text='结束日期',with_portal=True),
         html.Label('收货州'),
         dcc.Dropdown(id='state-filter',options=[{'label':f'{s} · {STATE_NAMES.get(s,"州代码")}','value':s} for s in DATA.states],
                      value=[],multi=True,placeholder='全部州 · 可多选',className='filter-dropdown'),
@@ -131,7 +134,11 @@ app.layout=html.Div([
                      value=[],multi=True,placeholder='全部品类 · 可搜索',className='filter-dropdown'),
         html.Button('重置全部筛选',id='reset-filters',n_clicks=0,className='reset-button'),
         html.Div([html.Strong('历史样本'),html.P('2017.01 — 2018.07'),html.Small('Olist 官方数据 · 全 Python 实现')],className='source-note')
-    ],className='sidebar'),
+    ],className='sidebar',id='dashboard-sidebar'),
+    html.Div(id='sidebar-resizer',className='sidebar-resizer',role='separator',tabIndex=0,
+             title='拖动调整宽度；双击恢复；左右方向键微调',
+             **{'aria-label':'调整侧边栏宽度','aria-orientation':'vertical',
+                'aria-controls':'dashboard-sidebar','aria-valuemin':240,'aria-valuemax':440,'aria-valuenow':280}),
     html.Main([
         html.Header([html.Div([html.Div('经营分析 / OLIST BRAZIL',className='eyebrow'),html.H1('销售与履约总览'),
                               html.P('从商品贡献到配送体验，查看同一筛选范围下的经营表现。')]),
@@ -158,7 +165,7 @@ app.layout=html.Div([
             html.P('数据许可：CC BY-NC-SA 4.0。个人课程分析，保留来源与授权说明。'),
         ],className='method-content')],className='method-panel'),
         html.Footer('Olist 电商销售与履约分析  /  个人课程项目  /  Dash + Plotly',className='page-footer'),
-    ],className='main-content')
+    ],className='main-content',id='dashboard-main')
 ],className='app-shell')
 
 
