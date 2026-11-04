@@ -1,0 +1,88 @@
+{
+  "unique_templates": 10,
+  "selected_original_figures": 10,
+  "new_independent_charts": 0,
+  "data_source": "Olist; chart style references are the supplied Excel worksheets",
+  "entries": [
+    {
+      "template": "01",
+      "reference_workbook": "第二章 图表(前15).xlsx",
+      "reference_sheet": "1 渐变柱形图",
+      "figure": "fig01",
+      "filename": "fig01_主要州销售金额分布.png",
+      "sha256": "8c993a980e03b670a4e7b66258866904151655bb9b5cb87f6f04752d9474fffe"
+    },
+    {
+      "template": "02",
+      "reference_workbook": "第二章 图表(前15).xlsx",
+      "reference_sheet": "2 带均值柱形图",
+      "figure": "fig02",
+      "filename": "fig02_州销售金额与平均线.png",
+      "sha256": "9034191f084a96b873afc789514bb7fc57c82e5811b1425dd94ad03b982f97f5"
+    },
+    {
+      "template": "03",
+      "reference_workbook": "第二章 图表(前15).xlsx",
+      "reference_sheet": "3 渐变圆角柱形图",
+      "figure": "fig03",
+      "filename": "fig03_商品销售渐变圆角柱形图.png",
+      "sha256": "c3cfe89d4df210e9e09d38c1637ccddaaa215db94144f347ea763c622026f6b6"
+    },
+    {
+      "template": "06",
+      "reference_workbook": "第二章 图表(前15).xlsx",
+      "reference_sheet": "6 蝴蝶图",
+      "figure": "fig04",
+      "filename": "fig04_主要州同期蝴蝶图.png",
+      "sha256": "a89ba2159a4543151c120a695aaa6414bc9c70fb4e56b996123f80a20d79541f"
+    },
+    {
+      "template": "08",
+      "reference_workbook": "第二章 图表(前15).xlsx",
+      "reference_sheet": "8 数值百分比",
+      "figure": "fig05",
+      "filename": "fig05_州销售金额与同比条形图.png",
+      "sha256": "e6b94e7c8ca715a6ea7c24db1a2b77cdcd3b8c78567fff791e6ba8fd8b250dde"
+    },
+    {
+      "template": "11",
+      "reference_workbook": "第二章 图表(前15).xlsx",
+      "reference_sheet": "11 平滑折线图",
+      "figure": "fig06",
+      "filename": "fig06_月度销售趋势.png",
+      "sha256": "b95afb979e772d15efde8f86f1c9343b0a7fd1307929e4b465a4962cda534f9e"
+    },
+    {
+      "template": "13",
+      "reference_workbook": "第二章 图表(前15).xlsx",
+      "reference_sheet": "13 对比折线图",
+      "figure": "fig07",
+      "filename": "fig07_同期月度销售对比.png",
+      "sha256": "64b0e68b46830f14566fb53d10674d879ed82041bd784103c90b1d320c5c221e"
+    },
+    {
+      "template": "19",
+      "reference_workbook": "第二章 图表(后15).xlsx",
+      "reference_sheet": "19 南丁格尔圆饼图",
+      "figure": "fig08",
+      "filename": "fig08_商品类别销售份额.png",
+      "sha256": "d8dd547757e0b2d3008026d6371d57494f001fc93b68d75607675724dbf89b78"
+    },
+    {
+      "template": "20",
+      "reference_workbook": "第二章 图表(后15).xlsx",
+      "reference_sheet": "20 南丁格尔圆环图",
+      "figure": "fig09",
+      "filename": "fig09_ABC类别销售贡献.png",
+      "sha256": "dc4905739b5b6c2e97f570eb4fb93c3e3ba4154056df785f4b59b9b78f6db714"
+    },
+    {
+      "template": "26",
+      "reference_workbook": "第二章 图表(后15).xlsx",
+      "reference_sheet": "26 柱形圆",
+      "figure": "fig10",
+      "filename": "fig10_州销售与同比徽标.png",
+      "sha256": "b7e7954e80ddfc13da736610ee0d7237fc4971353dc1efee65c612cafdd3e949"
+    }
+  ]
+}

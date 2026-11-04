@@ -24,3 +24,9 @@ outputs/tables/*
 !outputs/tables/figure_*.csv
 !outputs/tables/figure_*.json
 !outputs/tables/dashboard_verification.json
+
+!outputs/template_overview/
+
+# Local intermediate draft; current public revision is linked in README.
+docs/Olist电商销售与履约分析_模板对齐公开版20261104.docx
+docs/Olist电商销售与履约分析_模板对齐公开版20261104.pdf

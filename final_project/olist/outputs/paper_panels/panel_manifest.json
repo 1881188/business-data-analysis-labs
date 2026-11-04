@@ -12,7 +12,7 @@
     ],
     "layout": "two rows",
     "filename": "paper01.png",
-    "sha256": "39599351aab248b8d22b434037000cae5df44d15a2858dfbfa050c90723215f4",
+    "sha256": "0685d83dfc48571da1131685882f319ce7eb6f57c129f17e64f3ea39fdb9acad",
     "text_bounds": "passed"
   },
   {
@@ -28,7 +28,7 @@
     ],
     "layout": "two columns",
     "filename": "paper02.png",
-    "sha256": "e7b01390c331db251e7a5e89db95d49263264ccafefbd2fa78cf58a942e66ff8",
+    "sha256": "ac8d4033d1cf43105d7fb594ab2ff33f003fb1de79ccc03177c28c52eae64e82",
     "text_bounds": "passed"
   },
   {
@@ -46,7 +46,7 @@
     ],
     "layout": "one wide panel above two columns",
     "filename": "paper03.png",
-    "sha256": "f644bd6b4ecc0612ce1213cd74ba574a7366803308b0684032f85c0d041de36b",
+    "sha256": "19120994ed0fe367147a973bb643721c27aa4a110cef907f7f38881fda51fe42",
     "text_bounds": "passed"
   },
   {
@@ -62,7 +62,7 @@
     ],
     "layout": "two columns",
     "filename": "paper04.png",
-    "sha256": "0bfef1923855fed6b5920452c87ffed79fc5187f9fa8d8cf7b5777506931717c",
+    "sha256": "1c6e9758c8a6460dcfcfa9352c6f06176c28bc9eb12bfeb21e1067e4a927ddce",
     "text_bounds": "passed"
   },
   {
@@ -77,7 +77,7 @@
     ],
     "layout": "two rows",
     "filename": "paper05.png",
-    "sha256": "8767f64a367213c8c097c13687982df54cd848e8984c64aafd4a88c907f3859d",
+    "sha256": "161ef9dc895e79990a38cd47d5959263bce530859aea8f42069f859802d46e79",
     "text_bounds": "passed"
   },
   {

@@ -11,6 +11,6 @@
   "png_decode_and_integrity": "passed",
   "duplicate_image_hashes": 0,
   "canvas_text_bounds": "passed",
-  "total_png_bytes": 1761822,
+  "total_png_bytes": 1817498,
   "manual_review": "All figures inspected in contact sheets; corrected charts inspected individually. See docs/05_图表索引与解读.md."
 }

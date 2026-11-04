@@ -16,6 +16,7 @@ from matplotlib.patches import Rectangle
 from matplotlib.text import Text
 import numpy as np
 import pandas as pd
+from chart_styles import gradient_bars, layered_ring, smooth_monthly
 from PIL import Image,ImageOps,ImageDraw
 
 TABLES=ROOT/'outputs/tables'
@@ -108,17 +109,41 @@ def number_bars(ax,bars,values,headroom=.025):
 
 def annotated_pie(ax,values,labels,colors,donut=False):
     ax.set_position([.26,.18,.48,.57])
-    wedges,_=ax.pie(values,colors=colors,startangle=90,counterclock=False,
-                    wedgeprops={'width':.23,'edgecolor':BG,'linewidth':2} if donut else {'edgecolor':BG,'linewidth':1})
+    if donut:
+        wedges=layered_ring(ax,values,colors)
+    else:
+        wedges,_=ax.pie(values,colors=colors,startangle=90,counterclock=False,
+                        wedgeprops={'edgecolor':BG,'linewidth':1})
     ax.set_aspect('equal')
     ax.set_xlim(-1.75,1.75)
-    ax.set_ylim(-1.25,1.25)
+    ax.set_ylim(-1.36,1.36)
     groups={-1:[],1:[]}
     for wedge,label,value in zip(wedges,labels,values):
         angle=np.deg2rad((wedge.theta1+wedge.theta2)/2)
-        x,y=np.cos(angle),np.sin(angle)
+        radius=wedge.r
+        x,y=radius*np.cos(angle),radius*np.sin(angle)
         groups[1 if x>=0 else -1].append((y,x,label,value))
     total=sum(values)
+    if donut:
+        # Tiny C/U sectors are labelled above the ring on opposite sides.
+        # Fixed exterior routing avoids crossing clustered radial leaders.
+        placements=[(1.48,-.10),(-1.48,.12),(-1.48,1.13),(1.48,1.13)]
+        for i,(wedge,label,value) in enumerate(zip(wedges,labels,values)):
+            angle=np.deg2rad((wedge.theta1+wedge.theta2)/2)
+            x,y=wedge.r*np.cos(angle),wedge.r*np.sin(angle)
+            tx,ty=placements[i]
+            if i==0:
+                points=[(x,y),(x*1.11,y*1.11),(1.33,ty),(1.42,ty)]
+            elif i==1:
+                points=[(x,y),(-1.21,y),(-1.33,ty),(-1.42,ty)]
+            else:
+                top=1.22 if i==2 else 1.33
+                points=[(x,y),(x*1.10,top),(1.33 if tx>0 else -1.33,top),(1.42 if tx>0 else -1.42,ty)]
+            ax.plot(*zip(*points),color='#65708F',lw=.8,clip_on=False)
+            ax.text(tx,ty,f'{label}\n{value/total:.1%}',ha='left' if tx>0 else 'right',
+                    va='center',color=WHITE,fontsize=10)
+        ax.set_axis_off()
+        return
     for side,entries in groups.items():
         entries.sort(reverse=True)
         if len(entries)>1:
@@ -153,14 +178,14 @@ def main():
     x=np.arange(6)
     vals=state['revenue_brl'].to_numpy()/10000
     fig,ax=base('主要州销售金额分布','圣保罗州销售金额最高，占分析样本的37.8%','单位：万 BRL')
-    number_bars(ax,ax.bar(x,vals,width=.38,color=BLUE,zorder=3),vals)
+    number_bars(ax,gradient_bars(ax,vals),vals)
     xlabel_states(ax,state)
     save(fig,1,'主要州销售金额分布','01','描述性比较','圣保罗州贡献总金额的37.8%。','analysis_state_sales.csv','展示金额排名前6州。')
 
     allstates=read('analysis_state_sales.csv')
     mean=allstates['revenue_brl'].mean()/10000
     fig,ax=base('主要州销售金额与全国州均值',f'展示前6州；全部{len(allstates)}个州级地区的平均金额为{mean:.1f}万 BRL','单位：万 BRL')
-    bars=ax.bar(x,vals,width=.38,color=BLUE,zorder=3)
+    bars=gradient_bars(ax,vals)
     number_bars(ax,bars,vals)
     xlabel_states(ax,state)
     ax.axhline(mean,color=GOLD,lw=1.2)
@@ -170,14 +195,13 @@ def main():
     top=category.head(6)
     v=top['revenue_brl'].to_numpy()/10000
     fig,ax=base('主要商品类别销售金额','美妆健康与手表礼品金额居前，类别排名按商品金额计算','单位：万 BRL')
-    ax.vlines(x,0,v,color=TEAL,lw=10,zorder=3)
-    ax.scatter(x,v,s=90,color=TEAL,zorder=4)
+    gradient_bars(ax,v,width=.24,rounded=True)
     ax.set_xticks(x,[CATEGORY.get(c,c) for c in top['category_display']])
     ax.set_ylim(0,max(v)*1.24)
     for i,value in enumerate(v):
         ax.text(i,value+max(v)*.06,f'{value:.1f}',ha='center',color=WHITE,fontsize=11,
                 bbox={'boxstyle':'round,pad=.25','fc':'#24567B','ec':'none'})
-    save(fig,3,'商品销售棒棒糖图','03','描述性比较','美妆健康为样本期商品金额最高类别。','analysis_category_abc.csv','展示前6个类别。')
+    save(fig,3,'商品销售渐变圆角柱形图','03','描述性比较','美妆健康为样本期商品金额最高类别。','analysis_category_abc.csv','展示前6个类别。')
 
     left=state['jan_jul_2017_brl'].to_numpy()/10000
     right=state['jan_jul_2018_brl'].to_numpy()/10000
@@ -221,7 +245,7 @@ def main():
     v=monthly['revenue_brl'].to_numpy()/10000
     xx=np.arange(len(monthly))
     fig,ax=base('月度销售金额走势','2017年11月达到分析期峰值，随后月度金额有所波动','单位：万 BRL')
-    ax.plot(xx,v,color=PINK,lw=2.3)
+    smooth_monthly(ax,xx,v,PINK)
     peak=int(np.argmax(v))
     ax.plot(peak,v[peak],'o',color=PINK,ms=6)
     ax.vlines(peak,0,v[peak],color=PINK,ls=':',alpha=.5)
@@ -232,7 +256,7 @@ def main():
     for start,width,color,year in [(-.5,12,'#58BFD2','2017年'),(11.5,7,GOLD,'2018年')]:
         ax.add_patch(Rectangle((start,-.21),width,.07,transform=ax.get_xaxis_transform(),clip_on=False,color=color))
         ax.text(start+width/2,-.175,year,transform=ax.get_xaxis_transform(),color=BG,ha='center',va='center',fontsize=9)
-    save(fig,6,'月度销售趋势','11','趋势1','2017年11月为样本期销售金额峰值，未直接归因于营销。','analysis_monthly_sales.csv','2018年仅含1—7月。')
+    save(fig,6,'月度销售趋势','11','趋势1','2017年11月为样本期销售金额峰值；平滑曲线经过标记的原始月度值。','analysis_monthly_sales.csv','2018年仅含1—7月。')
 
     fig,ax=base('两年同期月度销售金额对比','2018年1—7月金额同比增长161.6%，客单价仅增长0.3%','单位：万 BRL',
                 '注：Olist官方数据；已交付订单，两年均比较1—7月，金额不含运费。')
@@ -258,7 +282,7 @@ def main():
     annotated_pie(ax,[lookup.loc[g,'revenue_cents'] for g in groups],labels,[BLUE,PINK,TEAL,GOLD],donut=True)
     ax.text(0,.10,'79.9%',ha='center',va='center',fontsize=25,color=WHITE)
     ax.text(0,-.22,'A类金额贡献',ha='center',color=MUTED,fontsize=11)
-    save(fig,9,'ABC类别销售贡献','20','ABC1','ABC阈值以已知类别金额为分母；图中份额以全部金额为分母。','analysis_abc_summary.csv','ABC累计界限80%/95%，缺失类别单列。')
+    save(fig,9,'ABC类别销售贡献','20','ABC1','ABC阈值以已知类别金额为分母；图中份额以全部金额为分母。','analysis_abc_summary.csv','累计界限80%/95%；角度表份额，径向层级仅作样式。')
 
     v=right
     fig,ax=base('主要州销售金额与同比增幅','2018年1—7月，圣保罗州金额与同比增幅均居所展示6州首位','单位：万 BRL',
@@ -266,7 +290,7 @@ def main():
     ax.bar(x,v,width=.38,color=PINK,zorder=3)
     for i,(value,growth) in enumerate(zip(v,state['jan_jul_yoy'])):
         ax.text(i,value+max(v)*.025,f'{value:.1f}',ha='center',color=WHITE,fontsize=11)
-        ax.scatter(i,max(v)*1.26,s=780,color=BLUE,zorder=4)
+        ax.scatter(i,max(v)*1.26,s=1100*growth/state['jan_jul_yoy'].max(),color=BLUE,zorder=4)
         ax.text(i,max(v)*1.26,f'{growth:.0%}',color=WHITE,ha='center',va='center',fontsize=10,zorder=5)
     ax.set_ylim(0,max(v)*1.44)
     xlabel_states(ax,state)
@@ -362,17 +386,17 @@ def main():
             with Image.open(FIGURES/item['filename']) as im:
                 sheet.paste(im.convert('RGB').resize((960,540),Image.Resampling.LANCZOS),((j%2)*960,(j//2)*540))
         sheet.save(qa/f'contact_{page+1}.jpg',quality=94)
-    lines=['# 图表索引与解读','','已生成15张独立图：10种教材模板、至少6张业务模型图（部分重合），以及2张配送评价补充图。拼图仅用于检查，不计入独立图表数量。',
-           '', '图片统一1920×1080像素、160dpi、中文字体、深蓝背景。模板编号对应用户提供的30图拼图；类型、布局、配色及标注尽量贴近，内容来自实际分析。', '',
+    lines=['# 图表索引与解读','','已生成15张独立图：10种教材模板、至少6张业务模型图（部分重合），以及2张配送评价补充图。模板总览用于定位参考类型，不重复计入独立图表数量。',
+           '', '图片统一1920×1080像素、160dpi、中文字体、深蓝背景。模板编号对应两份第二章配套Excel工作簿的工作表；模板清单与正文位置见08_模板复现与章节对应.md。', '',
            'ABC两张图及趋势两张图使用已交付销售口径；预测两张图使用含后来取消的下单金额口径，在图脚明确标注。', '',
            '| 图号 | 模板 | 方法或用途 | 解读及口径 |','|---|---|---|---|']
     for item in INDEX:
         lines.append(f"| {item['figure']} | {item['template']} | {item['method']} | {item['conclusion']} {item['scope']} |")
     lines+=['','## 六张模型图对应关系','','- 趋势与同比环比：fig06、fig07。','- 品类ABC：fig09、fig11。','- SARIMA预测：fig12、fig13。',
              '', '## 模板复现说明', '',
-             '01柱形、02均值线柱形、03棒棒糖、06蝴蝶对比、08金额与变化标签条形、11趋势折线、13同期双折线、19饼图、20环形图、26柱形与增幅徽标，共10种。',
-             '模板08中同比标注框等宽，不代表同比的数量尺度；蓝条长度单独编码金额，避免两种单位相加。模板11采用真实月度点之间的折线，不增加虚构观测。模板20替换为ABC类别贡献，不使用不存在的员工年龄数据。',
-             '', '## 论文图文整合', '', '2026-10-29已按用户要求将全部15个分析视图放入正文，重绘成8组图。附录仅保留索引；分组及核对见08_图文整合与核对说明.md。原始单图继续保留。', '']
+             '01渐变柱形、02均值线柱形、03渐变圆角柱形、06蝴蝶、08数值百分比、11平滑折线、13对比折线、19圆饼、20分层圆环、26柱形圆，共10种。',
+             '模板08中同比标注框等宽，不代表同比的数量尺度；蓝条长度单独编码金额，避免两种单位相加。模板11以PCHIP作显示插值并标记全部真实月度点，不增加观测；模板20的角度表示ABC金额份额，径向分层仅作样式。模板26的圆面积按正同比增幅缩放。',
+             '', '## 论文图文整合', '', '全部15个分析视图在正文中组织为8组图，并在第5.2节增设10种模板总览。正文图1—图9与独立原图的对应关系见08_模板复现与章节对应.md；拼图不增加独立图计数。', '']
     (ROOT/'docs/05_图表索引与解读.md').write_text('\n'.join(lines),encoding='utf-8')
     print(json.dumps({'figures':len(INDEX),'distinct_templates':len({x['template'] for x in INDEX if x['template']!='新增业务图'}),'text_bounds':'passed'},ensure_ascii=False))
 

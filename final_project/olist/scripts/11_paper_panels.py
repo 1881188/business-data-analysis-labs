@@ -11,6 +11,7 @@ from matplotlib.patches import Rectangle
 from matplotlib.text import Text
 import pandas as pd
 import numpy as np
+from chart_styles import gradient_bars, layered_ring, smooth_monthly
 
 OUT=ROOT/'outputs/paper_panels'
 TABLES=ROOT/'outputs/tables'
@@ -61,7 +62,7 @@ def finish(fig,n,notes):
     print(path.name,flush=True)
 
 def bar_values(ax,values,color=BLUE):
-    bars=ax.bar(range(len(values)),values,color=color,width=.50,zorder=3)
+    bars=gradient_bars(ax,values,width=.50)
     for b,v in zip(bars,values):ax.text(b.get_x()+b.get_width()/2,v+max(values)*.03,f'{v:.1f}',ha='center',color=WHITE,fontsize=12)
     ax.set_ylim(0,max(values)*1.27)
 
@@ -83,7 +84,7 @@ def main():
     fig=new(6.8)
     ax=axis(fig,[.09,.61,.84,.28],'(a) 月度销售趋势  模板11')
     v=monthly.revenue_brl.to_numpy()/10000;x=np.arange(len(v));peak=int(np.argmax(v))
-    ax.plot(x,v,color=PINK,lw=2.5)
+    smooth_monthly(ax,x,v,PINK,lw=2.5)
     ax.scatter([peak],[v[peak]],color=PINK,s=35)
     ax.vlines(peak,0,v[peak],color=PINK,ls=':',lw=1)
     ax.annotate(f'峰值 {v[peak]:.2f}万',(peak,v[peak]),xytext=(-6,12),textcoords='offset points',ha='right',color=WHITE,fontsize=13)
@@ -96,7 +97,7 @@ def main():
     ax.set_xticks(range(1,8),[f'{i}月' for i in range(1,8)]);ax.set_ylim(0,120)
     ax.set_ylabel('万 BRL',color=MUTED,fontsize=13)
     ax.legend(frameon=False,labelcolor=WHITE,fontsize=13,ncol=2,loc='upper left')
-    finish(fig,1,'来源：Olist；2017.01—2018.07已交付订单，商品金额不含运费。\n同期金额增长161.59%，订单数增长160.78%，客单价增长0.31%。')
+    finish(fig,1,'来源：Olist；2017.01—2018.07已交付订单，商品金额不含运费。\n同比金额+161.59%，订单数+160.78%，客单价+0.31%；平滑线为显示插值。')
 
     fig=new(4.8)
     mean=read('analysis_state_sales.csv').revenue_brl.mean()/10000
@@ -137,14 +138,14 @@ def main():
     ax.set_ylabel('万 BRL',color=MUTED,fontsize=12)
     for i,(v,g) in enumerate(zip(right,growth)):
         ax.text(i,v+max(right)*.035,f'{v:.0f}',ha='center',color=WHITE,fontsize=11)
-        ax.scatter(i,max(right)*1.45,s=650,color=BLUE,zorder=4)
+        ax.scatter(i,max(right)*1.45,s=1050*g/max(growth),color=BLUE,zorder=4)
         ax.text(i,max(right)*1.45,f'{g:.0%}',ha='center',va='center',color=WHITE,fontsize=10,zorder=5)
     finish(fig,3,'来源：Olist；均比较2017与2018年1—7月已交付商品金额。\n(b)金额单位为万BRL；等宽粉框只标注同比，(c)徽标为同比，均不与金额相加。')
 
     fig=new(5.4)
     top=categories.head(6);v=top.revenue_brl.to_numpy()/10000
     ax=axis(fig,[.08,.30,.40,.50],'(a) 主要品类金额  模板03')
-    ax.vlines(range(6),0,v,color=TEAL,lw=7);ax.scatter(range(6),v,s=45,color=TEAL)
+    gradient_bars(ax,v,width=.24,rounded=True)
     ax.set_xticks(range(6),[CAT.get(c,c)[:2]+'\n'+CAT.get(c,c)[2:] for c in top.category_display],fontsize=12)
     ax.set_ylim(0,max(v)*1.26);ax.set_ylabel('万 BRL',color=MUTED,fontsize=13)
     ax.set_xlim(-.65,5.6)
@@ -160,9 +161,9 @@ def main():
     fig=new(7.1)
     ax=axis(fig,[.13,.60,.75,.27],'(a) ABC组别金额贡献  模板20')
     groups=['A','B','C','U'];values=[int(abc.loc[g,'revenue_cents']) for g in groups]
-    wedges,_=ax.pie(values,colors=[BLUE,PINK,TEAL,GOLD],startangle=90,counterclock=False,wedgeprops={'width':.26,'edgecolor':BG,'linewidth':1})
-    ax.text(0,.07,'79.85%',ha='center',color=WHITE,fontsize=20)
-    ax.text(0,-.27,'A类金额贡献',ha='center',color=MUTED,fontsize=12)
+    wedges=layered_ring(ax,values,[BLUE,PINK,TEAL,GOLD])
+    ax.text(0,.07,'79.85%',ha='center',color=WHITE,fontsize=17)
+    ax.text(0,-.27,'A类金额贡献',ha='center',color=MUTED,fontsize=10)
     ax.legend(wedges,[f'{g}类  {int(abc.loc[g,"categories"])}类  {v/sum(values):.2%}' for g,v in zip(groups,values)],loc='center left',bbox_to_anchor=(1.05,.5),frameon=False,labelcolor=WHITE,fontsize=13)
     ax.set_xlim(-1.9,3.2);ax.set_axis_off()
     ax=axis(fig,[.10,.20,.77,.25],'(b) 已知类别帕累托分布')
@@ -176,7 +177,7 @@ def main():
     for s in second.spines.values():s.set_visible(False)
     for p in [80,95]:second.axhline(p,color=GOLD,alpha=.45,ls=':',lw=1)
     ax.axvline(17.5,color=WHITE,ls='--',lw=1)
-    finish(fig,5,'来源：Olist；已交付商品金额；(a)分母为全部金额，U为类别缺失。\n(b)排除U类，累计阈值80%/95%；17个A类占已知金额80.96%。')
+    finish(fig,5,'来源：Olist；已交付商品金额；(a)分母为全部金额，U为类别缺失。\n(a)角度表份额，径向层级仅作样式；(b)排除U类，阈值80%/95%。')
 
     hold=read('forecast_july_holdout.csv');fig=new(4.9)
     ax=axis(fig,[.09,.28,.84,.53],'2018年7月独立测试回测')
