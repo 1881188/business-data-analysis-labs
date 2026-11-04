@@ -30,3 +30,11 @@ outputs/tables/*
 # Local intermediate draft; current public revision is linked in README.
 docs/Olist电商销售与履约分析_模板对齐公开版20261104.docx
 docs/Olist电商销售与履约分析_模板对齐公开版20261104.pdf
+
+# Keep previous paper revisions locally; publish only the latest pair.
+docs/Olist电商销售与履约分析_公开修订版20261104.docx
+docs/Olist电商销售与履约分析_公开修订版20261104.pdf
+docs/Olist电商销售与履约分析_公开版.docx
+docs/Olist电商销售与履约分析_公开版.pdf
+docs/Olist电商销售与履约分析_公开看板验收版20261105.docx
+docs/Olist电商销售与履约分析_公开看板验收版20261105.pdf
