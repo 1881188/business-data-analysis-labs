@@ -1,0 +1,8 @@
+{
+  "sales_totals_across_months_categories": "passed",
+  "abc_known_share_and_unknown_category_handling": "passed",
+  "independent_holdout_rmse_for_all_three_models": "passed",
+  "holdout_date_count_and_pi_ordering": "passed",
+  "independent_holdout_interval_coverage": "passed",
+  "chart_visual_review": "manual review required; not inferred from script success"
+}

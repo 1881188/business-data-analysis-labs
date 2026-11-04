@@ -1,0 +1,16 @@
+﻿figure,filename,template,method,conclusion,source_table,scope
+fig01,fig01_主要州销售金额分布.png,01,描述性比较,圣保罗州贡献总金额的37.8%。,analysis_state_sales.csv,展示金额排名前6州。
+fig02,fig02_州销售金额与平均线.png,02,描述性比较,平均线分母为全部27个州级地区，不是所展示的前6州。,analysis_state_sales.csv,州均值为非加权平均。
+fig03,fig03_商品销售棒棒糖图.png,03,描述性比较,美妆健康为样本期商品金额最高类别。,analysis_category_abc.csv,展示前6个类别。
+fig04,fig04_主要州同期蝴蝶图.png,06,趋势与同比补充,所展示6州2018年同期金额均高于2017年。,analysis_state_sales.csv,左右共用比例；单位：万 BRL。
+fig05,fig05_州销售金额与同比条形图.png,08,趋势与同比补充,粉色同比标注为独立指标，不与销售金额相加。,analysis_state_sales.csv,粉色框等宽，仅作标注；金额单位BRL。
+fig06,fig06_月度销售趋势.png,11,趋势1,2017年11月为样本期销售金额峰值，未直接归因于营销。,analysis_monthly_sales.csv,2018年仅含1—7月。
+fig07,fig07_同期月度销售对比.png,13,趋势2,增长主要表现为订单数增加，而非客单价明显上涨。,analysis_monthly_sales.csv,同比为观察样本变化，不外推平台整体。
+fig08,fig08_商品类别销售份额.png,19,销售结构,前5类合计贡献39.8%；其他含缺失类别。,analysis_category_abc.csv,分母为全部分析商品金额。
+fig09,fig09_ABC类别销售贡献.png,20,ABC1,ABC阈值以已知类别金额为分母；图中份额以全部金额为分母。,analysis_abc_summary.csv,ABC累计界限80%/95%，缺失类别单列。
+fig10,fig10_州销售与同比徽标.png,26,趋势与同比补充,徽标代表各州同比增幅，柱高代表2018年同期金额。,analysis_state_sales.csv,仅展示分析期总金额排名前6州。
+fig11,fig11_品类帕累托分析.png,新增业务图,ABC2,A类包含跨过80%阈值的类别，因此累计金额略超过80%。,analysis_category_abc.csv,排除类别缺失；右轴为已知类别累计占比。
+fig12,fig12_SARIMA独立回测.png,新增业务图,预测1,相对较强基线的优势只有1.7%，不能夸大模型能力。,forecast_july_holdout.csv,选择模型用6月验证集，7月未参与选型。
+fig13,fig13_SARIMA预测区间.png,新增业务图,预测2,区间体现模型内不确定性，不能当作精确的补货指令。,forecast_daily_series.csv; forecast_august_simulation.csv,历史演示；区间下界截为0，未含参数不确定性。
+fig14,fig14_配送体验与评分.png,新增业务图,配送评价补充,差异在州和主要品类分层后仍在，但不能视为因果。,analysis_delivery_review.csv,同单多评论取最新答复；评价可能先于签收。
+fig15,fig15_配送与低评分比例.png,新增业务图,配送评价补充,逾期组低评分占比63.69%，按期组9.38%，并非因果效应估计。,analysis_delivery_review.csv,描述性比例区间，未进行随机实验。

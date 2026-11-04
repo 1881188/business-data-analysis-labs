@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "销售趋势与同期变化",
+    "original_figures": [
+      6,
+      7
+    ],
+    "templates": [
+      "11",
+      "13"
+    ],
+    "layout": "two rows",
+    "filename": "paper01.png",
+    "sha256": "39599351aab248b8d22b434037000cae5df44d15a2858dfbfa050c90723215f4",
+    "text_bounds": "passed"
+  },
+  {
+    "id": 2,
+    "title": "主要收货州销售规模及平均线",
+    "original_figures": [
+      1,
+      2
+    ],
+    "templates": [
+      "01",
+      "02"
+    ],
+    "layout": "two columns",
+    "filename": "paper02.png",
+    "sha256": "e7b01390c331db251e7a5e89db95d49263264ccafefbd2fa78cf58a942e66ff8",
+    "text_bounds": "passed"
+  },
+  {
+    "id": 3,
+    "title": "主要收货州同期金额与增幅",
+    "original_figures": [
+      4,
+      5,
+      10
+    ],
+    "templates": [
+      "06",
+      "08",
+      "26"
+    ],
+    "layout": "one wide panel above two columns",
+    "filename": "paper03.png",
+    "sha256": "f644bd6b4ecc0612ce1213cd74ba574a7366803308b0684032f85c0d041de36b",
+    "text_bounds": "passed"
+  },
+  {
+    "id": 4,
+    "title": "主要商品类别金额与份额",
+    "original_figures": [
+      3,
+      8
+    ],
+    "templates": [
+      "03",
+      "19"
+    ],
+    "layout": "two columns",
+    "filename": "paper04.png",
+    "sha256": "0bfef1923855fed6b5920452c87ffed79fc5187f9fa8d8cf7b5777506931717c",
+    "text_bounds": "passed"
+  },
+  {
+    "id": 5,
+    "title": "ABC类别贡献与累计分布",
+    "original_figures": [
+      9,
+      11
+    ],
+    "templates": [
+      "20"
+    ],
+    "layout": "two rows",
+    "filename": "paper05.png",
+    "sha256": "8767f64a367213c8c097c13687982df54cd848e8984c64aafd4a88c907f3859d",
+    "text_bounds": "passed"
+  },
+  {
+    "id": 6,
+    "title": "手表与礼品独立测试回测",
+    "original_figures": [
+      12
+    ],
+    "templates": [],
+    "layout": "full width",
+    "filename": "paper06.png",
+    "sha256": "6dda7c4ac3722581e979087f02cb3a915e78bfd7c89950e565d3835b6de8511c",
+    "text_bounds": "passed"
+  },
+  {
+    "id": 7,
+    "title": "手表与礼品历史预测及预测区间",
+    "original_figures": [
+      13
+    ],
+    "templates": [],
+    "layout": "full width",
+    "filename": "paper07.png",
+    "sha256": "3f7b4a21ac9a095c8f0992384a9861317720806ecda5d95924a8de6553bcad19",
+    "text_bounds": "passed"
+  },
+  {
+    "id": 8,
+    "title": "配送体验与客户评价",
+    "original_figures": [
+      14,
+      15
+    ],
+    "templates": [],
+    "layout": "two columns",
+    "filename": "paper08.png",
+    "sha256": "71b0cf1c9f97c0f37a260c5cc5e324b808399b8f2eabff31de2094193d1f82d3",
+    "text_bounds": "passed"
+  }
+]

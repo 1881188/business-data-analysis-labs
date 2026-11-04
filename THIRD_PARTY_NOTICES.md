@@ -36,3 +36,5 @@ B20/B21/B22公开新写Python/SQLite查询、聚合分析、公式诊断和预�
 M01—M29、F02—F16 仅公开重新编写的 Python 方法、覆盖说明及允许公开的聚合结果，不复制教材 Notebook 或辅助算法脚本。使用 NetworkX、XGBoost、LightGBM、TensorFlow、Prophet、Optuna、imbalanced-learn 和 toad 的安装依赖；这些项目各自许可独立于本仓库新增代码的 MIT 许可，依赖版本与实际安装闭包见 requirements-advanced-lock.txt，不捆绑其源码、安装包或教材附带模型。关联、序列模式、字面量 SQL 解析、历史特征、随机反事实与 GP 期望改进代码为新增实现，不能据此改变原资料授权。
 
 金融 SQL 备份中的合同、客户姓名及编号，申请与账户明细、联系人网络、原始分箱样本及个人评分不分发。F04 是 F05 的重复检查点来源，共享实现；F01 缺少 data12261.csv，只提供待数据验证入口，不发布虚构结果。
+
+期末Olist项目位于`final_project/olist/`，使用Olist在Kaggle发布的CC BY-NC-SA 4.0数据。新增程序代码适用本仓库MIT；数据衍生的聚合表、图表与论文另按CC BY-NC-SA 4.0分享。原始/清洗明细、课程模板、参考拼图与学校版论文不分发，详见项目内`DATA_LICENSE.md`。

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "fig01_主要州销售金额分布.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig02_州销售金额与平均线.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig03_商品销售棒棒糖图.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig04_主要州同期蝴蝶图.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig05_州销售金额与同比条形图.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig06_月度销售趋势.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig07_同期月度销售对比.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig08_商品类别销售份额.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig09_ABC类别销售贡献.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig10_州销售与同比徽标.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig11_品类帕累托分析.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig12_SARIMA独立回测.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig13_SARIMA预测区间.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig14_配送体验与评分.png",
+    "text_outside_canvas": []
+  },
+  {
+    "file": "fig15_配送与低评分比例.png",
+    "text_outside_canvas": []
+  }
+]

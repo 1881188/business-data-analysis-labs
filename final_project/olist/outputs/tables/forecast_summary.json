@@ -1,0 +1,53 @@
+{
+  "category": "watches_gifts",
+  "target": "Daily ordered merchandise value BRL, positive-price items, all final order statuses",
+  "category_selection": "Revenue ranking and >=90% nonzero days using data before 2018-06-01 only",
+  "training_start": "2017-01-01",
+  "training_end": "2018-05-31",
+  "validation_period": "2018-06-01 to 2018-06-30",
+  "untouched_test_period": "2018-07-01 to 2018-07-31",
+  "selected_model": {
+    "candidate": 2,
+    "order": "(0, 1, 1)",
+    "seasonal_order": "(0, 1, 1, 7)",
+    "trend": "n",
+    "converged": true,
+    "aic": 1772.8538319810177,
+    "warnings": "",
+    "rmse_brl": 1341.2668946902368,
+    "mae_brl": 1077.6735003158751,
+    "wape": 0.37210101436275783
+  },
+  "holdout_metrics": [
+    {
+      "model": "SARIMA",
+      "rmse_brl": 1367.5481181753985,
+      "mae_brl": 1010.1756290138777,
+      "wape": 0.32548177426083436
+    },
+    {
+      "model": "seasonal_naive",
+      "rmse_brl": 1650.4274940519442,
+      "mae_brl": 1332.0367741935481,
+      "wape": 0.4291864505466488
+    },
+    {
+      "model": "weekday_4week_mean",
+      "rmse_brl": 1390.8288068069169,
+      "mae_brl": 1138.618064516129,
+      "wape": 0.3668663321505013
+    }
+  ],
+  "holdout_pi95_coverage": 0.967741935483871,
+  "rmse_improvement_vs_best_baseline": 0.0167387161651954,
+  "warnings": [],
+  "forecast_period": "2018-08-01 to 2018-08-14, historical simulation, not a prediction for 2026",
+  "interval_method": "Model-based Gaussian observation prediction interval, lower bound clipped at 0; no parameter uncertainty",
+  "limitations": [
+    "Not a point-in-time database snapshot; retrospective exercise on published transactions.",
+    "Ordered-value target includes later cancellations and differs from delivered-sales figures.",
+    "Zero on dates with no recorded category item means zero observed transactions, not proof of no demand.",
+    "Historical prices and one held-out month cannot establish future commercial performance.",
+    "No promotion, holiday, inventory or external covariates; WAPE complements RMSE, MAPE omitted because of zero/low days."
+  ]
+}

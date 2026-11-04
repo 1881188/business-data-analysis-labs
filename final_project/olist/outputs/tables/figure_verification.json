@@ -1,0 +1,16 @@
+{
+  "independent_chart_count": 15,
+  "distinct_reference_templates": 10,
+  "business_model_charts": 6,
+  "supplementary_delivery_charts": 2,
+  "size_pixels": [
+    1920,
+    1080
+  ],
+  "dpi_minimum": 150,
+  "png_decode_and_integrity": "passed",
+  "duplicate_image_hashes": 0,
+  "canvas_text_bounds": "passed",
+  "total_png_bytes": 1761822,
+  "manual_review": "All figures inspected in contact sheets; corrected charts inspected individually. See docs/05_图表索引与解读.md."
+}

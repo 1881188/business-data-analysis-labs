@@ -1,0 +1,16 @@
+{
+  "full_scope_reconciliation": "passed",
+  "state_filter_reconciliation": "passed",
+  "date_filter_reconciliation": "passed",
+  "category_filter_reconciliation": "passed",
+  "crossed_filters_raw_decimal_reconciliation": "passed",
+  "mixed_category_orders_without_double_counting": {
+    "result": "passed",
+    "exercised_partial_baskets": 5
+  },
+  "empty_selection": "passed",
+  "dash_http_callbacks_full_and_empty": "passed",
+  "filtered_csv_download_http_and_money": "passed",
+  "reset_callback": "passed",
+  "browser_manual_interactions": "pending"
+}

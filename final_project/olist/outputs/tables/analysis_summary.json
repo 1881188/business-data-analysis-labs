@@ -1,0 +1,51 @@
+{
+  "period": "2017-01-01 to 2018-07-31",
+  "sales_orders": 89860,
+  "merchandise_value_brl": 12342450.49,
+  "jan_jul_2017_revenue_brl": 2438756.43,
+  "jan_jul_2018_revenue_brl": 6379548.48,
+  "jan_jul_revenue_growth": 1.615902269502166,
+  "jan_jul_order_growth": 1.6078067958438642,
+  "jan_jul_aov_growth": 0.003104322632797807,
+  "peak_month": "2017-11",
+  "peak_month_revenue_brl": 987765.37,
+  "top_state": "SP",
+  "top_state_share": 0.3781950289192531,
+  "top5_category_share_total": 0.39829312614889,
+  "known_categories": 73,
+  "a_categories": 17,
+  "a_share_total": 0.7985071609551986,
+  "unknown_category_share_total": 0.013648966235391398,
+  "late_rate": 0.06831233584116102,
+  "review_comparison": [
+    {
+      "late_delivery_flag": false,
+      "orders": 83237,
+      "mean_score": 4.283707966409169,
+      "low_score_orders": 7807,
+      "low_score_rate": 0.09379242404219278,
+      "low_score_ci95_lower": 0.09183053309662259,
+      "low_score_ci95_upper": 0.0957918082901805
+    },
+    {
+      "late_delivery_flag": true,
+      "orders": 5993,
+      "mean_score": 2.2240947772401136,
+      "low_score_orders": 3817,
+      "low_score_rate": 0.6369097280160186,
+      "low_score_ci95_lower": 0.6246502932496792,
+      "low_score_ci95_upper": 0.6489937529762541
+    }
+  ],
+  "state_category_standardized_review_comparison": {
+    "common_strata": 68,
+    "min_orders_per_group_per_stratum": 20,
+    "covered_orders": 54078,
+    "on_time_mean_score": 4.280813918968262,
+    "late_mean_score": 2.3336661527189517,
+    "on_time_low_rate": 0.09535779708016442,
+    "late_low_rate": 0.6029270039137793
+  },
+  "forecast_category": "watches_gifts",
+  "forecast_metric": "Ordered merchandise value BRL; all final statuses, positive item prices; differs from delivered sales scope"
+}
