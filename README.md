@@ -18,7 +18,7 @@
 
 | 组成 | 核心工作 | 可查看成果 |
 |---|---|---|
-| Olist电商经营分析 | 销售增长、品类贡献、履约体验与短期预测，贯通取数、清洗、分析和展示 | [项目说明](final_project/olist/README.md)、[分析结果](final_project/olist/docs/04_商业分析阶段结果.md)、[看板入口](final_project/olist/run_dashboard.py)、[分析报告PDF](final_project/olist/docs/Olist电商销售与履约分析_公开关键词修订版20261105.pdf) |
+| Olist电商经营分析 | 销售增长、品类贡献、履约体验与短期预测，贯通取数、清洗、分析和展示 | [项目说明](final_project/olist/README.md)、[分析结果](final_project/olist/docs/04_商业分析阶段结果.md)、[看板入口](final_project/olist/run_dashboard.py)、[分析报告PDF](final_project/olist/docs/Olist电商销售与履约分析_公开提交版20261105.pdf) |
 | 商业分析与建模案例库 | 将四册配套的Excel、Power BI和Notebook案例迁移、重构为Python流程，实际运行并分析结果 | [80个完整入口](#lab-catalog)、[模型结果速览](docs/advanced-results.md)、[来源与验证索引](docs/experiment-index.md) |
 
 案例库保留79个配套输入已运行入口、113幅公开静态图和209项合成边界测试；原资料缺失情况在对应条目标注。Olist实战另提供15张分析原图、8组报告组合图、3张真实运行截图、Dash交互看板及脱敏Word/PDF报告，使用独立依赖与运行入口。
@@ -46,7 +46,7 @@
 
 **交付形式**包括可复现分析脚本、15张Python原图、8组报告组合图、Dash交互看板及脱敏分析报告。看板支持日期、收货州与品类联合筛选，联动KPI、图表和订单明细，并提供CSV导出与重置。已补3张作者实际操作截图、悬停提示和栏目跟随高亮。HTTP/回调核验记录与页面操作验收范围见[看板说明](final_project/olist/docs/06_交互大屏使用与验收.md)。
 
-[项目全貌与运行方法](final_project/olist/README.md) · [一键分析](final_project/olist/run_all.py) · [交互看板入口](final_project/olist/run_dashboard.py) · [分析报告PDF](final_project/olist/docs/Olist电商销售与履约分析_公开关键词修订版20261105.pdf) · [Word版](final_project/olist/docs/Olist电商销售与履约分析_公开关键词修订版20261105.docx) · [图表与结论索引](final_project/olist/docs/05_图表索引与解读.md)
+[项目全貌与运行方法](final_project/olist/README.md) · [一键分析](final_project/olist/run_all.py) · [交互看板入口](final_project/olist/run_dashboard.py) · [分析报告PDF](final_project/olist/docs/Olist电商销售与履约分析_公开提交版20261105.pdf) · [Word版](final_project/olist/docs/Olist电商销售与履约分析_公开提交版20261105.docx) · [图表与结论索引](final_project/olist/docs/05_图表索引与解读.md)
 
 <a id="capabilities"></a>
 
